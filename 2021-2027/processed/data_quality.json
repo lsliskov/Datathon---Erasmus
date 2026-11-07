@@ -1,0 +1,71 @@
+{
+  "project_records": 1856,
+  "unique_project_ids": 1855,
+  "duplicate_project_ids": [
+    {
+      "project_id": "2024-2-HR01-KA155-YOU-000267618",
+      "record_ids": [
+        "2024-2-HR01-KA155-YOU-000267618::row-548",
+        "2024-2-HR01-KA155-YOU-000267618::row-549"
+      ],
+      "beneficiaries": [
+        "Natura i kultura",
+        "SUMA – Udruga za održivi razvoj"
+      ]
+    }
+  ],
+  "missing_source_update_date_count": 98,
+  "project_source_update_dates": [
+    "11.8.2026.",
+    "23.7.2025.",
+    "5.5.2025.",
+    "8.7.2025.",
+    "9.3.2025."
+  ],
+  "registry_source_rows": 1502,
+  "deduplicated_institutions": 1489,
+  "school_registry_missing_counties": 0,
+  "conflicting_registry_counties": [],
+  "project_match_status_counts": {
+    "location_mismatch": 44,
+    "matched_exact_name_and_city": 945,
+    "unmatched": 867
+  },
+  "project_matches_are_exact_name_and_city_only": true,
+  "regional_summary_scope": "Only projects matched by unique exact normalized beneficiary name and city to a school registry record with a county. This is not a complete regional distribution of all Erasmus+ projects.",
+  "source_reconciliation": [
+    {
+      "year": 2024,
+      "project_list_count": 575,
+      "applications_table_contracted_count": 575,
+      "project_count_difference": 0,
+      "project_list_grants_eur": 44366911.0,
+      "funding_table_contracted_eur": 44054814.0,
+      "grant_difference_eur": 312097.0
+    },
+    {
+      "year": 2025,
+      "project_list_count": 641,
+      "applications_table_contracted_count": 642,
+      "project_count_difference": -1,
+      "project_list_grants_eur": 51048167.75,
+      "funding_table_contracted_eur": 51355773.87,
+      "grant_difference_eur": -307606.12
+    },
+    {
+      "year": 2026,
+      "project_list_count": 640,
+      "applications_table_contracted_count": 640,
+      "project_count_difference": 0,
+      "project_list_grants_eur": 50706031.9,
+      "funding_table_contracted_eur": 50706031.9,
+      "grant_difference_eur": 0.0
+    }
+  ],
+  "project_list_year_coverage": [
+    2024,
+    2025,
+    2026
+  ],
+  "source_dates_may_differ": true
+}

@@ -1,0 +1,2018 @@
+[
+  {
+    "year": 2021,
+    "key_action": "KA1",
+    "metric": "Prijave",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "projects",
+    "value": 84
+  },
+  {
+    "year": 2021,
+    "key_action": "KA1",
+    "metric": "Prijave",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "projects",
+    "value": 50
+  },
+  {
+    "year": 2021,
+    "key_action": "KA1",
+    "metric": "Prijave",
+    "sector": "Visoko obrazovanje",
+    "unit": "projects",
+    "value": 38
+  },
+  {
+    "year": 2021,
+    "key_action": "KA1",
+    "metric": "Prijave",
+    "sector": "Obrazovanje odraslih",
+    "unit": "projects",
+    "value": 19
+  },
+  {
+    "year": 2021,
+    "key_action": "KA1",
+    "metric": "Prijave",
+    "sector": "Mladi",
+    "unit": "projects",
+    "value": 122
+  },
+  {
+    "year": 2021,
+    "key_action": "KA1",
+    "metric": "Prijave",
+    "sector": "Sport",
+    "unit": "projects",
+    "value": null
+  },
+  {
+    "year": 2021,
+    "key_action": "KA1",
+    "metric": "Prijave",
+    "sector": "Ukupno",
+    "unit": "projects",
+    "value": 313
+  },
+  {
+    "year": 2021,
+    "key_action": "KA1",
+    "metric": "Ugovoreni",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "projects",
+    "value": 71
+  },
+  {
+    "year": 2021,
+    "key_action": "KA1",
+    "metric": "Ugovoreni",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "projects",
+    "value": 48
+  },
+  {
+    "year": 2021,
+    "key_action": "KA1",
+    "metric": "Ugovoreni",
+    "sector": "Visoko obrazovanje",
+    "unit": "projects",
+    "value": 38
+  },
+  {
+    "year": 2021,
+    "key_action": "KA1",
+    "metric": "Ugovoreni",
+    "sector": "Obrazovanje odraslih",
+    "unit": "projects",
+    "value": 17
+  },
+  {
+    "year": 2021,
+    "key_action": "KA1",
+    "metric": "Ugovoreni",
+    "sector": "Mladi",
+    "unit": "projects",
+    "value": 55
+  },
+  {
+    "year": 2021,
+    "key_action": "KA1",
+    "metric": "Ugovoreni",
+    "sector": "Sport",
+    "unit": "projects",
+    "value": null
+  },
+  {
+    "year": 2021,
+    "key_action": "KA1",
+    "metric": "Ugovoreni",
+    "sector": "Ukupno",
+    "unit": "projects",
+    "value": 229
+  },
+  {
+    "year": 2021,
+    "key_action": "KA1",
+    "metric": "% prolaznosti",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "percent",
+    "value": 84.5
+  },
+  {
+    "year": 2021,
+    "key_action": "KA1",
+    "metric": "% prolaznosti",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "percent",
+    "value": 96.0
+  },
+  {
+    "year": 2021,
+    "key_action": "KA1",
+    "metric": "% prolaznosti",
+    "sector": "Visoko obrazovanje",
+    "unit": "percent",
+    "value": 100.0
+  },
+  {
+    "year": 2021,
+    "key_action": "KA1",
+    "metric": "% prolaznosti",
+    "sector": "Obrazovanje odraslih",
+    "unit": "percent",
+    "value": 89.5
+  },
+  {
+    "year": 2021,
+    "key_action": "KA1",
+    "metric": "% prolaznosti",
+    "sector": "Mladi",
+    "unit": "percent",
+    "value": 45.1
+  },
+  {
+    "year": 2021,
+    "key_action": "KA1",
+    "metric": "% prolaznosti",
+    "sector": "Sport",
+    "unit": "percent",
+    "value": null
+  },
+  {
+    "year": 2021,
+    "key_action": "KA1",
+    "metric": "% prolaznosti",
+    "sector": "Ukupno",
+    "unit": "percent",
+    "value": 73.2
+  },
+  {
+    "year": 2021,
+    "key_action": "KA2",
+    "metric": "Prijave",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "projects",
+    "value": 56
+  },
+  {
+    "year": 2021,
+    "key_action": "KA2",
+    "metric": "Prijave",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "projects",
+    "value": 40
+  },
+  {
+    "year": 2021,
+    "key_action": "KA2",
+    "metric": "Prijave",
+    "sector": "Visoko obrazovanje",
+    "unit": "projects",
+    "value": 15
+  },
+  {
+    "year": 2021,
+    "key_action": "KA2",
+    "metric": "Prijave",
+    "sector": "Obrazovanje odraslih",
+    "unit": "projects",
+    "value": 53
+  },
+  {
+    "year": 2021,
+    "key_action": "KA2",
+    "metric": "Prijave",
+    "sector": "Mladi",
+    "unit": "projects",
+    "value": 68
+  },
+  {
+    "year": 2021,
+    "key_action": "KA2",
+    "metric": "Prijave",
+    "sector": "Sport",
+    "unit": "projects",
+    "value": null
+  },
+  {
+    "year": 2021,
+    "key_action": "KA2",
+    "metric": "Prijave",
+    "sector": "Ukupno",
+    "unit": "projects",
+    "value": 232
+  },
+  {
+    "year": 2021,
+    "key_action": "KA2",
+    "metric": "Ugovoreni",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "projects",
+    "value": 22
+  },
+  {
+    "year": 2021,
+    "key_action": "KA2",
+    "metric": "Ugovoreni",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "projects",
+    "value": 15
+  },
+  {
+    "year": 2021,
+    "key_action": "KA2",
+    "metric": "Ugovoreni",
+    "sector": "Visoko obrazovanje",
+    "unit": "projects",
+    "value": 5
+  },
+  {
+    "year": 2021,
+    "key_action": "KA2",
+    "metric": "Ugovoreni",
+    "sector": "Obrazovanje odraslih",
+    "unit": "projects",
+    "value": 13
+  },
+  {
+    "year": 2021,
+    "key_action": "KA2",
+    "metric": "Ugovoreni",
+    "sector": "Mladi",
+    "unit": "projects",
+    "value": 22
+  },
+  {
+    "year": 2021,
+    "key_action": "KA2",
+    "metric": "Ugovoreni",
+    "sector": "Sport",
+    "unit": "projects",
+    "value": null
+  },
+  {
+    "year": 2021,
+    "key_action": "KA2",
+    "metric": "Ugovoreni",
+    "sector": "Ukupno",
+    "unit": "projects",
+    "value": 77
+  },
+  {
+    "year": 2021,
+    "key_action": "KA2",
+    "metric": "% prolaznosti",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "percent",
+    "value": 39.3
+  },
+  {
+    "year": 2021,
+    "key_action": "KA2",
+    "metric": "% prolaznosti",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "percent",
+    "value": 37.5
+  },
+  {
+    "year": 2021,
+    "key_action": "KA2",
+    "metric": "% prolaznosti",
+    "sector": "Visoko obrazovanje",
+    "unit": "percent",
+    "value": 33.3
+  },
+  {
+    "year": 2021,
+    "key_action": "KA2",
+    "metric": "% prolaznosti",
+    "sector": "Obrazovanje odraslih",
+    "unit": "percent",
+    "value": 24.5
+  },
+  {
+    "year": 2021,
+    "key_action": "KA2",
+    "metric": "% prolaznosti",
+    "sector": "Mladi",
+    "unit": "percent",
+    "value": 32.4
+  },
+  {
+    "year": 2021,
+    "key_action": "KA2",
+    "metric": "% prolaznosti",
+    "sector": "Sport",
+    "unit": "percent",
+    "value": null
+  },
+  {
+    "year": 2021,
+    "key_action": "KA2",
+    "metric": "% prolaznosti",
+    "sector": "Ukupno",
+    "unit": "percent",
+    "value": 33.2
+  },
+  {
+    "year": 2022,
+    "key_action": "KA1",
+    "metric": "Prijave",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "projects",
+    "value": 147
+  },
+  {
+    "year": 2022,
+    "key_action": "KA1",
+    "metric": "Prijave",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "projects",
+    "value": 94
+  },
+  {
+    "year": 2022,
+    "key_action": "KA1",
+    "metric": "Prijave",
+    "sector": "Visoko obrazovanje",
+    "unit": "projects",
+    "value": 67
+  },
+  {
+    "year": 2022,
+    "key_action": "KA1",
+    "metric": "Prijave",
+    "sector": "Obrazovanje odraslih",
+    "unit": "projects",
+    "value": 35
+  },
+  {
+    "year": 2022,
+    "key_action": "KA1",
+    "metric": "Prijave",
+    "sector": "Mladi",
+    "unit": "projects",
+    "value": 148
+  },
+  {
+    "year": 2022,
+    "key_action": "KA1",
+    "metric": "Prijave",
+    "sector": "Sport",
+    "unit": "projects",
+    "value": null
+  },
+  {
+    "year": 2022,
+    "key_action": "KA1",
+    "metric": "Prijave",
+    "sector": "Ukupno",
+    "unit": "projects",
+    "value": 491
+  },
+  {
+    "year": 2022,
+    "key_action": "KA1",
+    "metric": "Ugovoreni",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "projects",
+    "value": 121
+  },
+  {
+    "year": 2022,
+    "key_action": "KA1",
+    "metric": "Ugovoreni",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "projects",
+    "value": 70
+  },
+  {
+    "year": 2022,
+    "key_action": "KA1",
+    "metric": "Ugovoreni",
+    "sector": "Visoko obrazovanje",
+    "unit": "projects",
+    "value": 63
+  },
+  {
+    "year": 2022,
+    "key_action": "KA1",
+    "metric": "Ugovoreni",
+    "sector": "Obrazovanje odraslih",
+    "unit": "projects",
+    "value": 28
+  },
+  {
+    "year": 2022,
+    "key_action": "KA1",
+    "metric": "Ugovoreni",
+    "sector": "Mladi",
+    "unit": "projects",
+    "value": 74
+  },
+  {
+    "year": 2022,
+    "key_action": "KA1",
+    "metric": "Ugovoreni",
+    "sector": "Sport",
+    "unit": "projects",
+    "value": null
+  },
+  {
+    "year": 2022,
+    "key_action": "KA1",
+    "metric": "Ugovoreni",
+    "sector": "Ukupno",
+    "unit": "projects",
+    "value": 356
+  },
+  {
+    "year": 2022,
+    "key_action": "KA1",
+    "metric": "% prolaznosti",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "percent",
+    "value": 82.3
+  },
+  {
+    "year": 2022,
+    "key_action": "KA1",
+    "metric": "% prolaznosti",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "percent",
+    "value": 74.5
+  },
+  {
+    "year": 2022,
+    "key_action": "KA1",
+    "metric": "% prolaznosti",
+    "sector": "Visoko obrazovanje",
+    "unit": "percent",
+    "value": 94.0
+  },
+  {
+    "year": 2022,
+    "key_action": "KA1",
+    "metric": "% prolaznosti",
+    "sector": "Obrazovanje odraslih",
+    "unit": "percent",
+    "value": 80.0
+  },
+  {
+    "year": 2022,
+    "key_action": "KA1",
+    "metric": "% prolaznosti",
+    "sector": "Mladi",
+    "unit": "percent",
+    "value": 50.0
+  },
+  {
+    "year": 2022,
+    "key_action": "KA1",
+    "metric": "% prolaznosti",
+    "sector": "Sport",
+    "unit": "percent",
+    "value": null
+  },
+  {
+    "year": 2022,
+    "key_action": "KA1",
+    "metric": "% prolaznosti",
+    "sector": "Ukupno",
+    "unit": "percent",
+    "value": 72.5
+  },
+  {
+    "year": 2022,
+    "key_action": "KA2",
+    "metric": "Prijave",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "projects",
+    "value": 85
+  },
+  {
+    "year": 2022,
+    "key_action": "KA2",
+    "metric": "Prijave",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "projects",
+    "value": 32
+  },
+  {
+    "year": 2022,
+    "key_action": "KA2",
+    "metric": "Prijave",
+    "sector": "Visoko obrazovanje",
+    "unit": "projects",
+    "value": 20
+  },
+  {
+    "year": 2022,
+    "key_action": "KA2",
+    "metric": "Prijave",
+    "sector": "Obrazovanje odraslih",
+    "unit": "projects",
+    "value": 53
+  },
+  {
+    "year": 2022,
+    "key_action": "KA2",
+    "metric": "Prijave",
+    "sector": "Mladi",
+    "unit": "projects",
+    "value": 77
+  },
+  {
+    "year": 2022,
+    "key_action": "KA2",
+    "metric": "Prijave",
+    "sector": "Sport",
+    "unit": "projects",
+    "value": null
+  },
+  {
+    "year": 2022,
+    "key_action": "KA2",
+    "metric": "Prijave",
+    "sector": "Ukupno",
+    "unit": "projects",
+    "value": 267
+  },
+  {
+    "year": 2022,
+    "key_action": "KA2",
+    "metric": "Ugovoreni",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "projects",
+    "value": 14
+  },
+  {
+    "year": 2022,
+    "key_action": "KA2",
+    "metric": "Ugovoreni",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "projects",
+    "value": 7
+  },
+  {
+    "year": 2022,
+    "key_action": "KA2",
+    "metric": "Ugovoreni",
+    "sector": "Visoko obrazovanje",
+    "unit": "projects",
+    "value": 5
+  },
+  {
+    "year": 2022,
+    "key_action": "KA2",
+    "metric": "Ugovoreni",
+    "sector": "Obrazovanje odraslih",
+    "unit": "projects",
+    "value": 12
+  },
+  {
+    "year": 2022,
+    "key_action": "KA2",
+    "metric": "Ugovoreni",
+    "sector": "Mladi",
+    "unit": "projects",
+    "value": 16
+  },
+  {
+    "year": 2022,
+    "key_action": "KA2",
+    "metric": "Ugovoreni",
+    "sector": "Sport",
+    "unit": "projects",
+    "value": null
+  },
+  {
+    "year": 2022,
+    "key_action": "KA2",
+    "metric": "Ugovoreni",
+    "sector": "Ukupno",
+    "unit": "projects",
+    "value": 54
+  },
+  {
+    "year": 2022,
+    "key_action": "KA2",
+    "metric": "% prolaznosti",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "percent",
+    "value": 16.5
+  },
+  {
+    "year": 2022,
+    "key_action": "KA2",
+    "metric": "% prolaznosti",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "percent",
+    "value": 21.9
+  },
+  {
+    "year": 2022,
+    "key_action": "KA2",
+    "metric": "% prolaznosti",
+    "sector": "Visoko obrazovanje",
+    "unit": "percent",
+    "value": 25.0
+  },
+  {
+    "year": 2022,
+    "key_action": "KA2",
+    "metric": "% prolaznosti",
+    "sector": "Obrazovanje odraslih",
+    "unit": "percent",
+    "value": 22.6
+  },
+  {
+    "year": 2022,
+    "key_action": "KA2",
+    "metric": "% prolaznosti",
+    "sector": "Mladi",
+    "unit": "percent",
+    "value": 20.8
+  },
+  {
+    "year": 2022,
+    "key_action": "KA2",
+    "metric": "% prolaznosti",
+    "sector": "Sport",
+    "unit": "percent",
+    "value": null
+  },
+  {
+    "year": 2022,
+    "key_action": "KA2",
+    "metric": "% prolaznosti",
+    "sector": "Ukupno",
+    "unit": "percent",
+    "value": 20.2
+  },
+  {
+    "year": 2023,
+    "key_action": "KA1",
+    "metric": "Prijave",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "projects",
+    "value": 261
+  },
+  {
+    "year": 2023,
+    "key_action": "KA1",
+    "metric": "Prijave",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "projects",
+    "value": 134
+  },
+  {
+    "year": 2023,
+    "key_action": "KA1",
+    "metric": "Prijave",
+    "sector": "Visoko obrazovanje",
+    "unit": "projects",
+    "value": 63
+  },
+  {
+    "year": 2023,
+    "key_action": "KA1",
+    "metric": "Prijave",
+    "sector": "Obrazovanje odraslih",
+    "unit": "projects",
+    "value": 46
+  },
+  {
+    "year": 2023,
+    "key_action": "KA1",
+    "metric": "Prijave",
+    "sector": "Mladi",
+    "unit": "projects",
+    "value": 183
+  },
+  {
+    "year": 2023,
+    "key_action": "KA1",
+    "metric": "Prijave",
+    "sector": "Sport",
+    "unit": "projects",
+    "value": 19
+  },
+  {
+    "year": 2023,
+    "key_action": "KA1",
+    "metric": "Prijave",
+    "sector": "Ukupno",
+    "unit": "projects",
+    "value": 706
+  },
+  {
+    "year": 2023,
+    "key_action": "KA1",
+    "metric": "Ugovoreni",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "projects",
+    "value": 185
+  },
+  {
+    "year": 2023,
+    "key_action": "KA1",
+    "metric": "Ugovoreni",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "projects",
+    "value": 102
+  },
+  {
+    "year": 2023,
+    "key_action": "KA1",
+    "metric": "Ugovoreni",
+    "sector": "Visoko obrazovanje",
+    "unit": "projects",
+    "value": 62
+  },
+  {
+    "year": 2023,
+    "key_action": "KA1",
+    "metric": "Ugovoreni",
+    "sector": "Obrazovanje odraslih",
+    "unit": "projects",
+    "value": 35
+  },
+  {
+    "year": 2023,
+    "key_action": "KA1",
+    "metric": "Ugovoreni",
+    "sector": "Mladi",
+    "unit": "projects",
+    "value": 80
+  },
+  {
+    "year": 2023,
+    "key_action": "KA1",
+    "metric": "Ugovoreni",
+    "sector": "Sport",
+    "unit": "projects",
+    "value": 7
+  },
+  {
+    "year": 2023,
+    "key_action": "KA1",
+    "metric": "Ugovoreni",
+    "sector": "Ukupno",
+    "unit": "projects",
+    "value": 471
+  },
+  {
+    "year": 2023,
+    "key_action": "KA1",
+    "metric": "% prolaznosti",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "percent",
+    "value": 70.9
+  },
+  {
+    "year": 2023,
+    "key_action": "KA1",
+    "metric": "% prolaznosti",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "percent",
+    "value": 76.1
+  },
+  {
+    "year": 2023,
+    "key_action": "KA1",
+    "metric": "% prolaznosti",
+    "sector": "Visoko obrazovanje",
+    "unit": "percent",
+    "value": 98.4
+  },
+  {
+    "year": 2023,
+    "key_action": "KA1",
+    "metric": "% prolaznosti",
+    "sector": "Obrazovanje odraslih",
+    "unit": "percent",
+    "value": 76.1
+  },
+  {
+    "year": 2023,
+    "key_action": "KA1",
+    "metric": "% prolaznosti",
+    "sector": "Mladi",
+    "unit": "percent",
+    "value": 43.7
+  },
+  {
+    "year": 2023,
+    "key_action": "KA1",
+    "metric": "% prolaznosti",
+    "sector": "Sport",
+    "unit": "percent",
+    "value": 36.8
+  },
+  {
+    "year": 2023,
+    "key_action": "KA1",
+    "metric": "% prolaznosti",
+    "sector": "Ukupno",
+    "unit": "percent",
+    "value": 66.7
+  },
+  {
+    "year": 2023,
+    "key_action": "KA2",
+    "metric": "Prijave",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "projects",
+    "value": 138
+  },
+  {
+    "year": 2023,
+    "key_action": "KA2",
+    "metric": "Prijave",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "projects",
+    "value": 48
+  },
+  {
+    "year": 2023,
+    "key_action": "KA2",
+    "metric": "Prijave",
+    "sector": "Visoko obrazovanje",
+    "unit": "projects",
+    "value": 20
+  },
+  {
+    "year": 2023,
+    "key_action": "KA2",
+    "metric": "Prijave",
+    "sector": "Obrazovanje odraslih",
+    "unit": "projects",
+    "value": 82
+  },
+  {
+    "year": 2023,
+    "key_action": "KA2",
+    "metric": "Prijave",
+    "sector": "Mladi",
+    "unit": "projects",
+    "value": 117
+  },
+  {
+    "year": 2023,
+    "key_action": "KA2",
+    "metric": "Prijave",
+    "sector": "Sport",
+    "unit": "projects",
+    "value": null
+  },
+  {
+    "year": 2023,
+    "key_action": "KA2",
+    "metric": "Prijave",
+    "sector": "Ukupno",
+    "unit": "projects",
+    "value": 405
+  },
+  {
+    "year": 2023,
+    "key_action": "KA2",
+    "metric": "Ugovoreni",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "projects",
+    "value": 10
+  },
+  {
+    "year": 2023,
+    "key_action": "KA2",
+    "metric": "Ugovoreni",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "projects",
+    "value": 9
+  },
+  {
+    "year": 2023,
+    "key_action": "KA2",
+    "metric": "Ugovoreni",
+    "sector": "Visoko obrazovanje",
+    "unit": "projects",
+    "value": 6
+  },
+  {
+    "year": 2023,
+    "key_action": "KA2",
+    "metric": "Ugovoreni",
+    "sector": "Obrazovanje odraslih",
+    "unit": "projects",
+    "value": 8
+  },
+  {
+    "year": 2023,
+    "key_action": "KA2",
+    "metric": "Ugovoreni",
+    "sector": "Mladi",
+    "unit": "projects",
+    "value": 16
+  },
+  {
+    "year": 2023,
+    "key_action": "KA2",
+    "metric": "Ugovoreni",
+    "sector": "Sport",
+    "unit": "projects",
+    "value": null
+  },
+  {
+    "year": 2023,
+    "key_action": "KA2",
+    "metric": "Ugovoreni",
+    "sector": "Ukupno",
+    "unit": "projects",
+    "value": 49
+  },
+  {
+    "year": 2023,
+    "key_action": "KA2",
+    "metric": "% prolaznosti",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "percent",
+    "value": 7.2
+  },
+  {
+    "year": 2023,
+    "key_action": "KA2",
+    "metric": "% prolaznosti",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "percent",
+    "value": 18.8
+  },
+  {
+    "year": 2023,
+    "key_action": "KA2",
+    "metric": "% prolaznosti",
+    "sector": "Visoko obrazovanje",
+    "unit": "percent",
+    "value": 30.0
+  },
+  {
+    "year": 2023,
+    "key_action": "KA2",
+    "metric": "% prolaznosti",
+    "sector": "Obrazovanje odraslih",
+    "unit": "percent",
+    "value": 9.8
+  },
+  {
+    "year": 2023,
+    "key_action": "KA2",
+    "metric": "% prolaznosti",
+    "sector": "Mladi",
+    "unit": "percent",
+    "value": 13.7
+  },
+  {
+    "year": 2023,
+    "key_action": "KA2",
+    "metric": "% prolaznosti",
+    "sector": "Sport",
+    "unit": "percent",
+    "value": null
+  },
+  {
+    "year": 2023,
+    "key_action": "KA2",
+    "metric": "% prolaznosti",
+    "sector": "Ukupno",
+    "unit": "percent",
+    "value": 12.1
+  },
+  {
+    "year": 2024,
+    "key_action": "KA1",
+    "metric": "Prijave",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "projects",
+    "value": 315
+  },
+  {
+    "year": 2024,
+    "key_action": "KA1",
+    "metric": "Prijave",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "projects",
+    "value": 154
+  },
+  {
+    "year": 2024,
+    "key_action": "KA1",
+    "metric": "Prijave",
+    "sector": "Visoko obrazovanje",
+    "unit": "projects",
+    "value": 70
+  },
+  {
+    "year": 2024,
+    "key_action": "KA1",
+    "metric": "Prijave",
+    "sector": "Obrazovanje odraslih",
+    "unit": "projects",
+    "value": 69
+  },
+  {
+    "year": 2024,
+    "key_action": "KA1",
+    "metric": "Prijave",
+    "sector": "Mladi",
+    "unit": "projects",
+    "value": 216
+  },
+  {
+    "year": 2024,
+    "key_action": "KA1",
+    "metric": "Prijave",
+    "sector": "Sport",
+    "unit": "projects",
+    "value": 19
+  },
+  {
+    "year": 2024,
+    "key_action": "KA1",
+    "metric": "Prijave",
+    "sector": "Ukupno",
+    "unit": "projects",
+    "value": 843
+  },
+  {
+    "year": 2024,
+    "key_action": "KA1",
+    "metric": "Ugovoreni",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "projects",
+    "value": 181
+  },
+  {
+    "year": 2024,
+    "key_action": "KA1",
+    "metric": "Ugovoreni",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "projects",
+    "value": 124
+  },
+  {
+    "year": 2024,
+    "key_action": "KA1",
+    "metric": "Ugovoreni",
+    "sector": "Visoko obrazovanje",
+    "unit": "projects",
+    "value": 67
+  },
+  {
+    "year": 2024,
+    "key_action": "KA1",
+    "metric": "Ugovoreni",
+    "sector": "Obrazovanje odraslih",
+    "unit": "projects",
+    "value": 63
+  },
+  {
+    "year": 2024,
+    "key_action": "KA1",
+    "metric": "Ugovoreni",
+    "sector": "Mladi",
+    "unit": "projects",
+    "value": 79
+  },
+  {
+    "year": 2024,
+    "key_action": "KA1",
+    "metric": "Ugovoreni",
+    "sector": "Sport",
+    "unit": "projects",
+    "value": 12
+  },
+  {
+    "year": 2024,
+    "key_action": "KA1",
+    "metric": "Ugovoreni",
+    "sector": "Ukupno",
+    "unit": "projects",
+    "value": 526
+  },
+  {
+    "year": 2024,
+    "key_action": "KA1",
+    "metric": "% prolaznosti",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "percent",
+    "value": 57.5
+  },
+  {
+    "year": 2024,
+    "key_action": "KA1",
+    "metric": "% prolaznosti",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "percent",
+    "value": 80.5
+  },
+  {
+    "year": 2024,
+    "key_action": "KA1",
+    "metric": "% prolaznosti",
+    "sector": "Visoko obrazovanje",
+    "unit": "percent",
+    "value": 95.7
+  },
+  {
+    "year": 2024,
+    "key_action": "KA1",
+    "metric": "% prolaznosti",
+    "sector": "Obrazovanje odraslih",
+    "unit": "percent",
+    "value": 91.3
+  },
+  {
+    "year": 2024,
+    "key_action": "KA1",
+    "metric": "% prolaznosti",
+    "sector": "Mladi",
+    "unit": "percent",
+    "value": 36.6
+  },
+  {
+    "year": 2024,
+    "key_action": "KA1",
+    "metric": "% prolaznosti",
+    "sector": "Sport",
+    "unit": "percent",
+    "value": 63.2
+  },
+  {
+    "year": 2024,
+    "key_action": "KA1",
+    "metric": "% prolaznosti",
+    "sector": "Ukupno",
+    "unit": "percent",
+    "value": 62.4
+  },
+  {
+    "year": 2024,
+    "key_action": "KA2",
+    "metric": "Prijave",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "projects",
+    "value": 140
+  },
+  {
+    "year": 2024,
+    "key_action": "KA2",
+    "metric": "Prijave",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "projects",
+    "value": 59
+  },
+  {
+    "year": 2024,
+    "key_action": "KA2",
+    "metric": "Prijave",
+    "sector": "Visoko obrazovanje",
+    "unit": "projects",
+    "value": 39
+  },
+  {
+    "year": 2024,
+    "key_action": "KA2",
+    "metric": "Prijave",
+    "sector": "Obrazovanje odraslih",
+    "unit": "projects",
+    "value": 95
+  },
+  {
+    "year": 2024,
+    "key_action": "KA2",
+    "metric": "Prijave",
+    "sector": "Mladi",
+    "unit": "projects",
+    "value": 146
+  },
+  {
+    "year": 2024,
+    "key_action": "KA2",
+    "metric": "Prijave",
+    "sector": "Sport",
+    "unit": "projects",
+    "value": null
+  },
+  {
+    "year": 2024,
+    "key_action": "KA2",
+    "metric": "Prijave",
+    "sector": "Ukupno",
+    "unit": "projects",
+    "value": 479
+  },
+  {
+    "year": 2024,
+    "key_action": "KA2",
+    "metric": "Ugovoreni",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "projects",
+    "value": 11
+  },
+  {
+    "year": 2024,
+    "key_action": "KA2",
+    "metric": "Ugovoreni",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "projects",
+    "value": 9
+  },
+  {
+    "year": 2024,
+    "key_action": "KA2",
+    "metric": "Ugovoreni",
+    "sector": "Visoko obrazovanje",
+    "unit": "projects",
+    "value": 4
+  },
+  {
+    "year": 2024,
+    "key_action": "KA2",
+    "metric": "Ugovoreni",
+    "sector": "Obrazovanje odraslih",
+    "unit": "projects",
+    "value": 10
+  },
+  {
+    "year": 2024,
+    "key_action": "KA2",
+    "metric": "Ugovoreni",
+    "sector": "Mladi",
+    "unit": "projects",
+    "value": 15
+  },
+  {
+    "year": 2024,
+    "key_action": "KA2",
+    "metric": "Ugovoreni",
+    "sector": "Sport",
+    "unit": "projects",
+    "value": null
+  },
+  {
+    "year": 2024,
+    "key_action": "KA2",
+    "metric": "Ugovoreni",
+    "sector": "Ukupno",
+    "unit": "projects",
+    "value": 49
+  },
+  {
+    "year": 2024,
+    "key_action": "KA2",
+    "metric": "% prolaznosti",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "percent",
+    "value": 7.9
+  },
+  {
+    "year": 2024,
+    "key_action": "KA2",
+    "metric": "% prolaznosti",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "percent",
+    "value": 15.3
+  },
+  {
+    "year": 2024,
+    "key_action": "KA2",
+    "metric": "% prolaznosti",
+    "sector": "Visoko obrazovanje",
+    "unit": "percent",
+    "value": 10.3
+  },
+  {
+    "year": 2024,
+    "key_action": "KA2",
+    "metric": "% prolaznosti",
+    "sector": "Obrazovanje odraslih",
+    "unit": "percent",
+    "value": 10.5
+  },
+  {
+    "year": 2024,
+    "key_action": "KA2",
+    "metric": "% prolaznosti",
+    "sector": "Mladi",
+    "unit": "percent",
+    "value": 10.3
+  },
+  {
+    "year": 2024,
+    "key_action": "KA2",
+    "metric": "% prolaznosti",
+    "sector": "Sport",
+    "unit": "percent",
+    "value": null
+  },
+  {
+    "year": 2024,
+    "key_action": "KA2",
+    "metric": "% prolaznosti",
+    "sector": "Ukupno",
+    "unit": "percent",
+    "value": 10.2
+  },
+  {
+    "year": 2025,
+    "key_action": "KA1",
+    "metric": "Prijave",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "projects",
+    "value": 352
+  },
+  {
+    "year": 2025,
+    "key_action": "KA1",
+    "metric": "Prijave",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "projects",
+    "value": 164
+  },
+  {
+    "year": 2025,
+    "key_action": "KA1",
+    "metric": "Prijave",
+    "sector": "Visoko obrazovanje",
+    "unit": "projects",
+    "value": 67
+  },
+  {
+    "year": 2025,
+    "key_action": "KA1",
+    "metric": "Prijave",
+    "sector": "Obrazovanje odraslih",
+    "unit": "projects",
+    "value": 119
+  },
+  {
+    "year": 2025,
+    "key_action": "KA1",
+    "metric": "Prijave",
+    "sector": "Mladi",
+    "unit": "projects",
+    "value": 213
+  },
+  {
+    "year": 2025,
+    "key_action": "KA1",
+    "metric": "Prijave",
+    "sector": "Sport",
+    "unit": "projects",
+    "value": 15
+  },
+  {
+    "year": 2025,
+    "key_action": "KA1",
+    "metric": "Prijave",
+    "sector": "Ukupno",
+    "unit": "projects",
+    "value": 930
+  },
+  {
+    "year": 2025,
+    "key_action": "KA1",
+    "metric": "Ugovoreni",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "projects",
+    "value": 211
+  },
+  {
+    "year": 2025,
+    "key_action": "KA1",
+    "metric": "Ugovoreni",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "projects",
+    "value": 135
+  },
+  {
+    "year": 2025,
+    "key_action": "KA1",
+    "metric": "Ugovoreni",
+    "sector": "Visoko obrazovanje",
+    "unit": "projects",
+    "value": 63
+  },
+  {
+    "year": 2025,
+    "key_action": "KA1",
+    "metric": "Ugovoreni",
+    "sector": "Obrazovanje odraslih",
+    "unit": "projects",
+    "value": 88
+  },
+  {
+    "year": 2025,
+    "key_action": "KA1",
+    "metric": "Ugovoreni",
+    "sector": "Mladi",
+    "unit": "projects",
+    "value": 86
+  },
+  {
+    "year": 2025,
+    "key_action": "KA1",
+    "metric": "Ugovoreni",
+    "sector": "Sport",
+    "unit": "projects",
+    "value": 13
+  },
+  {
+    "year": 2025,
+    "key_action": "KA1",
+    "metric": "Ugovoreni",
+    "sector": "Ukupno",
+    "unit": "projects",
+    "value": 596
+  },
+  {
+    "year": 2025,
+    "key_action": "KA1",
+    "metric": "% prolaznosti",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "percent",
+    "value": 59.9
+  },
+  {
+    "year": 2025,
+    "key_action": "KA1",
+    "metric": "% prolaznosti",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "percent",
+    "value": 82.3
+  },
+  {
+    "year": 2025,
+    "key_action": "KA1",
+    "metric": "% prolaznosti",
+    "sector": "Visoko obrazovanje",
+    "unit": "percent",
+    "value": 94.0
+  },
+  {
+    "year": 2025,
+    "key_action": "KA1",
+    "metric": "% prolaznosti",
+    "sector": "Obrazovanje odraslih",
+    "unit": "percent",
+    "value": 73.9
+  },
+  {
+    "year": 2025,
+    "key_action": "KA1",
+    "metric": "% prolaznosti",
+    "sector": "Mladi",
+    "unit": "percent",
+    "value": 40.4
+  },
+  {
+    "year": 2025,
+    "key_action": "KA1",
+    "metric": "% prolaznosti",
+    "sector": "Sport",
+    "unit": "percent",
+    "value": 86.7
+  },
+  {
+    "year": 2025,
+    "key_action": "KA1",
+    "metric": "% prolaznosti",
+    "sector": "Ukupno",
+    "unit": "percent",
+    "value": 64.1
+  },
+  {
+    "year": 2025,
+    "key_action": "KA2",
+    "metric": "Prijave",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "projects",
+    "value": 107
+  },
+  {
+    "year": 2025,
+    "key_action": "KA2",
+    "metric": "Prijave",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "projects",
+    "value": 35
+  },
+  {
+    "year": 2025,
+    "key_action": "KA2",
+    "metric": "Prijave",
+    "sector": "Visoko obrazovanje",
+    "unit": "projects",
+    "value": 33
+  },
+  {
+    "year": 2025,
+    "key_action": "KA2",
+    "metric": "Prijave",
+    "sector": "Obrazovanje odraslih",
+    "unit": "projects",
+    "value": 73
+  },
+  {
+    "year": 2025,
+    "key_action": "KA2",
+    "metric": "Prijave",
+    "sector": "Mladi",
+    "unit": "projects",
+    "value": 83
+  },
+  {
+    "year": 2025,
+    "key_action": "KA2",
+    "metric": "Prijave",
+    "sector": "Sport",
+    "unit": "projects",
+    "value": null
+  },
+  {
+    "year": 2025,
+    "key_action": "KA2",
+    "metric": "Prijave",
+    "sector": "Ukupno",
+    "unit": "projects",
+    "value": 331
+  },
+  {
+    "year": 2025,
+    "key_action": "KA2",
+    "metric": "Ugovoreni",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "projects",
+    "value": 11
+  },
+  {
+    "year": 2025,
+    "key_action": "KA2",
+    "metric": "Ugovoreni",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "projects",
+    "value": 8
+  },
+  {
+    "year": 2025,
+    "key_action": "KA2",
+    "metric": "Ugovoreni",
+    "sector": "Visoko obrazovanje",
+    "unit": "projects",
+    "value": 3
+  },
+  {
+    "year": 2025,
+    "key_action": "KA2",
+    "metric": "Ugovoreni",
+    "sector": "Obrazovanje odraslih",
+    "unit": "projects",
+    "value": 9
+  },
+  {
+    "year": 2025,
+    "key_action": "KA2",
+    "metric": "Ugovoreni",
+    "sector": "Mladi",
+    "unit": "projects",
+    "value": 15
+  },
+  {
+    "year": 2025,
+    "key_action": "KA2",
+    "metric": "Ugovoreni",
+    "sector": "Sport",
+    "unit": "projects",
+    "value": null
+  },
+  {
+    "year": 2025,
+    "key_action": "KA2",
+    "metric": "Ugovoreni",
+    "sector": "Ukupno",
+    "unit": "projects",
+    "value": 46
+  },
+  {
+    "year": 2025,
+    "key_action": "KA2",
+    "metric": "% prolaznosti",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "percent",
+    "value": 10.3
+  },
+  {
+    "year": 2025,
+    "key_action": "KA2",
+    "metric": "% prolaznosti",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "percent",
+    "value": 22.9
+  },
+  {
+    "year": 2025,
+    "key_action": "KA2",
+    "metric": "% prolaznosti",
+    "sector": "Visoko obrazovanje",
+    "unit": "percent",
+    "value": 9.1
+  },
+  {
+    "year": 2025,
+    "key_action": "KA2",
+    "metric": "% prolaznosti",
+    "sector": "Obrazovanje odraslih",
+    "unit": "percent",
+    "value": 12.3
+  },
+  {
+    "year": 2025,
+    "key_action": "KA2",
+    "metric": "% prolaznosti",
+    "sector": "Mladi",
+    "unit": "percent",
+    "value": 18.1
+  },
+  {
+    "year": 2025,
+    "key_action": "KA2",
+    "metric": "% prolaznosti",
+    "sector": "Sport",
+    "unit": "percent",
+    "value": null
+  },
+  {
+    "year": 2025,
+    "key_action": "KA2",
+    "metric": "% prolaznosti",
+    "sector": "Ukupno",
+    "unit": "percent",
+    "value": 13.9
+  },
+  {
+    "year": 2026,
+    "key_action": "KA1",
+    "metric": "Prijave",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "projects",
+    "value": 365
+  },
+  {
+    "year": 2026,
+    "key_action": "KA1",
+    "metric": "Prijave",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "projects",
+    "value": 152
+  },
+  {
+    "year": 2026,
+    "key_action": "KA1",
+    "metric": "Prijave",
+    "sector": "Visoko obrazovanje",
+    "unit": "projects",
+    "value": 73
+  },
+  {
+    "year": 2026,
+    "key_action": "KA1",
+    "metric": "Prijave",
+    "sector": "Obrazovanje odraslih",
+    "unit": "projects",
+    "value": 100
+  },
+  {
+    "year": 2026,
+    "key_action": "KA1",
+    "metric": "Prijave",
+    "sector": "Mladi",
+    "unit": "projects",
+    "value": 145
+  },
+  {
+    "year": 2026,
+    "key_action": "KA1",
+    "metric": "Prijave",
+    "sector": "Sport",
+    "unit": "projects",
+    "value": 25
+  },
+  {
+    "year": 2026,
+    "key_action": "KA1",
+    "metric": "Prijave",
+    "sector": "Ukupno",
+    "unit": "projects",
+    "value": 860
+  },
+  {
+    "year": 2026,
+    "key_action": "KA1",
+    "metric": "Ugovoreni",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "projects",
+    "value": 223
+  },
+  {
+    "year": 2026,
+    "key_action": "KA1",
+    "metric": "Ugovoreni",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "projects",
+    "value": 140
+  },
+  {
+    "year": 2026,
+    "key_action": "KA1",
+    "metric": "Ugovoreni",
+    "sector": "Visoko obrazovanje",
+    "unit": "projects",
+    "value": 69
+  },
+  {
+    "year": 2026,
+    "key_action": "KA1",
+    "metric": "Ugovoreni",
+    "sector": "Obrazovanje odraslih",
+    "unit": "projects",
+    "value": 78
+  },
+  {
+    "year": 2026,
+    "key_action": "KA1",
+    "metric": "Ugovoreni",
+    "sector": "Mladi",
+    "unit": "projects",
+    "value": 66
+  },
+  {
+    "year": 2026,
+    "key_action": "KA1",
+    "metric": "Ugovoreni",
+    "sector": "Sport",
+    "unit": "projects",
+    "value": 17
+  },
+  {
+    "year": 2026,
+    "key_action": "KA1",
+    "metric": "Ugovoreni",
+    "sector": "Ukupno",
+    "unit": "projects",
+    "value": 593
+  },
+  {
+    "year": 2026,
+    "key_action": "KA1",
+    "metric": "% prolaznosti",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "percent",
+    "value": 61.1
+  },
+  {
+    "year": 2026,
+    "key_action": "KA1",
+    "metric": "% prolaznosti",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "percent",
+    "value": 92.1
+  },
+  {
+    "year": 2026,
+    "key_action": "KA1",
+    "metric": "% prolaznosti",
+    "sector": "Visoko obrazovanje",
+    "unit": "percent",
+    "value": 94.5
+  },
+  {
+    "year": 2026,
+    "key_action": "KA1",
+    "metric": "% prolaznosti",
+    "sector": "Obrazovanje odraslih",
+    "unit": "percent",
+    "value": 78.0
+  },
+  {
+    "year": 2026,
+    "key_action": "KA1",
+    "metric": "% prolaznosti",
+    "sector": "Mladi",
+    "unit": "percent",
+    "value": 45.5
+  },
+  {
+    "year": 2026,
+    "key_action": "KA1",
+    "metric": "% prolaznosti",
+    "sector": "Sport",
+    "unit": "percent",
+    "value": 68.0
+  },
+  {
+    "year": 2026,
+    "key_action": "KA1",
+    "metric": "% prolaznosti",
+    "sector": "Ukupno",
+    "unit": "percent",
+    "value": 69.0
+  },
+  {
+    "year": 2026,
+    "key_action": "KA2",
+    "metric": "Prijave",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "projects",
+    "value": 124
+  },
+  {
+    "year": 2026,
+    "key_action": "KA2",
+    "metric": "Prijave",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "projects",
+    "value": 39
+  },
+  {
+    "year": 2026,
+    "key_action": "KA2",
+    "metric": "Prijave",
+    "sector": "Visoko obrazovanje",
+    "unit": "projects",
+    "value": 22
+  },
+  {
+    "year": 2026,
+    "key_action": "KA2",
+    "metric": "Prijave",
+    "sector": "Obrazovanje odraslih",
+    "unit": "projects",
+    "value": 88
+  },
+  {
+    "year": 2026,
+    "key_action": "KA2",
+    "metric": "Prijave",
+    "sector": "Mladi",
+    "unit": "projects",
+    "value": 119
+  },
+  {
+    "year": 2026,
+    "key_action": "KA2",
+    "metric": "Prijave",
+    "sector": "Sport",
+    "unit": "projects",
+    "value": null
+  },
+  {
+    "year": 2026,
+    "key_action": "KA2",
+    "metric": "Prijave",
+    "sector": "Ukupno",
+    "unit": "projects",
+    "value": 392
+  },
+  {
+    "year": 2026,
+    "key_action": "KA2",
+    "metric": "Ugovoreni",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "projects",
+    "value": 11
+  },
+  {
+    "year": 2026,
+    "key_action": "KA2",
+    "metric": "Ugovoreni",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "projects",
+    "value": 8
+  },
+  {
+    "year": 2026,
+    "key_action": "KA2",
+    "metric": "Ugovoreni",
+    "sector": "Visoko obrazovanje",
+    "unit": "projects",
+    "value": 3
+  },
+  {
+    "year": 2026,
+    "key_action": "KA2",
+    "metric": "Ugovoreni",
+    "sector": "Obrazovanje odraslih",
+    "unit": "projects",
+    "value": 8
+  },
+  {
+    "year": 2026,
+    "key_action": "KA2",
+    "metric": "Ugovoreni",
+    "sector": "Mladi",
+    "unit": "projects",
+    "value": 17
+  },
+  {
+    "year": 2026,
+    "key_action": "KA2",
+    "metric": "Ugovoreni",
+    "sector": "Sport",
+    "unit": "projects",
+    "value": null
+  },
+  {
+    "year": 2026,
+    "key_action": "KA2",
+    "metric": "Ugovoreni",
+    "sector": "Ukupno",
+    "unit": "projects",
+    "value": 47
+  },
+  {
+    "year": 2026,
+    "key_action": "KA2",
+    "metric": "% prolaznosti",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "percent",
+    "value": 8.9
+  },
+  {
+    "year": 2026,
+    "key_action": "KA2",
+    "metric": "% prolaznosti",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "percent",
+    "value": 20.5
+  },
+  {
+    "year": 2026,
+    "key_action": "KA2",
+    "metric": "% prolaznosti",
+    "sector": "Visoko obrazovanje",
+    "unit": "percent",
+    "value": 13.6
+  },
+  {
+    "year": 2026,
+    "key_action": "KA2",
+    "metric": "% prolaznosti",
+    "sector": "Obrazovanje odraslih",
+    "unit": "percent",
+    "value": 9.1
+  },
+  {
+    "year": 2026,
+    "key_action": "KA2",
+    "metric": "% prolaznosti",
+    "sector": "Mladi",
+    "unit": "percent",
+    "value": 14.3
+  },
+  {
+    "year": 2026,
+    "key_action": "KA2",
+    "metric": "% prolaznosti",
+    "sector": "Sport",
+    "unit": "percent",
+    "value": null
+  },
+  {
+    "year": 2026,
+    "key_action": "KA2",
+    "metric": "% prolaznosti",
+    "sector": "Ukupno",
+    "unit": "percent",
+    "value": 12.0
+  }
+]

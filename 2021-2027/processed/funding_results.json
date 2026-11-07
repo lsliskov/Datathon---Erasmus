@@ -1,0 +1,1472 @@
+[
+  {
+    "year": 2021,
+    "measure": "Raspoloživo",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "EUR",
+    "value": 4675459.0
+  },
+  {
+    "year": 2021,
+    "measure": "Raspoloživo",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "EUR",
+    "value": 6017449.0
+  },
+  {
+    "year": 2021,
+    "measure": "Raspoloživo",
+    "sector": "Visoko obrazovanje",
+    "unit": "EUR",
+    "value": 10444803.0
+  },
+  {
+    "year": 2021,
+    "measure": "Raspoloživo",
+    "sector": "Obrazovanje odraslih",
+    "unit": "EUR",
+    "value": 1849024.0
+  },
+  {
+    "year": 2021,
+    "measure": "Raspoloživo",
+    "sector": "Mladi",
+    "unit": "EUR",
+    "value": 4975755.0
+  },
+  {
+    "year": 2021,
+    "measure": "Raspoloživo",
+    "sector": "Sport",
+    "unit": "EUR",
+    "value": null
+  },
+  {
+    "year": 2021,
+    "measure": "Raspoloživo",
+    "sector": "Ukupno",
+    "unit": "EUR",
+    "value": 27962490.0
+  },
+  {
+    "year": 2021,
+    "measure": "Ugovoreno",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "EUR",
+    "value": 4493838.4
+  },
+  {
+    "year": 2021,
+    "measure": "Ugovoreno",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "EUR",
+    "value": 5964251.93
+  },
+  {
+    "year": 2021,
+    "measure": "Ugovoreno",
+    "sector": "Visoko obrazovanje",
+    "unit": "EUR",
+    "value": 10092072.0
+  },
+  {
+    "year": 2021,
+    "measure": "Ugovoreno",
+    "sector": "Obrazovanje odraslih",
+    "unit": "EUR",
+    "value": 1807901.8
+  },
+  {
+    "year": 2021,
+    "measure": "Ugovoreno",
+    "sector": "Mladi",
+    "unit": "EUR",
+    "value": 4825077.0
+  },
+  {
+    "year": 2021,
+    "measure": "Ugovoreno",
+    "sector": "Sport",
+    "unit": "EUR",
+    "value": null
+  },
+  {
+    "year": 2021,
+    "measure": "Ugovoreno",
+    "sector": "Ukupno",
+    "unit": "EUR",
+    "value": 27183141.13
+  },
+  {
+    "year": 2021,
+    "measure": "Realizirano",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "EUR",
+    "value": 4322765.26
+  },
+  {
+    "year": 2021,
+    "measure": "Realizirano",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "EUR",
+    "value": 5801464.6
+  },
+  {
+    "year": 2021,
+    "measure": "Realizirano",
+    "sector": "Visoko obrazovanje",
+    "unit": "EUR",
+    "value": 9324177.78
+  },
+  {
+    "year": 2021,
+    "measure": "Realizirano",
+    "sector": "Obrazovanje odraslih",
+    "unit": "EUR",
+    "value": 1763380.0
+  },
+  {
+    "year": 2021,
+    "measure": "Realizirano",
+    "sector": "Mladi",
+    "unit": "EUR",
+    "value": 4509019.6
+  },
+  {
+    "year": 2021,
+    "measure": "Realizirano",
+    "sector": "Sport",
+    "unit": "EUR",
+    "value": null
+  },
+  {
+    "year": 2021,
+    "measure": "Realizirano",
+    "sector": "Ukupno",
+    "unit": "EUR",
+    "value": 25720807.24
+  },
+  {
+    "year": 2021,
+    "measure": "% ugovorenih sredstava",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "percent",
+    "value": 96.1
+  },
+  {
+    "year": 2021,
+    "measure": "% ugovorenih sredstava",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "percent",
+    "value": 99.1
+  },
+  {
+    "year": 2021,
+    "measure": "% ugovorenih sredstava",
+    "sector": "Visoko obrazovanje",
+    "unit": "percent",
+    "value": 96.6
+  },
+  {
+    "year": 2021,
+    "measure": "% ugovorenih sredstava",
+    "sector": "Obrazovanje odraslih",
+    "unit": "percent",
+    "value": 97.8
+  },
+  {
+    "year": 2021,
+    "measure": "% ugovorenih sredstava",
+    "sector": "Mladi",
+    "unit": "percent",
+    "value": 97.0
+  },
+  {
+    "year": 2021,
+    "measure": "% ugovorenih sredstava",
+    "sector": "Sport",
+    "unit": "percent",
+    "value": null
+  },
+  {
+    "year": 2021,
+    "measure": "% ugovorenih sredstava",
+    "sector": "Ukupno",
+    "unit": "percent",
+    "value": 97.2
+  },
+  {
+    "year": 2021,
+    "measure": "% realiziranih sredstava",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "percent",
+    "value": 96.2
+  },
+  {
+    "year": 2021,
+    "measure": "% realiziranih sredstava",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "percent",
+    "value": 97.3
+  },
+  {
+    "year": 2021,
+    "measure": "% realiziranih sredstava",
+    "sector": "Visoko obrazovanje",
+    "unit": "percent",
+    "value": 92.4
+  },
+  {
+    "year": 2021,
+    "measure": "% realiziranih sredstava",
+    "sector": "Obrazovanje odraslih",
+    "unit": "percent",
+    "value": 97.5
+  },
+  {
+    "year": 2021,
+    "measure": "% realiziranih sredstava",
+    "sector": "Mladi",
+    "unit": "percent",
+    "value": 93.4
+  },
+  {
+    "year": 2021,
+    "measure": "% realiziranih sredstava",
+    "sector": "Sport",
+    "unit": "percent",
+    "value": null
+  },
+  {
+    "year": 2021,
+    "measure": "% realiziranih sredstava",
+    "sector": "Ukupno",
+    "unit": "percent",
+    "value": 94.6
+  },
+  {
+    "year": 2022,
+    "measure": "Raspoloživo",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "EUR",
+    "value": 5709953.0
+  },
+  {
+    "year": 2022,
+    "measure": "Raspoloživo",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "EUR",
+    "value": 7271842.0
+  },
+  {
+    "year": 2022,
+    "measure": "Raspoloživo",
+    "sector": "Visoko obrazovanje",
+    "unit": "EUR",
+    "value": 16369826.0
+  },
+  {
+    "year": 2022,
+    "measure": "Raspoloživo",
+    "sector": "Obrazovanje odraslih",
+    "unit": "EUR",
+    "value": 1600317.0
+  },
+  {
+    "year": 2022,
+    "measure": "Raspoloživo",
+    "sector": "Mladi",
+    "unit": "EUR",
+    "value": 5722354.0
+  },
+  {
+    "year": 2022,
+    "measure": "Raspoloživo",
+    "sector": "Sport",
+    "unit": "EUR",
+    "value": null
+  },
+  {
+    "year": 2022,
+    "measure": "Raspoloživo",
+    "sector": "Ukupno",
+    "unit": "EUR",
+    "value": 36674292.0
+  },
+  {
+    "year": 2022,
+    "measure": "Ugovoreno",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "EUR",
+    "value": 5059744.0
+  },
+  {
+    "year": 2022,
+    "measure": "Ugovoreno",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "EUR",
+    "value": 7269852.0
+  },
+  {
+    "year": 2022,
+    "measure": "Ugovoreno",
+    "sector": "Visoko obrazovanje",
+    "unit": "EUR",
+    "value": 16125227.0
+  },
+  {
+    "year": 2022,
+    "measure": "Ugovoreno",
+    "sector": "Obrazovanje odraslih",
+    "unit": "EUR",
+    "value": 1553112.0
+  },
+  {
+    "year": 2022,
+    "measure": "Ugovoreno",
+    "sector": "Mladi",
+    "unit": "EUR",
+    "value": 5693382.79
+  },
+  {
+    "year": 2022,
+    "measure": "Ugovoreno",
+    "sector": "Sport",
+    "unit": "EUR",
+    "value": null
+  },
+  {
+    "year": 2022,
+    "measure": "Ugovoreno",
+    "sector": "Ukupno",
+    "unit": "EUR",
+    "value": 35701317.79
+  },
+  {
+    "year": 2022,
+    "measure": "Realizirano",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "EUR",
+    "value": 4785248.47
+  },
+  {
+    "year": 2022,
+    "measure": "Realizirano",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "EUR",
+    "value": 7037523.98
+  },
+  {
+    "year": 2022,
+    "measure": "Realizirano",
+    "sector": "Visoko obrazovanje",
+    "unit": "EUR",
+    "value": 13888793.33
+  },
+  {
+    "year": 2022,
+    "measure": "Realizirano",
+    "sector": "Obrazovanje odraslih",
+    "unit": "EUR",
+    "value": 1532390.0
+  },
+  {
+    "year": 2022,
+    "measure": "Realizirano",
+    "sector": "Mladi",
+    "unit": "EUR",
+    "value": 5407111.56
+  },
+  {
+    "year": 2022,
+    "measure": "Realizirano",
+    "sector": "Sport",
+    "unit": "EUR",
+    "value": null
+  },
+  {
+    "year": 2022,
+    "measure": "Realizirano",
+    "sector": "Ukupno",
+    "unit": "EUR",
+    "value": 32651067.34
+  },
+  {
+    "year": 2022,
+    "measure": "% ugovorenih sredstava",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "percent",
+    "value": 88.6
+  },
+  {
+    "year": 2022,
+    "measure": "% ugovorenih sredstava",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "percent",
+    "value": 100.0
+  },
+  {
+    "year": 2022,
+    "measure": "% ugovorenih sredstava",
+    "sector": "Visoko obrazovanje",
+    "unit": "percent",
+    "value": 98.5
+  },
+  {
+    "year": 2022,
+    "measure": "% ugovorenih sredstava",
+    "sector": "Obrazovanje odraslih",
+    "unit": "percent",
+    "value": 97.1
+  },
+  {
+    "year": 2022,
+    "measure": "% ugovorenih sredstava",
+    "sector": "Mladi",
+    "unit": "percent",
+    "value": 99.5
+  },
+  {
+    "year": 2022,
+    "measure": "% ugovorenih sredstava",
+    "sector": "Sport",
+    "unit": "percent",
+    "value": null
+  },
+  {
+    "year": 2022,
+    "measure": "% ugovorenih sredstava",
+    "sector": "Ukupno",
+    "unit": "percent",
+    "value": 97.3
+  },
+  {
+    "year": 2022,
+    "measure": "% realiziranih sredstava",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "percent",
+    "value": 94.6
+  },
+  {
+    "year": 2022,
+    "measure": "% realiziranih sredstava",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "percent",
+    "value": 96.8
+  },
+  {
+    "year": 2022,
+    "measure": "% realiziranih sredstava",
+    "sector": "Visoko obrazovanje",
+    "unit": "percent",
+    "value": 86.1
+  },
+  {
+    "year": 2022,
+    "measure": "% realiziranih sredstava",
+    "sector": "Obrazovanje odraslih",
+    "unit": "percent",
+    "value": 98.7
+  },
+  {
+    "year": 2022,
+    "measure": "% realiziranih sredstava",
+    "sector": "Mladi",
+    "unit": "percent",
+    "value": 95.0
+  },
+  {
+    "year": 2022,
+    "measure": "% realiziranih sredstava",
+    "sector": "Sport",
+    "unit": "percent",
+    "value": null
+  },
+  {
+    "year": 2022,
+    "measure": "% realiziranih sredstava",
+    "sector": "Ukupno",
+    "unit": "percent",
+    "value": null
+  },
+  {
+    "year": 2023,
+    "measure": "Raspoloživo",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "EUR",
+    "value": 6324629.44
+  },
+  {
+    "year": 2023,
+    "measure": "Raspoloživo",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "EUR",
+    "value": 7658451.56
+  },
+  {
+    "year": 2023,
+    "measure": "Raspoloživo",
+    "sector": "Visoko obrazovanje",
+    "unit": "EUR",
+    "value": 18183495.05
+  },
+  {
+    "year": 2023,
+    "measure": "Raspoloživo",
+    "sector": "Obrazovanje odraslih",
+    "unit": "EUR",
+    "value": 1651486.0
+  },
+  {
+    "year": 2023,
+    "measure": "Raspoloživo",
+    "sector": "Mladi",
+    "unit": "EUR",
+    "value": 6265733.24
+  },
+  {
+    "year": 2023,
+    "measure": "Raspoloživo",
+    "sector": "Sport",
+    "unit": "EUR",
+    "value": 106808.0
+  },
+  {
+    "year": 2023,
+    "measure": "Raspoloživo",
+    "sector": "Ukupno",
+    "unit": "EUR",
+    "value": 40190603.29
+  },
+  {
+    "year": 2023,
+    "measure": "Ugovoreno",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "EUR",
+    "value": 6292438.44
+  },
+  {
+    "year": 2023,
+    "measure": "Ugovoreno",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "EUR",
+    "value": 7625376.0
+  },
+  {
+    "year": 2023,
+    "measure": "Ugovoreno",
+    "sector": "Visoko obrazovanje",
+    "unit": "EUR",
+    "value": 17541678.0
+  },
+  {
+    "year": 2023,
+    "measure": "Ugovoreno",
+    "sector": "Obrazovanje odraslih",
+    "unit": "EUR",
+    "value": 1636486.0
+  },
+  {
+    "year": 2023,
+    "measure": "Ugovoreno",
+    "sector": "Mladi",
+    "unit": "EUR",
+    "value": 6168674.88
+  },
+  {
+    "year": 2023,
+    "measure": "Ugovoreno",
+    "sector": "Sport",
+    "unit": "EUR",
+    "value": 103363.0
+  },
+  {
+    "year": 2023,
+    "measure": "Ugovoreno",
+    "sector": "Ukupno",
+    "unit": "EUR",
+    "value": 39368016.32
+  },
+  {
+    "year": 2023,
+    "measure": "Realizirano",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "EUR",
+    "value": 4997496.38
+  },
+  {
+    "year": 2023,
+    "measure": "Realizirano",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "EUR",
+    "value": 7061176.12
+  },
+  {
+    "year": 2023,
+    "measure": "Realizirano",
+    "sector": "Visoko obrazovanje",
+    "unit": "EUR",
+    "value": 12621133.8
+  },
+  {
+    "year": 2023,
+    "measure": "Realizirano",
+    "sector": "Obrazovanje odraslih",
+    "unit": "EUR",
+    "value": 1118380.4
+  },
+  {
+    "year": 2023,
+    "measure": "Realizirano",
+    "sector": "Mladi",
+    "unit": "EUR",
+    "value": 5366628.87
+  },
+  {
+    "year": 2023,
+    "measure": "Realizirano",
+    "sector": "Sport",
+    "unit": "EUR",
+    "value": 100259.0
+  },
+  {
+    "year": 2023,
+    "measure": "Realizirano",
+    "sector": "Ukupno",
+    "unit": "EUR",
+    "value": 31265074.57
+  },
+  {
+    "year": 2023,
+    "measure": "% ugovorenih sredstava",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "percent",
+    "value": 99.5
+  },
+  {
+    "year": 2023,
+    "measure": "% ugovorenih sredstava",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "percent",
+    "value": 99.6
+  },
+  {
+    "year": 2023,
+    "measure": "% ugovorenih sredstava",
+    "sector": "Visoko obrazovanje",
+    "unit": "percent",
+    "value": 96.5
+  },
+  {
+    "year": 2023,
+    "measure": "% ugovorenih sredstava",
+    "sector": "Obrazovanje odraslih",
+    "unit": "percent",
+    "value": 99.1
+  },
+  {
+    "year": 2023,
+    "measure": "% ugovorenih sredstava",
+    "sector": "Mladi",
+    "unit": "percent",
+    "value": 98.5
+  },
+  {
+    "year": 2023,
+    "measure": "% ugovorenih sredstava",
+    "sector": "Sport",
+    "unit": "percent",
+    "value": 96.8
+  },
+  {
+    "year": 2023,
+    "measure": "% ugovorenih sredstava",
+    "sector": "Ukupno",
+    "unit": "percent",
+    "value": 98.0
+  },
+  {
+    "year": 2023,
+    "measure": "% realiziranih sredstava",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "percent",
+    "value": 79.4
+  },
+  {
+    "year": 2023,
+    "measure": "% realiziranih sredstava",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "percent",
+    "value": 92.6
+  },
+  {
+    "year": 2023,
+    "measure": "% realiziranih sredstava",
+    "sector": "Visoko obrazovanje",
+    "unit": "percent",
+    "value": 71.9
+  },
+  {
+    "year": 2023,
+    "measure": "% realiziranih sredstava",
+    "sector": "Obrazovanje odraslih",
+    "unit": "percent",
+    "value": 68.3
+  },
+  {
+    "year": 2023,
+    "measure": "% realiziranih sredstava",
+    "sector": "Mladi",
+    "unit": "percent",
+    "value": 87.0
+  },
+  {
+    "year": 2023,
+    "measure": "% realiziranih sredstava",
+    "sector": "Sport",
+    "unit": "percent",
+    "value": 97.0
+  },
+  {
+    "year": 2023,
+    "measure": "% realiziranih sredstava",
+    "sector": "Ukupno",
+    "unit": "percent",
+    "value": 79.4
+  },
+  {
+    "year": 2024,
+    "measure": "Raspoloživo",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "EUR",
+    "value": 6863819.0
+  },
+  {
+    "year": 2024,
+    "measure": "Raspoloživo",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "EUR",
+    "value": 9463655.16
+  },
+  {
+    "year": 2024,
+    "measure": "Raspoloživo",
+    "sector": "Visoko obrazovanje",
+    "unit": "EUR",
+    "value": 19468790.64
+  },
+  {
+    "year": 2024,
+    "measure": "Raspoloživo",
+    "sector": "Obrazovanje odraslih",
+    "unit": "EUR",
+    "value": 2186723.0
+  },
+  {
+    "year": 2024,
+    "measure": "Raspoloživo",
+    "sector": "Mladi",
+    "unit": "EUR",
+    "value": 6674566.0
+  },
+  {
+    "year": 2024,
+    "measure": "Raspoloživo",
+    "sector": "Sport",
+    "unit": "EUR",
+    "value": 131215.63
+  },
+  {
+    "year": 2024,
+    "measure": "Raspoloživo",
+    "sector": "Ukupno",
+    "unit": "EUR",
+    "value": 44788769.43
+  },
+  {
+    "year": 2024,
+    "measure": "Ugovoreno",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "EUR",
+    "value": 6863819.0
+  },
+  {
+    "year": 2024,
+    "measure": "Ugovoreno",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "EUR",
+    "value": 9459807.0
+  },
+  {
+    "year": 2024,
+    "measure": "Ugovoreno",
+    "sector": "Visoko obrazovanje",
+    "unit": "EUR",
+    "value": 18870851.0
+  },
+  {
+    "year": 2024,
+    "measure": "Ugovoreno",
+    "sector": "Obrazovanje odraslih",
+    "unit": "EUR",
+    "value": 2171723.0
+  },
+  {
+    "year": 2024,
+    "measure": "Ugovoreno",
+    "sector": "Mladi",
+    "unit": "EUR",
+    "value": 6559389.0
+  },
+  {
+    "year": 2024,
+    "measure": "Ugovoreno",
+    "sector": "Sport",
+    "unit": "EUR",
+    "value": 129225.0
+  },
+  {
+    "year": 2024,
+    "measure": "Ugovoreno",
+    "sector": "Ukupno",
+    "unit": "EUR",
+    "value": 44054814.0
+  },
+  {
+    "year": 2024,
+    "measure": "Realizirano**",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "EUR",
+    "value": 5323241.41
+  },
+  {
+    "year": 2024,
+    "measure": "Realizirano**",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "EUR",
+    "value": 8182612.4
+  },
+  {
+    "year": 2024,
+    "measure": "Realizirano**",
+    "sector": "Visoko obrazovanje",
+    "unit": "EUR",
+    "value": null
+  },
+  {
+    "year": 2024,
+    "measure": "Realizirano**",
+    "sector": "Obrazovanje odraslih",
+    "unit": "EUR",
+    "value": 981908.17
+  },
+  {
+    "year": 2024,
+    "measure": "Realizirano**",
+    "sector": "Mladi",
+    "unit": "EUR",
+    "value": 4212764.7
+  },
+  {
+    "year": 2024,
+    "measure": "Realizirano**",
+    "sector": "Sport",
+    "unit": "EUR",
+    "value": 120368.0
+  },
+  {
+    "year": 2024,
+    "measure": "Realizirano**",
+    "sector": "Ukupno",
+    "unit": "EUR",
+    "value": null
+  },
+  {
+    "year": 2024,
+    "measure": "% ugovorenih sredstava",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "percent",
+    "value": 100.0
+  },
+  {
+    "year": 2024,
+    "measure": "% ugovorenih sredstava",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "percent",
+    "value": 100.0
+  },
+  {
+    "year": 2024,
+    "measure": "% ugovorenih sredstava",
+    "sector": "Visoko obrazovanje",
+    "unit": "percent",
+    "value": 96.9
+  },
+  {
+    "year": 2024,
+    "measure": "% ugovorenih sredstava",
+    "sector": "Obrazovanje odraslih",
+    "unit": "percent",
+    "value": 99.3
+  },
+  {
+    "year": 2024,
+    "measure": "% ugovorenih sredstava",
+    "sector": "Mladi",
+    "unit": "percent",
+    "value": 98.3
+  },
+  {
+    "year": 2024,
+    "measure": "% ugovorenih sredstava",
+    "sector": "Sport",
+    "unit": "percent",
+    "value": 98.5
+  },
+  {
+    "year": 2024,
+    "measure": "% ugovorenih sredstava",
+    "sector": "Ukupno",
+    "unit": "percent",
+    "value": 98.4
+  },
+  {
+    "year": 2024,
+    "measure": "% realiziranih sredstava",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "percent",
+    "value": 77.6
+  },
+  {
+    "year": 2024,
+    "measure": "% realiziranih sredstava",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "percent",
+    "value": 86.5
+  },
+  {
+    "year": 2024,
+    "measure": "% realiziranih sredstava",
+    "sector": "Visoko obrazovanje",
+    "unit": "percent",
+    "value": null
+  },
+  {
+    "year": 2024,
+    "measure": "% realiziranih sredstava",
+    "sector": "Obrazovanje odraslih",
+    "unit": "percent",
+    "value": 45.2
+  },
+  {
+    "year": 2024,
+    "measure": "% realiziranih sredstava",
+    "sector": "Mladi",
+    "unit": "percent",
+    "value": 64.2
+  },
+  {
+    "year": 2024,
+    "measure": "% realiziranih sredstava",
+    "sector": "Sport",
+    "unit": "percent",
+    "value": 93.1
+  },
+  {
+    "year": 2024,
+    "measure": "% realiziranih sredstava",
+    "sector": "Ukupno",
+    "unit": "percent",
+    "value": null
+  },
+  {
+    "year": 2025,
+    "measure": "Raspoloživo",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "EUR",
+    "value": 8722977.7
+  },
+  {
+    "year": 2025,
+    "measure": "Raspoloživo",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "EUR",
+    "value": 12022703.0
+  },
+  {
+    "year": 2025,
+    "measure": "Raspoloživo",
+    "sector": "Visoko obrazovanje",
+    "unit": "EUR",
+    "value": 20913254.28
+  },
+  {
+    "year": 2025,
+    "measure": "Raspoloživo",
+    "sector": "Obrazovanje odraslih",
+    "unit": "EUR",
+    "value": 2620233.0
+  },
+  {
+    "year": 2025,
+    "measure": "Raspoloživo",
+    "sector": "Mladi",
+    "unit": "EUR",
+    "value": 7015314.74
+  },
+  {
+    "year": 2025,
+    "measure": "Raspoloživo",
+    "sector": "Sport",
+    "unit": "EUR",
+    "value": 161682.05
+  },
+  {
+    "year": 2025,
+    "measure": "Raspoloživo",
+    "sector": "Ukupno",
+    "unit": "EUR",
+    "value": 51456164.77
+  },
+  {
+    "year": 2025,
+    "measure": "Ugovoreno",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "EUR",
+    "value": 8677713.0
+  },
+  {
+    "year": 2025,
+    "measure": "Ugovoreno",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "EUR",
+    "value": 12017605.0
+  },
+  {
+    "year": 2025,
+    "measure": "Ugovoreno",
+    "sector": "Visoko obrazovanje",
+    "unit": "EUR",
+    "value": 20884504.0
+  },
+  {
+    "year": 2025,
+    "measure": "Ugovoreno",
+    "sector": "Obrazovanje odraslih",
+    "unit": "EUR",
+    "value": 2605233.0
+  },
+  {
+    "year": 2025,
+    "measure": "Ugovoreno",
+    "sector": "Mladi",
+    "unit": "EUR",
+    "value": 7011073.87
+  },
+  {
+    "year": 2025,
+    "measure": "Ugovoreno",
+    "sector": "Sport",
+    "unit": "EUR",
+    "value": 159645.0
+  },
+  {
+    "year": 2025,
+    "measure": "Ugovoreno",
+    "sector": "Ukupno",
+    "unit": "EUR",
+    "value": 51355773.87
+  },
+  {
+    "year": 2025,
+    "measure": "Realizirano**",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "EUR",
+    "value": null
+  },
+  {
+    "year": 2025,
+    "measure": "Realizirano**",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "EUR",
+    "value": null
+  },
+  {
+    "year": 2025,
+    "measure": "Realizirano**",
+    "sector": "Visoko obrazovanje",
+    "unit": "EUR",
+    "value": null
+  },
+  {
+    "year": 2025,
+    "measure": "Realizirano**",
+    "sector": "Obrazovanje odraslih",
+    "unit": "EUR",
+    "value": null
+  },
+  {
+    "year": 2025,
+    "measure": "Realizirano**",
+    "sector": "Mladi",
+    "unit": "EUR",
+    "value": null
+  },
+  {
+    "year": 2025,
+    "measure": "Realizirano**",
+    "sector": "Sport",
+    "unit": "EUR",
+    "value": null
+  },
+  {
+    "year": 2025,
+    "measure": "Realizirano**",
+    "sector": "Ukupno",
+    "unit": "EUR",
+    "value": null
+  },
+  {
+    "year": 2025,
+    "measure": "% ugovorenih sredstava",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "percent",
+    "value": 99.5
+  },
+  {
+    "year": 2025,
+    "measure": "% ugovorenih sredstava",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "percent",
+    "value": 100.0
+  },
+  {
+    "year": 2025,
+    "measure": "% ugovorenih sredstava",
+    "sector": "Visoko obrazovanje",
+    "unit": "percent",
+    "value": 99.9
+  },
+  {
+    "year": 2025,
+    "measure": "% ugovorenih sredstava",
+    "sector": "Obrazovanje odraslih",
+    "unit": "percent",
+    "value": 99.4
+  },
+  {
+    "year": 2025,
+    "measure": "% ugovorenih sredstava",
+    "sector": "Mladi",
+    "unit": "percent",
+    "value": 99.9
+  },
+  {
+    "year": 2025,
+    "measure": "% ugovorenih sredstava",
+    "sector": "Sport",
+    "unit": "percent",
+    "value": 98.7
+  },
+  {
+    "year": 2025,
+    "measure": "% ugovorenih sredstava",
+    "sector": "Ukupno",
+    "unit": "percent",
+    "value": 99.8
+  },
+  {
+    "year": 2025,
+    "measure": "% realiziranih sredstava",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "percent",
+    "value": null
+  },
+  {
+    "year": 2025,
+    "measure": "% realiziranih sredstava",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "percent",
+    "value": null
+  },
+  {
+    "year": 2025,
+    "measure": "% realiziranih sredstava",
+    "sector": "Visoko obrazovanje",
+    "unit": "percent",
+    "value": null
+  },
+  {
+    "year": 2025,
+    "measure": "% realiziranih sredstava",
+    "sector": "Obrazovanje odraslih",
+    "unit": "percent",
+    "value": null
+  },
+  {
+    "year": 2025,
+    "measure": "% realiziranih sredstava",
+    "sector": "Mladi",
+    "unit": "percent",
+    "value": null
+  },
+  {
+    "year": 2025,
+    "measure": "% realiziranih sredstava",
+    "sector": "Sport",
+    "unit": "percent",
+    "value": null
+  },
+  {
+    "year": 2025,
+    "measure": "% realiziranih sredstava",
+    "sector": "Ukupno",
+    "unit": "percent",
+    "value": null
+  },
+  {
+    "year": 2026,
+    "measure": "Raspoloživo",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "EUR",
+    "value": 8860176.9
+  },
+  {
+    "year": 2026,
+    "measure": "Raspoloživo",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "EUR",
+    "value": 12224906.0
+  },
+  {
+    "year": 2026,
+    "measure": "Raspoloživo",
+    "sector": "Visoko obrazovanje",
+    "unit": "EUR",
+    "value": 20546463.16
+  },
+  {
+    "year": 2026,
+    "measure": "Raspoloživo",
+    "sector": "Obrazovanje odraslih",
+    "unit": "EUR",
+    "value": 2789704.0
+  },
+  {
+    "year": 2026,
+    "measure": "Raspoloživo",
+    "sector": "Mladi",
+    "unit": "EUR",
+    "value": 7650499.4
+  },
+  {
+    "year": 2026,
+    "measure": "Raspoloživo",
+    "sector": "Sport",
+    "unit": "EUR",
+    "value": 187973.82
+  },
+  {
+    "year": 2026,
+    "measure": "Raspoloživo",
+    "sector": "Ukupno",
+    "unit": "EUR",
+    "value": 52259723.28
+  },
+  {
+    "year": 2026,
+    "measure": "Ugovoreno",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "EUR",
+    "value": 8815794.9
+  },
+  {
+    "year": 2026,
+    "measure": "Ugovoreno",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "EUR",
+    "value": 12214906.0
+  },
+  {
+    "year": 2026,
+    "measure": "Ugovoreno",
+    "sector": "Visoko obrazovanje",
+    "unit": "EUR",
+    "value": 20456664.0
+  },
+  {
+    "year": 2026,
+    "measure": "Ugovoreno",
+    "sector": "Obrazovanje odraslih",
+    "unit": "EUR",
+    "value": 2779704.0
+  },
+  {
+    "year": 2026,
+    "measure": "Ugovoreno",
+    "sector": "Mladi",
+    "unit": "EUR",
+    "value": 6256550.0
+  },
+  {
+    "year": 2026,
+    "measure": "Ugovoreno",
+    "sector": "Sport",
+    "unit": "EUR",
+    "value": 182413.0
+  },
+  {
+    "year": 2026,
+    "measure": "Ugovoreno",
+    "sector": "Ukupno",
+    "unit": "EUR",
+    "value": 50706031.9
+  },
+  {
+    "year": 2026,
+    "measure": "Realizirano**",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "EUR",
+    "value": null
+  },
+  {
+    "year": 2026,
+    "measure": "Realizirano**",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "EUR",
+    "value": null
+  },
+  {
+    "year": 2026,
+    "measure": "Realizirano**",
+    "sector": "Visoko obrazovanje",
+    "unit": "EUR",
+    "value": null
+  },
+  {
+    "year": 2026,
+    "measure": "Realizirano**",
+    "sector": "Obrazovanje odraslih",
+    "unit": "EUR",
+    "value": null
+  },
+  {
+    "year": 2026,
+    "measure": "Realizirano**",
+    "sector": "Mladi",
+    "unit": "EUR",
+    "value": null
+  },
+  {
+    "year": 2026,
+    "measure": "Realizirano**",
+    "sector": "Sport",
+    "unit": "EUR",
+    "value": null
+  },
+  {
+    "year": 2026,
+    "measure": "Realizirano**",
+    "sector": "Ukupno",
+    "unit": "EUR",
+    "value": null
+  },
+  {
+    "year": 2026,
+    "measure": "% ugovorenih sredstava",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "percent",
+    "value": 99.5
+  },
+  {
+    "year": 2026,
+    "measure": "% ugovorenih sredstava",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "percent",
+    "value": 99.9
+  },
+  {
+    "year": 2026,
+    "measure": "% ugovorenih sredstava",
+    "sector": "Visoko obrazovanje",
+    "unit": "percent",
+    "value": 99.6
+  },
+  {
+    "year": 2026,
+    "measure": "% ugovorenih sredstava",
+    "sector": "Obrazovanje odraslih",
+    "unit": "percent",
+    "value": 99.6
+  },
+  {
+    "year": 2026,
+    "measure": "% ugovorenih sredstava",
+    "sector": "Mladi",
+    "unit": "percent",
+    "value": 81.8
+  },
+  {
+    "year": 2026,
+    "measure": "% ugovorenih sredstava",
+    "sector": "Sport",
+    "unit": "percent",
+    "value": 97.0
+  },
+  {
+    "year": 2026,
+    "measure": "% ugovorenih sredstava",
+    "sector": "Ukupno",
+    "unit": "percent",
+    "value": 97.0
+  },
+  {
+    "year": 2026,
+    "measure": "% realiziranih sredstava",
+    "sector": "Odgoj i opće obrazovanje",
+    "unit": "percent",
+    "value": null
+  },
+  {
+    "year": 2026,
+    "measure": "% realiziranih sredstava",
+    "sector": "Strukovno obrazovanje i osposobljavanje",
+    "unit": "percent",
+    "value": null
+  },
+  {
+    "year": 2026,
+    "measure": "% realiziranih sredstava",
+    "sector": "Visoko obrazovanje",
+    "unit": "percent",
+    "value": null
+  },
+  {
+    "year": 2026,
+    "measure": "% realiziranih sredstava",
+    "sector": "Obrazovanje odraslih",
+    "unit": "percent",
+    "value": null
+  },
+  {
+    "year": 2026,
+    "measure": "% realiziranih sredstava",
+    "sector": "Mladi",
+    "unit": "percent",
+    "value": null
+  },
+  {
+    "year": 2026,
+    "measure": "% realiziranih sredstava",
+    "sector": "Sport",
+    "unit": "percent",
+    "value": null
+  },
+  {
+    "year": 2026,
+    "measure": "% realiziranih sredstava",
+    "sector": "Ukupno",
+    "unit": "percent",
+    "value": null
+  }
+]
