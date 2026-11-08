@@ -24,6 +24,13 @@ Aplikacija sadrži pregled programa, regionalnu analizu, pretraživanje korisnik
 ustanova, koncentraciju financiranja, filtrirani popis projekata te prikaz kvalitete
 i ograničenja podataka.
 
+## Korištenje umjetne inteligencije
+
+AI-pomoćnik korišten je tijekom razvoja kao podrška izradi i doradi koda,
+testova i dokumentacije. AI nije ugrađen u aplikaciju niti donosi analitičke
+zaključke: podaci se obrađuju prema dokumentiranim pravilima, a usporedba
+ustanova računa se transparentnim formulama.
+
 ## Snimke zaslona
 
 Početna stranica daje pregled projekata, financiranja i prijava; regionalna karta

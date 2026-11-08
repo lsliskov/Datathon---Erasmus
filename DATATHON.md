@@ -16,6 +16,14 @@ projekata nije isto što i vjerojatnost uspjeha ili dostupnost prilike; za takve
 zaključke trebali bi, među ostalim, podaci o prijavama i odbijenim prijavama po
 ustanovi te usporedivi podaci o veličini i broju ustanova.
 
+## Korištenje umjetne inteligencije
+
+AI-pomoćnik korišten je kao razvojni alat za podršku izradi i doradi koda,
+testova i dokumentacije. Nije ugrađen u aplikaciju, ne obrađuje podatke tijekom
+njezina rada i ne generira rezultate analize. Priprema podataka, povezivanje
+ustanova i izračuni u aplikaciji provode se prema dokumentiranim pravilima i
+ponovljivim formulama.
+
 ## Pitanje i javna korist
 
 Jesu li financirani Erasmus+ projekti i iznosi ravnomjerno raspoređeni među
