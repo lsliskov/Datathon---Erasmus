@@ -22,17 +22,34 @@
     "8.7.2025.",
     "9.3.2025."
   ],
-  "registry_source_rows": 1502,
-  "deduplicated_institutions": 1489,
+  "registry_source_rows": 2387,
+  "deduplicated_institutions": 2374,
+  "kindergarten_registry_count": 885,
   "school_registry_missing_counties": 0,
+  "ambiguous_school_city_county_mappings": 6,
+  "higher_education_registry_county_coverage": {
+    "with_county": 133,
+    "total": 133,
+    "method": "Unique city-to-county lookup in the school registries"
+  },
+  "study_program_records": 1727,
+  "study_program_match_status_counts": {
+    "matched_exact_name_and_city": 1709,
+    "unmatched": 18
+  },
+  "study_program_records_with_unique_institution_and_county": 1709,
   "conflicting_registry_counties": [],
   "project_match_status_counts": {
-    "location_mismatch": 44,
-    "matched_exact_name_and_city": 945,
-    "unmatched": 867
+    "matched_exact_name_and_city": 1011,
+    "matched_exact_name_and_city_suffix": 24,
+    "matched_unique_address_and_city": 39,
+    "matched_unique_address_location_differs": 3,
+    "matched_unique_name_location_differs": 41,
+    "matched_user_confirmed_school": 45,
+    "unmatched": 693
   },
-  "project_matches_are_exact_name_and_city_only": true,
-  "regional_summary_scope": "Only projects matched by unique exact normalized beneficiary name and city to a school registry record with a county. This is not a complete regional distribution of all Erasmus+ projects.",
+  "project_matching_method": "Unique exact normalized name and city; otherwise a unique exact normalized name across locations; for a shortened name, a unique exact address with the beneficiary name as a full-word prefix of the registry name. An exact registry name with the project city removed from the end of the beneficiary name is also accepted when unique in that city; the same shortened name can support an exact address match. Nine additional school records with exact city and address matches were explicitly curated. Additionally, 45 primary-school records were linked to registry records confirmed by the user; 3 Italian or bilingual Rovinj primary-school records remain unmatched.",
+  "regional_summary_scope": "Projects matched to a school, kindergarten, or higher-education registry record with a county. A unique name match can link across different beneficiary and registry place values; the regional assignment uses the registry county. Higher-education counties are inferred only from a unique school-registry city lookup. This is not a complete regional distribution of all Erasmus+ projects.",
   "source_reconciliation": [
     {
       "year": 2024,

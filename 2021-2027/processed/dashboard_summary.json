@@ -2,9 +2,10 @@
   "project_count": 1856,
   "unique_project_id_count": 1855,
   "beneficiary_count": 892,
-  "institution_count": 1489,
+  "institution_count": 2374,
   "total_grant_eur": 146121110.65,
-  "exactly_matched_project_count": 945,
+  "exactly_matched_project_count": 1035,
+  "linked_project_count": 1163,
   "projects_by_year": [
     {
       "year": 2024,
@@ -92,5 +93,5 @@
       "success_rate_percent": 51.12
     }
   ],
-  "regional_summary_scope": "Only projects matched by unique exact normalized beneficiary name and city to a school registry record with a county. This is not a complete regional distribution of all Erasmus+ projects."
+  "regional_summary_scope": "Projects matched to a school, kindergarten, or higher-education registry record with a county. A unique name match can link across different beneficiary and registry place values; the regional assignment uses the registry county. Higher-education counties are inferred only from a unique school-registry city lookup. This is not a complete regional distribution of all Erasmus+ projects."
 }

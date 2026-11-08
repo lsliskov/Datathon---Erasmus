@@ -5,6 +5,9 @@ zastupljenosti te analizu koncentracije financiranja. Projekt sadrži pripremu p
 i Streamlit MVP sučelje; izlazne JSON/CSV datoteke ostaju dostupne za integraciju s
 drugim sučeljem.
 
+Dokumentacija projekta, metodologija, pregled natječajnih kriterija i predloženi
+tijek trosminutne demonstracije nalaze se u [DATATHON.md](./DATATHON.md).
+
 ## Pokretanje aplikacije
 
 Iz korijena projekta:
@@ -42,13 +45,16 @@ python -m unittest discover -s .\2021-2027 -p "test_*.py"
   redak čak i kad se projektni broj ponavlja.
 - `beneficiaries.json` — profil po normaliziranom nazivu korisnika i mjestu, s brojem
   projekata, ukupnim iznosom, godinama, sektorima i vezama na zapise projekata.
-- `institutions.json` — ustanove iz školskih i visokih registara. Zrcalni zapisi spajaju
+- `institutions.json` — ustanove iz školskih, predškolskih i visokih registara. Zrcalni zapisi spajaju
   se samo kad se podudaraju normalizirani naziv, mjesto, adresa i poštanski broj;
   sačuvane su reference na izvorne retke.
 - `project_institution_matches.json` / `.csv` — rezultat povezivanja svakog projekta
   s registrom i mogući kandidati.
-- `regional_summary.json` — županijski zbrojevi za projekte sigurno povezane sa školskim
-  registrom.
+- `regional_summary.json` — županijski zbrojevi za projekte sigurno povezane sa školskim,
+  predškolskim i visokoškolskim registrom; županije visokih učilišta izvode se samo iz
+  jednoznačnog podudaranja mjesta sa školskim registrom.
+- `study_programs.json` / `study_program_summary.json` — veze studijskih programa s
+  visokim učilištima prema izvođaču i mjestu te županijski kontekst ponude studija.
 - `funding_results.json` — financijski rezultati po godini, mjeri i sektoru iz tablice 8.
 - `application_results.json` — prijave, ugovoreni projekti i stope prolaznosti po godini,
   ključnoj aktivnosti i sektoru iz tablice 9.
@@ -63,9 +69,12 @@ za pregled, ne automatski razlog za uklanjanje zapisa.
 
 - **Pregled** — ključni pokazatelji, projekti po godini, sredstva po sektoru te
   agregatni broj prijava i ugovorenih projekata.
-- **Regije** — županijski prikaz samo za projekte sigurno povezane sa školskim registrom.
-- **Korisnici i ustanove** — pretraživi profili korisnika iz popisa projekata, s
-  odvojenim prikazom sigurnih veza na registre.
+- **Regije** — županijski prikaz projekata sigurno povezanih sa školama i visokim
+  učilištima te zaseban kontekst zapisa studijskih programa po županiji.
+- **Korisnici i ustanove** — usporedba sudjelovanja prema vrsti ustanove te pretraživi
+  profili korisnika iz popisa projekata, s odvojenim prikazom sigurnih veza na registre
+  i usporedbom odabrane ustanove s drugim ustanovama iste vrste sličnog Erasmus+
+  profila.
 - **Koncentracija financiranja** — udio vodećih korisnika i broj ponovljenih korisnika.
 - **Projekti** — pretraživ i filtriran popis s preuzimanjem CSV-a.
 - **Kvaliteta podataka** — metodologija povezivanja, usporedba izvora i upozorenja,
@@ -76,15 +85,43 @@ Filtri godina i sektora projekata u bočnoj traci odnose se na popis projekata
 filtrirani prema sektoru projekata. CSV izvoz projekata čuva iznose kao numeričke
 vrijednosti, ne kao formatirani tekst.
 
+Regionalni pokazatelj „udio ustanova s povezanim projektom” dijeli jedinstvene škole,
+dječje vrtiće i visoka učilišta povezana s projektom u odabranom skupu s brojem
+obrazovnih ustanova u registru županije. Županija visokog učilišta preuzima se iz mjesta samo kad je veza sa
+školskim registrima jednoznačna. To je obuhvat registarskih zapisa, a ne stopa prijava,
+odobravanja ili dostupnosti programa. Studijski programi agregirani po županiji daju
+kontekst obrazovne ponude i ne predstavljaju Erasmus+ projekte ni financiranje.
+
+Usporedba sličnih ustanova uzima samo ustanove iste vrste s barem jednim
+sigurno povezanim projektom u odabranim godinama i sektorima. Uspoređuje broj
+projektnih brojeva, aktivnosti, godine sudjelovanja i ukupna sredstva; ne
+ocjenjuje kvalitetu ustanove. Metodu i uvjete za prikaz rezultata objašnjava
+[tehnička dokumentacija](./DATATHON.md).
+
 ## Pravila povezivanja i ograničenja
 
 Nazivi se normaliziraju uklanjanjem dijakritika, ujednačavanjem razmaka i interpunkcije
-te proširenjem čestih kratica `OŠ`, `SŠ` i `DV`. Automatsko povezivanje radi se samo ako
-su naziv i mjesto jedinstveno podudarni nakon normalizacije. Nejasna podudaranja i
-razlike u mjestu ostaju označene za provjeru; nema automatskog fuzzy povezivanja.
+te proširenjem čestih kratica `OŠ`, `SŠ` i `DV`. Projekt se povezuje kad se naziv i
+mjesto jedinstveno podudaraju, kad se točan naziv registra podudara nakon uklanjanja
+završnog naziva mjesta iz korisnikova naziva, kad naziv jedinstveno upućuje na ustanovu
+iako se mjesto razlikuje, ili kad se skraćeni naziv može razriješiti jedinstvenom
+točnom adresom.
+Ako naziv završava nazivom mjesta, ono se odvaja i preostali naziv mora točno
+odgovarati jedinstvenoj ustanovi u tom mjestu. Tim su pravilom i provjerom
+jedinstvenih točnih adresa povezane još 34 projektne stavke, uključujući III.
+gimnaziju Zagreb i dječje vrtiće. Korisnica je dodatno potvrdila 45 veza osnovnih škola nakon pregleda kandidata;
+tri talijanska/dvojezična zapisa iz Rovinja ostaju nepovezana. Ta ručno potvrđena
+iznimka nije automatsko fuzzy povezivanje. Više nerazriješenih kandidata ostaje
+nepovezano. Mjesto u projektnom popisu označava korisnika, a ne mjesto provedbe projekta.
 
-Popis financiranih projekata sadrži korisnike iz više sektora, dok registri pokrivaju
-samo škole i visoka učilišta. Zato su županijski rezultati namjerno označeni kao
+U preglednoj Excelici 555 znači broj nepovezanih projektnih zapisa iz obrazovanja
+odraslih, mladih i sporta. Broj 326 označava različite očišćene tekstualne nazive
+među tih 555 zapisa, a ne broj zapisa ni broj ustanova. Ako se isti naziv ponovi
+u više projekata, broji se jednom; različiti zapisi iste ustanove mogu se brojiti
+zasebno ako su nazivi dovoljno različiti.
+
+Popis financiranih projekata sadrži korisnike iz više sektora, dok dostupni registri
+pokrivaju škole, dječje vrtiće i visoka učilišta. Zato su županijski rezultati namjerno označeni kao
 djelomični i ne predstavljaju potpunu regionalnu raspodjelu svih Erasmus+ projekata.
 Podaci u izvornim tablicama imaju različite datume ažuriranja pa se mogu razlikovati
 njihovi godišnji zbrojevi. Skripta čuva sve retke iz popisa projekata, uključujući
@@ -96,5 +133,5 @@ tiho uklanja.
 Granice su izvedene iz Natural Earth admin-1 podataka (public domain); GeoJSON je
 preuzet iz repozitorija [croatia-travel-map](https://github.com/GeneralSting/croatia-travel-map)
 na commit-u `48be7e000d9b305b85b562e566a9c6a055a46e34`. Karta se učitava lokalno i
-ne traži vanjske kartografske pločice. Prazna županija znači da nema pouzdano povezane
-školske ustanove u obuhvaćenim projektima, a ne da ondje nema Erasmus+ projekata.
+ne traži vanjske kartografske pločice. Prazna županija znači da nema pouzdano povezane obrazovne ustanove u obuhvaćenim
+projektima, a ne da ondje nema Erasmus+ projekata.

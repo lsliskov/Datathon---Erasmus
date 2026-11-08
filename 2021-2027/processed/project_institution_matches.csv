@@ -4,15 +4,15 @@
 2024-1-HR01-KA121-SCH-000197561::row-4,2024-1-HR01-KA121-SCH-000197561,Osnovna škola Vladimir Bosnar Stubičke Toplice,Stubičke Toplice,matched_exact_name_and_city,institution-9e40aeb474ab,['institution-9e40aeb474ab'],1
 2024-1-HR01-KA121-SCH-000198172::row-5,2024-1-HR01-KA121-SCH-000198172,Srednja škola Centar za odgoj i obrazovanje,Zagreb,matched_exact_name_and_city,institution-c769e27b091a,['institution-c769e27b091a'],1
 2024-1-HR01-KA121-SCH-000198874::row-6,2024-1-HR01-KA121-SCH-000198874,Osnovna škola Pantovčak,Zagreb,matched_exact_name_and_city,institution-209d09253c2c,['institution-209d09253c2c'],1
-2024-1-HR01-KA121-SCH-000199289::row-7,2024-1-HR01-KA121-SCH-000199289,Osnovna škola Višnjevac,Osijek,location_mismatch,,['institution-a1ae44ef6e15'],1
-2024-1-HR01-KA121-SCH-000200089::row-8,2024-1-HR01-KA121-SCH-000200089,Dječji vrtić Vladimir Nazor,Kastav,unmatched,,[],0
-2024-1-HR01-KA121-SCH-000200094::row-9,2024-1-HR01-KA121-SCH-000200094,Dječji vrtić Petar Pan,Zagreb,unmatched,,[],0
+2024-1-HR01-KA121-SCH-000199289::row-7,2024-1-HR01-KA121-SCH-000199289,Osnovna škola Višnjevac,Osijek,matched_unique_name_location_differs,institution-a1ae44ef6e15,['institution-a1ae44ef6e15'],1
+2024-1-HR01-KA121-SCH-000200089::row-8,2024-1-HR01-KA121-SCH-000200089,Dječji vrtić Vladimir Nazor,Kastav,matched_exact_name_and_city,institution-ea3491fc7e66,['institution-ea3491fc7e66'],1
+2024-1-HR01-KA121-SCH-000200094::row-9,2024-1-HR01-KA121-SCH-000200094,Dječji vrtić Petar Pan,Zagreb,matched_exact_name_and_city,institution-4da5985d944e,['institution-4da5985d944e'],1
 2024-1-HR01-KA121-SCH-000200187::row-10,2024-1-HR01-KA121-SCH-000200187,Učenički dom Dora Pejačević,Zagreb,unmatched,,[],0
 2024-1-HR01-KA121-SCH-000200454::row-11,2024-1-HR01-KA121-SCH-000200454,Osnovna škola Vladimir Nazor Virovitica,Virovitica,matched_exact_name_and_city,institution-1a816085ee6b,['institution-1a816085ee6b'],1
 2024-1-HR01-KA121-SCH-000200483::row-12,2024-1-HR01-KA121-SCH-000200483,Škola za cestovni promet,Zagreb,matched_exact_name_and_city,institution-59e4ff578631,['institution-59e4ff578631'],1
 2024-1-HR01-KA121-SCH-000200558::row-13,2024-1-HR01-KA121-SCH-000200558,"Srednja škola ""Ivo Padovan"" Blato",Blato,matched_exact_name_and_city,institution-c4ff3e1fb28c,['institution-c4ff3e1fb28c'],1
 2024-1-HR01-KA121-SCH-000200734::row-14,2024-1-HR01-KA121-SCH-000200734,Gimnazija Dr. Ivana Kranjčeva Đurđevac,Đurđevac,matched_exact_name_and_city,institution-92f78d2ef873,['institution-92f78d2ef873'],1
-2024-1-HR01-KA121-SCH-000200790::row-15,2024-1-HR01-KA121-SCH-000200790,Dječji vrtić Rijeka,Rijeka,unmatched,,[],0
+2024-1-HR01-KA121-SCH-000200790::row-15,2024-1-HR01-KA121-SCH-000200790,Dječji vrtić Rijeka,Rijeka,matched_exact_name_and_city,institution-afc5f6f69f75,['institution-afc5f6f69f75'],1
 2024-1-HR01-KA121-SCH-000200953::row-16,2024-1-HR01-KA121-SCH-000200953,Osnovna škola Eugena Kumičića,Slatina,matched_exact_name_and_city,institution-ca53a07d26d2,['institution-ca53a07d26d2'],1
 2024-1-HR01-KA121-SCH-000201195::row-17,2024-1-HR01-KA121-SCH-000201195,Osnovna škola Novi Marof,Novi Marof,matched_exact_name_and_city,institution-96b1d3baa0ed,['institution-96b1d3baa0ed'],1
 2024-1-HR01-KA121-SCH-000201237::row-18,2024-1-HR01-KA121-SCH-000201237,Srednja škola Ban Josip Jelačić,Zaprešić,matched_exact_name_and_city,institution-8614671eb6b8,['institution-8614671eb6b8'],1
@@ -27,30 +27,30 @@
 2024-1-HR01-KA121-SCH-000202599::row-27,2024-1-HR01-KA121-SCH-000202599,Osnovna škola Smokvica,Smokvica,matched_exact_name_and_city,institution-9a997e16258a,['institution-9a997e16258a'],1
 2024-1-HR01-KA121-SCH-000202682::row-28,2024-1-HR01-KA121-SCH-000202682,Osnovna škola Ivanska,Ivanska,matched_exact_name_and_city,institution-f33247ab2be1,['institution-f33247ab2be1'],1
 2024-1-HR01-KA121-SCH-000202960::row-29,2024-1-HR01-KA121-SCH-000202960,Osnovna škola Bakar,Bakar,matched_exact_name_and_city,institution-b5f63b5553af,['institution-b5f63b5553af'],1
-2024-1-HR01-KA121-SCH-000203010::row-30,2024-1-HR01-KA121-SCH-000203010,III. gimnazija Zagreb,Zagreb,unmatched,,[],0
+2024-1-HR01-KA121-SCH-000203010::row-30,2024-1-HR01-KA121-SCH-000203010,III. gimnazija Zagreb,Zagreb,matched_exact_name_and_city_suffix,institution-648e260d3d09,['institution-648e260d3d09'],1
 2024-1-HR01-KA121-SCH-000203312::row-31,2024-1-HR01-KA121-SCH-000203312,Osnovna škola Trnsko,Zagreb,matched_exact_name_and_city,institution-fc66fd489ba6,['institution-fc66fd489ba6'],1
 2024-1-HR01-KA121-SCH-000203439::row-32,2024-1-HR01-KA121-SCH-000203439,Osnovna škola Sračinec,Sračinec,matched_exact_name_and_city,institution-cbcabc9562b7,['institution-cbcabc9562b7'],1
 2024-1-HR01-KA121-SCH-000203593::row-33,2024-1-HR01-KA121-SCH-000203593,Srednja škola Koprivnica,Koprivnica,matched_exact_name_and_city,institution-9e48c2f5eae3,['institution-9e48c2f5eae3'],1
 2024-1-HR01-KA121-SCH-000203701::row-34,2024-1-HR01-KA121-SCH-000203701,Osnovna škola Petra Kanavelića,Korčula,matched_exact_name_and_city,institution-8a73ed1c49e3,['institution-8a73ed1c49e3'],1
 2024-1-HR01-KA121-SCH-000203783::row-35,2024-1-HR01-KA121-SCH-000203783,Osnovna škola Barilović,Barilović,matched_exact_name_and_city,institution-8c1c1c9d4143,['institution-8c1c1c9d4143'],1
-2024-1-HR01-KA121-SCH-000204094::row-36,2024-1-HR01-KA121-SCH-000204094,Dječji vrtić Iskrica,Zagreb,unmatched,,[],0
-2024-1-HR01-KA121-SCH-000204182::row-37,2024-1-HR01-KA121-SCH-000204182,Dječji vrtić Siget,Zagreb,unmatched,,[],0
-2024-1-HR01-KA121-SCH-000204223::row-38,2024-1-HR01-KA121-SCH-000204223,Osnovna škola Petar Zoranić Nin,Nin,unmatched,,[],0
+2024-1-HR01-KA121-SCH-000204094::row-36,2024-1-HR01-KA121-SCH-000204094,Dječji vrtić Iskrica,Zagreb,matched_exact_name_and_city,institution-eaf531c58913,['institution-eaf531c58913'],1
+2024-1-HR01-KA121-SCH-000204182::row-37,2024-1-HR01-KA121-SCH-000204182,Dječji vrtić Siget,Zagreb,matched_exact_name_and_city,institution-d7202f610035,['institution-d7202f610035'],1
+2024-1-HR01-KA121-SCH-000204223::row-38,2024-1-HR01-KA121-SCH-000204223,Osnovna škola Petar Zoranić Nin,Nin,matched_user_confirmed_school,institution-a0f59419aa67,['institution-a0f59419aa67'],1
 2024-1-HR01-KA121-SCH-000204759::row-39,2024-1-HR01-KA121-SCH-000204759,Učenički dom Maksimir,Zagreb,unmatched,,[],0
-2024-1-HR01-KA121-SCH-000205000::row-40,2024-1-HR01-KA121-SCH-000205000,Dječji vrtić Prečko,Zagreb,unmatched,,[],0
+2024-1-HR01-KA121-SCH-000205000::row-40,2024-1-HR01-KA121-SCH-000205000,Dječji vrtić Prečko,Zagreb,matched_exact_name_and_city,institution-3aae81b589ab,['institution-3aae81b589ab'],1
 2024-1-HR01-KA121-SCH-000205071::row-41,2024-1-HR01-KA121-SCH-000205071,Udruga hrvatskih srednjoškolskih ravnatelja,Dubrovnik,unmatched,,[],0
 2024-1-HR01-KA121-SCH-000205133::row-42,2024-1-HR01-KA121-SCH-000205133,Osnovna škola 'Srdoči',Rijeka,matched_exact_name_and_city,institution-49c1e8e2f298,['institution-49c1e8e2f298'],1
-2024-1-HR01-KA121-SCH-000205196::row-43,2024-1-HR01-KA121-SCH-000205196,Dječji vrtić Osijek,Osijek,unmatched,,[],0
+2024-1-HR01-KA121-SCH-000205196::row-43,2024-1-HR01-KA121-SCH-000205196,Dječji vrtić Osijek,Osijek,matched_exact_name_and_city,institution-0de1bbeb84fe,['institution-0de1bbeb84fe'],1
 2024-1-HR01-KA121-SCH-000205320::row-44,2024-1-HR01-KA121-SCH-000205320,Osnovna škola Braće Radića Pakrac,Pakrac,matched_exact_name_and_city,institution-0bab514834eb,['institution-0bab514834eb'],1
-2024-1-HR01-KA121-SCH-000205463::row-45,2024-1-HR01-KA121-SCH-000205463,Osnovna škola Dr. Branimira Markovića Ravna Gora,Ravna Gora,unmatched,,[],0
+2024-1-HR01-KA121-SCH-000205463::row-45,2024-1-HR01-KA121-SCH-000205463,Osnovna škola Dr. Branimira Markovića Ravna Gora,Ravna Gora,matched_user_confirmed_school,institution-f68cdc2c8906,['institution-f68cdc2c8906'],1
 2024-1-HR01-KA121-SCH-000205589::row-46,2024-1-HR01-KA121-SCH-000205589,Osnovna škola Fran Koncelak Drnje,Drnje,matched_exact_name_and_city,institution-f4d86fd4186d,['institution-f4d86fd4186d'],1
-2024-1-HR01-KA121-SCH-000205655::row-47,2024-1-HR01-KA121-SCH-000205655,l. osnovna škola Čakovec,Čakovec,unmatched,,[],0
+2024-1-HR01-KA121-SCH-000205655::row-47,2024-1-HR01-KA121-SCH-000205655,l. osnovna škola Čakovec,Čakovec,matched_unique_address_and_city,institution-7b577b27ac3a,['institution-7b577b27ac3a'],1
 2024-1-HR01-KA121-SCH-000205884::row-48,2024-1-HR01-KA121-SCH-000205884,Tehnička škola Zagreb,Zagreb,matched_exact_name_and_city,institution-21fe2756e4f3,['institution-21fe2756e4f3'],1
 2024-1-HR01-KA121-SCH-000205975::row-49,2024-1-HR01-KA121-SCH-000205975,Osnovna škola Bedekovčina,Bedekovčina,matched_exact_name_and_city,institution-e6f680604bfd,['institution-e6f680604bfd'],1
 2024-1-HR01-KA121-SCH-000205981::row-50,2024-1-HR01-KA121-SCH-000205981,Osnovna škola Franje Serta Bednja,Bednja,matched_exact_name_and_city,institution-058e1bcf78e9,['institution-058e1bcf78e9'],1
 2024-1-HR01-KA121-SCH-000206090::row-51,2024-1-HR01-KA121-SCH-000206090,Ekonomsko-birotehnička škola,Slavonski Brod,matched_exact_name_and_city,institution-0806bffc2f0e,['institution-0806bffc2f0e'],1
-2024-1-HR01-KA121-SCH-000206140::row-52,2024-1-HR01-KA121-SCH-000206140,Osnovna škola Ivana Kukuljevića Sakcinskog Ivanec,Ivanec,unmatched,,[],0
-2024-1-HR01-KA121-SCH-000206415::row-53,2024-1-HR01-KA121-SCH-000206415,Osnovna škola don Mihovila Pavlinovića Podgora,Podgora,unmatched,,[],0
+2024-1-HR01-KA121-SCH-000206140::row-52,2024-1-HR01-KA121-SCH-000206140,Osnovna škola Ivana Kukuljevića Sakcinskog Ivanec,Ivanec,matched_user_confirmed_school,institution-d0d6217ce2e8,['institution-d0d6217ce2e8'],1
+2024-1-HR01-KA121-SCH-000206415::row-53,2024-1-HR01-KA121-SCH-000206415,Osnovna škola don Mihovila Pavlinovića Podgora,Podgora,matched_user_confirmed_school,institution-a34ff599916a,['institution-a34ff599916a'],1
 2024-1-HR01-KA121-SCH-000206440::row-54,2024-1-HR01-KA121-SCH-000206440,Osnovna škola Trnovitica,Velika Trnovitica,matched_exact_name_and_city,institution-305bcf235fff,['institution-305bcf235fff'],1
 2024-1-HR01-KA121-SCH-000206709::row-55,2024-1-HR01-KA121-SCH-000206709,Srednja škola Donji Miholjac,Donji Miholjac,matched_exact_name_and_city,institution-7f91d52eb655,['institution-7f91d52eb655'],1
 2024-1-HR01-KA121-SCH-000206711::row-56,2024-1-HR01-KA121-SCH-000206711,Osnovna škola Stjepana Kefelje,Kutina,matched_exact_name_and_city,institution-9e2b6f1e7f21,['institution-9e2b6f1e7f21'],1
@@ -60,17 +60,17 @@
 2024-1-HR01-KA121-SCH-000208602::row-60,2024-1-HR01-KA121-SCH-000208602,Gimnazija Josipa Slavenskog Čakovec,Čakovec,matched_exact_name_and_city,institution-6be1c88fa1b6,['institution-6be1c88fa1b6'],1
 2024-1-HR01-KA121-SCH-000208874::row-61,2024-1-HR01-KA121-SCH-000208874,Osnovna škola August Šenoa,Osijek,matched_exact_name_and_city,institution-95312540e488,['institution-95312540e488'],1
 2024-1-HR01-KA121-SCH-000209401::row-62,2024-1-HR01-KA121-SCH-000209401,Srednja škola Krapina,Krapina,matched_exact_name_and_city,institution-b48fecc72bcc,['institution-b48fecc72bcc'],1
-2024-1-HR01-KA121-SCH-000209518::row-63,2024-1-HR01-KA121-SCH-000209518,"Osnovna škola Pećine, Rijeka",Rijeka,unmatched,,[],0
-2024-1-HR01-KA121-SCH-000209703::row-64,2024-1-HR01-KA121-SCH-000209703,Osnovna škola Vugrovec-Kašina,Kašina (Grad Zagreb),location_mismatch,,['institution-164fcd55ea81'],1
+2024-1-HR01-KA121-SCH-000209518::row-63,2024-1-HR01-KA121-SCH-000209518,"Osnovna škola Pećine, Rijeka",Rijeka,matched_user_confirmed_school,institution-5004c38fdab2,['institution-5004c38fdab2'],1
+2024-1-HR01-KA121-SCH-000209703::row-64,2024-1-HR01-KA121-SCH-000209703,Osnovna škola Vugrovec-Kašina,Kašina (Grad Zagreb),matched_unique_name_location_differs,institution-164fcd55ea81,['institution-164fcd55ea81'],1
 2024-1-HR01-KA121-SCH-000209831::row-65,2024-1-HR01-KA121-SCH-000209831,Osnovna škola Sveti Petar Orehovec,Sveti Petar Orehovec,matched_exact_name_and_city,institution-eb143bd47369,['institution-eb143bd47369'],1
 2024-1-HR01-KA121-SCH-000209877::row-66,2024-1-HR01-KA121-SCH-000209877,I. osnovna škola Bjelovar,Bjelovar,matched_exact_name_and_city,institution-1f84c5c5f9ef,['institution-1f84c5c5f9ef'],1
 2024-1-HR01-KA121-SCH-000209992::row-67,2024-1-HR01-KA121-SCH-000209992,Osnovna škola Stjepana Radića Bibinje,Bibinje,matched_exact_name_and_city,institution-566a217f71da,['institution-566a217f71da'],1
 2024-1-HR01-KA121-SCH-000210126::row-68,2024-1-HR01-KA121-SCH-000210126,Gospodarska škola Varaždin,Varaždin,matched_exact_name_and_city,institution-cfb3813e3ec4,['institution-cfb3813e3ec4'],1
 2024-1-HR01-KA121-SCH-000210690::row-69,2024-1-HR01-KA121-SCH-000210690,Osnovna škola Rovišće,Rovišće,matched_exact_name_and_city,institution-c2df4ec27a90,['institution-c2df4ec27a90'],1
 2024-1-HR01-KA121-SCH-000210714::row-70,2024-1-HR01-KA121-SCH-000210714,Srednja škola Petrinja,Petrinja,matched_exact_name_and_city,institution-c2c4f0c90083,['institution-c2c4f0c90083'],1
-2024-1-HR01-KA121-SCH-000210819::row-71,2024-1-HR01-KA121-SCH-000210819,Osnovna škola Ivana Gorana Kovačića Gornje Bazje,Gornje Bazje (Lukač),location_mismatch,,['institution-633288869929'],1
+2024-1-HR01-KA121-SCH-000210819::row-71,2024-1-HR01-KA121-SCH-000210819,Osnovna škola Ivana Gorana Kovačića Gornje Bazje,Gornje Bazje (Lukač),matched_unique_name_location_differs,institution-633288869929,['institution-633288869929'],1
 2024-1-HR01-KA121-SCH-000210917::row-72,2024-1-HR01-KA121-SCH-000210917,Gimnazija Metković,Metković,matched_exact_name_and_city,institution-96bffc269835,['institution-96bffc269835'],1
-2024-1-HR01-KA121-SCH-000211445::row-73,2024-1-HR01-KA121-SCH-000211445,Dječji vrtić Varaždin,Varaždin,unmatched,,[],0
+2024-1-HR01-KA121-SCH-000211445::row-73,2024-1-HR01-KA121-SCH-000211445,Dječji vrtić Varaždin,Varaždin,matched_exact_name_and_city,institution-10fe5db7dfac,['institution-10fe5db7dfac'],1
 2024-1-HR01-KA121-SCH-000211453::row-74,2024-1-HR01-KA121-SCH-000211453,"Osnovna škola Jurja Dobrile - Scuola elementare ""Juraj Dobrila"", Rovinj-Rovigno",Rovinj,unmatched,,[],0
 2024-1-HR01-KA121-SCH-000211570::row-75,2024-1-HR01-KA121-SCH-000211570,Srednja škola Ivan Svear Ivanić Grad,Ivanić-Grad,matched_exact_name_and_city,institution-46057f789b1d,['institution-46057f789b1d'],1
 2024-1-HR01-KA121-SCH-000211670::row-76,2024-1-HR01-KA121-SCH-000211670,Prva sušačka hrvatska gimnazija u Rijeci,Rijeka,matched_exact_name_and_city,institution-3c29a29e1ffd,['institution-3c29a29e1ffd'],1
@@ -78,9 +78,9 @@
 2024-1-HR01-KA121-SCH-000211917::row-78,2024-1-HR01-KA121-SCH-000211917,Osnovna škola Podmurvice,Rijeka,matched_exact_name_and_city,institution-1d78b909bc9b,['institution-1d78b909bc9b'],1
 2024-1-HR01-KA121-SCH-000212107::row-79,2024-1-HR01-KA121-SCH-000212107,II. osnovna škola Bjelovar,Bjelovar,matched_exact_name_and_city,institution-02e515949ac3,['institution-02e515949ac3'],1
 2024-1-HR01-KA121-SCH-000212113::row-80,2024-1-HR01-KA121-SCH-000212113,Osnovna škola Dobri,Split,matched_exact_name_and_city,institution-e5af5f36bc82,['institution-e5af5f36bc82'],1
-2024-1-HR01-KA121-SCH-000212150::row-81,2024-1-HR01-KA121-SCH-000212150,Osnovna škola Andrije Kačića Miošića Donja Voća,Donja Voća,unmatched,,[],0
-2024-1-HR01-KA121-SCH-000212843::row-82,2024-1-HR01-KA121-SCH-000212843,Dječji vrtić Vrapčić Šenkovec,Šenkovec,unmatched,,[],0
-2024-1-HR01-KA121-SCH-000212951::row-83,2024-1-HR01-KA121-SCH-000212951,Dječji vrtić Slavuj,Strmec,unmatched,,[],0
+2024-1-HR01-KA121-SCH-000212150::row-81,2024-1-HR01-KA121-SCH-000212150,Osnovna škola Andrije Kačića Miošića Donja Voća,Donja Voća,matched_user_confirmed_school,institution-8b6e30af174c,['institution-8b6e30af174c'],1
+2024-1-HR01-KA121-SCH-000212843::row-82,2024-1-HR01-KA121-SCH-000212843,Dječji vrtić Vrapčić Šenkovec,Šenkovec,matched_exact_name_and_city_suffix,institution-14a478f0ec16,['institution-14a478f0ec16'],1
+2024-1-HR01-KA121-SCH-000212951::row-83,2024-1-HR01-KA121-SCH-000212951,Dječji vrtić Slavuj,Strmec,matched_exact_name_and_city,institution-828e79f6d9a4,['institution-828e79f6d9a4'],1
 2024-1-HR01-KA121-SCH-000213433::row-84,2024-1-HR01-KA121-SCH-000213433,XVI. gimnazija,Zagreb,matched_exact_name_and_city,institution-045ea699f6c4,['institution-045ea699f6c4'],1
 2024-1-HR01-KA121-SCH-000213827::row-85,2024-1-HR01-KA121-SCH-000213827,Osnovna škola Podolice Koprivnica,Koprivnica,matched_exact_name_and_city,institution-ead2c378afe1,['institution-ead2c378afe1'],1
 2024-1-HR01-KA121-SCH-000214009::row-86,2024-1-HR01-KA121-SCH-000214009,Osnovna škola Grigora Viteza,Zagreb,matched_exact_name_and_city,institution-6f94324b5890,['institution-6f94324b5890'],1
@@ -90,22 +90,22 @@
 2024-1-HR01-KA121-SCH-000214444::row-90,2024-1-HR01-KA121-SCH-000214444,Osnovna škola Vladimira Nazora,Vinkovci,matched_exact_name_and_city,institution-61f7558c19bc,['institution-61f7558c19bc'],1
 2024-1-HR01-KA121-SCH-000214537::row-91,2024-1-HR01-KA121-SCH-000214537,Osnovna škola Zmijavci,Zmijavci,matched_exact_name_and_city,institution-f3b455d8a8e0,['institution-f3b455d8a8e0'],1
 2024-1-HR01-KA121-SCH-000214647::row-92,2024-1-HR01-KA121-SCH-000214647,I. gimnazija Osijek,Osijek,matched_exact_name_and_city,institution-a3b5a2bf3154,['institution-a3b5a2bf3154'],1
-2024-1-HR01-KA121-SCH-000214691::row-93,2024-1-HR01-KA121-SCH-000214691,"Osnovna škola ""Vladimir Nazor"" Pisarovina",Pisarovina,unmatched,,[],0
+2024-1-HR01-KA121-SCH-000214691::row-93,2024-1-HR01-KA121-SCH-000214691,"Osnovna škola ""Vladimir Nazor"" Pisarovina",Pisarovina,matched_user_confirmed_school,institution-c74248b791e7,['institution-c74248b791e7'],1
 2024-1-HR01-KA121-SCH-000214743::row-94,2024-1-HR01-KA121-SCH-000214743,Osnovna škola dr. Franjo Tuđman,Šarengrad,matched_exact_name_and_city,institution-ed0ebdb0240e,['institution-ed0ebdb0240e'],1
 2024-1-HR01-KA121-SCH-000214774::row-95,2024-1-HR01-KA121-SCH-000214774,Osnovna škola Horvati,Zagreb,matched_exact_name_and_city,institution-6884aec2d328,['institution-6884aec2d328'],1
 2024-1-HR01-KA121-SCH-000214920::row-96,2024-1-HR01-KA121-SCH-000214920,Osnovna škola Josipa Matoša,Vukovar,matched_exact_name_and_city,institution-eac1733a448b,['institution-eac1733a448b'],1
 2024-1-HR01-KA121-SCH-000214934::row-97,2024-1-HR01-KA121-SCH-000214934,Osnovna škola Hvar,Hvar,matched_exact_name_and_city,institution-7c18c1dd3a54,['institution-7c18c1dd3a54'],1
 2024-1-HR01-KA121-SCH-000214960::row-98,2024-1-HR01-KA121-SCH-000214960,Osnovna škola Đure Prejca Desinić,Desinić,matched_exact_name_and_city,institution-782ad7036aa1,['institution-782ad7036aa1'],1
 2024-1-HR01-KA121-SCH-000214972::row-99,2024-1-HR01-KA121-SCH-000214972,XVIII. gimnazija,Zagreb,matched_exact_name_and_city,institution-884a499c7ea8,['institution-884a499c7ea8'],1
-2024-1-HR01-KA121-SCH-000215254::row-100,2024-1-HR01-KA121-SCH-000215254,"Osnovna škola ""Antun Nemčić Gostovinski"" Koprivnica",Koprivnica,unmatched,,[],0
-2024-1-HR01-KA121-SCH-000215336::row-101,2024-1-HR01-KA121-SCH-000215336,Dječji vrtić Maslačak,Zaprešić,unmatched,,[],0
-2024-1-HR01-KA121-SCH-000215415::row-102,2024-1-HR01-KA121-SCH-000215415,Dječji vrtić Cvit Mediterana,Split,unmatched,,[],0
+2024-1-HR01-KA121-SCH-000215254::row-100,2024-1-HR01-KA121-SCH-000215254,"Osnovna škola ""Antun Nemčić Gostovinski"" Koprivnica",Koprivnica,matched_user_confirmed_school,institution-2798b65569f7,['institution-2798b65569f7'],1
+2024-1-HR01-KA121-SCH-000215336::row-101,2024-1-HR01-KA121-SCH-000215336,Dječji vrtić Maslačak,Zaprešić,matched_exact_name_and_city,institution-32ca34001f65,['institution-32ca34001f65'],1
+2024-1-HR01-KA121-SCH-000215415::row-102,2024-1-HR01-KA121-SCH-000215415,Dječji vrtić Cvit Mediterana,Split,matched_exact_name_and_city,institution-07ff56652978,['institution-07ff56652978'],1
 2024-1-HR01-KA121-SCH-000215550::row-103,2024-1-HR01-KA121-SCH-000215550,I. gimnazija,Zagreb,matched_exact_name_and_city,institution-e0139ae5dd33,['institution-e0139ae5dd33'],1
 2024-1-HR01-KA121-SCH-000216456::row-104,2024-1-HR01-KA121-SCH-000216456,Srednja škola Ivanec,Ivanec,matched_exact_name_and_city,institution-f7e7774f685d,['institution-f7e7774f685d'],1
-2024-1-HR01-KA121-SCH-000217025::row-105,2024-1-HR01-KA121-SCH-000217025,Osnovna škola Đuro Ester Koprivnica,Koprivnica,unmatched,,[],0
+2024-1-HR01-KA121-SCH-000217025::row-105,2024-1-HR01-KA121-SCH-000217025,Osnovna škola Đuro Ester Koprivnica,Koprivnica,matched_user_confirmed_school,institution-e5fabcf1e584,['institution-e5fabcf1e584'],1
 2024-1-HR01-KA121-SCH-000217439::row-106,2024-1-HR01-KA121-SCH-000217439,Prirodoslovna škola Vladimira Preloga,Zagreb,matched_exact_name_and_city,institution-3833c2940ba2,['institution-3833c2940ba2'],1
 2024-1-HR01-KA121-SCH-000217892::row-107,2024-1-HR01-KA121-SCH-000217892,Osnovna škola Župa dubrovačka,Mlini,matched_exact_name_and_city,institution-a978ef42714a,['institution-a978ef42714a'],1
-2024-1-HR01-KA121-SCH-000218419::row-108,2024-1-HR01-KA121-SCH-000218419,Dječji vrtić Matije Gupca,Zagreb,unmatched,,[],0
+2024-1-HR01-KA121-SCH-000218419::row-108,2024-1-HR01-KA121-SCH-000218419,Dječji vrtić Matije Gupca,Zagreb,matched_exact_name_and_city,institution-926844b5d9a5,['institution-926844b5d9a5'],1
 2024-1-HR01-KA121-SCH-000218678::row-109,2024-1-HR01-KA121-SCH-000218678,Poštanska i telekomunikacijska škola,Zagreb,matched_exact_name_and_city,institution-f195b07dc3b1,['institution-f195b07dc3b1'],1
 2024-1-HR01-KA121-SCH-000218988::row-110,2024-1-HR01-KA121-SCH-000218988,"Osnovna škola ""Vladimir Nazor"" Križevci",Križevci,matched_exact_name_and_city,institution-17625fd8d20a,['institution-17625fd8d20a'],1
 2024-1-HR01-KA121-SCH-000219790::row-111,2024-1-HR01-KA121-SCH-000219790,"Osnovna škola ""Tin Ujević""",Osijek,matched_exact_name_and_city,institution-a017a77a1fc2,['institution-a017a77a1fc2'],1
@@ -118,20 +118,20 @@
 2024-1-HR01-KA121-SCH-000221969::row-118,2024-1-HR01-KA121-SCH-000221969,Osnovna škola Jagode Truhelke,Osijek,matched_exact_name_and_city,institution-335244fc053c,['institution-335244fc053c'],1
 2024-1-HR01-KA121-SCH-000223175::row-119,2024-1-HR01-KA121-SCH-000223175,Osnovna škola dr. Franje Tuđmana Brela,Brela,matched_exact_name_and_city,institution-2917eb63c1fa,['institution-2917eb63c1fa'],1
 2024-1-HR01-KA121-SCH-000223718::row-120,2024-1-HR01-KA121-SCH-000223718,V. gimnazija Vladimir Nazor Split,Split,matched_exact_name_and_city,institution-eddc14f36082,['institution-eddc14f36082'],1
-2024-1-HR01-KA121-SCH-000224014::row-121,2024-1-HR01-KA121-SCH-000224014,Dječji vrtić Vesela kućica,Zagreb,unmatched,,[],0
+2024-1-HR01-KA121-SCH-000224014::row-121,2024-1-HR01-KA121-SCH-000224014,Dječji vrtić Vesela kućica,Zagreb,matched_exact_name_and_city,institution-5eaf87cb878f,['institution-5eaf87cb878f'],1
 2024-1-HR01-KA121-SCH-000224333::row-122,2024-1-HR01-KA121-SCH-000224333,Srednja škola Hrvatski kralj Zvonimir,Krk,matched_exact_name_and_city,institution-48c1e7cb24d4,['institution-48c1e7cb24d4'],1
 2024-1-HR01-KA121-SCH-000224708::row-123,2024-1-HR01-KA121-SCH-000224708,"Srednja škola Zvane Črnje Rovinj, Scuola media superiore ""Zvane Črnja"" Rovigno",Rovinj,matched_exact_name_and_city,institution-1c6e359bc0cb,['institution-1c6e359bc0cb'],1
-2024-1-HR01-KA121-SCH-000225323::row-124,2024-1-HR01-KA121-SCH-000225323,Dječji vrtić Tratinčica,Koprivnica,unmatched,,[],0
-2024-1-HR01-KA121-SCH-000225864::row-125,2024-1-HR01-KA121-SCH-000225864,Dječji vrtić Olga Ban Pazin,Pazin,unmatched,,[],0
+2024-1-HR01-KA121-SCH-000225323::row-124,2024-1-HR01-KA121-SCH-000225323,Dječji vrtić Tratinčica,Koprivnica,matched_exact_name_and_city,institution-7a8e4c08ebea,['institution-7a8e4c08ebea'],1
+2024-1-HR01-KA121-SCH-000225864::row-125,2024-1-HR01-KA121-SCH-000225864,Dječji vrtić Olga Ban Pazin,Pazin,matched_exact_name_and_city_suffix,institution-172108c44912,['institution-172108c44912'],1
 2024-1-HR01-KA121-SCH-000226813::row-126,2024-1-HR01-KA121-SCH-000226813,Prva privatna gimnazija s pravom javnosti Varaždin,Varaždin,matched_exact_name_and_city,institution-4f10df4c98ed,['institution-4f10df4c98ed'],1
 2024-1-HR01-KA121-SCH-000226978::row-127,2024-1-HR01-KA121-SCH-000226978,Poliklinika za rehabilitaciju slušanja i govora SUVAG,Zagreb,matched_exact_name_and_city,institution-80ecbe9063fc,['institution-80ecbe9063fc'],1
 2024-1-HR01-KA121-SCH-000227939::row-128,2024-1-HR01-KA121-SCH-000227939,Osnovna škola Belica,Belica,matched_exact_name_and_city,institution-5b4f72ce79be,['institution-5b4f72ce79be'],1
-2024-1-HR01-KA121-SCH-000228011::row-129,2024-1-HR01-KA121-SCH-000228011,Osnovna škola Strahoninec,Čakovec,location_mismatch,,['institution-7dd567c5ad42'],1
+2024-1-HR01-KA121-SCH-000228011::row-129,2024-1-HR01-KA121-SCH-000228011,Osnovna škola Strahoninec,Čakovec,matched_unique_name_location_differs,institution-7dd567c5ad42,['institution-7dd567c5ad42'],1
 2024-1-HR01-KA121-SCH-000228853::row-130,2024-1-HR01-KA121-SCH-000228853,Gimnazija Lucijana Vranjanina,Zagreb,matched_exact_name_and_city,institution-787824498d59,['institution-787824498d59'],1
 2024-1-HR01-KA121-SCH-000229047::row-131,2024-1-HR01-KA121-SCH-000229047,Osnovna škola Milana Langa,Bregana,matched_exact_name_and_city,institution-fc2166ff0fe0,['institution-fc2166ff0fe0'],1
 2024-1-HR01-KA121-SCH-000229097::row-132,2024-1-HR01-KA121-SCH-000229097,Osnovna škola Nikole Tesle,Zagreb,matched_exact_name_and_city,institution-489ffc9211ec,['institution-489ffc9211ec'],1
-2024-1-HR01-KA121-SCH-000229708::row-133,2024-1-HR01-KA121-SCH-000229708,XII. gimnazija,Grad Zagreb,location_mismatch,,['institution-b221ca9d71fc'],1
-2024-1-HR01-KA121-SCH-000230333::row-134,2024-1-HR01-KA121-SCH-000230333,"Osnovna škola kraljice Jelene, Solin",Solin,unmatched,,[],0
+2024-1-HR01-KA121-SCH-000229708::row-133,2024-1-HR01-KA121-SCH-000229708,XII. gimnazija,Grad Zagreb,matched_unique_name_location_differs,institution-b221ca9d71fc,['institution-b221ca9d71fc'],1
+2024-1-HR01-KA121-SCH-000230333::row-134,2024-1-HR01-KA121-SCH-000230333,"Osnovna škola kraljice Jelene, Solin",Solin,matched_user_confirmed_school,institution-600189498e49,['institution-600189498e49'],1
 2024-1-HR01-KA121-SCH-000230739::row-135,2024-1-HR01-KA121-SCH-000230739,XV. gimnazija,Zagreb,matched_exact_name_and_city,institution-3d7eaec4b8f4,['institution-3d7eaec4b8f4'],1
 2024-1-HR01-KA121-SCH-000231661::row-136,2024-1-HR01-KA121-SCH-000231661,Osnovna škola Hugo Badalić,Slavonski Brod,matched_exact_name_and_city,institution-1379def57f7d,['institution-1379def57f7d'],1
 2024-1-HR01-KA121-SCH-000231726::row-137,2024-1-HR01-KA121-SCH-000231726,Osnovna škola Tordinci,Tordinci,matched_exact_name_and_city,institution-637091d3223e,['institution-637091d3223e'],1
@@ -152,11 +152,11 @@
 2024-1-HR01-KA122-SCH-000216345::row-152,2024-1-HR01-KA122-SCH-000216345,Osnovna škola Petra Krešimira IV.,Šibenik,matched_exact_name_and_city,institution-a2c4c1353a7a,['institution-a2c4c1353a7a'],1
 2024-1-HR01-KA122-SCH-000219111::row-153,2024-1-HR01-KA122-SCH-000219111,Osnovna škola Prof. Filipa Lukasa,Kaštel Stari,matched_exact_name_and_city,institution-26654b721006,['institution-26654b721006'],1
 2024-1-HR01-KA122-SCH-000198388::row-154,2024-1-HR01-KA122-SCH-000198388,Osnovna škola Popovac,Popovac,matched_exact_name_and_city,institution-93214f663c4b,['institution-93214f663c4b'],1
-2024-1-HR01-KA122-SCH-000221323::row-155,2024-1-HR01-KA122-SCH-000221323,Osnovna škola Mate Lovraka Kutina,Kutina,unmatched,,[],0
+2024-1-HR01-KA122-SCH-000221323::row-155,2024-1-HR01-KA122-SCH-000221323,Osnovna škola Mate Lovraka Kutina,Kutina,matched_user_confirmed_school,institution-27642bdc3948,['institution-27642bdc3948'],1
 2024-1-HR01-KA122-SCH-000217959::row-156,2024-1-HR01-KA122-SCH-000217959,Osnovna škola Bijelo Brdo,Bijelo Brdo,matched_exact_name_and_city,institution-13284cd5fc9d,['institution-13284cd5fc9d'],1
 2024-1-HR01-KA122-SCH-000221011::row-157,2024-1-HR01-KA122-SCH-000221011,Osnovna škola Eugena Kvaternika,Velika Gorica,matched_exact_name_and_city,institution-d091af60f304,['institution-d091af60f304'],1
 2024-1-HR01-KA122-SCH-000202104::row-158,2024-1-HR01-KA122-SCH-000202104,Osnovna škola Ivana Mažuranića,Vinkovci,matched_exact_name_and_city,institution-0bbcc0e63bbf,['institution-0bbcc0e63bbf'],1
-2024-1-HR01-KA122-SCH-000223375::row-159,2024-1-HR01-KA122-SCH-000223375,Dječji vrtić Sunce Zadar,Zadar,unmatched,,[],0
+2024-1-HR01-KA122-SCH-000223375::row-159,2024-1-HR01-KA122-SCH-000223375,Dječji vrtić Sunce Zadar,Zadar,matched_unique_address_and_city,institution-51bce2abb269,['institution-51bce2abb269'],1
 2024-1-HR01-KA122-SCH-000212938::row-160,2024-1-HR01-KA122-SCH-000212938,Osnovna škola Milan Amruš,Slavonski Brod,matched_exact_name_and_city,institution-6efa94408efb,['institution-6efa94408efb'],1
 2024-1-HR01-KA122-SCH-000213589::row-161,2024-1-HR01-KA122-SCH-000213589,Učenički dom Podmurvice Rijeka,Rijeka,unmatched,,[],0
 2024-1-HR01-KA122-SCH-000238659::row-162,2024-1-HR01-KA122-SCH-000238659,Osnovna škola Antuna Augustinčića,Zaprešić,matched_exact_name_and_city,institution-578780bccbf9,['institution-578780bccbf9'],1
@@ -165,7 +165,7 @@
 2024-1-HR01-KA122-SCH-000206352::row-165,2024-1-HR01-KA122-SCH-000206352,Škola suvremenog plesa Ane Maletić,Zagreb,matched_exact_name_and_city,institution-fb18b3ff58fd,['institution-fb18b3ff58fd'],1
 2024-1-HR01-KA122-SCH-000224957::row-166,2024-1-HR01-KA122-SCH-000224957,Osnovna škola Frana Galovića,Zagreb,matched_exact_name_and_city,institution-efcbcf640853,['institution-efcbcf640853'],1
 2024-1-HR01-KA122-SCH-000240256::row-167,2024-1-HR01-KA122-SCH-000240256,"Osnovna škola ""Lotrščak""",Zagreb,matched_exact_name_and_city,institution-078913585db2,['institution-078913585db2'],1
-2024-1-HR01-KA122-SCH-000237641::row-168,2024-1-HR01-KA122-SCH-000237641,Dječji vrtić Vjeverica,Zagreb,unmatched,,[],0
+2024-1-HR01-KA122-SCH-000237641::row-168,2024-1-HR01-KA122-SCH-000237641,Dječji vrtić Vjeverica,Zagreb,matched_exact_name_and_city,institution-1d9e76ef00e5,['institution-1d9e76ef00e5'],1
 2024-1-HR01-KA122-SCH-000239486::row-169,2024-1-HR01-KA122-SCH-000239486,Srednja škola Vrbovec,Vrbovec,matched_exact_name_and_city,institution-1017e7371b15,['institution-1017e7371b15'],1
 2024-1-HR01-KA122-SCH-000226263::row-170,2024-1-HR01-KA122-SCH-000226263,Osnovna škola Gračani,Zagreb,matched_exact_name_and_city,institution-ee9c309903d9,['institution-ee9c309903d9'],1
 2024-1-HR01-KA122-SCH-000237486::row-171,2024-1-HR01-KA122-SCH-000237486,Osnovna glazbena škola Ivana Zajca,Zagreb,unmatched,,[],0
@@ -176,18 +176,18 @@
 2024-1-HR01-KA122-SCH-000203980::row-176,2024-1-HR01-KA122-SCH-000203980,Osnovna škola Finida,Poreč,matched_exact_name_and_city,institution-1d3d77ebbb42,['institution-1d3d77ebbb42'],1
 2024-1-HR01-KA122-SCH-000222938::row-177,2024-1-HR01-KA122-SCH-000222938,Medicinska škola Osijek,Osijek,matched_exact_name_and_city,institution-f08ea45a1db5,['institution-f08ea45a1db5'],1
 2024-1-HR01-KA122-SCH-000213445::row-178,2024-1-HR01-KA122-SCH-000213445,Osnovna škola dr. Franje Tuđmana,Knin,matched_exact_name_and_city,institution-060c0a5fc993,['institution-060c0a5fc993'],1
-2024-1-HR01-KA122-SCH-000208251::row-179,2024-1-HR01-KA122-SCH-000208251,OŠ Vladimir Nazor Čepin,Čepin,unmatched,,[],0
+2024-1-HR01-KA122-SCH-000208251::row-179,2024-1-HR01-KA122-SCH-000208251,OŠ Vladimir Nazor Čepin,Čepin,matched_user_confirmed_school,institution-5f8ad49770e2,['institution-5f8ad49770e2'],1
 2024-1-HR01-KA122-SCH-000226735::row-180,2024-1-HR01-KA122-SCH-000226735,Centar za odgoj i obrazovanje Velika Gorica,Velika Gorica,matched_exact_name_and_city,institution-a52564b57410,['institution-a52564b57410'],1
-2024-1-HR01-KA122-SCH-000223677::row-181,2024-1-HR01-KA122-SCH-000223677,Dječji vrtić Smokvica,Zaprešić,unmatched,,[],0
+2024-1-HR01-KA122-SCH-000223677::row-181,2024-1-HR01-KA122-SCH-000223677,Dječji vrtić Smokvica,Zaprešić,matched_unique_address_location_differs,institution-bee9109f3016,['institution-bee9109f3016'],1
 2024-1-HR01-KA122-SCH-000211958::row-182,2024-1-HR01-KA122-SCH-000211958,Zdravstvena i veterinarska škola Dr. Andrije Štampara Vinkovci,Vinkovci,matched_exact_name_and_city,institution-d2ddacc1e757,['institution-d2ddacc1e757'],1
 2024-1-HR01-KA220-SCH-000254267::row-183,2024-1-HR01-KA220-SCH-000254267,Osnovna škola Pantovčak,Zagreb,matched_exact_name_and_city,institution-209d09253c2c,['institution-209d09253c2c'],1
 2024-1-HR01-KA220-SCH-000244244::row-184,2024-1-HR01-KA220-SCH-000244244,"Udruga za poticanje neformalnog obrazovanja, kritičkog mišljenja i filozofije u praksi Mala filozofija",Zadar,unmatched,,[],0
-2024-1-HR01-KA220-SCH-000247292::row-185,2024-1-HR01-KA220-SCH-000247292,l. osnovna škola Čakovec,Čakovec,unmatched,,[],0
+2024-1-HR01-KA220-SCH-000247292::row-185,2024-1-HR01-KA220-SCH-000247292,l. osnovna škola Čakovec,Čakovec,matched_unique_address_and_city,institution-7b577b27ac3a,['institution-7b577b27ac3a'],1
 2024-1-HR01-KA210-SCH-000243439::row-186,2024-1-HR01-KA210-SCH-000243439,Osnovna škola dr. Franje Tuđmana,Knin,matched_exact_name_and_city,institution-060c0a5fc993,['institution-060c0a5fc993'],1
 2024-1-HR01-KA210-SCH-000244822::row-187,2024-1-HR01-KA210-SCH-000244822,Osnovna škola Jurja Šižgorića,Šibenik,matched_exact_name_and_city,institution-b5271c51a86e,['institution-b5271c51a86e'],1
 2024-1-HR01-KA210-SCH-000249899::row-188,2024-1-HR01-KA210-SCH-000249899,Osnovna škola Kozala,Rijeka,matched_exact_name_and_city,institution-5e723b1d4444,['institution-5e723b1d4444'],1
 2024-2-HR01-KA210-SCH-000287092::row-189,2024-2-HR01-KA210-SCH-000287092,Gimnazija Sisak,Sisak,matched_exact_name_and_city,institution-82d51b38490d,['institution-82d51b38490d'],1
-2024-2-HR01-KA210-SCH-000291370::row-190,2024-2-HR01-KA210-SCH-000291370,"Dječji vrtić ""Ivanić Grad""",Ivanić-Grad,unmatched,,[],0
+2024-2-HR01-KA210-SCH-000291370::row-190,2024-2-HR01-KA210-SCH-000291370,"Dječji vrtić ""Ivanić Grad""",Ivanić-Grad,matched_exact_name_and_city,institution-b11f4d2b8d29,['institution-b11f4d2b8d29'],1
 2024-2-HR01-KA210-SCH-000269023::row-191,2024-2-HR01-KA210-SCH-000269023,Osnovna škola Darda,Darda,matched_exact_name_and_city,institution-8240d46ec789,['institution-8240d46ec789'],1
 2024-2-HR01-KA210-SCH-000269223::row-192,2024-2-HR01-KA210-SCH-000269223,Osnovna škola Jasenovac,Jasenovac,matched_exact_name_and_city,institution-15ac6c23777a,['institution-15ac6c23777a'],1
 2024-2-HR01-KA210-SCH-000293842::row-193,2024-2-HR01-KA210-SCH-000293842,Osnovna škola Krunoslava Kutena,Vrbovec,matched_exact_name_and_city,institution-2ca53a3db207,['institution-2ca53a3db207'],1
@@ -198,7 +198,7 @@
 2024-1-HR01-KA121-VET-000201658::row-198,2024-1-HR01-KA121-VET-000201658,Obrtnička i tehnička škola Dubrovnik,Dubrovnik,matched_exact_name_and_city,institution-7c356c20d4be,['institution-7c356c20d4be'],1
 2024-1-HR01-KA121-VET-000202013::row-199,2024-1-HR01-KA121-VET-000202013,Srednja škola Čakovec,Čakovec,matched_exact_name_and_city,institution-8b27295e8cda,['institution-8b27295e8cda'],1
 2024-1-HR01-KA121-VET-000202119::row-200,2024-1-HR01-KA121-VET-000202119,Trgovačka škola,Zagreb,matched_exact_name_and_city,institution-579d4007421f,['institution-579d4007421f'],1
-2024-1-HR01-KA121-VET-000203618::row-201,2024-1-HR01-KA121-VET-000203618,Tehnička škola,Slavonski Brod,location_mismatch,,"['institution-6518c9e1a1e2', 'institution-17ca95a2b720', 'institution-4ad4696beeeb']",3
+2024-1-HR01-KA121-VET-000203618::row-201,2024-1-HR01-KA121-VET-000203618,Tehnička škola,Slavonski Brod,matched_unique_address_and_city,institution-959047446dc2,['institution-959047446dc2'],1
 2024-1-HR01-KA121-VET-000203652::row-202,2024-1-HR01-KA121-VET-000203652,Elektrotehnička škola,Zagreb,matched_exact_name_and_city,institution-7830ec745266,['institution-7830ec745266'],1
 2024-1-HR01-KA121-VET-000203732::row-203,2024-1-HR01-KA121-VET-000203732,Turističko-ugostiteljska i prehrambena škola Bjelovar,Bjelovar,matched_exact_name_and_city,institution-52f1d085d042,['institution-52f1d085d042'],1
 2024-1-HR01-KA121-VET-000203833::row-204,2024-1-HR01-KA121-VET-000203833,Ekonomsko-birotehnička škola,Slavonski Brod,matched_exact_name_and_city,institution-0806bffc2f0e,['institution-0806bffc2f0e'],1
@@ -209,7 +209,7 @@
 2024-1-HR01-KA121-VET-000206799::row-209,2024-1-HR01-KA121-VET-000206799,Srednja škola Dugo Selo,Dugo Selo,matched_exact_name_and_city,institution-e876fd30d14c,['institution-e876fd30d14c'],1
 2024-1-HR01-KA121-VET-000206848::row-210,2024-1-HR01-KA121-VET-000206848,Obrtnička škola,Split,matched_exact_name_and_city,institution-5fb87b6cac8c,['institution-5fb87b6cac8c'],1
 2024-1-HR01-KA121-VET-000207035::row-211,2024-1-HR01-KA121-VET-000207035,Poljoprivredna i veterinarska škola Osijek,Osijek,matched_exact_name_and_city,institution-fd0685532de6,['institution-fd0685532de6'],1
-2024-1-HR01-KA121-VET-000207094::row-212,2024-1-HR01-KA121-VET-000207094,Srednja škola Matije Antuna Reljkovića,Slavonski Brod,unmatched,,[],0
+2024-1-HR01-KA121-VET-000207094::row-212,2024-1-HR01-KA121-VET-000207094,Srednja škola Matije Antuna Reljkovića,Slavonski Brod,matched_unique_address_and_city,institution-a6e2ab66abc0,['institution-a6e2ab66abc0'],1
 2024-1-HR01-KA121-VET-000207132::row-213,2024-1-HR01-KA121-VET-000207132,Tehnička škola,Požega,matched_exact_name_and_city,institution-6518c9e1a1e2,['institution-6518c9e1a1e2'],1
 2024-1-HR01-KA121-VET-000208170::row-214,2024-1-HR01-KA121-VET-000208170,Srednja medicinska škola,Slavonski Brod,matched_exact_name_and_city,institution-66f8ab6505ab,['institution-66f8ab6505ab'],1
 2024-1-HR01-KA121-VET-000209226::row-215,2024-1-HR01-KA121-VET-000209226,Ugostiteljsko-turističko učilište,Zagreb,matched_exact_name_and_city,institution-927e3f7dc766,['institution-927e3f7dc766'],1
@@ -226,7 +226,7 @@
 2024-1-HR01-KA121-VET-000211302::row-226,2024-1-HR01-KA121-VET-000211302,Hrvatsko društvo likovnih umjetnika,Zagreb,unmatched,,[],0
 2024-1-HR01-KA121-VET-000211310::row-227,2024-1-HR01-KA121-VET-000211310,Obrtna tehnička škola,Split,matched_exact_name_and_city,institution-8ea6fae646d0,['institution-8ea6fae646d0'],1
 2024-1-HR01-KA121-VET-000211368::row-228,2024-1-HR01-KA121-VET-000211368,Graditeljsko-geodetska tehnička škola,Split,matched_exact_name_and_city,institution-9b7d40eef0d0,['institution-9b7d40eef0d0'],1
-2024-1-HR01-KA121-VET-000211533::row-229,2024-1-HR01-KA121-VET-000211533,Srednja škola Ivan Švear Ivanić Grad,Grad,location_mismatch,,['institution-46057f789b1d'],1
+2024-1-HR01-KA121-VET-000211533::row-229,2024-1-HR01-KA121-VET-000211533,Srednja škola Ivan Švear Ivanić Grad,Grad,matched_unique_name_location_differs,institution-46057f789b1d,['institution-46057f789b1d'],1
 2024-1-HR01-KA121-VET-000211545::row-230,2024-1-HR01-KA121-VET-000211545,Graditeljsko-geodetska škola Osijek,Osijek,matched_exact_name_and_city,institution-5611aac6960f,['institution-5611aac6960f'],1
 2024-1-HR01-KA121-VET-000212419::row-231,2024-1-HR01-KA121-VET-000212419,Strojarska tehnička škola Osijek,Osijek,matched_exact_name_and_city,institution-dfc88c47dac2,['institution-dfc88c47dac2'],1
 2024-1-HR01-KA121-VET-000212462::row-232,2024-1-HR01-KA121-VET-000212462,Srednja škola Prelog,Prelog,matched_exact_name_and_city,institution-3c35f4b6f539,['institution-3c35f4b6f539'],1
@@ -238,7 +238,7 @@
 2024-1-HR01-KA121-VET-000214225::row-238,2024-1-HR01-KA121-VET-000214225,Ekonomska i turistička škola Daruvar,Daruvar,matched_exact_name_and_city,institution-19949bda442e,['institution-19949bda442e'],1
 2024-1-HR01-KA121-VET-000214714::row-239,2024-1-HR01-KA121-VET-000214714,Druga ekonomska škola,Zagreb,matched_exact_name_and_city,institution-28348204a5e0,['institution-28348204a5e0'],1
 2024-1-HR01-KA121-VET-000214956::row-240,2024-1-HR01-KA121-VET-000214956,Srednja škola u Maruševcu s pravom javnosti,Maruševec,matched_exact_name_and_city,institution-9e9fbf908631,['institution-9e9fbf908631'],1
-2024-1-HR01-KA121-VET-000215026::row-241,2024-1-HR01-KA121-VET-000215026,Strukovna škola Đurdevac,Đurđevac,unmatched,,[],0
+2024-1-HR01-KA121-VET-000215026::row-241,2024-1-HR01-KA121-VET-000215026,Strukovna škola Đurdevac,Đurđevac,matched_unique_address_and_city,institution-d34fb7ee0f72,['institution-d34fb7ee0f72'],1
 2024-1-HR01-KA121-VET-000215345::row-242,2024-1-HR01-KA121-VET-000215345,Hotelijersko-turistička škola u Zagrebu,Zagreb,matched_exact_name_and_city,institution-3d4851ba8078,['institution-3d4851ba8078'],1
 2024-1-HR01-KA121-VET-000215384::row-243,2024-1-HR01-KA121-VET-000215384,Srednja škola Koprivnica,Koprivnica,matched_exact_name_and_city,institution-9e48c2f5eae3,['institution-9e48c2f5eae3'],1
 2024-1-HR01-KA121-VET-000215641::row-244,2024-1-HR01-KA121-VET-000215641,Srednja škola Bedekovčina,Bedekovčina,matched_exact_name_and_city,institution-da90e14359d2,['institution-da90e14359d2'],1
@@ -251,8 +251,8 @@
 2024-1-HR01-KA121-VET-000218273::row-251,2024-1-HR01-KA121-VET-000218273,Poštanska i telekomunikacijska škola,Zagreb,matched_exact_name_and_city,institution-f195b07dc3b1,['institution-f195b07dc3b1'],1
 2024-1-HR01-KA121-VET-000218720::row-252,2024-1-HR01-KA121-VET-000218720,Elektrostrojarska obrtnička škola,Zagreb,matched_exact_name_and_city,institution-473f97b5faaa,['institution-473f97b5faaa'],1
 2024-1-HR01-KA121-VET-000219338::row-253,2024-1-HR01-KA121-VET-000219338,Srednja škola Stjepana Sulimanca,Pitomača,matched_exact_name_and_city,institution-3bdd5d860e52,['institution-3bdd5d860e52'],1
-2024-1-HR01-KA121-VET-000220609::row-254,2024-1-HR01-KA121-VET-000220609,"Srednja škola ""Arboretum Opeka""",Vinica,location_mismatch,,['institution-3a164d7e36a1'],1
-2024-1-HR01-KA121-VET-000221342::row-255,2024-1-HR01-KA121-VET-000221342,Srednja škola Novi Marof,Marof,location_mismatch,,['institution-48da90365b92'],1
+2024-1-HR01-KA121-VET-000220609::row-254,2024-1-HR01-KA121-VET-000220609,"Srednja škola ""Arboretum Opeka""",Vinica,matched_unique_name_location_differs,institution-3a164d7e36a1,['institution-3a164d7e36a1'],1
+2024-1-HR01-KA121-VET-000221342::row-255,2024-1-HR01-KA121-VET-000221342,Srednja škola Novi Marof,Marof,matched_unique_name_location_differs,institution-48da90365b92,['institution-48da90365b92'],1
 2024-1-HR01-KA121-VET-000221537::row-256,2024-1-HR01-KA121-VET-000221537,Ekonomska i trgovačka škola,Čakovec,matched_exact_name_and_city,institution-ed11ffd3c412,['institution-ed11ffd3c412'],1
 2024-1-HR01-KA121-VET-000221562::row-257,2024-1-HR01-KA121-VET-000221562,Tehnička škola Bjelovar,Bjelovar,matched_exact_name_and_city,institution-1f6973249fca,['institution-1f6973249fca'],1
 2024-1-HR01-KA121-VET-000221736::row-258,2024-1-HR01-KA121-VET-000221736,Srednja škola Topusko,Topusko,matched_exact_name_and_city,institution-cd05f7723686,['institution-cd05f7723686'],1
@@ -264,12 +264,12 @@
 2024-1-HR01-KA121-VET-000224679::row-264,2024-1-HR01-KA121-VET-000224679,Ministarstvo unutarnjih poslova,Zagreb,unmatched,,[],0
 2024-1-HR01-KA121-VET-000224818::row-265,2024-1-HR01-KA121-VET-000224818,I. tehnička škola Tesla,Zagreb,matched_exact_name_and_city,institution-3d0f2c36d1c5,['institution-3d0f2c36d1c5'],1
 2024-1-HR01-KA121-VET-000226271::row-266,2024-1-HR01-KA121-VET-000226271,Ekonomsko-birotehnička i trgovačka škola,Zadar,matched_exact_name_and_city,institution-577b3b9dc92c,['institution-577b3b9dc92c'],1
-2024-1-HR01-KA121-VET-000228002::row-267,2024-1-HR01-KA121-VET-000228002,Srednja škola Ivana Trnskoga Hrvatska Kostajnica,Hrvatska Kostajnica,unmatched,,[],0
+2024-1-HR01-KA121-VET-000228002::row-267,2024-1-HR01-KA121-VET-000228002,Srednja škola Ivana Trnskoga Hrvatska Kostajnica,Hrvatska Kostajnica,matched_exact_name_and_city_suffix,institution-d202a4c0a312,['institution-d202a4c0a312'],1
 2024-1-HR01-KA121-VET-000229747::row-268,2024-1-HR01-KA121-VET-000229747,Agronomska skola Zagreb,Zagreb,matched_exact_name_and_city,institution-6250c8d53400,['institution-6250c8d53400'],1
 2024-1-HR01-KA121-VET-000229775::row-269,2024-1-HR01-KA121-VET-000229775,Turističko ugostiteljska škola Split,Split,matched_exact_name_and_city,institution-7ab4627af334,['institution-7ab4627af334'],1
 2024-1-HR01-KA121-VET-000230221::row-270,2024-1-HR01-KA121-VET-000230221,Poljoprivredno šumarska škola Vinkovci,Vinkovci,matched_exact_name_and_city,institution-a3cfe30f0f6b,['institution-a3cfe30f0f6b'],1
 2024-1-HR01-KA121-VET-000230912::row-271,2024-1-HR01-KA121-VET-000230912,Zdravstveno učilište,Zagreb,matched_exact_name_and_city,institution-89f221ae137a,['institution-89f221ae137a'],1
-2024-1-HR01-KA121-VET-000231789::row-272,2024-1-HR01-KA121-VET-000231789,Srednja škola Jelkovec,Zagreb,location_mismatch,,['institution-3cf7c8ad72f3'],1
+2024-1-HR01-KA121-VET-000231789::row-272,2024-1-HR01-KA121-VET-000231789,Srednja škola Jelkovec,Zagreb,matched_unique_name_location_differs,institution-3cf7c8ad72f3,['institution-3cf7c8ad72f3'],1
 2024-1-HR01-KA121-VET-000235809::row-273,2024-1-HR01-KA121-VET-000235809,Strojarska tehnička škola Fausta Vrančića,Zagreb,matched_exact_name_and_city,institution-d194248fa520,['institution-d194248fa520'],1
 2024-1-HR01-KA121-VET-000236218::row-274,2024-1-HR01-KA121-VET-000236218,Srednja škola Konjščina,Konjščina,matched_exact_name_and_city,institution-dc8b9d2f0be1,['institution-dc8b9d2f0be1'],1
 2024-1-HR01-KA121-VET-000236266::row-275,2024-1-HR01-KA121-VET-000236266,Srednja škola Oroslavje,Oroslavje,matched_exact_name_and_city,institution-d4b9aab2c923,['institution-d4b9aab2c923'],1
@@ -289,7 +289,7 @@
 2024-1-HR01-KA122-VET-000215579::row-289,2024-1-HR01-KA122-VET-000215579,Elektroindustrijska i obrtnička škola Rijeka,Rijeka,matched_exact_name_and_city,institution-1bb99ad8d0ce,['institution-1bb99ad8d0ce'],1
 2024-1-HR01-KA122-VET-000228205::row-290,2024-1-HR01-KA122-VET-000228205,Srednja strukovna škola Marko Babić,Vukovar,matched_exact_name_and_city,institution-c6df36ae59aa,['institution-c6df36ae59aa'],1
 2024-1-HR01-KA122-VET-000201692::row-291,2024-1-HR01-KA122-VET-000201692,Graditeljska tehnička škola,Zagreb,matched_exact_name_and_city,institution-d66be5fba4cc,['institution-d66be5fba4cc'],1
-2024-1-HR01-KA122-VET-000240045::row-292,2024-1-HR01-KA122-VET-000240045,"Srednja škola Tina Ujevića, Kutina",Kutina,unmatched,,[],0
+2024-1-HR01-KA122-VET-000240045::row-292,2024-1-HR01-KA122-VET-000240045,"Srednja škola Tina Ujevića, Kutina",Kutina,matched_exact_name_and_city_suffix,institution-9343c47b888a,['institution-9343c47b888a'],1
 2024-1-HR01-KA122-VET-000241127::row-293,2024-1-HR01-KA122-VET-000241127,Tehnička škola Daruvar,Daruvar,matched_exact_name_and_city,institution-b21a2814b2f8,['institution-b21a2814b2f8'],1
 2024-1-HR01-KA122-VET-000226208::row-294,2024-1-HR01-KA122-VET-000226208,Srednja škola Ilok,Ilok,matched_exact_name_and_city,institution-19c0b459935a,['institution-19c0b459935a'],1
 2024-1-HR01-KA122-VET-000238652::row-295,2024-1-HR01-KA122-VET-000238652,Zrakoplovna tehnička škola Rudolfa Perešina,Velika Gorica,matched_exact_name_and_city,institution-09e116cf0836,['institution-09e116cf0836'],1
@@ -327,7 +327,7 @@
 2024-1-HR01-KA131-HED-000201652::row-327,2024-1-HR01-KA131-HED-000201652,Konzorcij The Knowledge Triangle,Rijeka,unmatched,,[],0
 2024-1-HR01-KA131-HED-000235626::row-328,2024-1-HR01-KA131-HED-000235626,EVANĐEOSKO TEOLOŠKO VELEUČILIŠTE,Osijek,unmatched,,[],0
 2024-1-HR01-KA131-HED-000223058::row-329,2024-1-HR01-KA131-HED-000223058,VELEUČILIŠTE ARCA,Split,unmatched,,[],0
-2024-1-HR01-KA131-HED-000204729::row-330,2024-1-HR01-KA131-HED-000204729,ISTARSKO VELEUČILIŠTE,Pula,unmatched,,[],0
+2024-1-HR01-KA131-HED-000204729::row-330,2024-1-HR01-KA131-HED-000204729,ISTARSKO VELEUČILIŠTE,Pula,matched_unique_address_and_city,institution-eba47b8c092b,['institution-eba47b8c092b'],1
 2024-1-HR01-KA131-HED-000201623::row-331,2024-1-HR01-KA131-HED-000201623,VELEUČILIŠTE PAR,Rijeka,unmatched,,[],0
 2024-1-HR01-KA131-HED-000236273::row-332,2024-1-HR01-KA131-HED-000236273,VELEUČILIŠTE IVANIĆ-GRAD,Ivanić-grad,unmatched,,[],0
 2024-1-HR01-KA131-HED-000198329::row-333,2024-1-HR01-KA131-HED-000198329,VELEUČILIŠTE NIKOLA TESLA U GOSPIĆU,Gospić,matched_exact_name_and_city,institution-e1550c560ab0,['institution-e1550c560ab0'],1
@@ -338,16 +338,16 @@
 2024-1-HR01-KA131-HED-000206466::row-338,2024-1-HR01-KA131-HED-000206466,VELEUČILIŠTE U VIROVITICI,Virovitica,unmatched,,[],0
 2024-1-HR01-KA131-HED-000209243::row-339,2024-1-HR01-KA131-HED-000209243,VELEUČILIŠTE BERNAYS,Zagreb,unmatched,,[],0
 2024-1-HR01-KA131-HED-000227555::row-340,2024-1-HR01-KA131-HED-000227555,VELEUČILIŠTE EFFECTUS,Zagreb,unmatched,,[],0
-2024-1-HR01-KA131-HED-000208655::row-341,2024-1-HR01-KA131-HED-000208655,MEĐIMURSKO VELEUČILIŠTE U ČAKOVCU,Zagreb,location_mismatch,,['institution-804cfe7f62f5'],1
+2024-1-HR01-KA131-HED-000208655::row-341,2024-1-HR01-KA131-HED-000208655,MEĐIMURSKO VELEUČILIŠTE U ČAKOVCU,Zagreb,matched_unique_name_location_differs,institution-804cfe7f62f5,['institution-804cfe7f62f5'],1
 2024-1-HR01-KA131-HED-000217221::row-342,2024-1-HR01-KA131-HED-000217221,VELEUČILIŠTE ASPIRA,Zagreb,unmatched,,[],0
-2024-1-HR01-KA131-HED-000200579::row-343,2024-1-HR01-KA131-HED-000200579,ZAGREBAČKA ŠKOLA EKONOMIJE I MANAGEMENTA,Zagreb,unmatched,,[],0
-2024-1-HR01-KA131-HED-000202734::row-344,2024-1-HR01-KA131-HED-000202734,VELEUČILIŠTE U ŠIBENIKU,Zagreb,location_mismatch,,['institution-e375d605c711'],1
-2024-1-HR01-KA131-HED-000213542::row-345,2024-1-HR01-KA131-HED-000213542,RIT CROATIA,Zagreb,unmatched,,[],0
-2024-1-HR01-KA131-HED-000206305::row-346,2024-1-HR01-KA131-HED-000206305,VELEUČILIŠTE U BJELOVARU,Zagreb,location_mismatch,,['institution-20bc9ce4ca75'],1
-2024-1-HR01-KA131-HED-000224663::row-347,2024-1-HR01-KA131-HED-000224663,VELEUČILIŠTE LAVOSLAV RUŽIČKA U VUKOVARU,Zagreb,location_mismatch,,['institution-635ed827aa79'],1
+2024-1-HR01-KA131-HED-000200579::row-343,2024-1-HR01-KA131-HED-000200579,ZAGREBAČKA ŠKOLA EKONOMIJE I MANAGEMENTA,Zagreb,matched_unique_address_and_city,institution-6bbca1169f33,['institution-6bbca1169f33'],1
+2024-1-HR01-KA131-HED-000202734::row-344,2024-1-HR01-KA131-HED-000202734,VELEUČILIŠTE U ŠIBENIKU,Zagreb,matched_unique_name_location_differs,institution-e375d605c711,['institution-e375d605c711'],1
+2024-1-HR01-KA131-HED-000213542::row-345,2024-1-HR01-KA131-HED-000213542,RIT CROATIA,Zagreb,matched_unique_address_location_differs,institution-192d637eec3e,['institution-192d637eec3e'],1
+2024-1-HR01-KA131-HED-000206305::row-346,2024-1-HR01-KA131-HED-000206305,VELEUČILIŠTE U BJELOVARU,Zagreb,matched_unique_name_location_differs,institution-20bc9ce4ca75,['institution-20bc9ce4ca75'],1
+2024-1-HR01-KA131-HED-000224663::row-347,2024-1-HR01-KA131-HED-000224663,VELEUČILIŠTE LAVOSLAV RUŽIČKA U VUKOVARU,Zagreb,matched_unique_name_location_differs,institution-635ed827aa79,['institution-635ed827aa79'],1
 2024-1-HR01-KA131-HED-000225680::row-348,2024-1-HR01-KA131-HED-000225680,SVEUČILIŠTE VERN`,Zagreb,unmatched,,[],0
-2024-1-HR01-KA131-HED-000212228::row-349,2024-1-HR01-KA131-HED-000212228,HRVATSKO KATOLIČKO SVEUČILIŠTE,Zagreb,unmatched,,[],0
-2024-1-HR01-KA131-HED-000203430::row-350,2024-1-HR01-KA131-HED-000203430,SVEUČILIŠTE ALGEBRA,Zagreb,unmatched,,[],0
+2024-1-HR01-KA131-HED-000212228::row-349,2024-1-HR01-KA131-HED-000212228,HRVATSKO KATOLIČKO SVEUČILIŠTE,Zagreb,matched_unique_address_and_city,institution-562bf2ce561f,['institution-562bf2ce561f'],1
+2024-1-HR01-KA131-HED-000203430::row-350,2024-1-HR01-KA131-HED-000203430,SVEUČILIŠTE ALGEBRA,Zagreb,matched_unique_address_and_city,institution-c869e6ccc068,['institution-c869e6ccc068'],1
 2024-1-HR01-KA131-HED-000207742::row-351,2024-1-HR01-KA131-HED-000207742,SVEUČILIŠTE U DUBROVNIKU,Dubrovnik,matched_exact_name_and_city,institution-efa72419523f,['institution-efa72419523f'],1
 2024-1-HR01-KA131-HED-000203126::row-352,2024-1-HR01-KA131-HED-000203126,VELEUČILIŠTE VELIKA GORICA,Velika Gorica,matched_exact_name_and_city,institution-f62207c61ce6,['institution-f62207c61ce6'],1
 2024-1-HR01-KA131-HED-000199483::row-353,2024-1-HR01-KA131-HED-000199483,VELEUČILIŠTE U RIJECI,Rijeka,matched_exact_name_and_city,institution-57a45e0d5ab3,['institution-57a45e0d5ab3'],1
@@ -356,37 +356,37 @@
 2024-1-HR01-KA131-HED-000198130::row-356,2024-1-HR01-KA131-HED-000198130,LIBERTAS MEĐUNARODNO SVEUČILIŠTE,Zagreb,unmatched,,[],0
 2024-1-HR01-KA131-HED-000236058::row-357,2024-1-HR01-KA131-HED-000236058,VELEUČILIŠTE U KARLOVCU,Karlovac,matched_exact_name_and_city,institution-c631fb52bb47,['institution-c631fb52bb47'],1
 2024-1-HR01-KA131-HED-000204572::row-358,2024-1-HR01-KA131-HED-000204572,SVEUČILIŠTE JURJA DOBRILE U PULI,Pula,matched_exact_name_and_city,institution-1c38746575c4,['institution-1c38746575c4'],1
-2024-1-HR01-KA131-HED-000206370::row-359,2024-1-HR01-KA131-HED-000206370,SVEUČILIŠTE SJEVER,Koprivnica,unmatched,,[],0
+2024-1-HR01-KA131-HED-000206370::row-359,2024-1-HR01-KA131-HED-000206370,SVEUČILIŠTE SJEVER,Koprivnica,matched_unique_address_and_city,institution-6a194cb86e7d,['institution-6a194cb86e7d'],1
 2024-1-HR01-KA131-HED-000197947::row-360,2024-1-HR01-KA131-HED-000197947,TEHNIČKO VELEUČILIŠTE U ZAGREBU,Zagreb,matched_exact_name_and_city,institution-d6b8f990604a,['institution-d6b8f990604a'],1
-2024-1-HR01-KA131-HED-000212499::row-361,2024-1-HR01-KA131-HED-000212499,ZDRAVSTVENO VELEUČILIŠTE,Zagreb,unmatched,,[],0
+2024-1-HR01-KA131-HED-000212499::row-361,2024-1-HR01-KA131-HED-000212499,ZDRAVSTVENO VELEUČILIŠTE,Zagreb,matched_unique_address_and_city,institution-2dda7aa575e4,['institution-2dda7aa575e4'],1
 2024-1-HR01-KA131-HED-000221383::row-362,2024-1-HR01-KA131-HED-000221383,SVEUČILIŠTE U ZADRU,Zadar,matched_exact_name_and_city,institution-2f0d03f51723,['institution-2f0d03f51723'],1
 2024-1-HR01-KA131-HED-000197229::row-363,2024-1-HR01-KA131-HED-000197229,SVEUČILIŠTE U RIJECI,Rijeka,matched_exact_name_and_city,institution-868e130bc33e,['institution-868e130bc33e'],1
 2024-1-HR01-KA131-HED-000200509::row-364,2024-1-HR01-KA131-HED-000200509,SVEUČILIŠTE JOSIPA JURJA STROSSMAYERA U OSIJEKU,Osijek,matched_exact_name_and_city,institution-d3c5da5e46b2,['institution-d3c5da5e46b2'],1
 2024-1-HR01-KA131-HED-000206905::row-365,2024-1-HR01-KA131-HED-000206905,SVEUČILIŠTE U SPLITU,Split,matched_exact_name_and_city,institution-f6b52d08c956,['institution-f6b52d08c956'],1
 2024-1-HR01-KA131-HED-000223698::row-366,2024-1-HR01-KA131-HED-000223698,SVEUČILIŠTE U ZAGREBU,Zagreb,matched_exact_name_and_city,institution-708568c881bf,['institution-708568c881bf'],1
 2024-1-HR01-KA171-HED-000231275::row-367,2024-1-HR01-KA171-HED-000231275,Sveučilište u Slavonskom Brodu,Slavonski Brod,matched_exact_name_and_city,institution-f7c5b95b1256,['institution-f7c5b95b1256'],1
-2024-1-HR01-KA171-HED-000227969::row-368,2024-1-HR01-KA171-HED-000227969,"Veleučilište ""Lavoslav Ružička"" u Vukovaru",Zagreb,location_mismatch,,['institution-635ed827aa79'],1
+2024-1-HR01-KA171-HED-000227969::row-368,2024-1-HR01-KA171-HED-000227969,"Veleučilište ""Lavoslav Ružička"" u Vukovaru",Zagreb,matched_unique_name_location_differs,institution-635ed827aa79,['institution-635ed827aa79'],1
 2024-1-HR01-KA171-HED-000240824::row-369,2024-1-HR01-KA171-HED-000240824,Veleučilište PAR,Rijeka,unmatched,,[],0
 2024-1-HR01-KA171-HED-000227894::row-370,2024-1-HR01-KA171-HED-000227894,Sveučilište VERN',Zagreb,unmatched,,[],0
-2024-1-HR01-KA171-HED-000241372::row-371,2024-1-HR01-KA171-HED-000241372,Hrvatsko katoličko sveučilište,Zagreb,unmatched,,[],0
+2024-1-HR01-KA171-HED-000241372::row-371,2024-1-HR01-KA171-HED-000241372,Hrvatsko katoličko sveučilište,Zagreb,matched_unique_address_and_city,institution-562bf2ce561f,['institution-562bf2ce561f'],1
 2024-1-HR01-KA171-HED-000222332::row-372,2024-1-HR01-KA171-HED-000222332,Tehničko veleučilište u Zagrebu,Zagreb,matched_exact_name_and_city,institution-d6b8f990604a,['institution-d6b8f990604a'],1
 2024-1-HR01-KA171-HED-000212574::row-373,2024-1-HR01-KA171-HED-000212574,Sveučilište u Dubrovniku,Dubrovnik,matched_exact_name_and_city,institution-efa72419523f,['institution-efa72419523f'],1
-2024-1-HR01-KA171-HED-000210876::row-374,2024-1-HR01-KA171-HED-000210876,Veleučiliste u Bjelovaru,Zagreb,location_mismatch,,['institution-20bc9ce4ca75'],1
+2024-1-HR01-KA171-HED-000210876::row-374,2024-1-HR01-KA171-HED-000210876,Veleučiliste u Bjelovaru,Zagreb,matched_unique_name_location_differs,institution-20bc9ce4ca75,['institution-20bc9ce4ca75'],1
 2024-1-HR01-KA171-HED-000238870::row-375,2024-1-HR01-KA171-HED-000238870,Veleučilište s pravom javnosti Baltazar Zaprešić,Zaprešić,matched_exact_name_and_city,institution-7232b3b1272f,['institution-7232b3b1272f'],1
 2024-1-HR01-KA171-HED-000238859::row-376,2024-1-HR01-KA171-HED-000238859,Veleučilište Ivanić-Grad,Ivanić-grad,unmatched,,[],0
 2024-1-HR01-KA171-HED-000228021::row-377,2024-1-HR01-KA171-HED-000228021,Sveučilište u Splitu,Split,matched_exact_name_and_city,institution-f6b52d08c956,['institution-f6b52d08c956'],1
-2024-1-HR01-KA171-HED-000239765::row-378,2024-1-HR01-KA171-HED-000239765,Sveučilište Sjever,Koprivnica,unmatched,,[],0
+2024-1-HR01-KA171-HED-000239765::row-378,2024-1-HR01-KA171-HED-000239765,Sveučilište Sjever,Koprivnica,matched_unique_address_and_city,institution-6a194cb86e7d,['institution-6a194cb86e7d'],1
 2024-1-HR01-KA171-HED-000218043::row-379,2024-1-HR01-KA171-HED-000218043,Veleučilište Aspira,Zagreb,unmatched,,[],0
 2024-1-HR01-KA171-HED-000213484::row-380,2024-1-HR01-KA171-HED-000213484,Sveučilište u Zadru,Zadar,matched_exact_name_and_city,institution-2f0d03f51723,['institution-2f0d03f51723'],1
 2024-1-HR01-KA171-HED-000222976::row-381,2024-1-HR01-KA171-HED-000222976,Sveučilište u Zagrebu,Zagreb,matched_exact_name_and_city,institution-708568c881bf,['institution-708568c881bf'],1
 2024-1-HR01-KA171-HED-000234536::row-382,2024-1-HR01-KA171-HED-000234536,Veleučilište Velika Gorica,Velika Gorica,matched_exact_name_and_city,institution-f62207c61ce6,['institution-f62207c61ce6'],1
-2024-1-HR01-KA171-HED-000204190::row-383,2024-1-HR01-KA171-HED-000204190,Zagrebačka škola ekonomije i managementa,Zagreb,unmatched,,[],0
-2024-1-HR01-KA171-HED-000203038::row-384,2024-1-HR01-KA171-HED-000203038,Veleučilište u Šibeniku,Zagreb,location_mismatch,,['institution-e375d605c711'],1
+2024-1-HR01-KA171-HED-000204190::row-383,2024-1-HR01-KA171-HED-000204190,Zagrebačka škola ekonomije i managementa,Zagreb,matched_unique_address_and_city,institution-6bbca1169f33,['institution-6bbca1169f33'],1
+2024-1-HR01-KA171-HED-000203038::row-384,2024-1-HR01-KA171-HED-000203038,Veleučilište u Šibeniku,Zagreb,matched_unique_name_location_differs,institution-e375d605c711,['institution-e375d605c711'],1
 2024-1-HR01-KA171-HED-000238367::row-385,2024-1-HR01-KA171-HED-000238367,Veleučilište u Rijeci,Rijeka,matched_exact_name_and_city,institution-57a45e0d5ab3,['institution-57a45e0d5ab3'],1
 2024-1-HR01-KA171-HED-000233657::row-386,2024-1-HR01-KA171-HED-000233657,Veleučilište u Križevcima,Križevci,unmatched,,[],0
 2024-1-HR01-KA171-HED-000230256::row-387,2024-1-HR01-KA171-HED-000230256,Veleučilište Edward Bernays,Zagreb,unmatched,,[],0
 2024-1-HR01-KA171-HED-000234843::row-388,2024-1-HR01-KA171-HED-000234843,Veleučilište Nikola Tesla u Gospiću,Gospić,matched_exact_name_and_city,institution-e1550c560ab0,['institution-e1550c560ab0'],1
-2024-1-HR01-KA171-HED-000218711::row-389,2024-1-HR01-KA171-HED-000218711,Međimursko veleučilište u Čakovcu,Zagreb,location_mismatch,,['institution-804cfe7f62f5'],1
+2024-1-HR01-KA171-HED-000218711::row-389,2024-1-HR01-KA171-HED-000218711,Međimursko veleučilište u Čakovcu,Zagreb,matched_unique_name_location_differs,institution-804cfe7f62f5,['institution-804cfe7f62f5'],1
 2024-1-HR01-KA171-HED-000241411::row-390,2024-1-HR01-KA171-HED-000241411,Poslovno veleučilište Zagreb,Zagreb,matched_exact_name_and_city,institution-9605b051d874,['institution-9605b051d874'],1
 2024-1-HR01-KA171-HED-000203809::row-391,2024-1-HR01-KA171-HED-000203809,Sveučilište u Rijeci,Rijeka,matched_exact_name_and_city,institution-868e130bc33e,['institution-868e130bc33e'],1
 2024-1-HR01-KA171-HED-000239692::row-392,2024-1-HR01-KA171-HED-000239692,Veleučilište u Karlovcu,Karlovac,matched_exact_name_and_city,institution-c631fb52bb47,['institution-c631fb52bb47'],1
@@ -423,7 +423,7 @@
 2024-1-HR01-KA122-ADU-000227456::row-423,2024-1-HR01-KA122-ADU-000227456,Pučko otvoreno učilište Križevci,Križevci,unmatched,,[],0
 2024-1-HR01-KA122-ADU-000229463::row-424,2024-1-HR01-KA122-ADU-000229463,"Udruga za unaprjeđenje mentalnog zdravlja ""Vrapčići""",Slavonski Brod,unmatched,,[],0
 2024-1-HR01-KA122-ADU-000211221::row-425,2024-1-HR01-KA122-ADU-000211221,Narodna knjižnica i čitaonica u Klisu,Klis,unmatched,,[],0
-2024-1-HR01-KA122-ADU-000213244::row-426,2024-1-HR01-KA122-ADU-000213244,Gradska knjižnica Ivan Goran Kovačić,Karlovac,unmatched,,[],0
+2024-1-HR01-KA122-ADU-000213244::row-426,2024-1-HR01-KA122-ADU-000213244,Gradska knjižnica Ivan Goran Kovačić,Karlovac,matched_exact_name_and_city,institution-53b12f23dd6a,['institution-53b12f23dd6a'],1
 2024-1-HR01-KA122-ADU-000241681::row-427,2024-1-HR01-KA122-ADU-000241681,Ministarstvo pravosuđa i uprave,Zagreb,unmatched,,[],0
 2024-1-HR01-KA122-ADU-000220363::row-428,2024-1-HR01-KA122-ADU-000220363,Hrvatski Crveni križ Gradsko društvo Crvenog križa Koprivnica,Koprivnica,unmatched,,[],0
 2024-1-HR01-KA122-ADU-000239563::row-429,2024-1-HR01-KA122-ADU-000239563,"Kinoklub ""Zagreb""",Zagreb,unmatched,,[],0
@@ -522,7 +522,7 @@
 2024-1-HR01-KA153-YOU-000236683::row-522,2024-1-HR01-KA153-YOU-000236683,Hrvatski ured za kreativnost i inovacije,Zagreb,unmatched,,[],0
 2024-1-HR01-KA153-YOU-000223153::row-523,2024-1-HR01-KA153-YOU-000223153,"CESI - Centar za edukaciju, savjetovanje i istraživanje",Zagreb,unmatched,,[],0
 2024-3-HR01-KA153-YOU-000277177::row-524,2024-3-HR01-KA153-YOU-000277177,Mreža mladih Hrvatske,Zagreb,unmatched,,[],0
-2024-3-HR01-KA153-YOU-000268728::row-525,2024-3-HR01-KA153-YOU-000268728,Gradska knjižnica i čitaonica Virovitica,Virovitica,unmatched,,[],0
+2024-3-HR01-KA153-YOU-000268728::row-525,2024-3-HR01-KA153-YOU-000268728,Gradska knjižnica i čitaonica Virovitica,Virovitica,matched_exact_name_and_city,institution-6d5035304e50,['institution-6d5035304e50'],1
 2024-3-HR01-KA153-YOU-000285046::row-526,2024-3-HR01-KA153-YOU-000285046,"Udruga ""Vestigium""","Brezovica, Zagreb",unmatched,,[],0
 2024-3-HR01-KA153-YOU-000284018::row-527,2024-3-HR01-KA153-YOU-000284018,Udruga srednjoškolaca Hrvatske,Zagreb,unmatched,,[],0
 2024-1-HR01-KA154-YOU-000238827::row-528,2024-1-HR01-KA154-YOU-000238827,Općina Dubrava,Općina Dubrava,unmatched,,[],0
@@ -574,13 +574,13 @@
 2024-1-HR01-KA182-SPO-000232647::row-574,2024-1-HR01-KA182-SPO-000232647,"Skijaški klub ""Sljeme"" Zagreb",Zagreb,unmatched,,[],0
 2024-1-HR01-KA182-SPO-000207770::row-575,2024-1-HR01-KA182-SPO-000207770,"Malonogometni klub "" AURELIA FUTSAL""",Vinkovci,unmatched,,[],0
 2024-1-HR01-KA182-SPO-000241179::row-576,2024-1-HR01-KA182-SPO-000241179,Vatrogasna sportska udruga Merhatovec,Merhatovec,unmatched,,[],0
-2025-1-HR01-KA121-SCH-000324922::row-577,2025-1-HR01-KA121-SCH-000324922,Osnovna škola Stjepana Cvrkovića Stari Mikanovci,Stari Mikanovci,unmatched,,[],0
+2025-1-HR01-KA121-SCH-000324922::row-577,2025-1-HR01-KA121-SCH-000324922,Osnovna škola Stjepana Cvrkovića Stari Mikanovci,Stari Mikanovci,matched_user_confirmed_school,institution-ae9ea6a7efb8,['institution-ae9ea6a7efb8'],1
 2025-1-HR01-KA121-SCH-000324868::row-578,2025-1-HR01-KA121-SCH-000324868,Hrvatska akademska i istraživačka mreža CARNET,Zagreb,unmatched,,[],0
-2025-1-HR01-KA121-SCH-000311831::row-579,2025-1-HR01-KA121-SCH-000311831,"Osnovna škola ""Vladimir Nazor"" Pisarovina",Pisarovina,unmatched,,[],0
-2025-1-HR01-KA121-SCH-000313784::row-580,2025-1-HR01-KA121-SCH-000313784,"Osnovna škola ""Vladimir Nazor"" Komletinci",Komletinci,unmatched,,[],0
+2025-1-HR01-KA121-SCH-000311831::row-579,2025-1-HR01-KA121-SCH-000311831,"Osnovna škola ""Vladimir Nazor"" Pisarovina",Pisarovina,matched_user_confirmed_school,institution-c74248b791e7,['institution-c74248b791e7'],1
+2025-1-HR01-KA121-SCH-000313784::row-580,2025-1-HR01-KA121-SCH-000313784,"Osnovna škola ""Vladimir Nazor"" Komletinci",Komletinci,matched_user_confirmed_school,institution-9e11a4bda5cc,['institution-9e11a4bda5cc'],1
 2025-1-HR01-KA121-SCH-000344142::row-581,2025-1-HR01-KA121-SCH-000344142,Srednja škola Petrinja,Petrinja,matched_exact_name_and_city,institution-c2c4f0c90083,['institution-c2c4f0c90083'],1
-2025-1-HR01-KA121-SCH-000306271::row-582,2025-1-HR01-KA121-SCH-000306271,"Osnovna škola ""Đuro Pilar"" Slavonski Brod",Slavonski Brod,unmatched,,[],0
-2025-1-HR01-KA121-SCH-000325286::row-583,2025-1-HR01-KA121-SCH-000325286,Srednja škola fra Andrije Kačića Miošića Makarska,Makarska,unmatched,,[],0
+2025-1-HR01-KA121-SCH-000306271::row-582,2025-1-HR01-KA121-SCH-000306271,"Osnovna škola ""Đuro Pilar"" Slavonski Brod",Slavonski Brod,matched_user_confirmed_school,institution-805cb67ae4ae,['institution-805cb67ae4ae'],1
+2025-1-HR01-KA121-SCH-000325286::row-583,2025-1-HR01-KA121-SCH-000325286,Srednja škola fra Andrije Kačića Miošića Makarska,Makarska,matched_exact_name_and_city_suffix,institution-d9991b100d49,['institution-d9991b100d49'],1
 2025-1-HR01-KA121-SCH-000310716::row-584,2025-1-HR01-KA121-SCH-000310716,Osnovna škola Markuševec,Zagreb,matched_exact_name_and_city,institution-720db7e31b2e,['institution-720db7e31b2e'],1
 2025-1-HR01-KA121-SCH-000313545::row-585,2025-1-HR01-KA121-SCH-000313545,Srednja škola Isidora Kršnjavoga Našice,Našice,matched_exact_name_and_city,institution-0a7109b53711,['institution-0a7109b53711'],1
 2025-1-HR01-KA121-SCH-000308015::row-586,2025-1-HR01-KA121-SCH-000308015,Osnovna škola Vladimir Nazor,Duga Resa,matched_exact_name_and_city,institution-1bcf4fb8a754,['institution-1bcf4fb8a754'],1
@@ -589,57 +589,57 @@
 2025-1-HR01-KA121-SCH-000314244::row-589,2025-1-HR01-KA121-SCH-000314244,Udruga hrvatskih srednjoškolskih ravnatelja,Zagreb,unmatched,,[],0
 2025-1-HR01-KA121-SCH-000307725::row-590,2025-1-HR01-KA121-SCH-000307725,Osnovna škola Josipa Kozarca,Lipovljani,matched_exact_name_and_city,institution-d5031fa1031c,['institution-d5031fa1031c'],1
 2025-1-HR01-KA121-SCH-000311488::row-591,2025-1-HR01-KA121-SCH-000311488,"Osnovna škola ""Dobriša Cesarić""",Osijek,matched_exact_name_and_city,institution-2d701af8d726,['institution-2d701af8d726'],1
-2025-1-HR01-KA121-SCH-000318903::row-592,2025-1-HR01-KA121-SCH-000318903,Osnovna škola Vladimira Nazora Daruvar,Daruvar,unmatched,,[],0
+2025-1-HR01-KA121-SCH-000318903::row-592,2025-1-HR01-KA121-SCH-000318903,Osnovna škola Vladimira Nazora Daruvar,Daruvar,matched_user_confirmed_school,institution-8d3fca658634,['institution-8d3fca658634'],1
 2025-1-HR01-KA121-SCH-000314941::row-593,2025-1-HR01-KA121-SCH-000314941,Osnovna škola Blaž Tadijanović,Slavonski Brod,matched_exact_name_and_city,institution-9a05d3c2a78c,['institution-9a05d3c2a78c'],1
 2025-1-HR01-KA121-SCH-000325964::row-594,2025-1-HR01-KA121-SCH-000325964,Industrijsko-obrtnička škola Virovitica,Virovitica,matched_exact_name_and_city,institution-8161560cd833,['institution-8161560cd833'],1
 2025-1-HR01-KA121-SCH-000312823::row-595,2025-1-HR01-KA121-SCH-000312823,Osnovna škola Slavka Kolara,Kravarsko,matched_exact_name_and_city,institution-d697c720025f,['institution-d697c720025f'],1
 2025-1-HR01-KA121-SCH-000307639::row-596,2025-1-HR01-KA121-SCH-000307639,Osnovna škola Jasenovac,Jasenovac,matched_exact_name_and_city,institution-15ac6c23777a,['institution-15ac6c23777a'],1
 2025-1-HR01-KA121-SCH-000322462::row-597,2025-1-HR01-KA121-SCH-000322462,Osnovna škola Vrgorac,Vrgorac,matched_exact_name_and_city,institution-33e4f5fe550b,['institution-33e4f5fe550b'],1
-2025-1-HR01-KA121-SCH-000323217::row-598,2025-1-HR01-KA121-SCH-000323217,"Osnovna škola ""Matija Gubec"" Magadenovac",Magadenovac,unmatched,,[],0
+2025-1-HR01-KA121-SCH-000323217::row-598,2025-1-HR01-KA121-SCH-000323217,"Osnovna škola ""Matija Gubec"" Magadenovac",Magadenovac,matched_user_confirmed_school,institution-9c51c72e21da,['institution-9c51c72e21da'],1
 2025-1-HR01-KA121-SCH-000330801::row-599,2025-1-HR01-KA121-SCH-000330801,Srednja škola Čakovec,Čakovec,matched_exact_name_and_city,institution-8b27295e8cda,['institution-8b27295e8cda'],1
 2025-1-HR01-KA121-SCH-000308733::row-600,2025-1-HR01-KA121-SCH-000308733,Osnovna škola Petra Preradovića,Pitomača,matched_exact_name_and_city,institution-7d2ccf865361,['institution-7d2ccf865361'],1
 2025-1-HR01-KA121-SCH-000326768::row-601,2025-1-HR01-KA121-SCH-000326768,Osnovna škola Podmurvice,Rijeka,matched_exact_name_and_city,institution-1d78b909bc9b,['institution-1d78b909bc9b'],1
-2025-1-HR01-KA121-SCH-000342385::row-602,2025-1-HR01-KA121-SCH-000342385,"Osnovna škola ""Antun Nemčić Gostovinski"" Koprivnica",Koprivnica,unmatched,,[],0
-2025-1-HR01-KA121-SCH-000308512::row-603,2025-1-HR01-KA121-SCH-000308512,l. osnovna škola Čakovec,Čakovec,unmatched,,[],0
+2025-1-HR01-KA121-SCH-000342385::row-602,2025-1-HR01-KA121-SCH-000342385,"Osnovna škola ""Antun Nemčić Gostovinski"" Koprivnica",Koprivnica,matched_user_confirmed_school,institution-2798b65569f7,['institution-2798b65569f7'],1
+2025-1-HR01-KA121-SCH-000308512::row-603,2025-1-HR01-KA121-SCH-000308512,l. osnovna škola Čakovec,Čakovec,matched_unique_address_and_city,institution-7b577b27ac3a,['institution-7b577b27ac3a'],1
 2025-1-HR01-KA121-SCH-000312501::row-604,2025-1-HR01-KA121-SCH-000312501,"Osnovna škola ""Srdoči""",Rijeka,matched_exact_name_and_city,institution-49c1e8e2f298,['institution-49c1e8e2f298'],1
 2025-1-HR01-KA121-SCH-000324006::row-605,2025-1-HR01-KA121-SCH-000324006,Osnovna škola Vladimira Nazora,Vinkovci,matched_exact_name_and_city,institution-61f7558c19bc,['institution-61f7558c19bc'],1
-2025-1-HR01-KA121-SCH-000311456::row-606,2025-1-HR01-KA121-SCH-000311456,Osnovna škola Višnjevac,Osijek,location_mismatch,,['institution-a1ae44ef6e15'],1
+2025-1-HR01-KA121-SCH-000311456::row-606,2025-1-HR01-KA121-SCH-000311456,Osnovna škola Višnjevac,Osijek,matched_unique_name_location_differs,institution-a1ae44ef6e15,['institution-a1ae44ef6e15'],1
 2025-1-HR01-KA121-SCH-000307816::row-607,2025-1-HR01-KA121-SCH-000307816,Ekonomska i turistička škola Daruvar,Daruvar,matched_exact_name_and_city,institution-19949bda442e,['institution-19949bda442e'],1
 2025-1-HR01-KA121-SCH-000339528::row-608,2025-1-HR01-KA121-SCH-000339528,Osnovna škola Horvati,Zagreb,matched_exact_name_and_city,institution-6884aec2d328,['institution-6884aec2d328'],1
 2025-1-HR01-KA121-SCH-000312353::row-609,2025-1-HR01-KA121-SCH-000312353,Ekonomska škola Požega,Požega,matched_exact_name_and_city,institution-bf484e5b836b,['institution-bf484e5b836b'],1
 2025-1-HR01-KA121-SCH-000334257::row-610,2025-1-HR01-KA121-SCH-000334257,"Osnovna škola ""Vladimir Nazor"" Križevci",Križevci,matched_exact_name_and_city,institution-17625fd8d20a,['institution-17625fd8d20a'],1
-2025-1-HR01-KA121-SCH-000311903::row-611,2025-1-HR01-KA121-SCH-000311903,Dječji vrtić Rijeka,Rijeka,unmatched,,[],0
+2025-1-HR01-KA121-SCH-000311903::row-611,2025-1-HR01-KA121-SCH-000311903,Dječji vrtić Rijeka,Rijeka,matched_exact_name_and_city,institution-afc5f6f69f75,['institution-afc5f6f69f75'],1
 2025-1-HR01-KA121-SCH-000326123::row-612,2025-1-HR01-KA121-SCH-000326123,Osnovna škola Župa dubrovačka,Mlini,matched_exact_name_and_city,institution-a978ef42714a,['institution-a978ef42714a'],1
 2025-1-HR01-KA121-SCH-000323956::row-613,2025-1-HR01-KA121-SCH-000323956,Poliklinika za rehabilitaciju slušanja i govora SUVAG,Zagreb,matched_exact_name_and_city,institution-80ecbe9063fc,['institution-80ecbe9063fc'],1
 2025-1-HR01-KA121-SCH-000324897::row-614,2025-1-HR01-KA121-SCH-000324897,Osnovna škola dr. Franje Tuđmana Brela,Brela,matched_exact_name_and_city,institution-2917eb63c1fa,['institution-2917eb63c1fa'],1
-2025-1-HR01-KA121-SCH-000325254::row-615,2025-1-HR01-KA121-SCH-000325254,Dječji vrtić Vesela Kućica,Zagreb,unmatched,,[],0
+2025-1-HR01-KA121-SCH-000325254::row-615,2025-1-HR01-KA121-SCH-000325254,Dječji vrtić Vesela Kućica,Zagreb,matched_exact_name_and_city,institution-5eaf87cb878f,['institution-5eaf87cb878f'],1
 2025-1-HR01-KA121-SCH-000325407::row-616,2025-1-HR01-KA121-SCH-000325407,Srednja škola Hrvatski kralj Zvonimir,Krk,matched_exact_name_and_city,institution-48c1e7cb24d4,['institution-48c1e7cb24d4'],1
 2025-1-HR01-KA121-SCH-000306077::row-617,2025-1-HR01-KA121-SCH-000306077,Osnovna škola Rovišće,Rovišće,matched_exact_name_and_city,institution-c2df4ec27a90,['institution-c2df4ec27a90'],1
 2025-1-HR01-KA121-SCH-000329315::row-618,2025-1-HR01-KA121-SCH-000329315,Osnovna škola Ivana Gorana Kovačića,Vinkovci,matched_exact_name_and_city,institution-4826bc8cd4bd,['institution-4826bc8cd4bd'],1
-2025-1-HR01-KA121-SCH-000312606::row-619,2025-1-HR01-KA121-SCH-000312606,Osnovna škola Vugrovec-Kašina,Kašina (Grad Zagreb),location_mismatch,,['institution-164fcd55ea81'],1
+2025-1-HR01-KA121-SCH-000312606::row-619,2025-1-HR01-KA121-SCH-000312606,Osnovna škola Vugrovec-Kašina,Kašina (Grad Zagreb),matched_unique_name_location_differs,institution-164fcd55ea81,['institution-164fcd55ea81'],1
 2025-1-HR01-KA121-SCH-000319200::row-620,2025-1-HR01-KA121-SCH-000319200,Osnovna škola Fran Koncelak Drnje,Drnje,matched_exact_name_and_city,institution-f4d86fd4186d,['institution-f4d86fd4186d'],1
-2025-1-HR01-KA121-SCH-000306617::row-621,2025-1-HR01-KA121-SCH-000306617,Dječji vrtić Cvit Mediterana,Split,unmatched,,[],0
+2025-1-HR01-KA121-SCH-000306617::row-621,2025-1-HR01-KA121-SCH-000306617,Dječji vrtić Cvit Mediterana,Split,matched_exact_name_and_city,institution-07ff56652978,['institution-07ff56652978'],1
 2025-1-HR01-KA121-SCH-000308309::row-622,2025-1-HR01-KA121-SCH-000308309,Osnovna škola Vladimir Bosnar Stubičke Toplice,Stubičke Toplice,matched_exact_name_and_city,institution-9e40aeb474ab,['institution-9e40aeb474ab'],1
-2025-1-HR01-KA121-SCH-000310814::row-623,2025-1-HR01-KA121-SCH-000310814,Osnovna škola Petar Zoranić Nin,Nin,unmatched,,[],0
-2025-1-HR01-KA121-SCH-000322652::row-624,2025-1-HR01-KA121-SCH-000322652,Dječji vrtić Petar Pan,Zagreb,unmatched,,[],0
+2025-1-HR01-KA121-SCH-000310814::row-623,2025-1-HR01-KA121-SCH-000310814,Osnovna škola Petar Zoranić Nin,Nin,matched_user_confirmed_school,institution-a0f59419aa67,['institution-a0f59419aa67'],1
+2025-1-HR01-KA121-SCH-000322652::row-624,2025-1-HR01-KA121-SCH-000322652,Dječji vrtić Petar Pan,Zagreb,matched_exact_name_and_city,institution-4da5985d944e,['institution-4da5985d944e'],1
 2025-1-HR01-KA121-SCH-000307912::row-625,2025-1-HR01-KA121-SCH-000307912,Gimnazija Fran Galović Koprivnica,Koprivnica,matched_exact_name_and_city,institution-bb329c3548c6,['institution-bb329c3548c6'],1
 2025-1-HR01-KA121-SCH-000322905::row-626,2025-1-HR01-KA121-SCH-000322905,Osnovna škola Kajzerica,Zagreb,matched_exact_name_and_city,institution-504173cbdfa5,['institution-504173cbdfa5'],1
 2025-1-HR01-KA121-SCH-000310472::row-627,2025-1-HR01-KA121-SCH-000310472,Prva gimnazija Varaždin,Varaždin,matched_exact_name_and_city,institution-fa695b76ff61,['institution-fa695b76ff61'],1
-2025-1-HR01-KA121-SCH-000338877::row-628,2025-1-HR01-KA121-SCH-000338877,"Osnovna škola kraljice Jelene, Solin",Solin,unmatched,,[],0
+2025-1-HR01-KA121-SCH-000338877::row-628,2025-1-HR01-KA121-SCH-000338877,"Osnovna škola kraljice Jelene, Solin",Solin,matched_user_confirmed_school,institution-600189498e49,['institution-600189498e49'],1
 2025-1-HR01-KA121-SCH-000313592::row-629,2025-1-HR01-KA121-SCH-000313592,Osnovna škola Franje Serta Bednja,Bednja,matched_exact_name_and_city,institution-058e1bcf78e9,['institution-058e1bcf78e9'],1
-2025-1-HR01-KA121-SCH-000310854::row-630,2025-1-HR01-KA121-SCH-000310854,Dječji vrtić Matije Gupca,Zagreb,unmatched,,[],0
+2025-1-HR01-KA121-SCH-000310854::row-630,2025-1-HR01-KA121-SCH-000310854,Dječji vrtić Matije Gupca,Zagreb,matched_exact_name_and_city,institution-926844b5d9a5,['institution-926844b5d9a5'],1
 2025-1-HR01-KA121-SCH-000316061::row-631,2025-1-HR01-KA121-SCH-000316061,Gimnazija Vukovar,Vukovar,matched_exact_name_and_city,institution-101990e04eee,['institution-101990e04eee'],1
 2025-1-HR01-KA121-SCH-000314998::row-632,2025-1-HR01-KA121-SCH-000314998,XVIII. gimnazija,Zagreb,matched_exact_name_and_city,institution-884a499c7ea8,['institution-884a499c7ea8'],1
-2025-1-HR01-KA121-SCH-000311365::row-633,2025-1-HR01-KA121-SCH-000311365,III. gimnazija Zagreb,Zagreb,unmatched,,[],0
+2025-1-HR01-KA121-SCH-000311365::row-633,2025-1-HR01-KA121-SCH-000311365,III. gimnazija Zagreb,Zagreb,matched_exact_name_and_city_suffix,institution-648e260d3d09,['institution-648e260d3d09'],1
 2025-1-HR01-KA121-SCH-000310298::row-634,2025-1-HR01-KA121-SCH-000310298,Osnovna škola Eugena Kumičića,Slatina,matched_exact_name_and_city,institution-ca53a07d26d2,['institution-ca53a07d26d2'],1
 2025-1-HR01-KA121-SCH-000330022::row-635,2025-1-HR01-KA121-SCH-000330022,Osnovna škola Stjepana Kefelje,Kutina,matched_exact_name_and_city,institution-9e2b6f1e7f21,['institution-9e2b6f1e7f21'],1
 2025-1-HR01-KA121-SCH-000339725::row-636,2025-1-HR01-KA121-SCH-000339725,Gornjogradska gimnazija,Zagreb,matched_exact_name_and_city,institution-feaaa08a5e09,['institution-feaaa08a5e09'],1
 2025-1-HR01-KA121-SCH-000332943::row-637,2025-1-HR01-KA121-SCH-000332943,Osnovna škola Dobri,Split,matched_exact_name_and_city,institution-e5af5f36bc82,['institution-e5af5f36bc82'],1
 2025-1-HR01-KA121-SCH-000340335::row-638,2025-1-HR01-KA121-SCH-000340335,Srednja škola Mate Blažine Labin,Labin,matched_exact_name_and_city,institution-9c28408ed5bb,['institution-9c28408ed5bb'],1
-2025-1-HR01-KA121-SCH-000324090::row-639,2025-1-HR01-KA121-SCH-000324090,Osnova škola Bukovac,Zagreb,unmatched,,[],0
+2025-1-HR01-KA121-SCH-000324090::row-639,2025-1-HR01-KA121-SCH-000324090,Osnova škola Bukovac,Zagreb,matched_unique_address_and_city,institution-beb6e148d039,['institution-beb6e148d039'],1
 2025-1-HR01-KA121-SCH-000309438::row-640,2025-1-HR01-KA121-SCH-000309438,V. gimnazija Vladimir Nazor Split,Split,matched_exact_name_and_city,institution-eddc14f36082,['institution-eddc14f36082'],1
 2025-1-HR01-KA121-SCH-000328320::row-641,2025-1-HR01-KA121-SCH-000328320,"Osnovna škola ""Tin Ujević""",Osijek,matched_exact_name_and_city,institution-a017a77a1fc2,['institution-a017a77a1fc2'],1
-2025-1-HR01-KA121-SCH-000337453::row-642,2025-1-HR01-KA121-SCH-000337453,Osnovna škola Strahoninec,Čakovec,location_mismatch,,['institution-7dd567c5ad42'],1
+2025-1-HR01-KA121-SCH-000337453::row-642,2025-1-HR01-KA121-SCH-000337453,Osnovna škola Strahoninec,Čakovec,matched_unique_name_location_differs,institution-7dd567c5ad42,['institution-7dd567c5ad42'],1
 2025-1-HR01-KA121-SCH-000317967::row-643,2025-1-HR01-KA121-SCH-000317967,Osnovna škola  Petra Kanavelića,Korčula,matched_exact_name_and_city,institution-8a73ed1c49e3,['institution-8a73ed1c49e3'],1
 2025-1-HR01-KA121-SCH-000315829::row-644,2025-1-HR01-KA121-SCH-000315829,Osnovna škola Marjan,Split,matched_exact_name_and_city,institution-68f284f9a019,['institution-68f284f9a019'],1
 2025-1-HR01-KA121-SCH-000324268::row-645,2025-1-HR01-KA121-SCH-000324268,XV. gimnazija,Zagreb,matched_exact_name_and_city,institution-3d7eaec4b8f4,['institution-3d7eaec4b8f4'],1
@@ -647,22 +647,22 @@
 2025-1-HR01-KA121-SCH-000336114::row-647,2025-1-HR01-KA121-SCH-000336114,Osnovna škola Trnovitica,Velika Trnovitica,matched_exact_name_and_city,institution-305bcf235fff,['institution-305bcf235fff'],1
 2025-1-HR01-KA121-SCH-000313662::row-648,2025-1-HR01-KA121-SCH-000313662,Poštanska i telekomunikacijska škola,Zagreb,matched_exact_name_and_city,institution-f195b07dc3b1,['institution-f195b07dc3b1'],1
 2025-1-HR01-KA121-SCH-000306261::row-649,2025-1-HR01-KA121-SCH-000306261,"Srednja škola ""Ivo Padovan"" Blato",Blato,matched_exact_name_and_city,institution-c4ff3e1fb28c,['institution-c4ff3e1fb28c'],1
-2025-1-HR01-KA121-SCH-000306829::row-650,2025-1-HR01-KA121-SCH-000306829,XII. gimnazija,Grad Zagreb,location_mismatch,,['institution-b221ca9d71fc'],1
-2025-1-HR01-KA121-SCH-000326421::row-651,2025-1-HR01-KA121-SCH-000326421,Dječji vrtić Vladimir Nazor,Kastav,unmatched,,[],0
+2025-1-HR01-KA121-SCH-000306829::row-650,2025-1-HR01-KA121-SCH-000306829,XII. gimnazija,Grad Zagreb,matched_unique_name_location_differs,institution-b221ca9d71fc,['institution-b221ca9d71fc'],1
+2025-1-HR01-KA121-SCH-000326421::row-651,2025-1-HR01-KA121-SCH-000326421,Dječji vrtić Vladimir Nazor,Kastav,matched_exact_name_and_city,institution-ea3491fc7e66,['institution-ea3491fc7e66'],1
 2025-1-HR01-KA121-SCH-000307890::row-652,2025-1-HR01-KA121-SCH-000307890,Osnovna škola Smokvica,Smokvica,matched_exact_name_and_city,institution-9a997e16258a,['institution-9a997e16258a'],1
 2025-1-HR01-KA121-SCH-000315421::row-653,2025-1-HR01-KA121-SCH-000315421,Osnovna škola August Šenoa,Osijek,matched_exact_name_and_city,institution-95312540e488,['institution-95312540e488'],1
 2025-1-HR01-KA121-SCH-000310027::row-654,2025-1-HR01-KA121-SCH-000310027,Osnovna škola Zmijavci,Zmijavci,matched_exact_name_and_city,institution-f3b455d8a8e0,['institution-f3b455d8a8e0'],1
 2025-1-HR01-KA121-SCH-000312533::row-655,2025-1-HR01-KA121-SCH-000312533,Elektrotehnička i prometna škola Osijek,Osijek,matched_exact_name_and_city,institution-078eafb312b8,['institution-078eafb312b8'],1
 2025-1-HR01-KA121-SCH-000316566::row-656,2025-1-HR01-KA121-SCH-000316566,Osnovna škola dr. Franjo Tuđman,Šarengrad,matched_exact_name_and_city,institution-ed0ebdb0240e,['institution-ed0ebdb0240e'],1
 2025-1-HR01-KA121-SCH-000339921::row-657,2025-1-HR01-KA121-SCH-000339921,Tehnička škola Zagreb,Zagreb,matched_exact_name_and_city,institution-21fe2756e4f3,['institution-21fe2756e4f3'],1
-2025-1-HR01-KA121-SCH-000331452::row-658,2025-1-HR01-KA121-SCH-000331452,Osnovna škola Đuro Ester Koprivnica,Koprivnica,unmatched,,[],0
+2025-1-HR01-KA121-SCH-000331452::row-658,2025-1-HR01-KA121-SCH-000331452,Osnovna škola Đuro Ester Koprivnica,Koprivnica,matched_user_confirmed_school,institution-e5fabcf1e584,['institution-e5fabcf1e584'],1
 2025-1-HR01-KA121-SCH-000326875::row-659,2025-1-HR01-KA121-SCH-000326875,I. gimnazija,Zagreb,matched_exact_name_and_city,institution-e0139ae5dd33,['institution-e0139ae5dd33'],1
 2025-1-HR01-KA121-SCH-000325719::row-660,2025-1-HR01-KA121-SCH-000325719,Osnovna škola Odra,Zagreb,matched_exact_name_and_city,institution-3331afe9cf88,['institution-3331afe9cf88'],1
 2025-1-HR01-KA121-SCH-000320733::row-661,2025-1-HR01-KA121-SCH-000320733,Učenički dom Maksimir,Zagreb,unmatched,,[],0
 2025-1-HR01-KA121-SCH-000307538::row-662,2025-1-HR01-KA121-SCH-000307538,Srednja škola Centar za odgoj i obrazovanje,Zagreb,matched_exact_name_and_city,institution-c769e27b091a,['institution-c769e27b091a'],1
 2025-1-HR01-KA121-SCH-000323213::row-663,2025-1-HR01-KA121-SCH-000323213,Srednja škola Krapina,Krapina,matched_exact_name_and_city,institution-b48fecc72bcc,['institution-b48fecc72bcc'],1
-2025-1-HR01-KA121-SCH-000306218::row-664,2025-1-HR01-KA121-SCH-000306218,Osnovna škola Dr. Branimira Markovića Ravna Gora,Ravna Gora,unmatched,,[],0
-2025-1-HR01-KA121-SCH-000341628::row-665,2025-1-HR01-KA121-SCH-000341628,Dječji vrtić Siget,Zagreb,unmatched,,[],0
+2025-1-HR01-KA121-SCH-000306218::row-664,2025-1-HR01-KA121-SCH-000306218,Osnovna škola Dr. Branimira Markovića Ravna Gora,Ravna Gora,matched_user_confirmed_school,institution-f68cdc2c8906,['institution-f68cdc2c8906'],1
+2025-1-HR01-KA121-SCH-000341628::row-665,2025-1-HR01-KA121-SCH-000341628,Dječji vrtić Siget,Zagreb,matched_exact_name_and_city,institution-d7202f610035,['institution-d7202f610035'],1
 2025-1-HR01-KA121-SCH-000308896::row-666,2025-1-HR01-KA121-SCH-000308896,Osnovna škola Vladimir Nazor Virovitica,Virovitica,matched_exact_name_and_city,institution-1a816085ee6b,['institution-1a816085ee6b'],1
 2025-1-HR01-KA121-SCH-000324838::row-667,2025-1-HR01-KA121-SCH-000324838,Osnovna škola Milana Langa,Bregana,matched_exact_name_and_city,institution-fc2166ff0fe0,['institution-fc2166ff0fe0'],1
 2025-1-HR01-KA121-SCH-000314148::row-668,2025-1-HR01-KA121-SCH-000314148,Osnovna škola Braće Radića Pakrac,Pakrac,matched_exact_name_and_city,institution-0bab514834eb,['institution-0bab514834eb'],1
@@ -673,48 +673,48 @@
 2025-1-HR01-KA121-SCH-000315759::row-673,2025-1-HR01-KA121-SCH-000315759,Osnovna škola Belica,Belica,matched_exact_name_and_city,institution-5b4f72ce79be,['institution-5b4f72ce79be'],1
 2025-1-HR01-KA121-SCH-000314026::row-674,2025-1-HR01-KA121-SCH-000314026,Srednja škola Koprivnica,Koprivnica,matched_exact_name_and_city,institution-9e48c2f5eae3,['institution-9e48c2f5eae3'],1
 2025-1-HR01-KA121-SCH-000327560::row-675,2025-1-HR01-KA121-SCH-000327560,Prirodoslovna škola Vladimira Preloga,Zagreb,matched_exact_name_and_city,institution-3833c2940ba2,['institution-3833c2940ba2'],1
-2025-1-HR01-KA121-SCH-000308892::row-676,2025-1-HR01-KA121-SCH-000308892,"Osnovna škola Pećine, Rijeka",RIjeka,unmatched,,[],0
-2025-1-HR01-KA121-SCH-000325869::row-677,2025-1-HR01-KA121-SCH-000325869,Dječji vrtić Maslačak,Zaprešić,unmatched,,[],0
+2025-1-HR01-KA121-SCH-000308892::row-676,2025-1-HR01-KA121-SCH-000308892,"Osnovna škola Pećine, Rijeka",RIjeka,matched_user_confirmed_school,institution-5004c38fdab2,['institution-5004c38fdab2'],1
+2025-1-HR01-KA121-SCH-000325869::row-677,2025-1-HR01-KA121-SCH-000325869,Dječji vrtić Maslačak,Zaprešić,matched_exact_name_and_city,institution-32ca34001f65,['institution-32ca34001f65'],1
 2025-1-HR01-KA121-SCH-000314135::row-678,2025-1-HR01-KA121-SCH-000314135,Srednja škola Ivan Švear Ivanić Grad,Ivanić-Grad,matched_exact_name_and_city,institution-46057f789b1d,['institution-46057f789b1d'],1
 2025-1-HR01-KA121-SCH-000330484::row-679,2025-1-HR01-KA121-SCH-000330484,II. osnovna škola Bjelovar,Bjelovar,matched_exact_name_and_city,institution-02e515949ac3,['institution-02e515949ac3'],1
-2025-1-HR01-KA121-SCH-000319758::row-680,2025-1-HR01-KA121-SCH-000319758,Osnovna škola Dure Prejca Desinić,Desinić,unmatched,,[],0
+2025-1-HR01-KA121-SCH-000319758::row-680,2025-1-HR01-KA121-SCH-000319758,Osnovna škola Dure Prejca Desinić,Desinić,matched_user_confirmed_school,institution-782ad7036aa1,['institution-782ad7036aa1'],1
 2025-1-HR01-KA121-SCH-000344540::row-681,2025-1-HR01-KA121-SCH-000344540,Osnovna škola Hugo Badalić,Slavonski Brod,matched_exact_name_and_city,institution-1379def57f7d,['institution-1379def57f7d'],1
 2025-1-HR01-KA121-SCH-000335996::row-682,2025-1-HR01-KA121-SCH-000335996,Osnovna škola Antuna Mihanovića,Klanjec,matched_exact_name_and_city,institution-ed59690188f3,['institution-ed59690188f3'],1
 2025-1-HR01-KA121-SCH-000323415::row-683,2025-1-HR01-KA121-SCH-000323415,Osnovna škola Ljudevita Gaja,Zaprešić,matched_exact_name_and_city,institution-c7187cb8fb1d,['institution-c7187cb8fb1d'],1
 2025-1-HR01-KA121-SCH-000319514::row-684,2025-1-HR01-KA121-SCH-000319514,Srednja škola Ivanec,Ivanec,matched_exact_name_and_city,institution-f7e7774f685d,['institution-f7e7774f685d'],1
-2025-1-HR01-KA121-SCH-000310117::row-685,2025-1-HR01-KA121-SCH-000310117,Dječji vrtić Slavuj,Strmec,unmatched,,[],0
+2025-1-HR01-KA121-SCH-000310117::row-685,2025-1-HR01-KA121-SCH-000310117,Dječji vrtić Slavuj,Strmec,matched_exact_name_and_city,institution-828e79f6d9a4,['institution-828e79f6d9a4'],1
 2025-1-HR01-KA121-SCH-000307987::row-686,2025-1-HR01-KA121-SCH-000307987,Osnovna škola Zrinskih Nuštar,Nuštar,matched_exact_name_and_city,institution-13a5bafb7b6b,['institution-13a5bafb7b6b'],1
 2025-1-HR01-KA121-SCH-000309983::row-687,2025-1-HR01-KA121-SCH-000309983,Srednja škola Donji Miholjac,Donji Miholjac,matched_exact_name_and_city,institution-7f91d52eb655,['institution-7f91d52eb655'],1
-2025-1-HR01-KA121-SCH-000307347::row-688,2025-1-HR01-KA121-SCH-000307347,Osnovna škola don Mihovila Pavlinovića Podgora,Podgora,unmatched,,[],0
-2025-1-HR01-KA121-SCH-000325910::row-689,2025-1-HR01-KA121-SCH-000325910,Dječji vrtić Varaždin,Varaždin,unmatched,,[],0
+2025-1-HR01-KA121-SCH-000307347::row-688,2025-1-HR01-KA121-SCH-000307347,Osnovna škola don Mihovila Pavlinovića Podgora,Podgora,matched_user_confirmed_school,institution-a34ff599916a,['institution-a34ff599916a'],1
+2025-1-HR01-KA121-SCH-000325910::row-689,2025-1-HR01-KA121-SCH-000325910,Dječji vrtić Varaždin,Varaždin,matched_exact_name_and_city,institution-10fe5db7dfac,['institution-10fe5db7dfac'],1
 2025-1-HR01-KA121-SCH-000307966::row-690,2025-1-HR01-KA121-SCH-000307966,Srednja škola Ban Josip Jelačić,Zaprešić,matched_exact_name_and_city,institution-8614671eb6b8,['institution-8614671eb6b8'],1
 2025-1-HR01-KA121-SCH-000320191::row-691,2025-1-HR01-KA121-SCH-000320191,Ekonomsko-birotehnička škola,Slavonski Brod,matched_exact_name_and_city,institution-0806bffc2f0e,['institution-0806bffc2f0e'],1
-2025-1-HR01-KA121-SCH-000309708::row-692,2025-1-HR01-KA121-SCH-000309708,Osnovna škola Ivana Gorana Kovačića Gornje Bazje,Gornje Bazje (Lukač),location_mismatch,,['institution-633288869929'],1
-2025-1-HR01-KA121-SCH-000333961::row-693,2025-1-HR01-KA121-SCH-000333961,Osnovna škola Ivana Kukuljevića Sakcinskog Ivanec,Ivanec,unmatched,,[],0
+2025-1-HR01-KA121-SCH-000309708::row-692,2025-1-HR01-KA121-SCH-000309708,Osnovna škola Ivana Gorana Kovačića Gornje Bazje,Gornje Bazje (Lukač),matched_unique_name_location_differs,institution-633288869929,['institution-633288869929'],1
+2025-1-HR01-KA121-SCH-000333961::row-693,2025-1-HR01-KA121-SCH-000333961,Osnovna škola Ivana Kukuljevića Sakcinskog Ivanec,Ivanec,matched_user_confirmed_school,institution-d0d6217ce2e8,['institution-d0d6217ce2e8'],1
 2025-1-HR01-KA121-SCH-000309846::row-694,2025-1-HR01-KA121-SCH-000309846,Osnovna škola Josipa Matoša,Vukovar,matched_exact_name_and_city,institution-eac1733a448b,['institution-eac1733a448b'],1
 2025-1-HR01-KA121-SCH-000308314::row-695,2025-1-HR01-KA121-SCH-000308314,Osnovna škola Pujanki,Split,matched_exact_name_and_city,institution-0d2710cd54d8,['institution-0d2710cd54d8'],1
 2025-1-HR01-KA121-SCH-000323658::row-696,2025-1-HR01-KA121-SCH-000323658,Osnovna škola Hvar,Hvar,matched_exact_name_and_city,institution-7c18c1dd3a54,['institution-7c18c1dd3a54'],1
 2025-1-HR01-KA121-SCH-000320393::row-697,2025-1-HR01-KA121-SCH-000320393,I. osnovna škola Bjelovar,Bjelovar,matched_exact_name_and_city,institution-1f84c5c5f9ef,['institution-1f84c5c5f9ef'],1
 2025-1-HR01-KA121-SCH-000341792::row-698,2025-1-HR01-KA121-SCH-000341792,Osnovna škola Podolice Koprivnica,Koprivnica,matched_exact_name_and_city,institution-ead2c378afe1,['institution-ead2c378afe1'],1
 2025-1-HR01-KA121-SCH-000310695::row-699,2025-1-HR01-KA121-SCH-000310695,Gimnazija Metkovic,Metković,matched_exact_name_and_city,institution-96bffc269835,['institution-96bffc269835'],1
-2025-1-HR01-KA121-SCH-000312505::row-700,2025-1-HR01-KA121-SCH-000312505,Dječji vrtić Osijek,Osijek,unmatched,,[],0
+2025-1-HR01-KA121-SCH-000312505::row-700,2025-1-HR01-KA121-SCH-000312505,Dječji vrtić Osijek,Osijek,matched_exact_name_and_city,institution-0de1bbeb84fe,['institution-0de1bbeb84fe'],1
 2025-1-HR01-KA121-SCH-000320204::row-701,2025-1-HR01-KA121-SCH-000320204,Škola za cestovni promet,Zagreb,matched_exact_name_and_city,institution-59e4ff578631,['institution-59e4ff578631'],1
 2025-1-HR01-KA121-SCH-000314168::row-702,2025-1-HR01-KA121-SCH-000314168,Osnovna škola Stjepana Radića Bibinje,Bibinje,matched_exact_name_and_city,institution-566a217f71da,['institution-566a217f71da'],1
 2025-1-HR01-KA121-SCH-000315870::row-703,2025-1-HR01-KA121-SCH-000315870,Gimnazija Dr. Ivana Kranjčeva Đurđevac,Đurđevac,matched_exact_name_and_city,institution-92f78d2ef873,['institution-92f78d2ef873'],1
 2025-1-HR01-KA121-SCH-000319580::row-704,2025-1-HR01-KA121-SCH-000319580,Osnovna škola Ivanska,Ivanska,matched_exact_name_and_city,institution-f33247ab2be1,['institution-f33247ab2be1'],1
 2025-1-HR01-KA121-SCH-000311090::row-705,2025-1-HR01-KA121-SCH-000311090,VI. osnovna škola Varaždin,Varaždin,matched_exact_name_and_city,institution-9b37278e7355,['institution-9b37278e7355'],1
 2025-1-HR01-KA121-SCH-000307102::row-706,2025-1-HR01-KA121-SCH-000307102,Osnovna škola Sračinec,Sračinec,matched_exact_name_and_city,institution-cbcabc9562b7,['institution-cbcabc9562b7'],1
-2025-1-HR01-KA121-SCH-000327346::row-707,2025-1-HR01-KA121-SCH-000327346,Dječji vrtić Vrapčić Šenkovec,Šenkovec,unmatched,,[],0
+2025-1-HR01-KA121-SCH-000327346::row-707,2025-1-HR01-KA121-SCH-000327346,Dječji vrtić Vrapčić Šenkovec,Šenkovec,matched_exact_name_and_city_suffix,institution-14a478f0ec16,['institution-14a478f0ec16'],1
 2025-1-HR01-KA121-SCH-000313985::row-708,2025-1-HR01-KA121-SCH-000313985,Učenički dom Dora Pejačević,Zagreb,unmatched,,[],0
 2025-1-HR01-KA121-SCH-000307931::row-709,2025-1-HR01-KA121-SCH-000307931,Osnovna škola Blato,Blato,matched_exact_name_and_city,institution-e133df2fd618,['institution-e133df2fd618'],1
-2025-1-HR01-KA121-SCH-000309391::row-710,2025-1-HR01-KA121-SCH-000309391,Dječji vrtić Iskrica,Zagreb,unmatched,,[],0
+2025-1-HR01-KA121-SCH-000309391::row-710,2025-1-HR01-KA121-SCH-000309391,Dječji vrtić Iskrica,Zagreb,matched_exact_name_and_city,institution-eaf531c58913,['institution-eaf531c58913'],1
 2025-1-HR01-KA121-SCH-000314639::row-711,2025-1-HR01-KA121-SCH-000314639,Osnovna škola Jagode Truhelke,Osijek,matched_exact_name_and_city,institution-335244fc053c,['institution-335244fc053c'],1
 2025-1-HR01-KA121-SCH-000317223::row-712,2025-1-HR01-KA121-SCH-000317223,I. gimnazija Osijek,Osijek,matched_exact_name_and_city,institution-a3b5a2bf3154,['institution-a3b5a2bf3154'],1
 2025-1-HR01-KA121-SCH-000309292::row-713,2025-1-HR01-KA121-SCH-000309292,Osnovna škola Barilović,Barilović,matched_exact_name_and_city,institution-8c1c1c9d4143,['institution-8c1c1c9d4143'],1
 2025-1-HR01-KA121-SCH-000316701::row-714,2025-1-HR01-KA121-SCH-000316701,Osnovna škola Pantovčak,Zagreb,matched_exact_name_and_city,institution-209d09253c2c,['institution-209d09253c2c'],1
-2025-1-HR01-KA121-SCH-000314949::row-715,2025-1-HR01-KA121-SCH-000314949,Dječji vrtić Prečko,Zagreb,unmatched,,[],0
+2025-1-HR01-KA121-SCH-000314949::row-715,2025-1-HR01-KA121-SCH-000314949,Dječji vrtić Prečko,Zagreb,matched_exact_name_and_city,institution-3aae81b589ab,['institution-3aae81b589ab'],1
 2025-1-HR01-KA121-SCH-000326015::row-716,2025-1-HR01-KA121-SCH-000326015,Prva privatna gimnazija s pravom javnosti Varaždin,Varaždin,matched_exact_name_and_city,institution-4f10df4c98ed,['institution-4f10df4c98ed'],1
-2025-1-HR01-KA121-SCH-000318406::row-717,2025-1-HR01-KA121-SCH-000318406,Dječji vrtić Olga Ban Pazin,Pazin,unmatched,,[],0
+2025-1-HR01-KA121-SCH-000318406::row-717,2025-1-HR01-KA121-SCH-000318406,Dječji vrtić Olga Ban Pazin,Pazin,matched_exact_name_and_city_suffix,institution-172108c44912,['institution-172108c44912'],1
 2025-1-HR01-KA121-SCH-000317747::row-718,2025-1-HR01-KA121-SCH-000317747,Osnovna škola Novi Marof,Novi Marof,matched_exact_name_and_city,institution-96b1d3baa0ed,['institution-96b1d3baa0ed'],1
 2025-1-HR01-KA121-SCH-000311652::row-719,2025-1-HR01-KA121-SCH-000311652,Osnovna škola Bedekovčina,Bedekovčina,matched_exact_name_and_city,institution-e6f680604bfd,['institution-e6f680604bfd'],1
 2025-1-HR01-KA121-SCH-000330942::row-720,2025-1-HR01-KA121-SCH-000330942,Osnovna škola Borovje,Zagreb,matched_exact_name_and_city,institution-9cf3c152d687,['institution-9cf3c152d687'],1
@@ -724,7 +724,7 @@
 2025-1-HR01-KA121-SCH-000306719::row-724,2025-1-HR01-KA121-SCH-000306719,Osnovna škola Dobriše Cesarića,Zagreb,matched_exact_name_and_city,institution-475e9785ca42,['institution-475e9785ca42'],1
 2025-1-HR01-KA121-SCH-000329806::row-725,2025-1-HR01-KA121-SCH-000329806,Osnovna škola Grigora Viteza,Zagreb,matched_exact_name_and_city,institution-6f94324b5890,['institution-6f94324b5890'],1
 2025-1-HR01-KA121-SCH-000342090::row-726,2025-1-HR01-KA121-SCH-000342090,Pomorska škola,Split,matched_exact_name_and_city,institution-ed49ef8b1197,['institution-ed49ef8b1197'],1
-2025-1-HR01-KA121-SCH-000330393::row-727,2025-1-HR01-KA121-SCH-000330393,"Srednja škola Zvane Črne Rovinj, Scuola media superiore ""Zvane Crnja"" Rovigno",Rovinj,unmatched,,[],0
+2025-1-HR01-KA121-SCH-000330393::row-727,2025-1-HR01-KA121-SCH-000330393,"Srednja škola Zvane Črne Rovinj, Scuola media superiore ""Zvane Crnja"" Rovigno",Rovinj,matched_unique_address_and_city,institution-1c6e359bc0cb,['institution-1c6e359bc0cb'],1
 2025-1-HR01-KA121-SCH-000317839::row-728,2025-1-HR01-KA121-SCH-000317839,Srednja škola Jure Kaštelan,Omiš,matched_exact_name_and_city,institution-fcd7d2cec239,['institution-fcd7d2cec239'],1
 2025-1-HR01-KA121-SCH-000310225::row-729,2025-1-HR01-KA121-SCH-000310225,Osnovna škola Sveti Petar Orehovec,Sveti Petar Orehovec,matched_exact_name_and_city,institution-eb143bd47369,['institution-eb143bd47369'],1
 2025-1-HR01-KA121-SCH-000323147::row-730,2025-1-HR01-KA121-SCH-000323147,Osnovna škola Nikole Tesle,Zagreb,matched_exact_name_and_city,institution-489ffc9211ec,['institution-489ffc9211ec'],1
@@ -735,7 +735,7 @@
 2025-1-HR01-KA121-SCH-000308572::row-735,2025-1-HR01-KA121-SCH-000308572,IX. gimnazija,Zagreb,matched_exact_name_and_city,institution-926250b5af36,['institution-926250b5af36'],1
 2025-1-HR01-KA121-SCH-000323477::row-736,2025-1-HR01-KA121-SCH-000323477,Gimnazija Josipa Slavenskog Čakovec,Čakovec,matched_exact_name_and_city,institution-6be1c88fa1b6,['institution-6be1c88fa1b6'],1
 2025-1-HR01-KA122-SCH-000344217::row-737,2025-1-HR01-KA122-SCH-000344217,"GAUDEAMUS, prva privatna srednja škola u Osijeku, s pravom javnosti",Osijek,matched_exact_name_and_city,institution-cc29faae06b9,['institution-cc29faae06b9'],1
-2025-1-HR01-KA122-SCH-000330852::row-738,2025-1-HR01-KA122-SCH-000330852,Osnovna škola Sesvetski Kraljevec,Zagreb,location_mismatch,,['institution-b2de49be94b6'],1
+2025-1-HR01-KA122-SCH-000330852::row-738,2025-1-HR01-KA122-SCH-000330852,Osnovna škola Sesvetski Kraljevec,Zagreb,matched_unique_name_location_differs,institution-b2de49be94b6,['institution-b2de49be94b6'],1
 2025-1-HR01-KA122-SCH-000334149::row-739,2025-1-HR01-KA122-SCH-000334149,Centar za odgoj i obrazovanje Čakovec,Čakovec,matched_exact_name_and_city,institution-2d6435519a96,['institution-2d6435519a96'],1
 2025-1-HR01-KA122-SCH-000332345::row-740,2025-1-HR01-KA122-SCH-000332345,Osnovna škola braće Radića,Kloštar Ivanić,matched_exact_name_and_city,institution-1a67be3e7e02,['institution-1a67be3e7e02'],1
 2025-1-HR01-KA122-SCH-000345259::row-741,2025-1-HR01-KA122-SCH-000345259,Gimnazija Eugena Kumičića Opatija,Opatija,matched_exact_name_and_city,institution-6cea3317cfa4,['institution-6cea3317cfa4'],1
@@ -744,49 +744,49 @@
 2025-1-HR01-KA122-SCH-000328086::row-744,2025-1-HR01-KA122-SCH-000328086,Agronomska škola Zagreb,Zagreb,matched_exact_name_and_city,institution-6250c8d53400,['institution-6250c8d53400'],1
 2025-1-HR01-KA122-SCH-000343975::row-745,2025-1-HR01-KA122-SCH-000343975,CENTAR ZA ODGOJ I OBRAZOVANJE,RIJEKA,matched_exact_name_and_city,institution-a2449b1db1a6,['institution-a2449b1db1a6'],1
 2025-1-HR01-KA122-SCH-000317033::row-746,2025-1-HR01-KA122-SCH-000317033,Osnovna škola Hinka Juhna Podgorač,Podgorač,matched_exact_name_and_city,institution-45a18c9396ce,['institution-45a18c9396ce'],1
-2025-1-HR01-KA122-SCH-000320902::row-747,2025-1-HR01-KA122-SCH-000320902,Dječji vrtić Dječja mašta,Čakovec,unmatched,,[],0
-2025-1-HR01-KA122-SCH-000335070::row-748,2025-1-HR01-KA122-SCH-000335070,Dječji vrtić Regoč,Babina Greda,unmatched,,[],0
+2025-1-HR01-KA122-SCH-000320902::row-747,2025-1-HR01-KA122-SCH-000320902,Dječji vrtić Dječja mašta,Čakovec,matched_exact_name_and_city,institution-da00d1521375,['institution-da00d1521375'],1
+2025-1-HR01-KA122-SCH-000335070::row-748,2025-1-HR01-KA122-SCH-000335070,Dječji vrtić Regoč,Babina Greda,matched_exact_name_and_city,institution-fe8344a72698,['institution-fe8344a72698'],1
 2025-1-HR01-KA122-SCH-000323061::row-749,2025-1-HR01-KA122-SCH-000323061,Osnovna škola Bedenica,Bedenica,matched_exact_name_and_city,institution-2036a5e6952c,['institution-2036a5e6952c'],1
 2025-1-HR01-KA122-SCH-000330558::row-750,2025-1-HR01-KA122-SCH-000330558,Centar za odgoj i obrazovanje Goljak,Zagreb,matched_exact_name_and_city,institution-c7f4e7b57d11,['institution-c7f4e7b57d11'],1
 2025-1-HR01-KA122-SCH-000341588::row-751,2025-1-HR01-KA122-SCH-000341588,Tehnička škola Ruđera Boškovića,Zagreb,matched_exact_name_and_city,institution-246f379c0f5d,['institution-246f379c0f5d'],1
-2025-1-HR01-KA122-SCH-000342590::row-752,2025-1-HR01-KA122-SCH-000342590,Dječji vrtić Ciciban,Bjelovar,unmatched,,[],0
+2025-1-HR01-KA122-SCH-000342590::row-752,2025-1-HR01-KA122-SCH-000342590,Dječji vrtić Ciciban,Bjelovar,matched_exact_name_and_city,institution-adb0aec51b78,['institution-adb0aec51b78'],1
 2025-1-HR01-KA122-SCH-000320423::row-753,2025-1-HR01-KA122-SCH-000320423,Učenički dom Lovran,Lovran,unmatched,,[],0
-2025-1-HR01-KA122-SCH-000322043::row-754,2025-1-HR01-KA122-SCH-000322043,Osnovna škola Pavao Belas,Prigorje Brdovečko,location_mismatch,,['institution-d61ab8079095'],1
+2025-1-HR01-KA122-SCH-000322043::row-754,2025-1-HR01-KA122-SCH-000322043,Osnovna škola Pavao Belas,Prigorje Brdovečko,matched_unique_name_location_differs,institution-d61ab8079095,['institution-d61ab8079095'],1
 2025-1-HR01-KA122-SCH-000335539::row-755,2025-1-HR01-KA122-SCH-000335539,Srednja škola Topusko,Topusko,matched_exact_name_and_city,institution-cd05f7723686,['institution-cd05f7723686'],1
 2025-1-HR01-KA122-SCH-000341779::row-756,2025-1-HR01-KA122-SCH-000341779,Osnovna škola Ivane Brlić-Mažuranić,Prigorje Brdovečko,matched_exact_name_and_city,institution-4230a7a22999,['institution-4230a7a22999'],1
-2025-1-HR01-KA122-SCH-000316203::row-757,2025-1-HR01-KA122-SCH-000316203,Dječji vrtić Videk,Brdovec,unmatched,,[],0
+2025-1-HR01-KA122-SCH-000316203::row-757,2025-1-HR01-KA122-SCH-000316203,Dječji vrtić Videk,Brdovec,matched_unique_name_location_differs,institution-9aea547df557,['institution-9aea547df557'],1
 2025-1-HR01-KA122-SCH-000322029::row-758,2025-1-HR01-KA122-SCH-000322029,Centar za odgoj i obrazovanje Ivan Štark,Osijek,matched_exact_name_and_city,institution-6956bbcac6ab,['institution-6956bbcac6ab'],1
-2025-1-HR01-KA122-SCH-000323893::row-759,2025-1-HR01-KA122-SCH-000323893,Centar za autizam Osijek,Osijek,unmatched,,[],0
+2025-1-HR01-KA122-SCH-000323893::row-759,2025-1-HR01-KA122-SCH-000323893,Centar za autizam Osijek,Osijek,matched_exact_name_and_city_suffix,institution-6a1fd8cea0a1,['institution-6a1fd8cea0a1'],1
 2025-1-HR01-KA122-SCH-000329809::row-760,2025-1-HR01-KA122-SCH-000329809,Hrvatska udruga ravnatelja osnovnih škola,Zagreb,unmatched,,[],0
 2025-1-HR01-KA122-SCH-000344732::row-761,2025-1-HR01-KA122-SCH-000344732,Obrtnička škola za osobne usluge,Zagreb,matched_exact_name_and_city,institution-ea9f0d0080af,['institution-ea9f0d0080af'],1
 2025-1-HR01-KA122-SCH-000345231::row-762,2025-1-HR01-KA122-SCH-000345231,Medicinska škola Varaždin,Varaždin,matched_exact_name_and_city,institution-d50a03edfa1d,['institution-d50a03edfa1d'],1
 2025-1-HR01-KA122-SCH-000319092::row-763,2025-1-HR01-KA122-SCH-000319092,Osnovna škola kralja Tomislava,Našice,matched_exact_name_and_city,institution-2ff5276a9751,['institution-2ff5276a9751'],1
 2025-1-HR01-KA122-SCH-000322899::row-764,2025-1-HR01-KA122-SCH-000322899,Osnovna škola Ive Andrića,Zagreb,matched_exact_name_and_city,institution-5b6b58db7e01,['institution-5b6b58db7e01'],1
-2025-1-HR01-KA122-SCH-000328510::row-765,2025-1-HR01-KA122-SCH-000328510,Osnovna škola Ksavera Šandora Gjalskog Zabok,Zabok,unmatched,,[],0
+2025-1-HR01-KA122-SCH-000328510::row-765,2025-1-HR01-KA122-SCH-000328510,Osnovna škola Ksavera Šandora Gjalskog Zabok,Zabok,matched_user_confirmed_school,institution-6750ea1bc0b2,['institution-6750ea1bc0b2'],1
 2025-1-HR01-KA122-SCH-000341897::row-766,2025-1-HR01-KA122-SCH-000341897,Srednja škola Delnice,Delnice,matched_exact_name_and_city,institution-805276a80dda,['institution-805276a80dda'],1
 2025-1-HR01-KA122-SCH-000345507::row-767,2025-1-HR01-KA122-SCH-000345507,II. gimnazija Osijek,Osijek,matched_exact_name_and_city,institution-f44d630fe06d,['institution-f44d630fe06d'],1
 2025-1-HR01-KA122-SCH-000317535::row-768,2025-1-HR01-KA122-SCH-000317535,OBRTNIČKA ŠKOLA OSIJEK,Osijek,matched_exact_name_and_city,institution-fddc5f1ba8ba,['institution-fddc5f1ba8ba'],1
 2025-1-HR01-KA122-SCH-000318584::row-769,2025-1-HR01-KA122-SCH-000318584,Osnovna škola Sveti Križ Začretje,Sveti Križ Začretje,matched_exact_name_and_city,institution-c7ab2b51cd5d,['institution-c7ab2b51cd5d'],1
 2025-1-HR01-KA122-SCH-000323686::row-770,2025-1-HR01-KA122-SCH-000323686,Ekonomska i upravna škola Osijek,Osijek,matched_exact_name_and_city,institution-7ab6611d9250,['institution-7ab6611d9250'],1
-2025-1-HR01-KA122-SCH-000324037::row-771,2025-1-HR01-KA122-SCH-000324037,Osnovna škola Vladimir Nazor Neviđane,Neviđane,unmatched,,[],0
-2025-1-HR01-KA122-SCH-000340779::row-772,2025-1-HR01-KA122-SCH-000340779,Gimnazija Sesvete,Zagreb,location_mismatch,,['institution-969c9d60b22b'],1
-2025-1-HR01-KA122-SCH-000345375::row-773,2025-1-HR01-KA122-SCH-000345375,Dječji vrtić Medveščak,Zagreb,unmatched,,[],0
+2025-1-HR01-KA122-SCH-000324037::row-771,2025-1-HR01-KA122-SCH-000324037,Osnovna škola Vladimir Nazor Neviđane,Neviđane,matched_user_confirmed_school,institution-ccc9d1d614db,['institution-ccc9d1d614db'],1
+2025-1-HR01-KA122-SCH-000340779::row-772,2025-1-HR01-KA122-SCH-000340779,Gimnazija Sesvete,Zagreb,matched_unique_name_location_differs,institution-969c9d60b22b,['institution-969c9d60b22b'],1
+2025-1-HR01-KA122-SCH-000345375::row-773,2025-1-HR01-KA122-SCH-000345375,Dječji vrtić Medveščak,Zagreb,matched_exact_name_and_city,institution-cf1f0f3177a3,['institution-cf1f0f3177a3'],1
 2025-1-HR01-KA122-SCH-000322060::row-774,2025-1-HR01-KA122-SCH-000322060,Gimnazija Antuna Vrančića,Šibenik,matched_exact_name_and_city,institution-8793aadcce7c,['institution-8793aadcce7c'],1
 2025-1-HR01-KA122-SCH-000311343::row-775,2025-1-HR01-KA122-SCH-000311343,Osnovna škola Glina,Glina,matched_exact_name_and_city,institution-805cbbed467f,['institution-805cbbed467f'],1
 2025-1-HR01-KA122-SCH-000317352::row-776,2025-1-HR01-KA122-SCH-000317352,Srednja strukovna škola Velika Gorica,Velika Gorica,matched_exact_name_and_city,institution-96874073ee50,['institution-96874073ee50'],1
 2025-1-HR01-KA122-SCH-000330257::row-777,2025-1-HR01-KA122-SCH-000330257,Osnovna škola Darda,Darda,matched_exact_name_and_city,institution-8240d46ec789,['institution-8240d46ec789'],1
-2025-1-HR01-KA122-SCH-000334925::row-778,2025-1-HR01-KA122-SCH-000334925,OSNOVNA ŠKOLA TAR-VABRIGA,Tar,unmatched,,[],0
-2025-1-HR01-KA122-SCH-000337037::row-779,2025-1-HR01-KA122-SCH-000337037,Dječji vrtić Šumska jagoda,Zagreb,unmatched,,[],0
-2025-1-HR01-KA122-SCH-000338904::row-780,2025-1-HR01-KA122-SCH-000338904,"Osnovna škola ""Braća Radić"" Koprivnica",Koprivnica,unmatched,,[],0
+2025-1-HR01-KA122-SCH-000334925::row-778,2025-1-HR01-KA122-SCH-000334925,OSNOVNA ŠKOLA TAR-VABRIGA,Tar,matched_unique_address_and_city,institution-1b860c786816,['institution-1b860c786816'],1
+2025-1-HR01-KA122-SCH-000337037::row-779,2025-1-HR01-KA122-SCH-000337037,Dječji vrtić Šumska jagoda,Zagreb,matched_exact_name_and_city,institution-3b2855152a25,['institution-3b2855152a25'],1
+2025-1-HR01-KA122-SCH-000338904::row-780,2025-1-HR01-KA122-SCH-000338904,"Osnovna škola ""Braća Radić"" Koprivnica",Koprivnica,matched_user_confirmed_school,institution-8145529bebd3,['institution-8145529bebd3'],1
 2025-1-HR01-KA122-SCH-000339312::row-781,2025-1-HR01-KA122-SCH-000339312,Franjevačka klasična gimnazija u Sinju s pravom javnosti,Sinj,matched_exact_name_and_city,institution-5b5c282b2b3a,['institution-5b5c282b2b3a'],1
-2025-1-HR01-KA122-SCH-000308721::row-782,2025-1-HR01-KA122-SCH-000308721,"Osnovna škola ""Braća Seljan"" Karlovac",Karlovac,unmatched,,[],0
-2025-1-HR01-KA122-SCH-000311201::row-783,2025-1-HR01-KA122-SCH-000311201,Tehnička škola,Slavonski Brod,location_mismatch,,"['institution-6518c9e1a1e2', 'institution-17ca95a2b720', 'institution-4ad4696beeeb']",3
+2025-1-HR01-KA122-SCH-000308721::row-782,2025-1-HR01-KA122-SCH-000308721,"Osnovna škola ""Braća Seljan"" Karlovac",Karlovac,matched_user_confirmed_school,institution-f0f5bd72fcb5,['institution-f0f5bd72fcb5'],1
+2025-1-HR01-KA122-SCH-000311201::row-783,2025-1-HR01-KA122-SCH-000311201,Tehnička škola,Slavonski Brod,matched_unique_address_and_city,institution-959047446dc2,['institution-959047446dc2'],1
 2025-1-HR01-KA122-SCH-000323580::row-784,2025-1-HR01-KA122-SCH-000323580,Osnovna škola Eugena Kumičića,Velika Gorica,matched_exact_name_and_city,institution-fdad5d8018ae,['institution-fdad5d8018ae'],1
 2025-1-HR01-KA122-SCH-000341145::row-785,2025-1-HR01-KA122-SCH-000341145,Osnovna škola Jagodnjak,Jagodnjak,matched_exact_name_and_city,institution-f79b123ff920,['institution-f79b123ff920'],1
 2025-1-HR01-KA122-SCH-000343891::row-786,2025-1-HR01-KA122-SCH-000343891,Ekonomsko-birotehnička i trgovačka škola,Zadar,matched_exact_name_and_city,institution-577b3b9dc92c,['institution-577b3b9dc92c'],1
-2025-1-HR01-KA122-SCH-000345546::row-787,2025-1-HR01-KA122-SCH-000345546,"Dječji vrtić ""Lišnjak""",Pićan,unmatched,,[],0
+2025-1-HR01-KA122-SCH-000345546::row-787,2025-1-HR01-KA122-SCH-000345546,"Dječji vrtić ""Lišnjak""",Pićan,matched_exact_name_and_city,institution-edf53c2e227a,['institution-edf53c2e227a'],1
 2025-1-HR01-KA220-SCH-000364537::row-788,2025-1-HR01-KA220-SCH-000364537,Srednja škola Mate Blažine Labin,Labin,matched_exact_name_and_city,institution-9c28408ed5bb,['institution-9c28408ed5bb'],1
-2025-1-HR01-KA220-SCH-000360813::row-789,2025-1-HR01-KA220-SCH-000360813,Dječji vrtić Čigra,Zagreb,unmatched,,[],0
+2025-1-HR01-KA220-SCH-000360813::row-789,2025-1-HR01-KA220-SCH-000360813,Dječji vrtić Čigra,Zagreb,matched_exact_name_and_city,institution-a24f2cb6888e,['institution-a24f2cb6888e'],1
 2025-1-HR01-KA220-SCH-000350263::row-790,2025-1-HR01-KA220-SCH-000350263,Prva privatna gimnazija s pravom javnosti Varaždin,Varaždin,matched_exact_name_and_city,institution-4f10df4c98ed,['institution-4f10df4c98ed'],1
 2025-1-HR01-KA210-SCH-000356214::row-791,2025-1-HR01-KA210-SCH-000356214,Učenički dom Varaždin,Varaždin,unmatched,,[],0
 2025-1-HR01-KA210-SCH-000363180::row-792,2025-1-HR01-KA210-SCH-000363180,"Pan, udruga za zaštitu okoliša i prirode",Karlovac,unmatched,,[],0
@@ -822,7 +822,7 @@
 2025-1-HR01-KA121-VET-000315177::row-822,2025-1-HR01-KA121-VET-000315177,Srednja škola Konjščina,Konjščina,matched_exact_name_and_city,institution-dc8b9d2f0be1,['institution-dc8b9d2f0be1'],1
 2025-1-HR01-KA121-VET-000316305::row-823,2025-1-HR01-KA121-VET-000316305,Srednja škola Isidora Kršnjavoga Našice,Našice,matched_exact_name_and_city,institution-0a7109b53711,['institution-0a7109b53711'],1
 2025-1-HR01-KA121-VET-000316569::row-824,2025-1-HR01-KA121-VET-000316569,Obrtna tehnička škola,Split,matched_exact_name_and_city,institution-8ea6fae646d0,['institution-8ea6fae646d0'],1
-2025-1-HR01-KA121-VET-000317741::row-825,2025-1-HR01-KA121-VET-000317741,Tehnička škola,Slavonski Brod,location_mismatch,,"['institution-6518c9e1a1e2', 'institution-17ca95a2b720', 'institution-4ad4696beeeb']",3
+2025-1-HR01-KA121-VET-000317741::row-825,2025-1-HR01-KA121-VET-000317741,Tehnička škola,Slavonski Brod,matched_unique_address_and_city,institution-959047446dc2,['institution-959047446dc2'],1
 2025-1-HR01-KA121-VET-000318706::row-826,2025-1-HR01-KA121-VET-000318706,Srednja strukovna škola Vinkovci,Vinkovci,matched_exact_name_and_city,institution-d6ce6bffd89d,['institution-d6ce6bffd89d'],1
 2025-1-HR01-KA121-VET-000319493::row-827,2025-1-HR01-KA121-VET-000319493,Hrvatsko društvo likovnih umjetnika,Zagreb,unmatched,,[],0
 2025-1-HR01-KA121-VET-000319513::row-828,2025-1-HR01-KA121-VET-000319513,Srednja škola Ivanec,Ivanec,matched_exact_name_and_city,institution-f7e7774f685d,['institution-f7e7774f685d'],1
@@ -830,11 +830,11 @@
 2025-1-HR01-KA121-VET-000319964::row-830,2025-1-HR01-KA121-VET-000319964,Škola za cestovni promet,Zagreb,matched_exact_name_and_city,institution-59e4ff578631,['institution-59e4ff578631'],1
 2025-1-HR01-KA121-VET-000319981::row-831,2025-1-HR01-KA121-VET-000319981,Poljoprivredno-prehrambena škola,Požega,matched_exact_name_and_city,institution-642a05a7253c,['institution-642a05a7253c'],1
 2025-1-HR01-KA121-VET-000320259::row-832,2025-1-HR01-KA121-VET-000320259,Strojarska tehnička škola Osijek,Osijek,matched_exact_name_and_city,institution-dfc88c47dac2,['institution-dfc88c47dac2'],1
-2025-1-HR01-KA121-VET-000320365::row-833,2025-1-HR01-KA121-VET-000320365,Srednja škola Matije Antuna Reljkovića,Slavonski Brod,unmatched,,[],0
+2025-1-HR01-KA121-VET-000320365::row-833,2025-1-HR01-KA121-VET-000320365,Srednja škola Matije Antuna Reljkovića,Slavonski Brod,matched_unique_address_and_city,institution-a6e2ab66abc0,['institution-a6e2ab66abc0'],1
 2025-1-HR01-KA121-VET-000320668::row-834,2025-1-HR01-KA121-VET-000320668,Elektrotehnička škola,Zagreb,matched_exact_name_and_city,institution-7830ec745266,['institution-7830ec745266'],1
 2025-1-HR01-KA121-VET-000320688::row-835,2025-1-HR01-KA121-VET-000320688,Industrijsko-obrtnička škola Virovitica,Virovitica,matched_exact_name_and_city,institution-8161560cd833,['institution-8161560cd833'],1
 2025-1-HR01-KA121-VET-000320768::row-836,2025-1-HR01-KA121-VET-000320768,Srednja škola Jastrebarsko,Jastrebarsko,matched_exact_name_and_city,institution-956591c32802,['institution-956591c32802'],1
-2025-1-HR01-KA121-VET-000320870::row-837,2025-1-HR01-KA121-VET-000320870,Strojarska i prometna škola Varaždin,Varaždin,unmatched,,[],0
+2025-1-HR01-KA121-VET-000320870::row-837,2025-1-HR01-KA121-VET-000320870,Strojarska i prometna škola Varaždin,Varaždin,matched_exact_name_and_city_suffix,institution-b10f6d88de23,['institution-b10f6d88de23'],1
 2025-1-HR01-KA121-VET-000321446::row-838,2025-1-HR01-KA121-VET-000321446,Obrtnička škola Koprivnica,Koprivnica,matched_exact_name_and_city,institution-031942f2cd08,['institution-031942f2cd08'],1
 2025-1-HR01-KA121-VET-000321926::row-839,2025-1-HR01-KA121-VET-000321926,Obrtnička i tehnička škola Dubrovnik,Dubrovnik,matched_exact_name_and_city,institution-7c356c20d4be,['institution-7c356c20d4be'],1
 2025-1-HR01-KA121-VET-000321977::row-840,2025-1-HR01-KA121-VET-000321977,Tehnička škola Bjelovar,Bjelovar,matched_exact_name_and_city,institution-1f6973249fca,['institution-1f6973249fca'],1
@@ -842,10 +842,10 @@
 2025-1-HR01-KA121-VET-000322939::row-842,2025-1-HR01-KA121-VET-000322939,Druga srednja škola Beli Manastir,Beli Manastir,matched_exact_name_and_city,institution-2a108813dfa4,['institution-2a108813dfa4'],1
 2025-1-HR01-KA121-VET-000324126::row-843,2025-1-HR01-KA121-VET-000324126,Srednja škola Stjepana Sulimanca,Pitomača,matched_exact_name_and_city,institution-3bdd5d860e52,['institution-3bdd5d860e52'],1
 2025-1-HR01-KA121-VET-000324211::row-844,2025-1-HR01-KA121-VET-000324211,Srednja škola Čakovec,Čakovec,matched_exact_name_and_city,institution-8b27295e8cda,['institution-8b27295e8cda'],1
-2025-1-HR01-KA121-VET-000324670::row-845,2025-1-HR01-KA121-VET-000324670,Strukovna škola Đurdevac,Đurđevac,unmatched,,[],0
+2025-1-HR01-KA121-VET-000324670::row-845,2025-1-HR01-KA121-VET-000324670,Strukovna škola Đurdevac,Đurđevac,matched_unique_address_and_city,institution-d34fb7ee0f72,['institution-d34fb7ee0f72'],1
 2025-1-HR01-KA121-VET-000325386::row-846,2025-1-HR01-KA121-VET-000325386,Gospodarska škola Varaždin,Varaždin,matched_exact_name_and_city,institution-cfb3813e3ec4,['institution-cfb3813e3ec4'],1
 2025-1-HR01-KA121-VET-000325414::row-847,2025-1-HR01-KA121-VET-000325414,Glazbena škola u Varaždinu,Varaždin,matched_exact_name_and_city,institution-d8a1662ee10c,['institution-d8a1662ee10c'],1
-2025-1-HR01-KA121-VET-000325776::row-848,2025-1-HR01-KA121-VET-000325776,"Srednja škola ""Arboretum Opeka""",Vinica,location_mismatch,,['institution-3a164d7e36a1'],1
+2025-1-HR01-KA121-VET-000325776::row-848,2025-1-HR01-KA121-VET-000325776,"Srednja škola ""Arboretum Opeka""",Vinica,matched_unique_name_location_differs,institution-3a164d7e36a1,['institution-3a164d7e36a1'],1
 2025-1-HR01-KA121-VET-000326618::row-849,2025-1-HR01-KA121-VET-000326618,Elektrostrojarska obrtnička škola,Zagreb,matched_exact_name_and_city,institution-473f97b5faaa,['institution-473f97b5faaa'],1
 2025-1-HR01-KA121-VET-000327031::row-850,2025-1-HR01-KA121-VET-000327031,Obrtnička škola Bjelovar,Bjelovar,matched_exact_name_and_city,institution-8a1615925a95,['institution-8a1615925a95'],1
 2025-1-HR01-KA121-VET-000327043::row-851,2025-1-HR01-KA121-VET-000327043,Srednja škola Novi Marof,Novi Marof,matched_exact_name_and_city,institution-48da90365b92,['institution-48da90365b92'],1
@@ -858,7 +858,7 @@
 2025-1-HR01-KA121-VET-000328900::row-858,2025-1-HR01-KA121-VET-000328900,Industrijsko-obrtnička škola Šibenik,Šibenik,matched_exact_name_and_city,institution-f4eb463b7647,['institution-f4eb463b7647'],1
 2025-1-HR01-KA121-VET-000329182::row-859,2025-1-HR01-KA121-VET-000329182,Hotelijersko-turistička škola u Zagrebu,Zagreb,matched_exact_name_and_city,institution-3d4851ba8078,['institution-3d4851ba8078'],1
 2025-1-HR01-KA121-VET-000329616::row-860,2025-1-HR01-KA121-VET-000329616,Gospodarska škola,Čakovec,matched_exact_name_and_city,institution-5a5d9688739f,['institution-5a5d9688739f'],1
-2025-1-HR01-KA121-VET-000329937::row-861,2025-1-HR01-KA121-VET-000329937,Srednja škola Ivana Trnskoga Hrvatska Kostajnica,Hrvatska Kostajnica,unmatched,,[],0
+2025-1-HR01-KA121-VET-000329937::row-861,2025-1-HR01-KA121-VET-000329937,Srednja škola Ivana Trnskoga Hrvatska Kostajnica,Hrvatska Kostajnica,matched_exact_name_and_city_suffix,institution-d202a4c0a312,['institution-d202a4c0a312'],1
 2025-1-HR01-KA121-VET-000330674::row-862,2025-1-HR01-KA121-VET-000330674,Srednja strukovna škola,Makarska,matched_exact_name_and_city,institution-1569c5db2d5b,['institution-1569c5db2d5b'],1
 2025-1-HR01-KA121-VET-000330678::row-863,2025-1-HR01-KA121-VET-000330678,Tehnička škola za računalstvo i mrežne djelatnosti,Zagreb,unmatched,,[],0
 2025-1-HR01-KA121-VET-000330705::row-864,2025-1-HR01-KA121-VET-000330705,Trgovačka škola,Zagreb,matched_exact_name_and_city,institution-579d4007421f,['institution-579d4007421f'],1
@@ -880,7 +880,7 @@
 2025-1-HR01-KA121-VET-000338507::row-880,2025-1-HR01-KA121-VET-000338507,Agronomska škola Zagreb,Zagreb,matched_exact_name_and_city,institution-6250c8d53400,['institution-6250c8d53400'],1
 2025-1-HR01-KA121-VET-000338531::row-881,2025-1-HR01-KA121-VET-000338531,Graditeljsko-geodetska škola Osijek,Osijek,matched_exact_name_and_city,institution-5611aac6960f,['institution-5611aac6960f'],1
 2025-1-HR01-KA121-VET-000338740::row-882,2025-1-HR01-KA121-VET-000338740,"Škola za dizajn, grafiku i održivu gradnju",Split,matched_exact_name_and_city,institution-53dd15b17bff,['institution-53dd15b17bff'],1
-2025-1-HR01-KA121-VET-000339448::row-883,2025-1-HR01-KA121-VET-000339448,Srednja škola Jelkovec,Zagreb,location_mismatch,,['institution-3cf7c8ad72f3'],1
+2025-1-HR01-KA121-VET-000339448::row-883,2025-1-HR01-KA121-VET-000339448,Srednja škola Jelkovec,Zagreb,matched_unique_name_location_differs,institution-3cf7c8ad72f3,['institution-3cf7c8ad72f3'],1
 2025-1-HR01-KA121-VET-000339651::row-884,2025-1-HR01-KA121-VET-000339651,Srednja škola Prelog,Prelog,matched_exact_name_and_city,institution-3c35f4b6f539,['institution-3c35f4b6f539'],1
 2025-1-HR01-KA121-VET-000339762::row-885,2025-1-HR01-KA121-VET-000339762,Obrtnička škola,Požega,matched_exact_name_and_city,institution-c22a0dda9a7b,['institution-c22a0dda9a7b'],1
 2025-1-HR01-KA121-VET-000339765::row-886,2025-1-HR01-KA121-VET-000339765,Srednja škola Vrbovec,Vrbovec,matched_exact_name_and_city,institution-1017e7371b15,['institution-1017e7371b15'],1
@@ -894,7 +894,7 @@
 2025-1-HR01-KA121-VET-000344085::row-894,2025-1-HR01-KA121-VET-000344085,Srednja škola Petrinja,Petrinja,matched_exact_name_and_city,institution-c2c4f0c90083,['institution-c2c4f0c90083'],1
 2025-1-HR01-KA121-VET-000344343::row-895,2025-1-HR01-KA121-VET-000344343,Srednja škola Valpovo,Valpovo,matched_exact_name_and_city,institution-a96685dedc79,['institution-a96685dedc79'],1
 2025-1-HR01-KA122-VET-000342108::row-896,2025-1-HR01-KA122-VET-000342108,"Škola za turizam, ugostiteljstvo i trgovinu",Pula,matched_exact_name_and_city,institution-2e086222d871,['institution-2e086222d871'],1
-2025-1-HR01-KA122-VET-000344422::row-897,2025-1-HR01-KA122-VET-000344422,Trgovačko-ugostiteljska škola Karlovac,Karlovac,unmatched,,[],0
+2025-1-HR01-KA122-VET-000344422::row-897,2025-1-HR01-KA122-VET-000344422,Trgovačko-ugostiteljska škola Karlovac,Karlovac,matched_exact_name_and_city_suffix,institution-b04fe2d2996e,['institution-b04fe2d2996e'],1
 2025-1-HR01-KA122-VET-000343779::row-898,2025-1-HR01-KA122-VET-000343779,Ugostiteljska škola Opatija,Opatija,matched_exact_name_and_city,institution-3a02d3c20c89,['institution-3a02d3c20c89'],1
 2025-1-HR01-KA122-VET-000321445::row-899,2025-1-HR01-KA122-VET-000321445,Obrtnička škola Osijek,Osijek,matched_exact_name_and_city,institution-fddc5f1ba8ba,['institution-fddc5f1ba8ba'],1
 2025-1-HR01-KA122-VET-000345065::row-900,2025-1-HR01-KA122-VET-000345065,Srednja škola Viktorovac,Sisak,matched_exact_name_and_city,institution-93ce2bcae38c,['institution-93ce2bcae38c'],1
@@ -944,7 +944,7 @@
 2025-1-HR01-KA131-HED-000323845::row-944,2025-1-HR01-KA131-HED-000323845,EVANĐEOSKO VELEUČILIŠTE U OSIJEKU,Osijek,unmatched,,[],0
 2025-1-HR01-KA131-HED-000312794::row-945,2025-1-HR01-KA131-HED-000312794,VELEUČILIŠTE ARCA,Split,unmatched,,[],0
 2025-1-HR01-KA131-HED-000334112::row-946,2025-1-HR01-KA131-HED-000334112,VELEUČILIŠTE PAR,Rijeka,unmatched,,[],0
-2025-1-HR01-KA131-HED-000325297::row-947,2025-1-HR01-KA131-HED-000325297,ISTARSKO VELEUČILIŠTE,Pula,unmatched,,[],0
+2025-1-HR01-KA131-HED-000325297::row-947,2025-1-HR01-KA131-HED-000325297,ISTARSKO VELEUČILIŠTE,Pula,matched_unique_address_and_city,institution-eba47b8c092b,['institution-eba47b8c092b'],1
 2025-1-HR01-KA131-HED-000341317::row-948,2025-1-HR01-KA131-HED-000341317,VELEUČILIŠTE HRVATSKO ZAGORJE KRAPINA,Krapina,matched_exact_name_and_city,institution-790e23e44c12,['institution-790e23e44c12'],1
 2025-1-HR01-KA131-HED-000341593::row-949,2025-1-HR01-KA131-HED-000341593,VELEUČILIŠTE NIKOLA TESLA U GOSPIĆU,Gospić,matched_exact_name_and_city,institution-e1550c560ab0,['institution-e1550c560ab0'],1
 2025-1-HR01-KA131-HED-000309394::row-950,2025-1-HR01-KA131-HED-000309394,VELEUČILIŠTE U VIROVITICI,Virovitica,unmatched,,[],0
@@ -958,8 +958,8 @@
 2025-1-HR01-KA131-HED-000314017::row-958,2025-1-HR01-KA131-HED-000314017,MEĐIMURSKO VELEUČILIŠTE U ČAKOVCU,Čakovec,matched_exact_name_and_city,institution-804cfe7f62f5,['institution-804cfe7f62f5'],1
 2025-1-HR01-KA131-HED-000317784::row-959,2025-1-HR01-KA131-HED-000317784,VELEUČILIŠTE U BJELOVARU,Bjelovar,matched_exact_name_and_city,institution-20bc9ce4ca75,['institution-20bc9ce4ca75'],1
 2025-1-HR01-KA131-HED-000319380::row-960,2025-1-HR01-KA131-HED-000319380,VELEUČILIŠTE LAVOSLAV RUŽIČKA U VUKOVARU,Vukovar,matched_exact_name_and_city,institution-635ed827aa79,['institution-635ed827aa79'],1
-2025-1-HR01-KA131-HED-000314327::row-961,2025-1-HR01-KA131-HED-000314327,RIT CROATIA,Dubrovnik,unmatched,,[],0
-2025-1-HR01-KA131-HED-000326999::row-962,2025-1-HR01-KA131-HED-000326999,HRVATSKO KATOLIČKO SVEUČILIŠTE,Zagreb,unmatched,,[],0
+2025-1-HR01-KA131-HED-000314327::row-961,2025-1-HR01-KA131-HED-000314327,RIT CROATIA,Dubrovnik,matched_unique_address_and_city,institution-192d637eec3e,['institution-192d637eec3e'],1
+2025-1-HR01-KA131-HED-000326999::row-962,2025-1-HR01-KA131-HED-000326999,HRVATSKO KATOLIČKO SVEUČILIŠTE,Zagreb,matched_unique_address_and_city,institution-562bf2ce561f,['institution-562bf2ce561f'],1
 2025-1-HR01-KA131-HED-000320950::row-963,2025-1-HR01-KA131-HED-000320950,SVEUČILIŠTE ALGEBRA BERNAYS,Zagreb,unmatched,,[],0
 2025-1-HR01-KA131-HED-000343456::row-964,2025-1-HR01-KA131-HED-000343456,SVEUČILIŠTE VERN`,Zagreb,unmatched,,[],0
 2025-1-HR01-KA131-HED-000324999::row-965,2025-1-HR01-KA131-HED-000324999,SVEUČILIŠTE U DUBROVNIKU,Dubrovnik,matched_exact_name_and_city,institution-efa72419523f,['institution-efa72419523f'],1
@@ -970,15 +970,15 @@
 2025-1-HR01-KA131-HED-000326241::row-970,2025-1-HR01-KA131-HED-000326241,LIBERTAS MEĐUNARODNO SVEUČILIŠTE,Zagreb,unmatched,,[],0
 2025-1-HR01-KA131-HED-000337589::row-971,2025-1-HR01-KA131-HED-000337589,VELEUČILIŠTE U KARLOVCU,Karlovac,matched_exact_name_and_city,institution-c631fb52bb47,['institution-c631fb52bb47'],1
 2025-1-HR01-KA131-HED-000319526::row-972,2025-1-HR01-KA131-HED-000319526,SVEUČILIŠTE JURJA DOBRILE U PULI,Pula,matched_exact_name_and_city,institution-1c38746575c4,['institution-1c38746575c4'],1
-2025-1-HR01-KA131-HED-000310897::row-973,2025-1-HR01-KA131-HED-000310897,SVEUČILIŠTE SJEVER,Koprivnica,unmatched,,[],0
+2025-1-HR01-KA131-HED-000310897::row-973,2025-1-HR01-KA131-HED-000310897,SVEUČILIŠTE SJEVER,Koprivnica,matched_unique_address_and_city,institution-6a194cb86e7d,['institution-6a194cb86e7d'],1
 2025-1-HR01-KA131-HED-000311729::row-974,2025-1-HR01-KA131-HED-000311729,TEHNIČKO VELEUČILIŠTE U ZAGREBU,Zagreb,matched_exact_name_and_city,institution-d6b8f990604a,['institution-d6b8f990604a'],1
-2025-1-HR01-KA131-HED-000324901::row-975,2025-1-HR01-KA131-HED-000324901,ZDRAVSTVENO VELEUČILIŠTE,Zagreb,unmatched,,[],0
+2025-1-HR01-KA131-HED-000324901::row-975,2025-1-HR01-KA131-HED-000324901,ZDRAVSTVENO VELEUČILIŠTE,Zagreb,matched_unique_address_and_city,institution-2dda7aa575e4,['institution-2dda7aa575e4'],1
 2025-1-HR01-KA131-HED-000313674::row-976,2025-1-HR01-KA131-HED-000313674,SVEUČILIŠTE U ZADRU,Zadar,matched_exact_name_and_city,institution-2f0d03f51723,['institution-2f0d03f51723'],1
 2025-1-HR01-KA131-HED-000307188::row-977,2025-1-HR01-KA131-HED-000307188,SVEUČILIŠTE U RIJECI,Rijeka,matched_exact_name_and_city,institution-868e130bc33e,['institution-868e130bc33e'],1
 2025-1-HR01-KA131-HED-000308296::row-978,2025-1-HR01-KA131-HED-000308296,SVEUČILIŠTE JOSIPA JURJA STROSSMAYERA U OSIJEKU,Osijek,matched_exact_name_and_city,institution-d3c5da5e46b2,['institution-d3c5da5e46b2'],1
 2025-1-HR01-KA131-HED-000308665::row-979,2025-1-HR01-KA131-HED-000308665,SVEUČILIŠTE U SPLITU,Split,matched_exact_name_and_city,institution-f6b52d08c956,['institution-f6b52d08c956'],1
 2025-1-HR01-KA131-HED-000335353::row-980,2025-1-HR01-KA131-HED-000335353,SVEUČILIŠTE U ZAGREBU,Zagreb,matched_exact_name_and_city,institution-708568c881bf,['institution-708568c881bf'],1
-2025-1-HR01-KA171-HED-000327944::row-981,2025-1-HR01-KA171-HED-000327944,Sveučilište Sjever,Koprivnica,unmatched,,[],0
+2025-1-HR01-KA171-HED-000327944::row-981,2025-1-HR01-KA171-HED-000327944,Sveučilište Sjever,Koprivnica,matched_unique_address_and_city,institution-6a194cb86e7d,['institution-6a194cb86e7d'],1
 2025-1-HR01-KA171-HED-000321777::row-982,2025-1-HR01-KA171-HED-000321777,Veleučilište u Šibeniku,Šibenik,matched_exact_name_and_city,institution-e375d605c711,['institution-e375d605c711'],1
 2025-1-HR01-KA171-HED-000345299::row-983,2025-1-HR01-KA171-HED-000345299,Veleučilište u Križevcima,Križevci,unmatched,,[],0
 2025-1-HR01-KA171-HED-000337503::row-984,2025-1-HR01-KA171-HED-000337503,Sveučilište u Zagrebu,Zagreb,matched_exact_name_and_city,institution-708568c881bf,['institution-708568c881bf'],1
@@ -998,7 +998,7 @@
 2025-1-HR01-KA171-HED-000334903::row-998,2025-1-HR01-KA171-HED-000334903,"Veleučilište ""Lavoslav Ružička"" u Vukovaru",Vukovar,matched_exact_name_and_city,institution-635ed827aa79,['institution-635ed827aa79'],1
 2025-1-HR01-KA171-HED-000323843::row-999,2025-1-HR01-KA171-HED-000323843,Evanđeosko teološko veleučilište,Osijek,unmatched,,[],0
 2025-1-HR01-KA171-HED-000343109::row-1000,2025-1-HR01-KA171-HED-000343109,Sveučilište u Slavonskom Brodu,Slavonski Brod,matched_exact_name_and_city,institution-f7c5b95b1256,['institution-f7c5b95b1256'],1
-2025-1-HR01-KA171-HED-000343189::row-1001,2025-1-HR01-KA171-HED-000343189,Hrvatsko katoličko sveučilište,Zagreb,unmatched,,[],0
+2025-1-HR01-KA171-HED-000343189::row-1001,2025-1-HR01-KA171-HED-000343189,Hrvatsko katoličko sveučilište,Zagreb,matched_unique_address_and_city,institution-562bf2ce561f,['institution-562bf2ce561f'],1
 2025-1-HR01-KA171-HED-000345681::row-1002,2025-1-HR01-KA171-HED-000345681,Poslovno veleučilište u Zagrebu,Zagreb,unmatched,,[],0
 2025-1-HR01-KA171-HED-000323322::row-1003,2025-1-HR01-KA171-HED-000323322,EFFECTUS veleučilište,Zagreb,unmatched,,[],0
 2025-1-HR01-KA220-HED-000355135::row-1004,2025-1-HR01-KA220-HED-000355135,Sveučilište u Zagrebu,Zagreb,matched_exact_name_and_city,institution-708568c881bf,['institution-708568c881bf'],1
@@ -1013,12 +1013,12 @@
 2025-1-HR01-KA121-ADU-000321253::row-1013,2025-1-HR01-KA121-ADU-000321253,Učilište JANTAR - ustanova za obrazovanje odraslih,Split,unmatched,,[],0
 2025-1-HR01-KA121-ADU-000323924::row-1014,2025-1-HR01-KA121-ADU-000323924,Bez granica,Zagreb,unmatched,,[],0
 2025-1-HR01-KA121-ADU-000324440::row-1015,2025-1-HR01-KA121-ADU-000324440,"Pučko otvoreno učilište ""Ante Babić"" Umag",Umag,unmatched,,[],0
-2025-1-HR01-KA121-ADU-000327757::row-1016,2025-1-HR01-KA121-ADU-000327757,Gradska knjižnica i čitaonica Virovitica,Virovitica,unmatched,,[],0
+2025-1-HR01-KA121-ADU-000327757::row-1016,2025-1-HR01-KA121-ADU-000327757,Gradska knjižnica i čitaonica Virovitica,Virovitica,matched_exact_name_and_city,institution-6d5035304e50,['institution-6d5035304e50'],1
 2025-1-HR01-KA121-ADU-000328680::row-1017,2025-1-HR01-KA121-ADU-000328680,Diopter - otvoreno učilište,Pula,unmatched,,[],0
 2025-1-HR01-KA121-ADU-000331840::row-1018,2025-1-HR01-KA121-ADU-000331840,Muzej grada Pregrade Zlatko Dragutin Tudjina,Pregrada,unmatched,,[],0
 2025-1-HR01-KA121-ADU-000332629::row-1019,2025-1-HR01-KA121-ADU-000332629,Društvo distrofičara Zagreb,Zagreb,unmatched,,[],0
 2025-1-HR01-KA121-ADU-000333633::row-1020,2025-1-HR01-KA121-ADU-000333633,Centar za kulturu i cjeloživotno obrazovanje Zlatna vrata,Split,unmatched,,[],0
-2025-1-HR01-KA121-ADU-000334163::row-1021,2025-1-HR01-KA121-ADU-000334163,Gradska knjižnica Ivan Goran Kovačić,Karlovac,unmatched,,[],0
+2025-1-HR01-KA121-ADU-000334163::row-1021,2025-1-HR01-KA121-ADU-000334163,Gradska knjižnica Ivan Goran Kovačić,Karlovac,matched_exact_name_and_city,institution-53b12f23dd6a,['institution-53b12f23dd6a'],1
 2025-1-HR01-KA121-ADU-000335766::row-1022,2025-1-HR01-KA121-ADU-000335766,Roditelji u Akciji,Zagreb,unmatched,,[],0
 2025-1-HR01-KA121-ADU-000336387::row-1023,2025-1-HR01-KA121-ADU-000336387,Ustanova za obrazovanje odraslih Dante,Rijeka,unmatched,,[],0
 2025-1-HR01-KA121-ADU-000336595::row-1024,2025-1-HR01-KA121-ADU-000336595,Pučko otvoreno učilište Koprivnica,Koprivnica,unmatched,,[],0
@@ -1219,20 +1219,20 @@
 2026-1-HR01-KA121-SCH-000405097::row-1219,2026-1-HR01-KA121-SCH-000405097,Osnovna škola dr. Branimira Markovića,Ravna Gora,matched_exact_name_and_city,institution-f68cdc2c8906,['institution-f68cdc2c8906'],1
 2026-1-HR01-KA121-SCH-000405256::row-1220,2026-1-HR01-KA121-SCH-000405256,Osnovna škola Zrinskih Nuštar,Nuštar,matched_exact_name_and_city,institution-13a5bafb7b6b,['institution-13a5bafb7b6b'],1
 2026-1-HR01-KA121-SCH-000405260::row-1221,2026-1-HR01-KA121-SCH-000405260,Gimnazija Vukovar,Vukovar,matched_exact_name_and_city,institution-101990e04eee,['institution-101990e04eee'],1
-2026-1-HR01-KA121-SCH-000405508::row-1222,2026-1-HR01-KA121-SCH-000405508,Osnovna škola Višnjevac,Osijek,location_mismatch,,['institution-a1ae44ef6e15'],1
+2026-1-HR01-KA121-SCH-000405508::row-1222,2026-1-HR01-KA121-SCH-000405508,Osnovna škola Višnjevac,Osijek,matched_unique_name_location_differs,institution-a1ae44ef6e15,['institution-a1ae44ef6e15'],1
 2026-1-HR01-KA121-SCH-000406407::row-1223,2026-1-HR01-KA121-SCH-000406407,Osnovna škola Rovišće,Rovišće,matched_exact_name_and_city,institution-c2df4ec27a90,['institution-c2df4ec27a90'],1
 2026-1-HR01-KA121-SCH-000407143::row-1224,2026-1-HR01-KA121-SCH-000407143,Osnovna škola Trnsko,Zagreb,matched_exact_name_and_city,institution-fc66fd489ba6,['institution-fc66fd489ba6'],1
-2026-1-HR01-KA121-SCH-000407232::row-1225,2026-1-HR01-KA121-SCH-000407232,XII. gimnazija,Grad Zagreb,location_mismatch,,['institution-b221ca9d71fc'],1
+2026-1-HR01-KA121-SCH-000407232::row-1225,2026-1-HR01-KA121-SCH-000407232,XII. gimnazija,Grad Zagreb,matched_unique_name_location_differs,institution-b221ca9d71fc,['institution-b221ca9d71fc'],1
 2026-1-HR01-KA121-SCH-000407340::row-1226,2026-1-HR01-KA121-SCH-000407340,Osnovna škola Dobriše Cesarića,Zagreb,matched_exact_name_and_city,institution-475e9785ca42,['institution-475e9785ca42'],1
 2026-1-HR01-KA121-SCH-000407385::row-1227,2026-1-HR01-KA121-SCH-000407385,Osnovna škola Stjepana Radića Bibinje,Bibinje,matched_exact_name_and_city,institution-566a217f71da,['institution-566a217f71da'],1
 2026-1-HR01-KA121-SCH-000407575::row-1228,2026-1-HR01-KA121-SCH-000407575,Osnovna škola Zlatar Bistrica,Zlatar Bistrica,matched_exact_name_and_city,institution-1c6ff33e9ca3,['institution-1c6ff33e9ca3'],1
-2026-1-HR01-KA121-SCH-000407585::row-1229,2026-1-HR01-KA121-SCH-000407585,Osnovna škola Mate Lovraka Kutina,Kutina,unmatched,,[],0
+2026-1-HR01-KA121-SCH-000407585::row-1229,2026-1-HR01-KA121-SCH-000407585,Osnovna škola Mate Lovraka Kutina,Kutina,matched_user_confirmed_school,institution-27642bdc3948,['institution-27642bdc3948'],1
 2026-1-HR01-KA121-SCH-000407759::row-1230,2026-1-HR01-KA121-SCH-000407759,Osnovna škola Ivanska,Ivanska,matched_exact_name_and_city,institution-f33247ab2be1,['institution-f33247ab2be1'],1
 2026-1-HR01-KA121-SCH-000407899::row-1231,2026-1-HR01-KA121-SCH-000407899,Osnovna škola Franje Serta Bednja,Bednja,matched_exact_name_and_city,institution-058e1bcf78e9,['institution-058e1bcf78e9'],1
 2026-1-HR01-KA121-SCH-000407956::row-1232,2026-1-HR01-KA121-SCH-000407956,Osnovna škola Pujanki,Split,matched_exact_name_and_city,institution-0d2710cd54d8,['institution-0d2710cd54d8'],1
 2026-1-HR01-KA121-SCH-000408192::row-1233,2026-1-HR01-KA121-SCH-000408192,Osnovna škola Jasenovac,Jasenovac,matched_exact_name_and_city,institution-15ac6c23777a,['institution-15ac6c23777a'],1
-2026-1-HR01-KA121-SCH-000408320::row-1234,2026-1-HR01-KA121-SCH-000408320,Osnovna škola Đuro Pilar Slavonski Brod,Slavonski Brod,unmatched,,[],0
-2026-1-HR01-KA121-SCH-000408404::row-1235,2026-1-HR01-KA121-SCH-000408404,Dječji vrtić Rijeka,Rijeka,unmatched,,[],0
+2026-1-HR01-KA121-SCH-000408320::row-1234,2026-1-HR01-KA121-SCH-000408320,Osnovna škola Đuro Pilar Slavonski Brod,Slavonski Brod,matched_user_confirmed_school,institution-805cb67ae4ae,['institution-805cb67ae4ae'],1
+2026-1-HR01-KA121-SCH-000408404::row-1235,2026-1-HR01-KA121-SCH-000408404,Dječji vrtić Rijeka,Rijeka,matched_exact_name_and_city,institution-afc5f6f69f75,['institution-afc5f6f69f75'],1
 2026-1-HR01-KA121-SCH-000408492::row-1236,2026-1-HR01-KA121-SCH-000408492,Srednja škola Metković,Metković,matched_exact_name_and_city,institution-772de1a6afe2,['institution-772de1a6afe2'],1
 2026-1-HR01-KA121-SCH-000408860::row-1237,2026-1-HR01-KA121-SCH-000408860,Osnovna škola Josipa Kozarca,Lipovljani,matched_exact_name_and_city,institution-d5031fa1031c,['institution-d5031fa1031c'],1
 2026-1-HR01-KA121-SCH-000409191::row-1238,2026-1-HR01-KA121-SCH-000409191,Gimnazija Fran Galović Koprivnica,Koprivnica,matched_exact_name_and_city,institution-bb329c3548c6,['institution-bb329c3548c6'],1
@@ -1244,40 +1244,40 @@
 2026-1-HR01-KA121-SCH-000410234::row-1244,2026-1-HR01-KA121-SCH-000410234,Gimnazija Lucijana Vranjanina,Zagreb,matched_exact_name_and_city,institution-787824498d59,['institution-787824498d59'],1
 2026-1-HR01-KA121-SCH-000410441::row-1245,2026-1-HR01-KA121-SCH-000410441,Osnovna škola Vladimir Bosnar Stubičke Toplice,Stubičke Toplice,matched_exact_name_and_city,institution-9e40aeb474ab,['institution-9e40aeb474ab'],1
 2026-1-HR01-KA121-SCH-000410565::row-1246,2026-1-HR01-KA121-SCH-000410565,Osnovna škola Hvar,Hvar,matched_exact_name_and_city,institution-7c18c1dd3a54,['institution-7c18c1dd3a54'],1
-2026-1-HR01-KA121-SCH-000410764::row-1247,2026-1-HR01-KA121-SCH-000410764,"Osnovna škola kraljice Jelene, Solin",Solin,unmatched,,[],0
-2026-1-HR01-KA121-SCH-000410781::row-1248,2026-1-HR01-KA121-SCH-000410781,Osnovna škola Petar Zoranić Nin,Nin,unmatched,,[],0
+2026-1-HR01-KA121-SCH-000410764::row-1247,2026-1-HR01-KA121-SCH-000410764,"Osnovna škola kraljice Jelene, Solin",Solin,matched_user_confirmed_school,institution-600189498e49,['institution-600189498e49'],1
+2026-1-HR01-KA121-SCH-000410781::row-1248,2026-1-HR01-KA121-SCH-000410781,Osnovna škola Petar Zoranić Nin,Nin,matched_user_confirmed_school,institution-a0f59419aa67,['institution-a0f59419aa67'],1
 2026-1-HR01-KA121-SCH-000410905::row-1249,2026-1-HR01-KA121-SCH-000410905,Osnovna škola Novi Marof,Novi Marof,matched_exact_name_and_city,institution-96b1d3baa0ed,['institution-96b1d3baa0ed'],1
-2026-1-HR01-KA121-SCH-000411005::row-1250,2026-1-HR01-KA121-SCH-000411005,Osnovna škola Andrije Kačića Miošića Donja Voća,Donja Voća,unmatched,,[],0
+2026-1-HR01-KA121-SCH-000411005::row-1250,2026-1-HR01-KA121-SCH-000411005,Osnovna škola Andrije Kačića Miošića Donja Voća,Donja Voća,matched_user_confirmed_school,institution-8b6e30af174c,['institution-8b6e30af174c'],1
 2026-1-HR01-KA121-SCH-000411121::row-1251,2026-1-HR01-KA121-SCH-000411121,Osnovna škola Barilović,Barilović,matched_exact_name_and_city,institution-8c1c1c9d4143,['institution-8c1c1c9d4143'],1
-2026-1-HR01-KA121-SCH-000411178::row-1252,2026-1-HR01-KA121-SCH-000411178,Dječji vrtić Maslačak,Zaprešić,unmatched,,[],0
-2026-1-HR01-KA121-SCH-000411468::row-1253,2026-1-HR01-KA121-SCH-000411468,Osnovna škola Sveti Petar Orehovec,"Sveti Petar Orehovec, Orehovec",location_mismatch,,['institution-eb143bd47369'],1
+2026-1-HR01-KA121-SCH-000411178::row-1252,2026-1-HR01-KA121-SCH-000411178,Dječji vrtić Maslačak,Zaprešić,matched_exact_name_and_city,institution-32ca34001f65,['institution-32ca34001f65'],1
+2026-1-HR01-KA121-SCH-000411468::row-1253,2026-1-HR01-KA121-SCH-000411468,Osnovna škola Sveti Petar Orehovec,"Sveti Petar Orehovec, Orehovec",matched_unique_name_location_differs,institution-eb143bd47369,['institution-eb143bd47369'],1
 2026-1-HR01-KA121-SCH-000411537::row-1254,2026-1-HR01-KA121-SCH-000411537,Osnovna škola Bedekovčina,Bedekovčina,matched_exact_name_and_city,institution-e6f680604bfd,['institution-e6f680604bfd'],1
 2026-1-HR01-KA121-SCH-000411717::row-1255,2026-1-HR01-KA121-SCH-000411717,Osnovna škola Grigora Viteza,Zagreb,matched_exact_name_and_city,institution-6f94324b5890,['institution-6f94324b5890'],1
 2026-1-HR01-KA121-SCH-000411776::row-1256,2026-1-HR01-KA121-SCH-000411776,Osnovna škola Vladimir Nazor Virovitica,Virovitica,matched_exact_name_and_city,institution-1a816085ee6b,['institution-1a816085ee6b'],1
 2026-1-HR01-KA121-SCH-000411879::row-1257,2026-1-HR01-KA121-SCH-000411879,Škola za cestovni promet,Zagreb,matched_exact_name_and_city,institution-59e4ff578631,['institution-59e4ff578631'],1
 2026-1-HR01-KA121-SCH-000411963::row-1258,2026-1-HR01-KA121-SCH-000411963,Osnovna škola Smokvica,Smokvica,matched_exact_name_and_city,institution-9a997e16258a,['institution-9a997e16258a'],1
-2026-1-HR01-KA121-SCH-000412000::row-1259,2026-1-HR01-KA121-SCH-000412000,l. osnovna škola Čakovec,Čakovec,unmatched,,[],0
+2026-1-HR01-KA121-SCH-000412000::row-1259,2026-1-HR01-KA121-SCH-000412000,l. osnovna škola Čakovec,Čakovec,matched_unique_address_and_city,institution-7b577b27ac3a,['institution-7b577b27ac3a'],1
 2026-1-HR01-KA121-SCH-000412248::row-1260,2026-1-HR01-KA121-SCH-000412248,Osnovna škola Josipa Kozarca,Slatina,matched_exact_name_and_city,institution-1251e67a04bd,['institution-1251e67a04bd'],1
-2026-1-HR01-KA121-SCH-000412304::row-1261,2026-1-HR01-KA121-SCH-000412304,Osnovna škola Ivana Gorana Kovačića Gornje Bazje,"Gornje Bazje, Lukač",location_mismatch,,['institution-633288869929'],1
+2026-1-HR01-KA121-SCH-000412304::row-1261,2026-1-HR01-KA121-SCH-000412304,Osnovna škola Ivana Gorana Kovačića Gornje Bazje,"Gornje Bazje, Lukač",matched_unique_name_location_differs,institution-633288869929,['institution-633288869929'],1
 2026-1-HR01-KA121-SCH-000412447::row-1262,2026-1-HR01-KA121-SCH-000412447,Osnovna škola Eugena Kumičića,Slatina,matched_exact_name_and_city,institution-ca53a07d26d2,['institution-ca53a07d26d2'],1
 2026-1-HR01-KA121-SCH-000412477::row-1263,2026-1-HR01-KA121-SCH-000412477,Osnovna škola Slavka Kolara,Kravarsko,matched_exact_name_and_city,institution-d697c720025f,['institution-d697c720025f'],1
 2026-1-HR01-KA121-SCH-000412580::row-1264,2026-1-HR01-KA121-SCH-000412580,Osnovna škola Stjepana Cvrkovića,Stari Mikanovci,matched_exact_name_and_city,institution-ae9ea6a7efb8,['institution-ae9ea6a7efb8'],1
-2026-1-HR01-KA121-SCH-000412857::row-1265,2026-1-HR01-KA121-SCH-000412857,Dječji vrtić Prečko,Zagreb,unmatched,,[],0
+2026-1-HR01-KA121-SCH-000412857::row-1265,2026-1-HR01-KA121-SCH-000412857,Dječji vrtić Prečko,Zagreb,matched_exact_name_and_city,institution-3aae81b589ab,['institution-3aae81b589ab'],1
 2026-1-HR01-KA121-SCH-000413012::row-1266,2026-1-HR01-KA121-SCH-000413012,Agencija za odgoj i obrazovanje,Zagreb,unmatched,,[],0
-2026-1-HR01-KA121-SCH-000413035::row-1267,2026-1-HR01-KA121-SCH-000413035,Dječji vrtić Olga Ban Pazin,Pazin,unmatched,,[],0
-2026-1-HR01-KA121-SCH-000413146::row-1268,2026-1-HR01-KA121-SCH-000413146,Dječji vrtić Osijek,Osijek,unmatched,,[],0
+2026-1-HR01-KA121-SCH-000413035::row-1267,2026-1-HR01-KA121-SCH-000413035,Dječji vrtić Olga Ban Pazin,Pazin,matched_exact_name_and_city_suffix,institution-172108c44912,['institution-172108c44912'],1
+2026-1-HR01-KA121-SCH-000413146::row-1268,2026-1-HR01-KA121-SCH-000413146,Dječji vrtić Osijek,Osijek,matched_exact_name_and_city,institution-0de1bbeb84fe,['institution-0de1bbeb84fe'],1
 2026-1-HR01-KA121-SCH-000413368::row-1269,2026-1-HR01-KA121-SCH-000413368,Osnovna škola Belica,Belica,matched_exact_name_and_city,institution-5b4f72ce79be,['institution-5b4f72ce79be'],1
 2026-1-HR01-KA121-SCH-000413673::row-1270,2026-1-HR01-KA121-SCH-000413673,Osnovna škola Blaž Tadijanović,Slavonski Brod,matched_exact_name_and_city,institution-9a05d3c2a78c,['institution-9a05d3c2a78c'],1
 2026-1-HR01-KA121-SCH-000413845::row-1271,2026-1-HR01-KA121-SCH-000413845,Osnovna škola Blato,Blato,matched_exact_name_and_city,institution-e133df2fd618,['institution-e133df2fd618'],1
 2026-1-HR01-KA121-SCH-000414447::row-1272,2026-1-HR01-KA121-SCH-000414447,Osnovna škola Josipa Matoša,Vukovar,matched_exact_name_and_city,institution-eac1733a448b,['institution-eac1733a448b'],1
-2026-1-HR01-KA121-SCH-000415061::row-1273,2026-1-HR01-KA121-SCH-000415061,Dječji vrtić Siget,Zagreb,unmatched,,[],0
+2026-1-HR01-KA121-SCH-000415061::row-1273,2026-1-HR01-KA121-SCH-000415061,Dječji vrtić Siget,Zagreb,matched_exact_name_and_city,institution-d7202f610035,['institution-d7202f610035'],1
 2026-1-HR01-KA121-SCH-000415167::row-1274,2026-1-HR01-KA121-SCH-000415167,Prva privatna gimnazija s pravom javnosti Varaždin,Varaždin,matched_exact_name_and_city,institution-4f10df4c98ed,['institution-4f10df4c98ed'],1
 2026-1-HR01-KA121-SCH-000415190::row-1275,2026-1-HR01-KA121-SCH-000415190,Gimnazija Metković,Metković,matched_exact_name_and_city,institution-96bffc269835,['institution-96bffc269835'],1
 2026-1-HR01-KA121-SCH-000415285::row-1276,2026-1-HR01-KA121-SCH-000415285,Osnovna škola Petra Kanavelića,Korčula,matched_exact_name_and_city,institution-8a73ed1c49e3,['institution-8a73ed1c49e3'],1
-2026-1-HR01-KA121-SCH-000415665::row-1277,2026-1-HR01-KA121-SCH-000415665,Dječji vrtić Vladimir Nazor,Kastav,unmatched,,[],0
+2026-1-HR01-KA121-SCH-000415665::row-1277,2026-1-HR01-KA121-SCH-000415665,Dječji vrtić Vladimir Nazor,Kastav,matched_exact_name_and_city,institution-ea3491fc7e66,['institution-ea3491fc7e66'],1
 2026-1-HR01-KA121-SCH-000416129::row-1278,2026-1-HR01-KA121-SCH-000416129,III. gimnazija,Zagreb,matched_exact_name_and_city,institution-648e260d3d09,['institution-648e260d3d09'],1
 2026-1-HR01-KA121-SCH-000416143::row-1279,2026-1-HR01-KA121-SCH-000416143,Elektrotehnička i prometna škola Osijek,Osijek,matched_exact_name_and_city,institution-078eafb312b8,['institution-078eafb312b8'],1
-2026-1-HR01-KA121-SCH-000416331::row-1280,2026-1-HR01-KA121-SCH-000416331,Osnovna škola Antun Nemčić Gostovinski Koprivnica,Koprivnica,unmatched,,[],0
+2026-1-HR01-KA121-SCH-000416331::row-1280,2026-1-HR01-KA121-SCH-000416331,Osnovna škola Antun Nemčić Gostovinski Koprivnica,Koprivnica,matched_user_confirmed_school,institution-2798b65569f7,['institution-2798b65569f7'],1
 2026-1-HR01-KA121-SCH-000416936::row-1281,2026-1-HR01-KA121-SCH-000416936,Gimnazija Dubrovnik,Dubrovnik,matched_exact_name_and_city,institution-e2fef4a205a4,['institution-e2fef4a205a4'],1
 2026-1-HR01-KA121-SCH-000417034::row-1282,2026-1-HR01-KA121-SCH-000417034,Osnovna škola braće Radića Pakrac,Pakrac,matched_exact_name_and_city,institution-0bab514834eb,['institution-0bab514834eb'],1
 2026-1-HR01-KA121-SCH-000417430::row-1283,2026-1-HR01-KA121-SCH-000417430,Srednja škola Jure Kaštelan,Omiš,matched_exact_name_and_city,institution-fcd7d2cec239,['institution-fcd7d2cec239'],1
@@ -1287,28 +1287,28 @@
 2026-1-HR01-KA121-SCH-000417885::row-1287,2026-1-HR01-KA121-SCH-000417885,Osnovna škola OTOK,Zagreb,matched_exact_name_and_city,institution-ad4057258c03,['institution-ad4057258c03'],1
 2026-1-HR01-KA121-SCH-000418325::row-1288,2026-1-HR01-KA121-SCH-000418325,Srednja škola - Centar za odgoj i obrazovanje,Zagreb,matched_exact_name_and_city,institution-c769e27b091a,['institution-c769e27b091a'],1
 2026-1-HR01-KA121-SCH-000418583::row-1289,2026-1-HR01-KA121-SCH-000418583,Osnovna škola Vladimira Nazora,Daruvar,matched_exact_name_and_city,institution-8d3fca658634,['institution-8d3fca658634'],1
-2026-1-HR01-KA121-SCH-000418799::row-1290,2026-1-HR01-KA121-SCH-000418799,Osnovna škola Vugrovec-Kašina,Kašina (Grad Zagreb),location_mismatch,,['institution-164fcd55ea81'],1
+2026-1-HR01-KA121-SCH-000418799::row-1290,2026-1-HR01-KA121-SCH-000418799,Osnovna škola Vugrovec-Kašina,Kašina (Grad Zagreb),matched_unique_name_location_differs,institution-164fcd55ea81,['institution-164fcd55ea81'],1
 2026-1-HR01-KA121-SCH-000418909::row-1291,2026-1-HR01-KA121-SCH-000418909,Prva gimnazija Varaždin,Varaždin,matched_exact_name_and_city,institution-fa695b76ff61,['institution-fa695b76ff61'],1
 2026-1-HR01-KA121-SCH-000419203::row-1292,2026-1-HR01-KA121-SCH-000419203,Osnovna škola August Šenoa,Osijek,matched_exact_name_and_city,institution-95312540e488,['institution-95312540e488'],1
 2026-1-HR01-KA121-SCH-000420538::row-1293,2026-1-HR01-KA121-SCH-000420538,Srednja škola Krapina,Krapina,matched_exact_name_and_city,institution-b48fecc72bcc,['institution-b48fecc72bcc'],1
-2026-1-HR01-KA121-SCH-000420816::row-1294,2026-1-HR01-KA121-SCH-000420816,I. gimnazija,Grad Zagreb,location_mismatch,,['institution-e0139ae5dd33'],1
+2026-1-HR01-KA121-SCH-000420816::row-1294,2026-1-HR01-KA121-SCH-000420816,I. gimnazija,Grad Zagreb,matched_unique_name_location_differs,institution-e0139ae5dd33,['institution-e0139ae5dd33'],1
 2026-1-HR01-KA121-SCH-000421170::row-1295,2026-1-HR01-KA121-SCH-000421170,Prirodoslovna škola Vladimira Preloga,Zagreb,matched_exact_name_and_city,institution-3833c2940ba2,['institution-3833c2940ba2'],1
 2026-1-HR01-KA121-SCH-000421718::row-1296,2026-1-HR01-KA121-SCH-000421718,Osnovna škola Vladimir Nazor,Duga Resa,matched_exact_name_and_city,institution-1bcf4fb8a754,['institution-1bcf4fb8a754'],1
 2026-1-HR01-KA121-SCH-000422019::row-1297,2026-1-HR01-KA121-SCH-000422019,II. osnovna škola Bjelovar,Bjelovar,matched_exact_name_and_city,institution-02e515949ac3,['institution-02e515949ac3'],1
 2026-1-HR01-KA121-SCH-000422209::row-1298,2026-1-HR01-KA121-SCH-000422209,Ekonomsko-birotehnička škola,Slavonski Brod,matched_exact_name_and_city,institution-0806bffc2f0e,['institution-0806bffc2f0e'],1
-2026-1-HR01-KA121-SCH-000422251::row-1299,2026-1-HR01-KA121-SCH-000422251,Dječji vrtić Iskrica,Zagreb,unmatched,,[],0
+2026-1-HR01-KA121-SCH-000422251::row-1299,2026-1-HR01-KA121-SCH-000422251,Dječji vrtić Iskrica,Zagreb,matched_exact_name_and_city,institution-eaf531c58913,['institution-eaf531c58913'],1
 2026-1-HR01-KA121-SCH-000422374::row-1300,2026-1-HR01-KA121-SCH-000422374,Osnovna škola Petra Preradovića,Pitomača,matched_exact_name_and_city,institution-7d2ccf865361,['institution-7d2ccf865361'],1
 2026-1-HR01-KA121-SCH-000422475::row-1301,2026-1-HR01-KA121-SCH-000422475,Ekonomska i turistička škola Daruvar,Daruvar,matched_exact_name_and_city,institution-19949bda442e,['institution-19949bda442e'],1
 2026-1-HR01-KA121-SCH-000422749::row-1302,2026-1-HR01-KA121-SCH-000422749,Osnovna škola Matija Gubec,Magadenovac,matched_exact_name_and_city,institution-9c51c72e21da,['institution-9c51c72e21da'],1
 2026-1-HR01-KA121-SCH-000422993::row-1303,2026-1-HR01-KA121-SCH-000422993,Osnovna škola Marjan,Split,matched_exact_name_and_city,institution-68f284f9a019,['institution-68f284f9a019'],1
 2026-1-HR01-KA121-SCH-000422995::row-1304,2026-1-HR01-KA121-SCH-000422995,Osnovna škola Nikole Tesle,Zagreb,matched_exact_name_and_city,institution-489ffc9211ec,['institution-489ffc9211ec'],1
-2026-1-HR01-KA121-SCH-000423007::row-1305,2026-1-HR01-KA121-SCH-000423007,Srednja škola Zvane Črnje Rovinj,Rovinj-Rovigno,unmatched,,[],0
+2026-1-HR01-KA121-SCH-000423007::row-1305,2026-1-HR01-KA121-SCH-000423007,Srednja škola Zvane Črnje Rovinj,Rovinj-Rovigno,matched_unique_address_location_differs,institution-1c6e359bc0cb,['institution-1c6e359bc0cb'],1
 2026-1-HR01-KA121-SCH-000423020::row-1306,2026-1-HR01-KA121-SCH-000423020,Osnovna škola Pantovčak,Zagreb,matched_exact_name_and_city,institution-209d09253c2c,['institution-209d09253c2c'],1
 2026-1-HR01-KA121-SCH-000423042::row-1307,2026-1-HR01-KA121-SCH-000423042,XVI. gimnazija,Zagreb,matched_exact_name_and_city,institution-045ea699f6c4,['institution-045ea699f6c4'],1
 2026-1-HR01-KA121-SCH-000423116::row-1308,2026-1-HR01-KA121-SCH-000423116,VI. osnovna škola Varaždin,Varaždin,matched_exact_name_and_city,institution-9b37278e7355,['institution-9b37278e7355'],1
-2026-1-HR01-KA121-SCH-000423168::row-1309,2026-1-HR01-KA121-SCH-000423168,Dječji vrtić Marjan,Split,unmatched,,[],0
+2026-1-HR01-KA121-SCH-000423168::row-1309,2026-1-HR01-KA121-SCH-000423168,Dječji vrtić Marjan,Split,matched_exact_name_and_city,institution-61b309ab8f19,['institution-61b309ab8f19'],1
 2026-1-HR01-KA121-SCH-000423325::row-1310,2026-1-HR01-KA121-SCH-000423325,Osnovna škola Borovje,Zagreb,matched_exact_name_and_city,institution-9cf3c152d687,['institution-9cf3c152d687'],1
-2026-1-HR01-KA121-SCH-000423447::row-1311,2026-1-HR01-KA121-SCH-000423447,Osnovna škola don Mihovila Pavlinovića Podgora,Podgora,unmatched,,[],0
+2026-1-HR01-KA121-SCH-000423447::row-1311,2026-1-HR01-KA121-SCH-000423447,Osnovna škola don Mihovila Pavlinovića Podgora,Podgora,matched_user_confirmed_school,institution-a34ff599916a,['institution-a34ff599916a'],1
 2026-1-HR01-KA121-SCH-000424089::row-1312,2026-1-HR01-KA121-SCH-000424089,XV. gimnazija,Zagreb,matched_exact_name_and_city,institution-3d7eaec4b8f4,['institution-3d7eaec4b8f4'],1
 2026-1-HR01-KA121-SCH-000424977::row-1313,2026-1-HR01-KA121-SCH-000424977,Osnovna škola Odra,Zagreb,matched_exact_name_and_city,institution-3331afe9cf88,['institution-3331afe9cf88'],1
 2026-1-HR01-KA121-SCH-000425376::row-1314,2026-1-HR01-KA121-SCH-000425376,I. gimnazija Osijek,Osijek,matched_exact_name_and_city,institution-a3b5a2bf3154,['institution-a3b5a2bf3154'],1
@@ -1327,7 +1327,7 @@
 2026-1-HR01-KA121-SCH-000427298::row-1327,2026-1-HR01-KA121-SCH-000427298,Osnovna škola Ivana Kukuljevića Sakcinskog,Ivanec,matched_exact_name_and_city,institution-d0d6217ce2e8,['institution-d0d6217ce2e8'],1
 2026-1-HR01-KA121-SCH-000427370::row-1328,2026-1-HR01-KA121-SCH-000427370,Učenički dom Dora Pejačević,Zagreb,unmatched,,[],0
 2026-1-HR01-KA121-SCH-000427703::row-1329,2026-1-HR01-KA121-SCH-000427703,Srednja škola Mate Blažine Labin,Labin,matched_exact_name_and_city,institution-9c28408ed5bb,['institution-9c28408ed5bb'],1
-2026-1-HR01-KA121-SCH-000427802::row-1330,2026-1-HR01-KA121-SCH-000427802,Dječji vrtić Matije Gupca,Zagreb,unmatched,,[],0
+2026-1-HR01-KA121-SCH-000427802::row-1330,2026-1-HR01-KA121-SCH-000427802,Dječji vrtić Matije Gupca,Zagreb,matched_exact_name_and_city,institution-926844b5d9a5,['institution-926844b5d9a5'],1
 2026-1-HR01-KA121-SCH-000428252::row-1331,2026-1-HR01-KA121-SCH-000428252,Srednja škola Hrvatski kralj Zvonimir,Krk,matched_exact_name_and_city,institution-48c1e7cb24d4,['institution-48c1e7cb24d4'],1
 2026-1-HR01-KA121-SCH-000428572::row-1332,2026-1-HR01-KA121-SCH-000428572,Osnovna škola Antuna Mihanovića,Klanjec,matched_exact_name_and_city,institution-ed59690188f3,['institution-ed59690188f3'],1
 2026-1-HR01-KA121-SCH-000428604::row-1333,2026-1-HR01-KA121-SCH-000428604,Osnovna škola Kajzerica,Zagreb,matched_exact_name_and_city,institution-504173cbdfa5,['institution-504173cbdfa5'],1
@@ -1337,24 +1337,24 @@
 2026-1-HR01-KA121-SCH-000430408::row-1337,2026-1-HR01-KA121-SCH-000430408,Osnovna škola Dobriša Cesarić,Osijek,matched_exact_name_and_city,institution-2d701af8d726,['institution-2d701af8d726'],1
 2026-1-HR01-KA121-SCH-000430685::row-1338,2026-1-HR01-KA121-SCH-000430685,Osnovna škola Ivana Gorana Kovačića,Vinkovci,matched_exact_name_and_city,institution-4826bc8cd4bd,['institution-4826bc8cd4bd'],1
 2026-1-HR01-KA121-SCH-000431481::row-1339,2026-1-HR01-KA121-SCH-000431481,Osnovna škola dr. Franjo Tuđman,Šarengrad,matched_exact_name_and_city,institution-ed0ebdb0240e,['institution-ed0ebdb0240e'],1
-2026-1-HR01-KA121-SCH-000431533::row-1340,2026-1-HR01-KA121-SCH-000431533,Dječji vrtić Tratinčica,Koprivnica,unmatched,,[],0
-2026-1-HR01-KA121-SCH-000432157::row-1341,2026-1-HR01-KA121-SCH-000432157,Osnovna škola Vladimir Nazor Komletinci,Komletinci,unmatched,,[],0
+2026-1-HR01-KA121-SCH-000431533::row-1340,2026-1-HR01-KA121-SCH-000431533,Dječji vrtić Tratinčica,Koprivnica,matched_exact_name_and_city,institution-7a8e4c08ebea,['institution-7a8e4c08ebea'],1
+2026-1-HR01-KA121-SCH-000432157::row-1341,2026-1-HR01-KA121-SCH-000432157,Osnovna škola Vladimir Nazor Komletinci,Komletinci,matched_user_confirmed_school,institution-9e11a4bda5cc,['institution-9e11a4bda5cc'],1
 2026-1-HR01-KA121-SCH-000432181::row-1342,2026-1-HR01-KA121-SCH-000432181,Poliklinika SUVAG,Zagreb,unmatched,,[],0
-2026-1-HR01-KA121-SCH-000432603::row-1343,2026-1-HR01-KA121-SCH-000432603,Osnovna škola Vladimir Nazor Pisarovina,Pisarovina,unmatched,,[],0
+2026-1-HR01-KA121-SCH-000432603::row-1343,2026-1-HR01-KA121-SCH-000432603,Osnovna škola Vladimir Nazor Pisarovina,Pisarovina,matched_user_confirmed_school,institution-c74248b791e7,['institution-c74248b791e7'],1
 2026-1-HR01-KA121-SCH-000433069::row-1344,2026-1-HR01-KA121-SCH-000433069,Srednja škola Isidora Kršnjavoga Našice,Našice,matched_exact_name_and_city,institution-0a7109b53711,['institution-0a7109b53711'],1
 2026-1-HR01-KA121-SCH-000434169::row-1345,2026-1-HR01-KA121-SCH-000434169,Osnovna škola Ludina,Velika Ludina,matched_exact_name_and_city,institution-a8077571b2f7,['institution-a8077571b2f7'],1
 2026-1-HR01-KA121-SCH-000434239::row-1346,2026-1-HR01-KA121-SCH-000434239,Osnovna škola Vladimir Nazor Križevci,Križevci,matched_exact_name_and_city,institution-17625fd8d20a,['institution-17625fd8d20a'],1
 2026-1-HR01-KA121-SCH-000434422::row-1347,2026-1-HR01-KA121-SCH-000434422,Osnovna škola dr. Franje Tuđmana Brela,Brela,matched_exact_name_and_city,institution-2917eb63c1fa,['institution-2917eb63c1fa'],1
 2026-1-HR01-KA121-SCH-000434525::row-1348,2026-1-HR01-KA121-SCH-000434525,Osnovna škola Ljudevita Gaja,Zaprešić,matched_exact_name_and_city,institution-c7187cb8fb1d,['institution-c7187cb8fb1d'],1
-2026-1-HR01-KA121-SCH-000434605::row-1349,2026-1-HR01-KA121-SCH-000434605,Dječji vrtić Cvit Mediterana,Split,unmatched,,[],0
-2026-1-HR01-KA121-SCH-000434639::row-1350,2026-1-HR01-KA121-SCH-000434639,Dječji vrtić Vesela Kućica,Zagreb,unmatched,,[],0
+2026-1-HR01-KA121-SCH-000434605::row-1349,2026-1-HR01-KA121-SCH-000434605,Dječji vrtić Cvit Mediterana,Split,matched_exact_name_and_city,institution-07ff56652978,['institution-07ff56652978'],1
+2026-1-HR01-KA121-SCH-000434639::row-1350,2026-1-HR01-KA121-SCH-000434639,Dječji vrtić Vesela Kućica,Zagreb,matched_exact_name_and_city,institution-5eaf87cb878f,['institution-5eaf87cb878f'],1
 2026-1-HR01-KA121-SCH-000434679::row-1351,2026-1-HR01-KA121-SCH-000434679,Osnovna škola Jagode Truhelke,Osijek,matched_exact_name_and_city,institution-335244fc053c,['institution-335244fc053c'],1
 2026-1-HR01-KA121-SCH-000434747::row-1352,2026-1-HR01-KA121-SCH-000434747,Srednja škola Ivan Švear Ivanić Grad,Ivanić-Grad,matched_exact_name_and_city,institution-46057f789b1d,['institution-46057f789b1d'],1
 2026-1-HR01-KA121-SCH-000434769::row-1353,2026-1-HR01-KA121-SCH-000434769,Osnovna škola Bakar,Bakar,matched_exact_name_and_city,institution-b5f63b5553af,['institution-b5f63b5553af'],1
 2026-1-HR01-KA121-SCH-000435634::row-1354,2026-1-HR01-KA121-SCH-000435634,Osnovna škola Hugo Badalić,Slavonski Brod,matched_exact_name_and_city,institution-1379def57f7d,['institution-1379def57f7d'],1
 2026-1-HR01-KA121-SCH-000435826::row-1355,2026-1-HR01-KA121-SCH-000435826,Osnovna škola Horvati,Zagreb,matched_exact_name_and_city,institution-6884aec2d328,['institution-6884aec2d328'],1
 2026-1-HR01-KA121-SCH-000435833::row-1356,2026-1-HR01-KA121-SCH-000435833,Osnovna škola Sračinec,Sračinec,matched_exact_name_and_city,institution-cbcabc9562b7,['institution-cbcabc9562b7'],1
-2026-1-HR01-KA121-SCH-000436649::row-1357,2026-1-HR01-KA121-SCH-000436649,Osnovna škola Strahoninec,Čakovec,location_mismatch,,['institution-7dd567c5ad42'],1
+2026-1-HR01-KA121-SCH-000436649::row-1357,2026-1-HR01-KA121-SCH-000436649,Osnovna škola Strahoninec,Čakovec,matched_unique_name_location_differs,institution-7dd567c5ad42,['institution-7dd567c5ad42'],1
 2026-1-HR01-KA121-SCH-000436829::row-1358,2026-1-HR01-KA121-SCH-000436829,"Udruga za savjetovanje, edukaciju i pomoć roditeljima djece s posebnim potrebama ""Poseban prijatelj"" Dubrovnik",Dubrovnik,unmatched,,[],0
 2026-1-HR01-KA121-SCH-000436937::row-1359,2026-1-HR01-KA121-SCH-000436937,Osnovna škola Zmijavci,Zmijavci,matched_exact_name_and_city,institution-f3b455d8a8e0,['institution-f3b455d8a8e0'],1
 2026-1-HR01-KA121-SCH-000437056::row-1360,2026-1-HR01-KA121-SCH-000437056,Osnovna škola Bukovac,ZAGREB,matched_exact_name_and_city,institution-beb6e148d039,['institution-beb6e148d039'],1
@@ -1362,7 +1362,7 @@
 2026-1-HR01-KA121-SCH-000438383::row-1362,2026-1-HR01-KA121-SCH-000438383,Srednja škola Koprivnica,Koprivnica,matched_exact_name_and_city,institution-9e48c2f5eae3,['institution-9e48c2f5eae3'],1
 2026-1-HR01-KA121-SCH-000438535::row-1363,2026-1-HR01-KA121-SCH-000438535,Gornjogradska gimnazija,Zagreb,matched_exact_name_and_city,institution-feaaa08a5e09,['institution-feaaa08a5e09'],1
 2026-1-HR01-KA121-SCH-000438664::row-1364,2026-1-HR01-KA121-SCH-000438664,IX. gimnazija,Zagreb,matched_exact_name_and_city,institution-926250b5af36,['institution-926250b5af36'],1
-2026-1-HR01-KA121-SCH-000439661::row-1365,2026-1-HR01-KA121-SCH-000439661,Osnovna škola Jurja Dobrile,Rovinj,unmatched,,[],0
+2026-1-HR01-KA121-SCH-000439661::row-1365,2026-1-HR01-KA121-SCH-000439661,Osnovna škola Jurja Dobrile,Rovinj,matched_unique_address_and_city,institution-454066b6e5db,['institution-454066b6e5db'],1
 2026-1-HR01-KA121-SCH-000441751::row-1366,2026-1-HR01-KA121-SCH-000441751,Industrijsko-obrtnička škola Virovitica,Virovitica,matched_exact_name_and_city,institution-8161560cd833,['institution-8161560cd833'],1
 2026-1-HR01-KA121-SCH-000442565::row-1367,2026-1-HR01-KA121-SCH-000442565,Srednja škola Ivo Padovan Blato,Blato,matched_exact_name_and_city,institution-c4ff3e1fb28c,['institution-c4ff3e1fb28c'],1
 2026-1-HR01-KA121-SCH-000442897::row-1368,2026-1-HR01-KA121-SCH-000442897,Trgovačka škola,Zagreb,matched_exact_name_and_city,institution-579d4007421f,['institution-579d4007421f'],1
@@ -1373,62 +1373,62 @@
 2026-1-HR01-KA121-SCH-000446665::row-1373,2026-1-HR01-KA121-SCH-000446665,Srednja medicinska škola,Slavonski Brod,matched_exact_name_and_city,institution-66f8ab6505ab,['institution-66f8ab6505ab'],1
 2026-1-HR01-KA121-SCH-000446702::row-1374,2026-1-HR01-KA121-SCH-000446702,"Ekonomska škola, Požega",Požega,matched_exact_name_and_city,institution-bf484e5b836b,['institution-bf484e5b836b'],1
 2026-1-HR01-KA121-SCH-000446950::row-1375,2026-1-HR01-KA121-SCH-000446950,Osnovna škola Milana Langa,Bregana,matched_exact_name_and_city,institution-fc2166ff0fe0,['institution-fc2166ff0fe0'],1
-2026-1-HR01-KA121-SCH-000447084::row-1376,2026-1-HR01-KA121-SCH-000447084,Dječji vrtić Petar Pan,Zagreb,unmatched,,[],0
+2026-1-HR01-KA121-SCH-000447084::row-1376,2026-1-HR01-KA121-SCH-000447084,Dječji vrtić Petar Pan,Zagreb,matched_exact_name_and_city,institution-4da5985d944e,['institution-4da5985d944e'],1
 2026-1-HR01-KA121-SCH-000447273::row-1377,2026-1-HR01-KA121-SCH-000447273,I. osnovna škola Bjelovar,Bjelovar,matched_exact_name_and_city,institution-1f84c5c5f9ef,['institution-1f84c5c5f9ef'],1
-2026-1-HR01-KA121-SCH-000447290::row-1378,2026-1-HR01-KA121-SCH-000447290,Dječji vrtić Slavuj,Strmec,unmatched,,[],0
+2026-1-HR01-KA121-SCH-000447290::row-1378,2026-1-HR01-KA121-SCH-000447290,Dječji vrtić Slavuj,Strmec,matched_exact_name_and_city,institution-828e79f6d9a4,['institution-828e79f6d9a4'],1
 2026-1-HR01-KA121-SCH-000447364::row-1379,2026-1-HR01-KA121-SCH-000447364,XVIII. gimnazija,Zagreb,matched_exact_name_and_city,institution-884a499c7ea8,['institution-884a499c7ea8'],1
 2026-1-HR01-KA121-SCH-000447389::row-1380,2026-1-HR01-KA121-SCH-000447389,Osnovna škola Župa dubrovačka,Mlini,matched_exact_name_and_city,institution-a978ef42714a,['institution-a978ef42714a'],1
-2026-1-HR01-KA121-SCH-000447710::row-1381,2026-1-HR01-KA121-SCH-000447710,Osnovna škola Đuro Ester Koprivnica,Koprivnica,unmatched,,[],0
-2026-1-HR01-KA121-SCH-000447934::row-1382,2026-1-HR01-KA121-SCH-000447934,Dječji vrtić Varaždin,Varaždin,unmatched,,[],0
+2026-1-HR01-KA121-SCH-000447710::row-1381,2026-1-HR01-KA121-SCH-000447710,Osnovna škola Đuro Ester Koprivnica,Koprivnica,matched_user_confirmed_school,institution-e5fabcf1e584,['institution-e5fabcf1e584'],1
+2026-1-HR01-KA121-SCH-000447934::row-1382,2026-1-HR01-KA121-SCH-000447934,Dječji vrtić Varaždin,Varaždin,matched_exact_name_and_city,institution-10fe5db7dfac,['institution-10fe5db7dfac'],1
 2026-1-HR01-KA121-SCH-000448225::row-1383,2026-1-HR01-KA121-SCH-000448225,Osnovna škola Vrgorac,Vrgorac,matched_exact_name_and_city,institution-33e4f5fe550b,['institution-33e4f5fe550b'],1
-2026-1-HR01-KA121-SCH-000448311::row-1384,2026-1-HR01-KA121-SCH-000448311,Dječji vrtić Vrapčić Šenkovec,Šenkovec,unmatched,,[],0
+2026-1-HR01-KA121-SCH-000448311::row-1384,2026-1-HR01-KA121-SCH-000448311,Dječji vrtić Vrapčić Šenkovec,Šenkovec,matched_exact_name_and_city_suffix,institution-14a478f0ec16,['institution-14a478f0ec16'],1
 2026-1-HR01-KA121-SCH-000448333::row-1385,2026-1-HR01-KA121-SCH-000448333,Gospodarska škola Varaždin,Varaždin,matched_exact_name_and_city,institution-cfb3813e3ec4,['institution-cfb3813e3ec4'],1
 2026-1-HR01-KA121-SCH-000448337::row-1386,2026-1-HR01-KA121-SCH-000448337,Srednja škola Ivanec,Ivanec,matched_exact_name_and_city,institution-f7e7774f685d,['institution-f7e7774f685d'],1
 2026-1-HR01-KA121-SCH-000448597::row-1387,2026-1-HR01-KA121-SCH-000448597,Srednja škola Čakovec,Čakovec,matched_exact_name_and_city,institution-8b27295e8cda,['institution-8b27295e8cda'],1
-2026-1-HR01-KA122-SCH-000443580::row-1388,2026-1-HR01-KA122-SCH-000443580,Srednja škola Tina Ujevića Kutina,Kutina,unmatched,,[],0
-2026-1-HR01-KA122-SCH-000443525::row-1389,2026-1-HR01-KA122-SCH-000443525,Djeji vrtić Tamaris Vodice,Vodice,unmatched,,[],0
-2026-1-HR01-KA122-SCH-000437248::row-1390,2026-1-HR01-KA122-SCH-000437248,Dječji vrtić Radost Ludbreg,Ludbreg,unmatched,,[],0
-2026-1-HR01-KA122-SCH-000444855::row-1391,2026-1-HR01-KA122-SCH-000444855,Dječji vrtić Maslačak Đurđevac,Đurđevac,unmatched,,[],0
+2026-1-HR01-KA122-SCH-000443580::row-1388,2026-1-HR01-KA122-SCH-000443580,Srednja škola Tina Ujevića Kutina,Kutina,matched_exact_name_and_city_suffix,institution-9343c47b888a,['institution-9343c47b888a'],1
+2026-1-HR01-KA122-SCH-000443525::row-1389,2026-1-HR01-KA122-SCH-000443525,Djeji vrtić Tamaris Vodice,Vodice,matched_unique_address_and_city,institution-b389b30574fb,['institution-b389b30574fb'],1
+2026-1-HR01-KA122-SCH-000437248::row-1390,2026-1-HR01-KA122-SCH-000437248,Dječji vrtić Radost Ludbreg,Ludbreg,matched_exact_name_and_city_suffix,institution-fabed334a911,['institution-fabed334a911'],1
+2026-1-HR01-KA122-SCH-000444855::row-1391,2026-1-HR01-KA122-SCH-000444855,Dječji vrtić Maslačak Đurđevac,Đurđevac,matched_exact_name_and_city_suffix,institution-f9327aae51fb,['institution-f9327aae51fb'],1
 2026-1-HR01-KA122-SCH-000431644::row-1392,2026-1-HR01-KA122-SCH-000431644,Srednja škola Dragutina Stražimira,Sveti Ivan Zelina,matched_exact_name_and_city,institution-eb3c5849e76f,['institution-eb3c5849e76f'],1
-2026-1-HR01-KA122-SCH-000435614::row-1393,2026-1-HR01-KA122-SCH-000435614,Dječji vrtić Utrina,Zagreb,unmatched,,[],0
+2026-1-HR01-KA122-SCH-000435614::row-1393,2026-1-HR01-KA122-SCH-000435614,Dječji vrtić Utrina,Zagreb,matched_exact_name_and_city,institution-24cb4bd645b6,['institution-24cb4bd645b6'],1
 2026-1-HR01-KA122-SCH-000443555::row-1394,2026-1-HR01-KA122-SCH-000443555,Osnovna škola Jordanovac,Zagreb,matched_exact_name_and_city,institution-4508d7af0155,['institution-4508d7af0155'],1
 2026-1-HR01-KA122-SCH-000444557::row-1395,2026-1-HR01-KA122-SCH-000444557,Osnovna škola Marije Jurić Zagorke,Vrbovec,matched_exact_name_and_city,institution-f9275ae56505,['institution-f9275ae56505'],1
 2026-1-HR01-KA122-SCH-000426351::row-1396,2026-1-HR01-KA122-SCH-000426351,Srednja škola dr. Antuna Barca Crikvenica,Crikvenica,matched_exact_name_and_city,institution-4253c9bf491b,['institution-4253c9bf491b'],1
-2026-1-HR01-KA122-SCH-000439974::row-1397,2026-1-HR01-KA122-SCH-000439974,Dječji vrtić Vladimira Nazora,Zagreb,unmatched,,[],0
+2026-1-HR01-KA122-SCH-000439974::row-1397,2026-1-HR01-KA122-SCH-000439974,Dječji vrtić Vladimira Nazora,Zagreb,matched_exact_name_and_city,institution-2b711618e4ad,['institution-2b711618e4ad'],1
 2026-1-HR01-KA122-SCH-000415370::row-1398,2026-1-HR01-KA122-SCH-000415370,Srednja škola Valpovo,Valpovo,matched_exact_name_and_city,institution-a96685dedc79,['institution-a96685dedc79'],1
 2026-1-HR01-KA122-SCH-000427876::row-1399,2026-1-HR01-KA122-SCH-000427876,Osnovna škola prof. Franje Viktora Šignjara,Virje,matched_exact_name_and_city,institution-30404f6341e0,['institution-30404f6341e0'],1
-2026-1-HR01-KA122-SCH-000425644::row-1400,2026-1-HR01-KA122-SCH-000425644,Dječji vrtić Mali princ,Zagreb,unmatched,,[],0
+2026-1-HR01-KA122-SCH-000425644::row-1400,2026-1-HR01-KA122-SCH-000425644,Dječji vrtić Mali princ,Zagreb,matched_exact_name_and_city,institution-2516c2f6233b,['institution-2516c2f6233b'],1
 2026-1-HR01-KA122-SCH-000427931::row-1401,2026-1-HR01-KA122-SCH-000427931,Osnovna škola Blatine-Škrape,Split,matched_exact_name_and_city,institution-cbff2d62dd78,['institution-cbff2d62dd78'],1
-2026-1-HR01-KA122-SCH-000425218::row-1402,2026-1-HR01-KA122-SCH-000425218,Osnovna škola Vladimir Nazor Čepin,Čepin,unmatched,,[],0
+2026-1-HR01-KA122-SCH-000425218::row-1402,2026-1-HR01-KA122-SCH-000425218,Osnovna škola Vladimir Nazor Čepin,Čepin,matched_user_confirmed_school,institution-5f8ad49770e2,['institution-5f8ad49770e2'],1
 2026-1-HR01-KA122-SCH-000442062::row-1403,2026-1-HR01-KA122-SCH-000442062,Osnovna škola „Petar Zrinski” Jalžabet,Jalžabet,matched_exact_name_and_city,institution-f0449d812a5b,['institution-f0449d812a5b'],1
 2026-1-HR01-KA122-SCH-000405346::row-1404,2026-1-HR01-KA122-SCH-000405346,Srednja škola Ivana Mestrovića Drniš,Drniš,matched_exact_name_and_city,institution-546a86c33961,['institution-546a86c33961'],1
 2026-1-HR01-KA122-SCH-000442972::row-1405,2026-1-HR01-KA122-SCH-000442972,"Centar za odgoj, obrazovanje i razvojnu podršku dr. Terezija Salaj Rakić",Virovitica,unmatched,,[],0
-2026-1-HR01-KA122-SCH-000427744::row-1406,2026-1-HR01-KA122-SCH-000427744,Dječji vrtić Videk,Brdovec,unmatched,,[],0
+2026-1-HR01-KA122-SCH-000427744::row-1406,2026-1-HR01-KA122-SCH-000427744,Dječji vrtić Videk,Brdovec,matched_unique_name_location_differs,institution-9aea547df557,['institution-9aea547df557'],1
 2026-1-HR01-KA122-SCH-000433179::row-1407,2026-1-HR01-KA122-SCH-000433179,I. tehnička škola Tesla,Zagreb,matched_exact_name_and_city,institution-3d0f2c36d1c5,['institution-3d0f2c36d1c5'],1
-2026-1-HR01-KA122-SCH-000439492::row-1408,2026-1-HR01-KA122-SCH-000439492,Osnovna škola fra Kaje Adžića,Pleternica,unmatched,,[],0
+2026-1-HR01-KA122-SCH-000439492::row-1408,2026-1-HR01-KA122-SCH-000439492,Osnovna škola fra Kaje Adžića,Pleternica,matched_unique_address_and_city,institution-39c640eb08dc,['institution-39c640eb08dc'],1
 2026-1-HR01-KA122-SCH-000443099::row-1409,2026-1-HR01-KA122-SCH-000443099,Osnovna škola Skalice,SPLIT,matched_exact_name_and_city,institution-f1c9570bdb18,['institution-f1c9570bdb18'],1
-2026-1-HR01-KA122-SCH-000443884::row-1410,2026-1-HR01-KA122-SCH-000443884,Gimnazija Vladimira Nazora Zadar,Zadar,unmatched,,[],0
+2026-1-HR01-KA122-SCH-000443884::row-1410,2026-1-HR01-KA122-SCH-000443884,Gimnazija Vladimira Nazora Zadar,Zadar,matched_exact_name_and_city_suffix,institution-9145ca9fc39a,['institution-9145ca9fc39a'],1
 2026-1-HR01-KA122-SCH-000436915::row-1411,2026-1-HR01-KA122-SCH-000436915,"Osnovna škola ""Prof. Blaž Mađer"" Novigrad Podravski",Novigrad Podravski,matched_exact_name_and_city,institution-a1dff8911c27,['institution-a1dff8911c27'],1
 2026-1-HR01-KA122-SCH-000444429::row-1412,2026-1-HR01-KA122-SCH-000444429,Osnovna škola Joze Surana Višnjan,Višnjan,matched_exact_name_and_city,institution-49b6447d452b,['institution-49b6447d452b'],1
-2026-1-HR01-KA122-SCH-000440943::row-1413,2026-1-HR01-KA122-SCH-000440943,Klasična gimnazija Zagreb,Zagreb,unmatched,,[],0
-2026-1-HR01-KA122-SCH-000436714::row-1414,2026-1-HR01-KA122-SCH-000436714,Djecji vrtic Medulin,Medulin,unmatched,,[],0
-2026-1-HR01-KA122-SCH-000417787::row-1415,2026-1-HR01-KA122-SCH-000417787,Dječji vrtić Dječja mašta,Cakovec,unmatched,,[],0
-2026-1-HR01-KA122-SCH-000438055::row-1416,2026-1-HR01-KA122-SCH-000438055,"Osnovna skola Nikole Hribara, Velika Gorica",Velika Gorica,unmatched,,[],0
+2026-1-HR01-KA122-SCH-000440943::row-1413,2026-1-HR01-KA122-SCH-000440943,Klasična gimnazija Zagreb,Zagreb,matched_exact_name_and_city_suffix,institution-b7d25ce4404d,['institution-b7d25ce4404d'],1
+2026-1-HR01-KA122-SCH-000436714::row-1414,2026-1-HR01-KA122-SCH-000436714,Djecji vrtic Medulin,Medulin,matched_exact_name_and_city,institution-20396d2ff72e,['institution-20396d2ff72e'],1
+2026-1-HR01-KA122-SCH-000417787::row-1415,2026-1-HR01-KA122-SCH-000417787,Dječji vrtić Dječja mašta,Cakovec,matched_exact_name_and_city,institution-da00d1521375,['institution-da00d1521375'],1
+2026-1-HR01-KA122-SCH-000438055::row-1416,2026-1-HR01-KA122-SCH-000438055,"Osnovna skola Nikole Hribara, Velika Gorica",Velika Gorica,matched_user_confirmed_school,institution-0d38b84cbef9,['institution-0d38b84cbef9'],1
 2026-1-HR01-KA122-SCH-000427543::row-1417,2026-1-HR01-KA122-SCH-000427543,Osnovna škola Ivana Gorana Kovačića,Zagreb,matched_exact_name_and_city,institution-c0f1d8ca3b4c,['institution-c0f1d8ca3b4c'],1
 2026-1-HR01-KA122-SCH-000443595::row-1418,2026-1-HR01-KA122-SCH-000443595,Osnovna škola Ivane Brlić-Mažuranić,Prigorje Brdovečko,matched_exact_name_and_city,institution-4230a7a22999,['institution-4230a7a22999'],1
 2026-1-HR01-KA122-SCH-000408130::row-1419,2026-1-HR01-KA122-SCH-000408130,Osnovna škola kralja Tomislava,Našice,matched_exact_name_and_city,institution-2ff5276a9751,['institution-2ff5276a9751'],1
 2026-1-HR01-KA122-SCH-000441372::row-1420,2026-1-HR01-KA122-SCH-000441372,Osnovna škola Mladost,Zagreb,matched_exact_name_and_city,institution-35acbc9bc267,['institution-35acbc9bc267'],1
-2026-1-HR01-KA122-SCH-000433146::row-1421,2026-1-HR01-KA122-SCH-000433146,Djecji vrtic Ciciban,Bjelovar,unmatched,,[],0
+2026-1-HR01-KA122-SCH-000433146::row-1421,2026-1-HR01-KA122-SCH-000433146,Djecji vrtic Ciciban,Bjelovar,matched_exact_name_and_city,institution-adb0aec51b78,['institution-adb0aec51b78'],1
 2026-1-HR01-KA122-SCH-000434516::row-1422,2026-1-HR01-KA122-SCH-000434516,OS Gornje Vrapce,Zagreb,matched_exact_name_and_city,institution-e855fe91818e,['institution-e855fe91818e'],1
 2026-1-HR01-KA122-SCH-000429188::row-1423,2026-1-HR01-KA122-SCH-000429188,Srednja strukovna skola Velika Gorica,Velika Gorica,matched_exact_name_and_city,institution-96874073ee50,['institution-96874073ee50'],1
-2026-1-HR01-KA122-SCH-000428549::row-1424,2026-1-HR01-KA122-SCH-000428549,Tehnička škola,Slavonski Brod,location_mismatch,,"['institution-6518c9e1a1e2', 'institution-17ca95a2b720', 'institution-4ad4696beeeb']",3
-2026-1-HR01-KA122-SCH-000437376::row-1425,2026-1-HR01-KA122-SCH-000437376,Osnovna škola Marina Držića Dubrovnik,Dubrovnik,unmatched,,[],0
+2026-1-HR01-KA122-SCH-000428549::row-1424,2026-1-HR01-KA122-SCH-000428549,Tehnička škola,Slavonski Brod,matched_unique_address_and_city,institution-959047446dc2,['institution-959047446dc2'],1
+2026-1-HR01-KA122-SCH-000437376::row-1425,2026-1-HR01-KA122-SCH-000437376,Osnovna škola Marina Držića Dubrovnik,Dubrovnik,matched_user_confirmed_school,institution-d1e4db51ba92,['institution-d1e4db51ba92'],1
 2026-1-HR01-KA122-SCH-000445720::row-1426,2026-1-HR01-KA122-SCH-000445720,Osnovna škola Dr. Ivan Merz,Zagreb,matched_exact_name_and_city,institution-b13215adf649,['institution-b13215adf649'],1
-2026-1-HR01-KA122-SCH-000429106::row-1427,2026-1-HR01-KA122-SCH-000429106,"Dječji vrtić ""Orepčići""",Kraljevica,unmatched,,[],0
+2026-1-HR01-KA122-SCH-000429106::row-1427,2026-1-HR01-KA122-SCH-000429106,"Dječji vrtić ""Orepčići""",Kraljevica,matched_exact_name_and_city,institution-57104a5652ac,['institution-57104a5652ac'],1
 2026-1-HR01-KA122-SCH-000422356::row-1428,2026-1-HR01-KA122-SCH-000422356,Osnovna škola Markušica,Markušica,matched_exact_name_and_city,institution-4de998fb167b,['institution-4de998fb167b'],1
 2026-1-HR01-KA122-SCH-000431347::row-1429,2026-1-HR01-KA122-SCH-000431347,Osnovna skola Ivana Mažuranića,Vinkovci,matched_exact_name_and_city,institution-0bbcc0e63bbf,['institution-0bbcc0e63bbf'],1
 2026-1-HR01-KA122-SCH-000445711::row-1430,2026-1-HR01-KA122-SCH-000445711,Osnovna škola Ante Kovačića,Marija Gorica,matched_exact_name_and_city,institution-bd3b2a80f959,['institution-bd3b2a80f959'],1
-2026-1-HR01-KA122-SCH-000446244::row-1431,2026-1-HR01-KA122-SCH-000446244,"Dječji vrtić ""Šumska Jagoda""",Zagreb,unmatched,,[],0
+2026-1-HR01-KA122-SCH-000446244::row-1431,2026-1-HR01-KA122-SCH-000446244,"Dječji vrtić ""Šumska Jagoda""",Zagreb,matched_exact_name_and_city,institution-3b2855152a25,['institution-3b2855152a25'],1
 2026-1-HR01-KA122-SCH-000425426::row-1432,2026-1-HR01-KA122-SCH-000425426,Udruga ravnatelja predškolskih ustanova Hrvatske,Zagreb,unmatched,,[],0
 2026-1-HR01-KA122-SCH-000443346::row-1433,2026-1-HR01-KA122-SCH-000443346,"Osnovna škola ""Valentin Klarin"" Preko",Preko,matched_exact_name_and_city,institution-9fc0b955a663,['institution-9fc0b955a663'],1
 2026-1-HR01-KA122-SCH-000432466::row-1434,2026-1-HR01-KA122-SCH-000432466,Osnovna škola braće Radića,Kloštar Ivanić,matched_exact_name_and_city,institution-1a67be3e7e02,['institution-1a67be3e7e02'],1
@@ -1436,10 +1436,10 @@
 2026-1-HR01-KA122-SCH-000429084::row-1436,2026-1-HR01-KA122-SCH-000429084,Ekonomska i birotehnička škola Bjelovar,Bjelovar,matched_exact_name_and_city,institution-baa3fcef051e,['institution-baa3fcef051e'],1
 2026-1-HR01-KA122-SCH-000428319::row-1437,2026-1-HR01-KA122-SCH-000428319,Osnovna škola kneza Branimira,Donji Muć,matched_exact_name_and_city,institution-86b965403a73,['institution-86b965403a73'],1
 2026-1-HR01-KA122-SCH-000420065::row-1438,2026-1-HR01-KA122-SCH-000420065,Osnovna škola Popovac,Popovac,matched_exact_name_and_city,institution-93214f663c4b,['institution-93214f663c4b'],1
-2026-1-HR01-KA122-SCH-000416644::row-1439,2026-1-HR01-KA122-SCH-000416644,Dječji vrtić Moj Bambi,Valpovo,unmatched,,[],0
-2026-1-HR01-KA122-SCH-000437170::row-1440,2026-1-HR01-KA122-SCH-000437170,"Osnovna škola ""Slava Raškaj"" Ozalj",Ozalj,unmatched,,[],0
+2026-1-HR01-KA122-SCH-000416644::row-1439,2026-1-HR01-KA122-SCH-000416644,Dječji vrtić Moj Bambi,Valpovo,matched_exact_name_and_city,institution-363fd7253f44,['institution-363fd7253f44'],1
+2026-1-HR01-KA122-SCH-000437170::row-1440,2026-1-HR01-KA122-SCH-000437170,"Osnovna škola ""Slava Raškaj"" Ozalj",Ozalj,matched_user_confirmed_school,institution-7004b51a0509,['institution-7004b51a0509'],1
 2026-1-HR01-KA220-SCH-000454201::row-1441,2026-1-HR01-KA220-SCH-000454201,III. gimnazija Osijek,Osijek,matched_exact_name_and_city,institution-ba52a9a58508,['institution-ba52a9a58508'],1
-2026-1-HR01-KA220-SCH-000448923::row-1442,2026-1-HR01-KA220-SCH-000448923,Osnovna škola Brodarica,Šibenik - Brodarica,location_mismatch,,['institution-96eb6634b289'],1
+2026-1-HR01-KA220-SCH-000448923::row-1442,2026-1-HR01-KA220-SCH-000448923,Osnovna škola Brodarica,Šibenik - Brodarica,matched_unique_name_location_differs,institution-96eb6634b289,['institution-96eb6634b289'],1
 2026-1-HR01-KA220-SCH-000449220::row-1443,2026-1-HR01-KA220-SCH-000449220,Osnovna škola Vodice,Vodice,matched_exact_name_and_city,institution-966e6e55b94d,['institution-966e6e55b94d'],1
 2026-1-HR01-KA210-SCH-000452384::row-1444,2026-1-HR01-KA210-SCH-000452384,Centar inkluzivne potpore IDEM,Zagreb,unmatched,,[],0
 2026-1-HR01-KA210-SCH-000450613::row-1445,2026-1-HR01-KA210-SCH-000450613,Srednja škola - Centar za odgoj i obrazovanje,Zagreb,matched_exact_name_and_city,institution-c769e27b091a,['institution-c769e27b091a'],1
@@ -1453,20 +1453,20 @@
 2026-1-HR01-KA121-VET-000405303::row-1453,2026-1-HR01-KA121-VET-000405303,Srednja škola u Maruševcu s pravom javnosti,Maruševec,matched_exact_name_and_city,institution-9e9fbf908631,['institution-9e9fbf908631'],1
 2026-1-HR01-KA121-VET-000405808::row-1454,2026-1-HR01-KA121-VET-000405808,Turističko-ugostiteljska i prehrambena škola Bjelovar,Bjelovar,matched_exact_name_and_city,institution-52f1d085d042,['institution-52f1d085d042'],1
 2026-1-HR01-KA121-VET-000406783::row-1455,2026-1-HR01-KA121-VET-000406783,Srednja škola Topusko,Topusko,matched_exact_name_and_city,institution-cd05f7723686,['institution-cd05f7723686'],1
-2026-1-HR01-KA121-VET-000410101::row-1456,2026-1-HR01-KA121-VET-000410101,Srednja škola Antun Matijašević - Karamaneo Vis,Vis,unmatched,,[],0
+2026-1-HR01-KA121-VET-000410101::row-1456,2026-1-HR01-KA121-VET-000410101,Srednja škola Antun Matijašević - Karamaneo Vis,Vis,matched_exact_name_and_city_suffix,institution-28c1c9e94209,['institution-28c1c9e94209'],1
 2026-1-HR01-KA121-VET-000410127::row-1457,2026-1-HR01-KA121-VET-000410127,Industrijska strojarska škola,Zagreb,matched_exact_name_and_city,institution-1c0c7aa44f2c,['institution-1c0c7aa44f2c'],1
-2026-1-HR01-KA121-VET-000410526::row-1458,2026-1-HR01-KA121-VET-000410526,Strojarska i prometna škola Varaždin,Varaždin,unmatched,,[],0
+2026-1-HR01-KA121-VET-000410526::row-1458,2026-1-HR01-KA121-VET-000410526,Strojarska i prometna škola Varaždin,Varaždin,matched_exact_name_and_city_suffix,institution-b10f6d88de23,['institution-b10f6d88de23'],1
 2026-1-HR01-KA121-VET-000410862::row-1459,2026-1-HR01-KA121-VET-000410862,Elektrostrojarska škola,Varaždin,matched_exact_name_and_city,institution-c52643d10109,['institution-c52643d10109'],1
 2026-1-HR01-KA121-VET-000411022::row-1460,2026-1-HR01-KA121-VET-000411022,Tehnička škola Čakovec,Čakovec,matched_exact_name_and_city,institution-fa00689d8561,['institution-fa00689d8561'],1
 2026-1-HR01-KA121-VET-000411476::row-1461,2026-1-HR01-KA121-VET-000411476,Gospodarska škola Varaždin,Varaždin,matched_exact_name_and_city,institution-cfb3813e3ec4,['institution-cfb3813e3ec4'],1
-2026-1-HR01-KA121-VET-000411489::row-1462,2026-1-HR01-KA121-VET-000411489,Srednja škola Matije Antuna Reljkovića,Slavonski Brod,unmatched,,[],0
+2026-1-HR01-KA121-VET-000411489::row-1462,2026-1-HR01-KA121-VET-000411489,Srednja škola Matije Antuna Reljkovića,Slavonski Brod,matched_unique_address_and_city,institution-a6e2ab66abc0,['institution-a6e2ab66abc0'],1
 2026-1-HR01-KA121-VET-000411644::row-1463,2026-1-HR01-KA121-VET-000411644,Druga srednja škola Beli Manastir,Beli Manastir,matched_exact_name_and_city,institution-2a108813dfa4,['institution-2a108813dfa4'],1
 2026-1-HR01-KA121-VET-000411813::row-1464,2026-1-HR01-KA121-VET-000411813,Srednja škola Donji Miholjac,Donji Miholjac,matched_exact_name_and_city,institution-7f91d52eb655,['institution-7f91d52eb655'],1
 2026-1-HR01-KA121-VET-000411876::row-1465,2026-1-HR01-KA121-VET-000411876,Škola za cestovni promet,Zagreb,matched_exact_name_and_city,institution-59e4ff578631,['institution-59e4ff578631'],1
 2026-1-HR01-KA121-VET-000412329::row-1466,2026-1-HR01-KA121-VET-000412329,Medicinska škola Ante Kuzmanića - Zadar,Zadar,matched_exact_name_and_city,institution-c6232d06403b,['institution-c6232d06403b'],1
 2026-1-HR01-KA121-VET-000412444::row-1467,2026-1-HR01-KA121-VET-000412444,Medicinska škola Bjelovar,Bjelovar,matched_exact_name_and_city,institution-5118c1113c5d,['institution-5118c1113c5d'],1
 2026-1-HR01-KA121-VET-000412512::row-1468,2026-1-HR01-KA121-VET-000412512,Mješovita industrijsko-obrtnička škola,Karlovac,matched_exact_name_and_city,institution-fabb8ac18f53,['institution-fabb8ac18f53'],1
-2026-1-HR01-KA121-VET-000412526::row-1469,2026-1-HR01-KA121-VET-000412526,Tehnička škola,Slavonski Brod,location_mismatch,,"['institution-6518c9e1a1e2', 'institution-17ca95a2b720', 'institution-4ad4696beeeb']",3
+2026-1-HR01-KA121-VET-000412526::row-1469,2026-1-HR01-KA121-VET-000412526,Tehnička škola,Slavonski Brod,matched_unique_address_and_city,institution-959047446dc2,['institution-959047446dc2'],1
 2026-1-HR01-KA121-VET-000412721::row-1470,2026-1-HR01-KA121-VET-000412721,Elektrostrojarska obrtnička škola,Zagreb,matched_exact_name_and_city,institution-473f97b5faaa,['institution-473f97b5faaa'],1
 2026-1-HR01-KA121-VET-000412724::row-1471,2026-1-HR01-KA121-VET-000412724,Ugostiteljsko-turističko učilište,Zagreb,matched_exact_name_and_city,institution-927e3f7dc766,['institution-927e3f7dc766'],1
 2026-1-HR01-KA121-VET-000413335::row-1472,2026-1-HR01-KA121-VET-000413335,Ekonomsko-birotehnička škola,Slavonski Brod,matched_exact_name_and_city,institution-0806bffc2f0e,['institution-0806bffc2f0e'],1
@@ -1479,7 +1479,7 @@
 2026-1-HR01-KA121-VET-000416653::row-1479,2026-1-HR01-KA121-VET-000416653,Druga ekonomska škola,Zagreb,matched_exact_name_and_city,institution-28348204a5e0,['institution-28348204a5e0'],1
 2026-1-HR01-KA121-VET-000416866::row-1480,2026-1-HR01-KA121-VET-000416866,Srednja škola Valpovo,Valpovo,matched_exact_name_and_city,institution-a96685dedc79,['institution-a96685dedc79'],1
 2026-1-HR01-KA121-VET-000417101::row-1481,2026-1-HR01-KA121-VET-000417101,Industrijsko-obrtnička škola,Slavonski Brod,matched_exact_name_and_city,institution-802171610629,['institution-802171610629'],1
-2026-1-HR01-KA121-VET-000418608::row-1482,2026-1-HR01-KA121-VET-000418608,Srednja škola Jelkovec,Zagreb,location_mismatch,,['institution-3cf7c8ad72f3'],1
+2026-1-HR01-KA121-VET-000418608::row-1482,2026-1-HR01-KA121-VET-000418608,Srednja škola Jelkovec,Zagreb,matched_unique_name_location_differs,institution-3cf7c8ad72f3,['institution-3cf7c8ad72f3'],1
 2026-1-HR01-KA121-VET-000419678::row-1483,2026-1-HR01-KA121-VET-000419678,"Graditeljska, prirodoslovna i rudarska škola",Varaždin,matched_exact_name_and_city,institution-387b8a945da6,['institution-387b8a945da6'],1
 2026-1-HR01-KA121-VET-000421120::row-1484,2026-1-HR01-KA121-VET-000421120,Prirodoslovna škola Vladimira Preloga,Zagreb,matched_exact_name_and_city,institution-3833c2940ba2,['institution-3833c2940ba2'],1
 2026-1-HR01-KA121-VET-000422470::row-1485,2026-1-HR01-KA121-VET-000422470,Ekonomska i turistička škola Daruvar,Daruvar,matched_exact_name_and_city,institution-19949bda442e,['institution-19949bda442e'],1
@@ -1500,7 +1500,7 @@
 2026-1-HR01-KA121-VET-000427924::row-1500,2026-1-HR01-KA121-VET-000427924,Srednja škola - Centar za odgoj i obrazovanje,Zagreb,matched_exact_name_and_city,institution-c769e27b091a,['institution-c769e27b091a'],1
 2026-1-HR01-KA121-VET-000428003::row-1501,2026-1-HR01-KA121-VET-000428003,Strojarska tehnička škola Fausta Vrančića,Zagreb,matched_exact_name_and_city,institution-d194248fa520,['institution-d194248fa520'],1
 2026-1-HR01-KA121-VET-000428192::row-1502,2026-1-HR01-KA121-VET-000428192,Obrtnička škola,Split,matched_exact_name_and_city,institution-5fb87b6cac8c,['institution-5fb87b6cac8c'],1
-2026-1-HR01-KA121-VET-000428250::row-1503,2026-1-HR01-KA121-VET-000428250,Srednja škola Ivana Trnskoga Hrvatska Kostajnica,Hrvatska Kostajnica,unmatched,,[],0
+2026-1-HR01-KA121-VET-000428250::row-1503,2026-1-HR01-KA121-VET-000428250,Srednja škola Ivana Trnskoga Hrvatska Kostajnica,Hrvatska Kostajnica,matched_exact_name_and_city_suffix,institution-d202a4c0a312,['institution-d202a4c0a312'],1
 2026-1-HR01-KA121-VET-000428492::row-1504,2026-1-HR01-KA121-VET-000428492,Graditeljsko-geodetska škola Osijek,Osijek,matched_exact_name_and_city,institution-5611aac6960f,['institution-5611aac6960f'],1
 2026-1-HR01-KA121-VET-000429638::row-1505,2026-1-HR01-KA121-VET-000429638,Gospodarska škola,Čakovec,matched_exact_name_and_city,institution-5a5d9688739f,['institution-5a5d9688739f'],1
 2026-1-HR01-KA121-VET-000430538::row-1506,2026-1-HR01-KA121-VET-000430538,Srednja škola Krapina,Krapina,matched_exact_name_and_city,institution-b48fecc72bcc,['institution-b48fecc72bcc'],1
@@ -1540,7 +1540,7 @@
 2026-1-HR01-KA121-VET-000442977::row-1540,2026-1-HR01-KA121-VET-000442977,Zdravstvena škola,Split,matched_exact_name_and_city,institution-0e79dfebdbc6,['institution-0e79dfebdbc6'],1
 2026-1-HR01-KA121-VET-000443365::row-1541,2026-1-HR01-KA121-VET-000443365,Srednja škola Ivan Švear Ivanić Grad,Ivanić-Grad,matched_exact_name_and_city,institution-46057f789b1d,['institution-46057f789b1d'],1
 2026-1-HR01-KA121-VET-000443625::row-1542,2026-1-HR01-KA121-VET-000443625,Srednja škola Petrinja,Petrinja,matched_exact_name_and_city,institution-c2c4f0c90083,['institution-c2c4f0c90083'],1
-2026-1-HR01-KA121-VET-000444195::row-1543,2026-1-HR01-KA121-VET-000444195,"Srednja škola ""Arboretum Opeka""",Vinica,location_mismatch,,['institution-3a164d7e36a1'],1
+2026-1-HR01-KA121-VET-000444195::row-1543,2026-1-HR01-KA121-VET-000444195,"Srednja škola ""Arboretum Opeka""",Vinica,matched_unique_name_location_differs,institution-3a164d7e36a1,['institution-3a164d7e36a1'],1
 2026-1-HR01-KA121-VET-000446392::row-1544,2026-1-HR01-KA121-VET-000446392,Hotelijersko-turistička škola u Zagrebu,Zagreb,matched_exact_name_and_city,institution-3d4851ba8078,['institution-3d4851ba8078'],1
 2026-1-HR01-KA121-VET-000446475::row-1545,2026-1-HR01-KA121-VET-000446475,Srednja strukovna škola Vinkovci,Vinkovci,matched_exact_name_and_city,institution-d6ce6bffd89d,['institution-d6ce6bffd89d'],1
 2026-1-HR01-KA121-VET-000446507::row-1546,2026-1-HR01-KA121-VET-000446507,Srednja medicinska škola,Slavonski Brod,matched_exact_name_and_city,institution-66f8ab6505ab,['institution-66f8ab6505ab'],1
@@ -1565,7 +1565,7 @@
 2026-1-HR01-KA122-VET-000445760::row-1565,2026-1-HR01-KA122-VET-000445760,Srednja škola Novska,Novska,matched_exact_name_and_city,institution-fd7c0f499f3c,['institution-fd7c0f499f3c'],1
 2026-1-HR01-KA122-VET-000442840::row-1566,2026-1-HR01-KA122-VET-000442840,Tehnička škola Ruđera Boškovića,Zagreb,matched_exact_name_and_city,institution-246f379c0f5d,['institution-246f379c0f5d'],1
 2026-1-HR01-KA122-VET-000407606::row-1567,2026-1-HR01-KA122-VET-000407606,Ugostiteljsko-turistička škola,Osijek,matched_exact_name_and_city,institution-2f9f001a1b6a,['institution-2f9f001a1b6a'],1
-2026-1-HR01-KA122-VET-000434526::row-1568,2026-1-HR01-KA122-VET-000434526,Tehnička škola Šibenik,Šibenik,unmatched,,[],0
+2026-1-HR01-KA122-VET-000434526::row-1568,2026-1-HR01-KA122-VET-000434526,Tehnička škola Šibenik,Šibenik,matched_exact_name_and_city_suffix,institution-4ad4696beeeb,['institution-4ad4696beeeb'],1
 2026-1-HR01-KA122-VET-000442478::row-1569,2026-1-HR01-KA122-VET-000442478,"Škola za turizam, ugostiteljstvo i trgovinu",Pula,matched_exact_name_and_city,institution-2e086222d871,['institution-2e086222d871'],1
 2026-1-HR01-KA122-VET-000440725::row-1570,2026-1-HR01-KA122-VET-000440725,Tehnička škola Ruđera Boškovića Vinkovci,Vinkovci,matched_exact_name_and_city,institution-23064deca77c,['institution-23064deca77c'],1
 2026-1-HR01-KA122-VET-000443387::row-1571,2026-1-HR01-KA122-VET-000443387,Pomorska škola Zadar,Zadar,matched_exact_name_and_city,institution-1be85b8c6c4b,['institution-1be85b8c6c4b'],1
@@ -1579,7 +1579,7 @@
 2026-1-HR01-KA122-VET-000442836::row-1579,2026-1-HR01-KA122-VET-000442836,Strukovna škola Gospić,Gospić,matched_exact_name_and_city,institution-39c6e3380b96,['institution-39c6e3380b96'],1
 2026-1-HR01-KA122-VET-000434987::row-1580,2026-1-HR01-KA122-VET-000434987,Glazbena škola Jakova Gotovca,Sinj,unmatched,,[],0
 2026-1-HR01-KA122-VET-000431843::row-1581,2026-1-HR01-KA122-VET-000431843,Škola za primalje,Zagreb,matched_exact_name_and_city,institution-259b8c247a1c,['institution-259b8c247a1c'],1
-2026-1-HR01-KA122-VET-000448063::row-1582,2026-1-HR01-KA122-VET-000448063,Ekonomska škola Velika Gorica,Gorica,location_mismatch,,['institution-13574fc045c9'],1
+2026-1-HR01-KA122-VET-000448063::row-1582,2026-1-HR01-KA122-VET-000448063,Ekonomska škola Velika Gorica,Gorica,matched_unique_name_location_differs,institution-13574fc045c9,['institution-13574fc045c9'],1
 2026-1-HR01-KA122-VET-000448192::row-1583,2026-1-HR01-KA122-VET-000448192,Obrtnička škola,Opatija,matched_exact_name_and_city,institution-ad9a814ea576,['institution-ad9a814ea576'],1
 2026-1-HR01-KA122-VET-000404805::row-1584,2026-1-HR01-KA122-VET-000404805,Prva srednja škola Beli Manastir,Beli Manastir,matched_exact_name_and_city,institution-01028ec42c9a,['institution-01028ec42c9a'],1
 2026-1-HR01-KA122-VET-000430858::row-1585,2026-1-HR01-KA122-VET-000430858,Srednja škola Zabok,Zabok,matched_exact_name_and_city,institution-09110384420e,['institution-09110384420e'],1
@@ -1591,7 +1591,7 @@
 2026-1-HR01-KA122-VET-000444632::row-1591,2026-1-HR01-KA122-VET-000444632,Srednja škola Tina Ujevića,Kutina,matched_exact_name_and_city,institution-9343c47b888a,['institution-9343c47b888a'],1
 2026-1-HR01-KA220-VET-000457303::row-1592,2026-1-HR01-KA220-VET-000457303,Elektrostrojarska škola,Varaždin,matched_exact_name_and_city,institution-c52643d10109,['institution-c52643d10109'],1
 2026-1-HR01-KA220-VET-000457530::row-1593,2026-1-HR01-KA220-VET-000457530,Elektrotehnička i prometna škola Osijek,Osijek,matched_exact_name_and_city,institution-078eafb312b8,['institution-078eafb312b8'],1
-2026-1-HR01-KA220-VET-000467966::row-1594,2026-1-HR01-KA220-VET-000467966,"Srednja škola ""Arboretum Opeka""",Vinica,location_mismatch,,['institution-3a164d7e36a1'],1
+2026-1-HR01-KA220-VET-000467966::row-1594,2026-1-HR01-KA220-VET-000467966,"Srednja škola ""Arboretum Opeka""",Vinica,matched_unique_name_location_differs,institution-3a164d7e36a1,['institution-3a164d7e36a1'],1
 2026-1-HR01-KA220-VET-000457287::row-1595,2026-1-HR01-KA220-VET-000457287,Hrvatska obrtnička komora,Zagreb,unmatched,,[],0
 2026-1-HR01-KA210-VET-000456026::row-1596,2026-1-HR01-KA210-VET-000456026,Industrijsko-obrtnička škola Šibenik,Šibenik,matched_exact_name_and_city,institution-f4eb463b7647,['institution-f4eb463b7647'],1
 2026-1-HR01-KA210-VET-000453898::row-1597,2026-1-HR01-KA210-VET-000453898,Srednja škola Josipa Kozarca Đurđenovac,Đurđenovac,matched_exact_name_and_city,institution-9b3355b0e0cb,['institution-9b3355b0e0cb'],1
@@ -1615,7 +1615,7 @@
 2026-1-HR01-KA131-HED-000406737::row-1615,2026-1-HR01-KA131-HED-000406737,VELEUČILIŠTE U ŠIBENIKU,Šibenik,matched_exact_name_and_city,institution-e375d605c711,['institution-e375d605c711'],1
 2026-1-HR01-KA131-HED-000425480::row-1616,2026-1-HR01-KA131-HED-000425480,VELEUČILIŠTE VELIKA GORICA,Velika Gorica,matched_exact_name_and_city,institution-f62207c61ce6,['institution-f62207c61ce6'],1
 2026-1-HR01-KA131-HED-000414949::row-1617,2026-1-HR01-KA131-HED-000414949,VELEUČILIŠTE U BJELOVARU,Bjelovar,matched_exact_name_and_city,institution-20bc9ce4ca75,['institution-20bc9ce4ca75'],1
-2026-1-HR01-KA131-HED-000415184::row-1618,2026-1-HR01-KA131-HED-000415184,ZAGREBAČKA ŠKOLA EKONOMIJE I MANAGEMENTA,Zagreb,unmatched,,[],0
+2026-1-HR01-KA131-HED-000415184::row-1618,2026-1-HR01-KA131-HED-000415184,ZAGREBAČKA ŠKOLA EKONOMIJE I MANAGEMENTA,Zagreb,matched_unique_address_and_city,institution-6bbca1169f33,['institution-6bbca1169f33'],1
 2026-1-HR01-KA131-HED-000416708::row-1619,2026-1-HR01-KA131-HED-000416708,VELEUČILIŠTE ASPIRA,Split,unmatched,,[],0
 2026-1-HR01-KA131-HED-000437077::row-1620,2026-1-HR01-KA131-HED-000437077,VELEUČILIŠTE LAVOSLAV RUŽIČKA U VUKOVARU,Vukovar,matched_exact_name_and_city,institution-635ed827aa79,['institution-635ed827aa79'],1
 2026-1-HR01-KA131-HED-000409285::row-1621,2026-1-HR01-KA131-HED-000409285,RIT CROATIA,Zagreb,unmatched,,[],0
@@ -1629,7 +1629,7 @@
 2026-1-HR01-KA131-HED-000443284::row-1629,2026-1-HR01-KA131-HED-000443284,LIBERTAS MEĐUNARODNO SVEUČILIŠTE,Zagreb,unmatched,,[],0
 2026-1-HR01-KA131-HED-000424079::row-1630,2026-1-HR01-KA131-HED-000424079,SVEUČILIŠTE ALGEBRA BERNAYS,Zagreb,unmatched,,[],0
 2026-1-HR01-KA131-HED-000419973::row-1631,2026-1-HR01-KA131-HED-000419973,SVEUČILIŠTE JURJA DOBRILE U PULI,Pula,matched_exact_name_and_city,institution-1c38746575c4,['institution-1c38746575c4'],1
-2026-1-HR01-KA131-HED-000437529::row-1632,2026-1-HR01-KA131-HED-000437529,ZDRAVSTVENO VELEUČILIŠTE,Zagreb,unmatched,,[],0
+2026-1-HR01-KA131-HED-000437529::row-1632,2026-1-HR01-KA131-HED-000437529,ZDRAVSTVENO VELEUČILIŠTE,Zagreb,matched_unique_address_and_city,institution-2dda7aa575e4,['institution-2dda7aa575e4'],1
 2026-1-HR01-KA131-HED-000413223::row-1633,2026-1-HR01-KA131-HED-000413223,SVEUČILIŠTE SJEVER,Varaždin,unmatched,,[],0
 2026-1-HR01-KA131-HED-000406368::row-1634,2026-1-HR01-KA131-HED-000406368,TEHNIČKO VELEUČILIŠTE U ZAGREBU,Zagreb,matched_exact_name_and_city,institution-d6b8f990604a,['institution-d6b8f990604a'],1
 2026-1-HR01-KA131-HED-000414699::row-1635,2026-1-HR01-KA131-HED-000414699,SVEUČILIŠTE U ZADRU,Zadar,matched_exact_name_and_city,institution-2f0d03f51723,['institution-2f0d03f51723'],1
@@ -1677,7 +1677,7 @@
 2026-1-HR01-KA121-ADU-000412108::row-1677,2026-1-HR01-KA121-ADU-000412108,Muzej grada Pregrade Zlatko Dragutin Tudjina,Pregrada,unmatched,,[],0
 2026-1-HR01-KA121-ADU-000413065::row-1678,2026-1-HR01-KA121-ADU-000413065,"Udruga za unaprjeđenje mentalnog zdravlja ""Vrapčići""",Slavonski Brod,unmatched,,[],0
 2026-1-HR01-KA121-ADU-000413782::row-1679,2026-1-HR01-KA121-ADU-000413782,Učiliste Studium - ustanova za obrazovanje odraslih,Vukovar,unmatched,,[],0
-2026-1-HR01-KA121-ADU-000413988::row-1680,2026-1-HR01-KA121-ADU-000413988,Gradska knjižnica i čitaonica Virovitica,Virovitica,unmatched,,[],0
+2026-1-HR01-KA121-ADU-000413988::row-1680,2026-1-HR01-KA121-ADU-000413988,Gradska knjižnica i čitaonica Virovitica,Virovitica,matched_exact_name_and_city,institution-6d5035304e50,['institution-6d5035304e50'],1
 2026-1-HR01-KA121-ADU-000417649::row-1681,2026-1-HR01-KA121-ADU-000417649,Pučko otvoreno učilište Koprivnica,Koprivnica,unmatched,,[],0
 2026-1-HR01-KA121-ADU-000420329::row-1682,2026-1-HR01-KA121-ADU-000420329,"Pučko otvoreno učilište ""Ante Babić"" Umag",Umag,unmatched,,[],0
 2026-1-HR01-KA121-ADU-000421289::row-1683,2026-1-HR01-KA121-ADU-000421289,Korablja,Zagreb,unmatched,,[],0
@@ -1692,7 +1692,7 @@
 2026-1-HR01-KA121-ADU-000427552::row-1692,2026-1-HR01-KA121-ADU-000427552,Diopter otvoreno učilište,Pula,unmatched,,[],0
 2026-1-HR01-KA121-ADU-000427949::row-1693,2026-1-HR01-KA121-ADU-000427949,Pučko otvoreno učilište Zagreb,Zagreb,unmatched,,[],0
 2026-1-HR01-KA121-ADU-000428463::row-1694,2026-1-HR01-KA121-ADU-000428463,Inicijativa centar za edukaciju,Zagreb,unmatched,,[],0
-2026-1-HR01-KA121-ADU-000428714::row-1695,2026-1-HR01-KA121-ADU-000428714,Gradska knjižnica Ivan Goran Kovačić,Karlovac,unmatched,,[],0
+2026-1-HR01-KA121-ADU-000428714::row-1695,2026-1-HR01-KA121-ADU-000428714,Gradska knjižnica Ivan Goran Kovačić,Karlovac,matched_exact_name_and_city,institution-53b12f23dd6a,['institution-53b12f23dd6a'],1
 2026-1-HR01-KA121-ADU-000428715::row-1696,2026-1-HR01-KA121-ADU-000428715,Knjižnica i čitaonica Fran Galović Koprivnica,Koprivnica,unmatched,,[],0
 2026-1-HR01-KA121-ADU-000428839::row-1697,2026-1-HR01-KA121-ADU-000428839,Nacionalna i sveučilišna knjižnica u Zagrebu,Zagreb,unmatched,,[],0
 2026-1-HR01-KA121-ADU-000432170::row-1698,2026-1-HR01-KA121-ADU-000432170,Društvo distrofičara Zagreb,Zagreb,unmatched,,[],0

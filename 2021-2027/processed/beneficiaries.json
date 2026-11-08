@@ -143,8 +143,10 @@
       "2025-1-HR01-KA121-SCH-000311456::row-606",
       "2026-1-HR01-KA121-SCH-000405508::row-1222"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 3,
+    "institution_ids": [
+      "institution-a1ae44ef6e15"
+    ]
   },
   {
     "beneficiary_id": "recipient-2b9b8d4e4502",
@@ -165,8 +167,10 @@
       "2025-1-HR01-KA121-SCH-000326421::row-651",
       "2026-1-HR01-KA121-SCH-000415665::row-1277"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 3,
+    "institution_ids": [
+      "institution-ea3491fc7e66"
+    ]
   },
   {
     "beneficiary_id": "recipient-6a892732fbf8",
@@ -187,8 +191,10 @@
       "2025-1-HR01-KA121-SCH-000322652::row-624",
       "2026-1-HR01-KA121-SCH-000447084::row-1376"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 3,
+    "institution_ids": [
+      "institution-4da5985d944e"
+    ]
   },
   {
     "beneficiary_id": "recipient-02f0a0c3235e",
@@ -337,8 +343,10 @@
       "2025-1-HR01-KA121-SCH-000311903::row-611",
       "2026-1-HR01-KA121-SCH-000408404::row-1235"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 3,
+    "institution_ids": [
+      "institution-afc5f6f69f75"
+    ]
   },
   {
     "beneficiary_id": "recipient-45951c634290",
@@ -705,8 +713,10 @@
       "2024-1-HR01-KA121-SCH-000203010::row-30",
       "2025-1-HR01-KA121-SCH-000311365::row-633"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 2,
+    "institution_ids": [
+      "institution-648e260d3d09"
+    ]
   },
   {
     "beneficiary_id": "recipient-ade3e8cf2e7e",
@@ -851,8 +861,10 @@
       "2025-1-HR01-KA121-SCH-000309391::row-710",
       "2026-1-HR01-KA121-SCH-000422251::row-1299"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 3,
+    "institution_ids": [
+      "institution-eaf531c58913"
+    ]
   },
   {
     "beneficiary_id": "recipient-ef51d36f868f",
@@ -873,8 +885,10 @@
       "2025-1-HR01-KA121-SCH-000341628::row-665",
       "2026-1-HR01-KA121-SCH-000415061::row-1273"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 3,
+    "institution_ids": [
+      "institution-d7202f610035"
+    ]
   },
   {
     "beneficiary_id": "recipient-6444b7d9ea09",
@@ -895,8 +909,10 @@
       "2025-1-HR01-KA121-SCH-000310814::row-623",
       "2026-1-HR01-KA121-SCH-000410781::row-1248"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 3,
+    "institution_ids": [
+      "institution-a0f59419aa67"
+    ]
   },
   {
     "beneficiary_id": "recipient-883c98e46c3e",
@@ -939,8 +955,10 @@
       "2025-1-HR01-KA121-SCH-000314949::row-715",
       "2026-1-HR01-KA121-SCH-000412857::row-1265"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 3,
+    "institution_ids": [
+      "institution-3aae81b589ab"
+    ]
   },
   {
     "beneficiary_id": "recipient-a9a7ad2402f5",
@@ -1003,8 +1021,10 @@
       "2025-1-HR01-KA121-SCH-000312505::row-700",
       "2026-1-HR01-KA121-SCH-000413146::row-1268"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 3,
+    "institution_ids": [
+      "institution-0de1bbeb84fe"
+    ]
   },
   {
     "beneficiary_id": "recipient-9df451dd3587",
@@ -1047,8 +1067,10 @@
       "2024-1-HR01-KA121-SCH-000205463::row-45",
       "2025-1-HR01-KA121-SCH-000306218::row-664"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 2,
+    "institution_ids": [
+      "institution-f68cdc2c8906"
+    ]
   },
   {
     "beneficiary_id": "recipient-78c2c872609a",
@@ -1094,8 +1116,10 @@
       "2025-1-HR01-KA121-SCH-000308512::row-603",
       "2026-1-HR01-KA121-SCH-000412000::row-1259"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 4,
+    "institution_ids": [
+      "institution-7b577b27ac3a"
+    ]
   },
   {
     "beneficiary_id": "recipient-2ac6c4673fbc",
@@ -1212,8 +1236,10 @@
       "2024-1-HR01-KA121-SCH-000206140::row-52",
       "2025-1-HR01-KA121-SCH-000333961::row-693"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 2,
+    "institution_ids": [
+      "institution-d0d6217ce2e8"
+    ]
   },
   {
     "beneficiary_id": "recipient-5f142fe1b38a",
@@ -1234,8 +1260,10 @@
       "2025-1-HR01-KA121-SCH-000307347::row-688",
       "2026-1-HR01-KA121-SCH-000423447::row-1311"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 3,
+    "institution_ids": [
+      "institution-a34ff599916a"
+    ]
   },
   {
     "beneficiary_id": "recipient-74cc30bb639e",
@@ -1483,8 +1511,10 @@
       "2024-1-HR01-KA121-SCH-000209518::row-63",
       "2025-1-HR01-KA121-SCH-000308892::row-676"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 2,
+    "institution_ids": [
+      "institution-5004c38fdab2"
+    ]
   },
   {
     "beneficiary_id": "recipient-31b6b3d81d8c",
@@ -1505,8 +1535,10 @@
       "2025-1-HR01-KA121-SCH-000312606::row-619",
       "2026-1-HR01-KA121-SCH-000418799::row-1290"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 3,
+    "institution_ids": [
+      "institution-164fcd55ea81"
+    ]
   },
   {
     "beneficiary_id": "recipient-b74fa7f9e922",
@@ -1676,8 +1708,10 @@
       "2025-1-HR01-KA121-SCH-000309708::row-692",
       "2026-1-HR01-KA121-SCH-000412304::row-1261"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 3,
+    "institution_ids": [
+      "institution-633288869929"
+    ]
   },
   {
     "beneficiary_id": "recipient-a8de4c348eab",
@@ -1722,8 +1756,10 @@
       "2025-1-HR01-KA121-SCH-000325910::row-689",
       "2026-1-HR01-KA121-SCH-000447934::row-1382"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 3,
+    "institution_ids": [
+      "institution-10fe5db7dfac"
+    ]
   },
   {
     "beneficiary_id": "recipient-63cd7f397469",
@@ -1903,8 +1939,10 @@
       "2024-1-HR01-KA121-SCH-000212150::row-81",
       "2026-1-HR01-KA121-SCH-000411005::row-1250"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 2,
+    "institution_ids": [
+      "institution-8b6e30af174c"
+    ]
   },
   {
     "beneficiary_id": "recipient-8937fcb92970",
@@ -1925,8 +1963,10 @@
       "2025-1-HR01-KA121-SCH-000327346::row-707",
       "2026-1-HR01-KA121-SCH-000448311::row-1384"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 3,
+    "institution_ids": [
+      "institution-14a478f0ec16"
+    ]
   },
   {
     "beneficiary_id": "recipient-a26958b05c7d",
@@ -1947,8 +1987,10 @@
       "2025-1-HR01-KA121-SCH-000310117::row-685",
       "2026-1-HR01-KA121-SCH-000447290::row-1378"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 3,
+    "institution_ids": [
+      "institution-828e79f6d9a4"
+    ]
   },
   {
     "beneficiary_id": "recipient-9866622a61be",
@@ -2185,8 +2227,10 @@
       "2025-1-HR01-KA121-SCH-000311831::row-579",
       "2026-1-HR01-KA121-SCH-000432603::row-1343"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 3,
+    "institution_ids": [
+      "institution-c74248b791e7"
+    ]
   },
   {
     "beneficiary_id": "recipient-71a15224472f",
@@ -2349,8 +2393,10 @@
       "2025-1-HR01-KA121-SCH-000342385::row-602",
       "2026-1-HR01-KA121-SCH-000416331::row-1280"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 3,
+    "institution_ids": [
+      "institution-2798b65569f7"
+    ]
   },
   {
     "beneficiary_id": "recipient-6001fbc31c93",
@@ -2371,8 +2417,10 @@
       "2025-1-HR01-KA121-SCH-000325869::row-677",
       "2026-1-HR01-KA121-SCH-000411178::row-1252"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 3,
+    "institution_ids": [
+      "institution-32ca34001f65"
+    ]
   },
   {
     "beneficiary_id": "recipient-418e796c9d88",
@@ -2393,8 +2441,10 @@
       "2025-1-HR01-KA121-SCH-000306617::row-621",
       "2026-1-HR01-KA121-SCH-000434605::row-1349"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 3,
+    "institution_ids": [
+      "institution-07ff56652978"
+    ]
   },
   {
     "beneficiary_id": "recipient-cb81c3bf72d3",
@@ -2465,8 +2515,10 @@
       "2025-1-HR01-KA121-SCH-000331452::row-658",
       "2026-1-HR01-KA121-SCH-000447710::row-1381"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 3,
+    "institution_ids": [
+      "institution-e5fabcf1e584"
+    ]
   },
   {
     "beneficiary_id": "recipient-3a280e47cc95",
@@ -2539,8 +2591,10 @@
       "2025-1-HR01-KA121-SCH-000310854::row-630",
       "2026-1-HR01-KA121-SCH-000427802::row-1330"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 3,
+    "institution_ids": [
+      "institution-926844b5d9a5"
+    ]
   },
   {
     "beneficiary_id": "recipient-4b73d6210492",
@@ -2847,8 +2901,10 @@
       "2025-1-HR01-KA121-SCH-000325254::row-615",
       "2026-1-HR01-KA121-SCH-000434639::row-1350"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 3,
+    "institution_ids": [
+      "institution-5eaf87cb878f"
+    ]
   },
   {
     "beneficiary_id": "recipient-16c14fbda245",
@@ -2911,8 +2967,10 @@
       "2024-1-HR01-KA121-SCH-000225323::row-124",
       "2026-1-HR01-KA121-SCH-000431533::row-1340"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 2,
+    "institution_ids": [
+      "institution-7a8e4c08ebea"
+    ]
   },
   {
     "beneficiary_id": "recipient-7fc69e50ae1c",
@@ -2933,8 +2991,10 @@
       "2025-1-HR01-KA121-SCH-000318406::row-717",
       "2026-1-HR01-KA121-SCH-000413035::row-1267"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 3,
+    "institution_ids": [
+      "institution-172108c44912"
+    ]
   },
   {
     "beneficiary_id": "recipient-9a39d7ab3d56",
@@ -3026,8 +3086,10 @@
       "2025-1-HR01-KA121-SCH-000337453::row-642",
       "2026-1-HR01-KA121-SCH-000436649::row-1357"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 3,
+    "institution_ids": [
+      "institution-7dd567c5ad42"
+    ]
   },
   {
     "beneficiary_id": "recipient-a659198a5ce4",
@@ -3118,8 +3180,10 @@
       "2025-1-HR01-KA121-SCH-000306829::row-650",
       "2026-1-HR01-KA121-SCH-000407232::row-1225"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 3,
+    "institution_ids": [
+      "institution-b221ca9d71fc"
+    ]
   },
   {
     "beneficiary_id": "recipient-f017ac710b7e",
@@ -3140,8 +3204,10 @@
       "2025-1-HR01-KA121-SCH-000338877::row-628",
       "2026-1-HR01-KA121-SCH-000410764::row-1247"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 3,
+    "institution_ids": [
+      "institution-600189498e49"
+    ]
   },
   {
     "beneficiary_id": "recipient-daadafd4fc16",
@@ -3613,8 +3679,10 @@
       "2024-1-HR01-KA122-SCH-000221323::row-155",
       "2026-1-HR01-KA121-SCH-000407585::row-1229"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 2,
+    "institution_ids": [
+      "institution-27642bdc3948"
+    ]
   },
   {
     "beneficiary_id": "recipient-f4adb346902b",
@@ -3693,8 +3761,10 @@
     "project_record_ids": [
       "2024-1-HR01-KA122-SCH-000223375::row-159"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 1,
+    "institution_ids": [
+      "institution-51bce2abb269"
+    ]
   },
   {
     "beneficiary_id": "recipient-f0ebbd4fa2ab",
@@ -3869,8 +3939,10 @@
     "project_record_ids": [
       "2024-1-HR01-KA122-SCH-000237641::row-168"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 1,
+    "institution_ids": [
+      "institution-1d9e76ef00e5"
+    ]
   },
   {
     "beneficiary_id": "recipient-6a347a90fa0b",
@@ -4097,8 +4169,10 @@
       "2024-1-HR01-KA122-SCH-000208251::row-179",
       "2026-1-HR01-KA122-SCH-000425218::row-1402"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 2,
+    "institution_ids": [
+      "institution-5f8ad49770e2"
+    ]
   },
   {
     "beneficiary_id": "recipient-8faeb18373fe",
@@ -4135,8 +4209,10 @@
     "project_record_ids": [
       "2024-1-HR01-KA122-SCH-000223677::row-181"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 1,
+    "institution_ids": [
+      "institution-bee9109f3016"
+    ]
   },
   {
     "beneficiary_id": "recipient-09d915bd25ef",
@@ -4254,8 +4330,10 @@
     "project_record_ids": [
       "2024-2-HR01-KA210-SCH-000291370::row-190"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 1,
+    "institution_ids": [
+      "institution-b11f4d2b8d29"
+    ]
   },
   {
     "beneficiary_id": "recipient-d99e3868bc30",
@@ -4488,8 +4566,10 @@
       "2026-1-HR01-KA122-SCH-000428549::row-1424",
       "2026-1-HR01-KA121-VET-000412526::row-1469"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 5,
+    "institution_ids": [
+      "institution-959047446dc2"
+    ]
   },
   {
     "beneficiary_id": "recipient-9160b239bd45",
@@ -4708,8 +4788,10 @@
       "2025-1-HR01-KA121-VET-000320365::row-833",
       "2026-1-HR01-KA121-VET-000411489::row-1462"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 3,
+    "institution_ids": [
+      "institution-a6e2ab66abc0"
+    ]
   },
   {
     "beneficiary_id": "recipient-7084b726134d",
@@ -5039,8 +5121,10 @@
     "project_record_ids": [
       "2024-1-HR01-KA121-VET-000211533::row-229"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 1,
+    "institution_ids": [
+      "institution-46057f789b1d"
+    ]
   },
   {
     "beneficiary_id": "recipient-f1c1aac25929",
@@ -5275,8 +5359,10 @@
       "2024-1-HR01-KA121-VET-000215026::row-241",
       "2025-1-HR01-KA121-VET-000324670::row-845"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 2,
+    "institution_ids": [
+      "institution-d34fb7ee0f72"
+    ]
   },
   {
     "beneficiary_id": "recipient-1c2f772ebff4",
@@ -5470,8 +5556,10 @@
       "2026-1-HR01-KA121-VET-000444195::row-1543",
       "2026-1-HR01-KA220-VET-000467966::row-1594"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 4,
+    "institution_ids": [
+      "institution-3a164d7e36a1"
+    ]
   },
   {
     "beneficiary_id": "recipient-cfffc9b004ee",
@@ -5488,8 +5576,10 @@
     "project_record_ids": [
       "2024-1-HR01-KA121-VET-000221342::row-255"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 1,
+    "institution_ids": [
+      "institution-48da90365b92"
+    ]
   },
   {
     "beneficiary_id": "recipient-bfef1ff7b1d2",
@@ -5775,8 +5865,10 @@
       "2025-1-HR01-KA121-VET-000329937::row-861",
       "2026-1-HR01-KA121-VET-000428250::row-1503"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 3,
+    "institution_ids": [
+      "institution-d202a4c0a312"
+    ]
   },
   {
     "beneficiary_id": "recipient-cf53e0ec08c2",
@@ -5895,8 +5987,10 @@
       "2025-1-HR01-KA121-VET-000339448::row-883",
       "2026-1-HR01-KA121-VET-000418608::row-1482"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 3,
+    "institution_ids": [
+      "institution-3cf7c8ad72f3"
+    ]
   },
   {
     "beneficiary_id": "recipient-48f9c7869db4",
@@ -6346,8 +6440,10 @@
       "2024-1-HR01-KA122-VET-000240045::row-292",
       "2026-1-HR01-KA122-SCH-000443580::row-1388"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 2,
+    "institution_ids": [
+      "institution-9343c47b888a"
+    ]
   },
   {
     "beneficiary_id": "recipient-02b51758a4e6",
@@ -7112,8 +7208,10 @@
       "2025-1-HR01-KA131-HED-000325297::row-947",
       "2026-1-HR01-KA131-HED-000415299::row-1604"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 2,
+    "institution_ids": [
+      "institution-eba47b8c092b"
+    ]
   },
   {
     "beneficiary_id": "recipient-8c146229b96b",
@@ -7367,8 +7465,10 @@
       "2024-1-HR01-KA131-HED-000208655::row-341",
       "2024-1-HR01-KA171-HED-000218711::row-389"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 2,
+    "institution_ids": [
+      "institution-804cfe7f62f5"
+    ]
   },
   {
     "beneficiary_id": "recipient-499ab0604172",
@@ -7409,8 +7509,10 @@
       "2025-1-HR01-KA131-HED-000310259::row-956",
       "2026-1-HR01-KA131-HED-000415184::row-1618"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 3,
+    "institution_ids": [
+      "institution-6bbca1169f33"
+    ]
   },
   {
     "beneficiary_id": "recipient-3a045a13127a",
@@ -7428,8 +7530,10 @@
       "2024-1-HR01-KA131-HED-000202734::row-344",
       "2024-1-HR01-KA171-HED-000203038::row-384"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 2,
+    "institution_ids": [
+      "institution-e375d605c711"
+    ]
   },
   {
     "beneficiary_id": "recipient-144a9c41a171",
@@ -7448,8 +7552,10 @@
       "2024-1-HR01-KA131-HED-000213542::row-345",
       "2026-1-HR01-KA131-HED-000409285::row-1621"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 1,
+    "institution_ids": [
+      "institution-192d637eec3e"
+    ]
   },
   {
     "beneficiary_id": "recipient-148f8bfeb377",
@@ -7467,8 +7573,10 @@
       "2024-1-HR01-KA131-HED-000206305::row-346",
       "2024-1-HR01-KA171-HED-000210876::row-374"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 2,
+    "institution_ids": [
+      "institution-20bc9ce4ca75"
+    ]
   },
   {
     "beneficiary_id": "recipient-943553630f9c",
@@ -7486,8 +7594,10 @@
       "2024-1-HR01-KA131-HED-000224663::row-347",
       "2024-1-HR01-KA171-HED-000227969::row-368"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 2,
+    "institution_ids": [
+      "institution-635ed827aa79"
+    ]
   },
   {
     "beneficiary_id": "recipient-54f797c2e994",
@@ -7535,8 +7645,10 @@
       "2026-1-HR01-KA131-HED-000442869::row-1627",
       "2026-1-HR01-KA171-HED-000443048::row-1664"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 4,
+    "institution_ids": [
+      "institution-562bf2ce561f"
+    ]
   },
   {
     "beneficiary_id": "recipient-b62990159ceb",
@@ -7553,8 +7665,10 @@
     "project_record_ids": [
       "2024-1-HR01-KA131-HED-000203430::row-350"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 1,
+    "institution_ids": [
+      "institution-c869e6ccc068"
+    ]
   },
   {
     "beneficiary_id": "recipient-b3089bd6c3ea",
@@ -7777,8 +7891,10 @@
       "2025-1-HR01-KA131-HED-000310897::row-973",
       "2025-1-HR01-KA171-HED-000327944::row-981"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 4,
+    "institution_ids": [
+      "institution-6a194cb86e7d"
+    ]
   },
   {
     "beneficiary_id": "recipient-839f8653a4b9",
@@ -7825,8 +7941,10 @@
       "2025-1-HR01-KA131-HED-000324901::row-975",
       "2026-1-HR01-KA131-HED-000437529::row-1632"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 3,
+    "institution_ids": [
+      "institution-2dda7aa575e4"
+    ]
   },
   {
     "beneficiary_id": "recipient-0b7e09a8d802",
@@ -8660,8 +8778,10 @@
       "2025-1-HR01-KA121-ADU-000334163::row-1021",
       "2026-1-HR01-KA121-ADU-000428714::row-1695"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 3,
+    "institution_ids": [
+      "institution-53b12f23dd6a"
+    ]
   },
   {
     "beneficiary_id": "recipient-175ac339dc6b",
@@ -10603,8 +10723,10 @@
       "2025-1-HR01-KA121-ADU-000327757::row-1016",
       "2026-1-HR01-KA121-ADU-000413988::row-1680"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 3,
+    "institution_ids": [
+      "institution-6d5035304e50"
+    ]
   },
   {
     "beneficiary_id": "recipient-bb486bc63ea3",
@@ -11277,8 +11399,10 @@
     "project_record_ids": [
       "2025-1-HR01-KA121-SCH-000324922::row-577"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 1,
+    "institution_ids": [
+      "institution-ae9ea6a7efb8"
+    ]
   },
   {
     "beneficiary_id": "recipient-f6691c38fb1c",
@@ -11297,8 +11421,10 @@
       "2025-1-HR01-KA121-SCH-000313784::row-580",
       "2026-1-HR01-KA121-SCH-000432157::row-1341"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 2,
+    "institution_ids": [
+      "institution-9e11a4bda5cc"
+    ]
   },
   {
     "beneficiary_id": "recipient-54cc21636a47",
@@ -11317,8 +11443,10 @@
       "2025-1-HR01-KA121-SCH-000306271::row-582",
       "2026-1-HR01-KA121-SCH-000408320::row-1234"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 2,
+    "institution_ids": [
+      "institution-805cb67ae4ae"
+    ]
   },
   {
     "beneficiary_id": "recipient-9d01bcab2bc4",
@@ -11335,8 +11463,10 @@
     "project_record_ids": [
       "2025-1-HR01-KA121-SCH-000325286::row-583"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 1,
+    "institution_ids": [
+      "institution-d9991b100d49"
+    ]
   },
   {
     "beneficiary_id": "recipient-0100916bbc5f",
@@ -11483,8 +11613,10 @@
     "project_record_ids": [
       "2025-1-HR01-KA121-SCH-000318903::row-592"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 1,
+    "institution_ids": [
+      "institution-8d3fca658634"
+    ]
   },
   {
     "beneficiary_id": "recipient-630de4fd7696",
@@ -11592,8 +11724,10 @@
     "project_record_ids": [
       "2025-1-HR01-KA121-SCH-000323217::row-598"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 1,
+    "institution_ids": [
+      "institution-9c51c72e21da"
+    ]
   },
   {
     "beneficiary_id": "recipient-83e2ced47df7",
@@ -11632,8 +11766,10 @@
     "project_record_ids": [
       "2025-1-HR01-KA121-SCH-000324090::row-639"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 1,
+    "institution_ids": [
+      "institution-beb6e148d039"
+    ]
   },
   {
     "beneficiary_id": "recipient-30572920fae8",
@@ -11650,8 +11786,10 @@
     "project_record_ids": [
       "2025-1-HR01-KA121-SCH-000319758::row-680"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 1,
+    "institution_ids": [
+      "institution-782ad7036aa1"
+    ]
   },
   {
     "beneficiary_id": "recipient-e926cd326b32",
@@ -11668,8 +11806,10 @@
     "project_record_ids": [
       "2025-1-HR01-KA121-SCH-000330393::row-727"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 1,
+    "institution_ids": [
+      "institution-1c6e359bc0cb"
+    ]
   },
   {
     "beneficiary_id": "recipient-38768c6f42e2",
@@ -11706,8 +11846,10 @@
     "project_record_ids": [
       "2025-1-HR01-KA122-SCH-000330852::row-738"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 1,
+    "institution_ids": [
+      "institution-b2de49be94b6"
+    ]
   },
   {
     "beneficiary_id": "recipient-c60774aa115b",
@@ -11846,8 +11988,10 @@
       "2025-1-HR01-KA122-SCH-000320902::row-747",
       "2026-1-HR01-KA122-SCH-000417787::row-1415"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 2,
+    "institution_ids": [
+      "institution-da00d1521375"
+    ]
   },
   {
     "beneficiary_id": "recipient-9293a82eeddd",
@@ -11864,8 +12008,10 @@
     "project_record_ids": [
       "2025-1-HR01-KA122-SCH-000335070::row-748"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 1,
+    "institution_ids": [
+      "institution-fe8344a72698"
+    ]
   },
   {
     "beneficiary_id": "recipient-34d879af89e2",
@@ -11947,8 +12093,10 @@
       "2025-1-HR01-KA122-SCH-000342590::row-752",
       "2026-1-HR01-KA122-SCH-000433146::row-1421"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 2,
+    "institution_ids": [
+      "institution-adb0aec51b78"
+    ]
   },
   {
     "beneficiary_id": "recipient-7dc485199b2f",
@@ -11983,8 +12131,10 @@
     "project_record_ids": [
       "2025-1-HR01-KA122-SCH-000322043::row-754"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 1,
+    "institution_ids": [
+      "institution-d61ab8079095"
+    ]
   },
   {
     "beneficiary_id": "recipient-4b648f07e40c",
@@ -12025,8 +12175,10 @@
       "2025-1-HR01-KA122-SCH-000316203::row-757",
       "2026-1-HR01-KA122-SCH-000427744::row-1406"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 2,
+    "institution_ids": [
+      "institution-9aea547df557"
+    ]
   },
   {
     "beneficiary_id": "recipient-6a9c796b8e38",
@@ -12063,8 +12215,10 @@
     "project_record_ids": [
       "2025-1-HR01-KA122-SCH-000323893::row-759"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 1,
+    "institution_ids": [
+      "institution-6a1fd8cea0a1"
+    ]
   },
   {
     "beneficiary_id": "recipient-31bd95e4b50d",
@@ -12182,8 +12336,10 @@
     "project_record_ids": [
       "2025-1-HR01-KA122-SCH-000328510::row-765"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 1,
+    "institution_ids": [
+      "institution-6750ea1bc0b2"
+    ]
   },
   {
     "beneficiary_id": "recipient-a81b4d59d7e4",
@@ -12262,8 +12418,10 @@
     "project_record_ids": [
       "2025-1-HR01-KA122-SCH-000324037::row-771"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 1,
+    "institution_ids": [
+      "institution-ccc9d1d614db"
+    ]
   },
   {
     "beneficiary_id": "recipient-0da03c5e3cbc",
@@ -12280,8 +12438,10 @@
     "project_record_ids": [
       "2025-1-HR01-KA122-SCH-000340779::row-772"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 1,
+    "institution_ids": [
+      "institution-969c9d60b22b"
+    ]
   },
   {
     "beneficiary_id": "recipient-73ae003ae19e",
@@ -12298,8 +12458,10 @@
     "project_record_ids": [
       "2025-1-HR01-KA122-SCH-000345375::row-773"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 1,
+    "institution_ids": [
+      "institution-cf1f0f3177a3"
+    ]
   },
   {
     "beneficiary_id": "recipient-295fed7d0e0d",
@@ -12378,8 +12540,10 @@
     "project_record_ids": [
       "2025-1-HR01-KA122-SCH-000334925::row-778"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 1,
+    "institution_ids": [
+      "institution-1b860c786816"
+    ]
   },
   {
     "beneficiary_id": "recipient-ee1db67c3ad6",
@@ -12398,8 +12562,10 @@
       "2025-1-HR01-KA122-SCH-000337037::row-779",
       "2026-1-HR01-KA122-SCH-000446244::row-1431"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 2,
+    "institution_ids": [
+      "institution-3b2855152a25"
+    ]
   },
   {
     "beneficiary_id": "recipient-f0e11a61bf8a",
@@ -12416,8 +12582,10 @@
     "project_record_ids": [
       "2025-1-HR01-KA122-SCH-000338904::row-780"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 1,
+    "institution_ids": [
+      "institution-8145529bebd3"
+    ]
   },
   {
     "beneficiary_id": "recipient-21bb885f4fe2",
@@ -12454,8 +12622,10 @@
     "project_record_ids": [
       "2025-1-HR01-KA122-SCH-000308721::row-782"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 1,
+    "institution_ids": [
+      "institution-f0f5bd72fcb5"
+    ]
   },
   {
     "beneficiary_id": "recipient-8213d3c9b591",
@@ -12492,8 +12662,10 @@
     "project_record_ids": [
       "2025-1-HR01-KA122-SCH-000345546::row-787"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 1,
+    "institution_ids": [
+      "institution-edf53c2e227a"
+    ]
   },
   {
     "beneficiary_id": "recipient-eb94c2b88f36",
@@ -12510,8 +12682,10 @@
     "project_record_ids": [
       "2025-1-HR01-KA220-SCH-000360813::row-789"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 1,
+    "institution_ids": [
+      "institution-a24f2cb6888e"
+    ]
   },
   {
     "beneficiary_id": "recipient-5c6e493db68b",
@@ -12686,8 +12860,10 @@
       "2025-1-HR01-KA121-VET-000320870::row-837",
       "2026-1-HR01-KA121-VET-000410526::row-1458"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 2,
+    "institution_ids": [
+      "institution-b10f6d88de23"
+    ]
   },
   {
     "beneficiary_id": "recipient-53322a0e1e03",
@@ -12810,8 +12986,10 @@
     "project_record_ids": [
       "2025-1-HR01-KA122-VET-000344422::row-897"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 1,
+    "institution_ids": [
+      "institution-b04fe2d2996e"
+    ]
   },
   {
     "beneficiary_id": "recipient-4bcd447dc543",
@@ -13557,8 +13735,10 @@
     "project_record_ids": [
       "2025-1-HR01-KA131-HED-000314327::row-961"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 1,
+    "institution_ids": [
+      "institution-192d637eec3e"
+    ]
   },
   {
     "beneficiary_id": "recipient-91e1a0342abe",
@@ -15657,8 +15837,10 @@
     "project_record_ids": [
       "2026-1-HR01-KA121-SCH-000411468::row-1253"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 1,
+    "institution_ids": [
+      "institution-eb143bd47369"
+    ]
   },
   {
     "beneficiary_id": "recipient-3f47b80ad86b",
@@ -15775,8 +15957,10 @@
     "project_record_ids": [
       "2026-1-HR01-KA121-SCH-000420816::row-1294"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 1,
+    "institution_ids": [
+      "institution-e0139ae5dd33"
+    ]
   },
   {
     "beneficiary_id": "recipient-fd49fc82b005",
@@ -15813,8 +15997,10 @@
     "project_record_ids": [
       "2026-1-HR01-KA121-SCH-000423007::row-1305"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 1,
+    "institution_ids": [
+      "institution-1c6e359bc0cb"
+    ]
   },
   {
     "beneficiary_id": "recipient-7ec4936f71a3",
@@ -15831,8 +16017,10 @@
     "project_record_ids": [
       "2026-1-HR01-KA121-SCH-000423168::row-1309"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 1,
+    "institution_ids": [
+      "institution-61b309ab8f19"
+    ]
   },
   {
     "beneficiary_id": "recipient-fa4252c7f705",
@@ -15965,8 +16153,10 @@
     "project_record_ids": [
       "2026-1-HR01-KA121-SCH-000439661::row-1365"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 1,
+    "institution_ids": [
+      "institution-454066b6e5db"
+    ]
   },
   {
     "beneficiary_id": "recipient-26594d7fd322",
@@ -15983,8 +16173,10 @@
     "project_record_ids": [
       "2026-1-HR01-KA122-SCH-000443525::row-1389"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 1,
+    "institution_ids": [
+      "institution-b389b30574fb"
+    ]
   },
   {
     "beneficiary_id": "recipient-560ba19adaaa",
@@ -16001,8 +16193,10 @@
     "project_record_ids": [
       "2026-1-HR01-KA122-SCH-000437248::row-1390"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 1,
+    "institution_ids": [
+      "institution-fabed334a911"
+    ]
   },
   {
     "beneficiary_id": "recipient-da12037eef52",
@@ -16019,8 +16213,10 @@
     "project_record_ids": [
       "2026-1-HR01-KA122-SCH-000444855::row-1391"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 1,
+    "institution_ids": [
+      "institution-f9327aae51fb"
+    ]
   },
   {
     "beneficiary_id": "recipient-7b32bb77d610",
@@ -16057,8 +16253,10 @@
     "project_record_ids": [
       "2026-1-HR01-KA122-SCH-000435614::row-1393"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 1,
+    "institution_ids": [
+      "institution-24cb4bd645b6"
+    ]
   },
   {
     "beneficiary_id": "recipient-a9b02894ff8c",
@@ -16135,8 +16333,10 @@
     "project_record_ids": [
       "2026-1-HR01-KA122-SCH-000439974::row-1397"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 1,
+    "institution_ids": [
+      "institution-2b711618e4ad"
+    ]
   },
   {
     "beneficiary_id": "recipient-e1ac373160b4",
@@ -16173,8 +16373,10 @@
     "project_record_ids": [
       "2026-1-HR01-KA122-SCH-000425644::row-1400"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 1,
+    "institution_ids": [
+      "institution-2516c2f6233b"
+    ]
   },
   {
     "beneficiary_id": "recipient-38e8c581dc1f",
@@ -16249,8 +16451,10 @@
     "project_record_ids": [
       "2026-1-HR01-KA122-SCH-000439492::row-1408"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 1,
+    "institution_ids": [
+      "institution-39c640eb08dc"
+    ]
   },
   {
     "beneficiary_id": "recipient-26d76fa0908d",
@@ -16287,8 +16491,10 @@
     "project_record_ids": [
       "2026-1-HR01-KA122-SCH-000443884::row-1410"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 1,
+    "institution_ids": [
+      "institution-9145ca9fc39a"
+    ]
   },
   {
     "beneficiary_id": "recipient-2bf64c6e3bdd",
@@ -16345,8 +16551,10 @@
     "project_record_ids": [
       "2026-1-HR01-KA122-SCH-000440943::row-1413"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 1,
+    "institution_ids": [
+      "institution-b7d25ce4404d"
+    ]
   },
   {
     "beneficiary_id": "recipient-4c016d5a77cb",
@@ -16363,8 +16571,10 @@
     "project_record_ids": [
       "2026-1-HR01-KA122-SCH-000436714::row-1414"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 1,
+    "institution_ids": [
+      "institution-20396d2ff72e"
+    ]
   },
   {
     "beneficiary_id": "recipient-a575cc0cc9f4",
@@ -16381,8 +16591,10 @@
     "project_record_ids": [
       "2026-1-HR01-KA122-SCH-000438055::row-1416"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 1,
+    "institution_ids": [
+      "institution-0d38b84cbef9"
+    ]
   },
   {
     "beneficiary_id": "recipient-cf4d07977c73",
@@ -16459,8 +16671,10 @@
     "project_record_ids": [
       "2026-1-HR01-KA122-SCH-000437376::row-1425"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 1,
+    "institution_ids": [
+      "institution-d1e4db51ba92"
+    ]
   },
   {
     "beneficiary_id": "recipient-b98d7b7589f1",
@@ -16497,8 +16711,10 @@
     "project_record_ids": [
       "2026-1-HR01-KA122-SCH-000429106::row-1427"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 1,
+    "institution_ids": [
+      "institution-57104a5652ac"
+    ]
   },
   {
     "beneficiary_id": "recipient-2993ebcee9ba",
@@ -16633,8 +16849,10 @@
     "project_record_ids": [
       "2026-1-HR01-KA122-SCH-000416644::row-1439"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 1,
+    "institution_ids": [
+      "institution-363fd7253f44"
+    ]
   },
   {
     "beneficiary_id": "recipient-49c634ec9a1b",
@@ -16651,8 +16869,10 @@
     "project_record_ids": [
       "2026-1-HR01-KA122-SCH-000437170::row-1440"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 1,
+    "institution_ids": [
+      "institution-7004b51a0509"
+    ]
   },
   {
     "beneficiary_id": "recipient-4eb458b2328a",
@@ -16689,8 +16909,10 @@
     "project_record_ids": [
       "2026-1-HR01-KA220-SCH-000448923::row-1442"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 1,
+    "institution_ids": [
+      "institution-96eb6634b289"
+    ]
   },
   {
     "beneficiary_id": "recipient-812c63a99799",
@@ -16839,8 +17061,10 @@
     "project_record_ids": [
       "2026-1-HR01-KA121-VET-000410101::row-1456"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 1,
+    "institution_ids": [
+      "institution-28c1c9e94209"
+    ]
   },
   {
     "beneficiary_id": "recipient-95b5bd524f73",
@@ -16979,8 +17203,10 @@
     "project_record_ids": [
       "2026-1-HR01-KA122-VET-000434526::row-1568"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 1,
+    "institution_ids": [
+      "institution-4ad4696beeeb"
+    ]
   },
   {
     "beneficiary_id": "recipient-22adc0aa7b55",
@@ -17095,8 +17321,10 @@
     "project_record_ids": [
       "2026-1-HR01-KA122-VET-000448063::row-1582"
     ],
-    "matched_project_count": 0,
-    "institution_ids": []
+    "matched_project_count": 1,
+    "institution_ids": [
+      "institution-13574fc045c9"
+    ]
   },
   {
     "beneficiary_id": "recipient-c04d3f63a64d",
@@ -18318,7 +18546,7 @@
   },
   {
     "beneficiary_id": "recipient-9b621cec53bc",
-    "name": "HRVATSKA UDRUGA LJUBITELJA\nSKIJANJA I SNOWBOARDANJA",
+    "name": "HRVATSKA UDRUGA LJUBITELJA\r\nSKIJANJA I SNOWBOARDANJA",
     "city": "Farkaševac",
     "project_count": 1,
     "total_grant_eur": 11034.0,
@@ -18336,7 +18564,7 @@
   },
   {
     "beneficiary_id": "recipient-f200519aa723",
-    "name": "Klub padobranskog jedrenja\nParadigma Krapina",
+    "name": "Klub padobranskog jedrenja\r\nParadigma Krapina",
     "city": "Krapina",
     "project_count": 1,
     "total_grant_eur": 8924.0,
@@ -18354,7 +18582,7 @@
   },
   {
     "beneficiary_id": "recipient-e817138c7f4a",
-    "name": "Društvo sportske rekreacije\nSportAktiv",
+    "name": "Društvo sportske rekreacije\r\nSportAktiv",
     "city": "Zagreb",
     "project_count": 1,
     "total_grant_eur": 3065.0,
@@ -18372,7 +18600,7 @@
   },
   {
     "beneficiary_id": "recipient-6db6ff18d680",
-    "name": "AKROBATSKI ROCK 'N' ROLL KLUB\n\"MEGAROCK\"",
+    "name": "AKROBATSKI ROCK 'N' ROLL KLUB\r\n\"MEGAROCK\"",
     "city": "Zagreb",
     "project_count": 1,
     "total_grant_eur": 2990.0,
@@ -18408,7 +18636,7 @@
   },
   {
     "beneficiary_id": "recipient-9da18b7c3fb9",
-    "name": "TUHOBIC MOUNTAINEERING\nASSOCIATION",
+    "name": "TUHOBIC MOUNTAINEERING\r\nASSOCIATION",
     "city": "Rijeka",
     "project_count": 1,
     "total_grant_eur": 18533.0,
@@ -18444,7 +18672,7 @@
   },
   {
     "beneficiary_id": "recipient-9b2627b1a63f",
-    "name": "UDRUGA KINEZIOLOGA GRADA\nVUKOVARA",
+    "name": "UDRUGA KINEZIOLOGA GRADA\r\nVUKOVARA",
     "city": "Vukovar",
     "project_count": 1,
     "total_grant_eur": 7824.0,
@@ -18462,7 +18690,7 @@
   },
   {
     "beneficiary_id": "recipient-990da9ddda55",
-    "name": "ZAGREB ACADEMIC SPORTS\nFEDERATION",
+    "name": "ZAGREB ACADEMIC SPORTS\r\nFEDERATION",
     "city": "Zagreb",
     "project_count": 1,
     "total_grant_eur": 4070.0,
@@ -18498,7 +18726,7 @@
   },
   {
     "beneficiary_id": "recipient-50e8373c6927",
-    "name": "Karate klub osoba s invaliditetom\nSveta Nedjelja",
+    "name": "Karate klub osoba s invaliditetom\r\nSveta Nedjelja",
     "city": "Sveta Nedjelja",
     "project_count": 1,
     "total_grant_eur": 9530.0,
@@ -18534,7 +18762,7 @@
   },
   {
     "beneficiary_id": "recipient-5846296aec07",
-    "name": "KOŠARKAŠKI KLUB PODSUSED -\nZAGREB",
+    "name": "KOŠARKAŠKI KLUB PODSUSED -\r\nZAGREB",
     "city": "Zagreb",
     "project_count": 1,
     "total_grant_eur": 5980.0,
@@ -18552,7 +18780,7 @@
   },
   {
     "beneficiary_id": "recipient-3817e9883761",
-    "name": "Public institution for the\nmanagement of sports facilities of\nthe City of Vukovar Sports facilities\nVukovar",
+    "name": "Public institution for the\r\nmanagement of sports facilities of\r\nthe City of Vukovar Sports facilities\r\nVukovar",
     "city": "Vukovar",
     "project_count": 1,
     "total_grant_eur": 7736.0,

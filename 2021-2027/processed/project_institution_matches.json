@@ -64,8 +64,8 @@
     "project_id": "2024-1-HR01-KA121-SCH-000199289",
     "beneficiary_name": "Osnovna škola Višnjevac",
     "city": "Osijek",
-    "match_status": "location_mismatch",
-    "institution_id": null,
+    "match_status": "matched_unique_name_location_differs",
+    "institution_id": "institution-a1ae44ef6e15",
     "candidate_institution_ids": [
       "institution-a1ae44ef6e15"
     ],
@@ -76,20 +76,24 @@
     "project_id": "2024-1-HR01-KA121-SCH-000200089",
     "beneficiary_name": "Dječji vrtić Vladimir Nazor",
     "city": "Kastav",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-ea3491fc7e66",
+    "candidate_institution_ids": [
+      "institution-ea3491fc7e66"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2024-1-HR01-KA121-SCH-000200094::row-9",
     "project_id": "2024-1-HR01-KA121-SCH-000200094",
     "beneficiary_name": "Dječji vrtić Petar Pan",
     "city": "Zagreb",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-4da5985d944e",
+    "candidate_institution_ids": [
+      "institution-4da5985d944e"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2024-1-HR01-KA121-SCH-000200187::row-10",
@@ -154,10 +158,12 @@
     "project_id": "2024-1-HR01-KA121-SCH-000200790",
     "beneficiary_name": "Dječji vrtić Rijeka",
     "city": "Rijeka",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-afc5f6f69f75",
+    "candidate_institution_ids": [
+      "institution-afc5f6f69f75"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2024-1-HR01-KA121-SCH-000200953::row-16",
@@ -332,10 +338,12 @@
     "project_id": "2024-1-HR01-KA121-SCH-000203010",
     "beneficiary_name": "III. gimnazija Zagreb",
     "city": "Zagreb",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city_suffix",
+    "institution_id": "institution-648e260d3d09",
+    "candidate_institution_ids": [
+      "institution-648e260d3d09"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2024-1-HR01-KA121-SCH-000203312::row-31",
@@ -402,30 +410,36 @@
     "project_id": "2024-1-HR01-KA121-SCH-000204094",
     "beneficiary_name": "Dječji vrtić Iskrica",
     "city": "Zagreb",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-eaf531c58913",
+    "candidate_institution_ids": [
+      "institution-eaf531c58913"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2024-1-HR01-KA121-SCH-000204182::row-37",
     "project_id": "2024-1-HR01-KA121-SCH-000204182",
     "beneficiary_name": "Dječji vrtić Siget",
     "city": "Zagreb",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-d7202f610035",
+    "candidate_institution_ids": [
+      "institution-d7202f610035"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2024-1-HR01-KA121-SCH-000204223::row-38",
     "project_id": "2024-1-HR01-KA121-SCH-000204223",
     "beneficiary_name": "Osnovna škola Petar Zoranić Nin",
     "city": "Nin",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_user_confirmed_school",
+    "institution_id": "institution-a0f59419aa67",
+    "candidate_institution_ids": [
+      "institution-a0f59419aa67"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2024-1-HR01-KA121-SCH-000204759::row-39",
@@ -442,10 +456,12 @@
     "project_id": "2024-1-HR01-KA121-SCH-000205000",
     "beneficiary_name": "Dječji vrtić Prečko",
     "city": "Zagreb",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-3aae81b589ab",
+    "candidate_institution_ids": [
+      "institution-3aae81b589ab"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2024-1-HR01-KA121-SCH-000205071::row-41",
@@ -474,10 +490,12 @@
     "project_id": "2024-1-HR01-KA121-SCH-000205196",
     "beneficiary_name": "Dječji vrtić Osijek",
     "city": "Osijek",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-0de1bbeb84fe",
+    "candidate_institution_ids": [
+      "institution-0de1bbeb84fe"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2024-1-HR01-KA121-SCH-000205320::row-44",
@@ -496,10 +514,12 @@
     "project_id": "2024-1-HR01-KA121-SCH-000205463",
     "beneficiary_name": "Osnovna škola Dr. Branimira Markovića Ravna Gora",
     "city": "Ravna Gora",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_user_confirmed_school",
+    "institution_id": "institution-f68cdc2c8906",
+    "candidate_institution_ids": [
+      "institution-f68cdc2c8906"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2024-1-HR01-KA121-SCH-000205589::row-46",
@@ -518,10 +538,12 @@
     "project_id": "2024-1-HR01-KA121-SCH-000205655",
     "beneficiary_name": "l. osnovna škola Čakovec",
     "city": "Čakovec",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_unique_address_and_city",
+    "institution_id": "institution-7b577b27ac3a",
+    "candidate_institution_ids": [
+      "institution-7b577b27ac3a"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2024-1-HR01-KA121-SCH-000205884::row-48",
@@ -576,20 +598,24 @@
     "project_id": "2024-1-HR01-KA121-SCH-000206140",
     "beneficiary_name": "Osnovna škola Ivana Kukuljevića Sakcinskog Ivanec",
     "city": "Ivanec",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_user_confirmed_school",
+    "institution_id": "institution-d0d6217ce2e8",
+    "candidate_institution_ids": [
+      "institution-d0d6217ce2e8"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2024-1-HR01-KA121-SCH-000206415::row-53",
     "project_id": "2024-1-HR01-KA121-SCH-000206415",
     "beneficiary_name": "Osnovna škola don Mihovila Pavlinovića Podgora",
     "city": "Podgora",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_user_confirmed_school",
+    "institution_id": "institution-a34ff599916a",
+    "candidate_institution_ids": [
+      "institution-a34ff599916a"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2024-1-HR01-KA121-SCH-000206440::row-54",
@@ -704,18 +730,20 @@
     "project_id": "2024-1-HR01-KA121-SCH-000209518",
     "beneficiary_name": "Osnovna škola Pećine, Rijeka",
     "city": "Rijeka",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_user_confirmed_school",
+    "institution_id": "institution-5004c38fdab2",
+    "candidate_institution_ids": [
+      "institution-5004c38fdab2"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2024-1-HR01-KA121-SCH-000209703::row-64",
     "project_id": "2024-1-HR01-KA121-SCH-000209703",
     "beneficiary_name": "Osnovna škola Vugrovec-Kašina",
     "city": "Kašina (Grad Zagreb)",
-    "match_status": "location_mismatch",
-    "institution_id": null,
+    "match_status": "matched_unique_name_location_differs",
+    "institution_id": "institution-164fcd55ea81",
     "candidate_institution_ids": [
       "institution-164fcd55ea81"
     ],
@@ -798,8 +826,8 @@
     "project_id": "2024-1-HR01-KA121-SCH-000210819",
     "beneficiary_name": "Osnovna škola Ivana Gorana Kovačića Gornje Bazje",
     "city": "Gornje Bazje (Lukač)",
-    "match_status": "location_mismatch",
-    "institution_id": null,
+    "match_status": "matched_unique_name_location_differs",
+    "institution_id": "institution-633288869929",
     "candidate_institution_ids": [
       "institution-633288869929"
     ],
@@ -822,10 +850,12 @@
     "project_id": "2024-1-HR01-KA121-SCH-000211445",
     "beneficiary_name": "Dječji vrtić Varaždin",
     "city": "Varaždin",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-10fe5db7dfac",
+    "candidate_institution_ids": [
+      "institution-10fe5db7dfac"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2024-1-HR01-KA121-SCH-000211453::row-74",
@@ -912,30 +942,36 @@
     "project_id": "2024-1-HR01-KA121-SCH-000212150",
     "beneficiary_name": "Osnovna škola Andrije Kačića Miošića Donja Voća",
     "city": "Donja Voća",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_user_confirmed_school",
+    "institution_id": "institution-8b6e30af174c",
+    "candidate_institution_ids": [
+      "institution-8b6e30af174c"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2024-1-HR01-KA121-SCH-000212843::row-82",
     "project_id": "2024-1-HR01-KA121-SCH-000212843",
     "beneficiary_name": "Dječji vrtić Vrapčić Šenkovec",
     "city": "Šenkovec",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city_suffix",
+    "institution_id": "institution-14a478f0ec16",
+    "candidate_institution_ids": [
+      "institution-14a478f0ec16"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2024-1-HR01-KA121-SCH-000212951::row-83",
     "project_id": "2024-1-HR01-KA121-SCH-000212951",
     "beneficiary_name": "Dječji vrtić Slavuj",
     "city": "Strmec",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-828e79f6d9a4",
+    "candidate_institution_ids": [
+      "institution-828e79f6d9a4"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2024-1-HR01-KA121-SCH-000213433::row-84",
@@ -1050,10 +1086,12 @@
     "project_id": "2024-1-HR01-KA121-SCH-000214691",
     "beneficiary_name": "Osnovna škola \"Vladimir Nazor\" Pisarovina",
     "city": "Pisarovina",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_user_confirmed_school",
+    "institution_id": "institution-c74248b791e7",
+    "candidate_institution_ids": [
+      "institution-c74248b791e7"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2024-1-HR01-KA121-SCH-000214743::row-94",
@@ -1132,30 +1170,36 @@
     "project_id": "2024-1-HR01-KA121-SCH-000215254",
     "beneficiary_name": "Osnovna škola \"Antun Nemčić Gostovinski\" Koprivnica",
     "city": "Koprivnica",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_user_confirmed_school",
+    "institution_id": "institution-2798b65569f7",
+    "candidate_institution_ids": [
+      "institution-2798b65569f7"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2024-1-HR01-KA121-SCH-000215336::row-101",
     "project_id": "2024-1-HR01-KA121-SCH-000215336",
     "beneficiary_name": "Dječji vrtić Maslačak",
     "city": "Zaprešić",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-32ca34001f65",
+    "candidate_institution_ids": [
+      "institution-32ca34001f65"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2024-1-HR01-KA121-SCH-000215415::row-102",
     "project_id": "2024-1-HR01-KA121-SCH-000215415",
     "beneficiary_name": "Dječji vrtić Cvit Mediterana",
     "city": "Split",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-07ff56652978",
+    "candidate_institution_ids": [
+      "institution-07ff56652978"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2024-1-HR01-KA121-SCH-000215550::row-103",
@@ -1186,10 +1230,12 @@
     "project_id": "2024-1-HR01-KA121-SCH-000217025",
     "beneficiary_name": "Osnovna škola Đuro Ester Koprivnica",
     "city": "Koprivnica",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_user_confirmed_school",
+    "institution_id": "institution-e5fabcf1e584",
+    "candidate_institution_ids": [
+      "institution-e5fabcf1e584"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2024-1-HR01-KA121-SCH-000217439::row-106",
@@ -1220,10 +1266,12 @@
     "project_id": "2024-1-HR01-KA121-SCH-000218419",
     "beneficiary_name": "Dječji vrtić Matije Gupca",
     "city": "Zagreb",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-926844b5d9a5",
+    "candidate_institution_ids": [
+      "institution-926844b5d9a5"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2024-1-HR01-KA121-SCH-000218678::row-109",
@@ -1374,10 +1422,12 @@
     "project_id": "2024-1-HR01-KA121-SCH-000224014",
     "beneficiary_name": "Dječji vrtić Vesela kućica",
     "city": "Zagreb",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-5eaf87cb878f",
+    "candidate_institution_ids": [
+      "institution-5eaf87cb878f"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2024-1-HR01-KA121-SCH-000224333::row-122",
@@ -1408,20 +1458,24 @@
     "project_id": "2024-1-HR01-KA121-SCH-000225323",
     "beneficiary_name": "Dječji vrtić Tratinčica",
     "city": "Koprivnica",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-7a8e4c08ebea",
+    "candidate_institution_ids": [
+      "institution-7a8e4c08ebea"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2024-1-HR01-KA121-SCH-000225864::row-125",
     "project_id": "2024-1-HR01-KA121-SCH-000225864",
     "beneficiary_name": "Dječji vrtić Olga Ban Pazin",
     "city": "Pazin",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city_suffix",
+    "institution_id": "institution-172108c44912",
+    "candidate_institution_ids": [
+      "institution-172108c44912"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2024-1-HR01-KA121-SCH-000226813::row-126",
@@ -1464,8 +1518,8 @@
     "project_id": "2024-1-HR01-KA121-SCH-000228011",
     "beneficiary_name": "Osnovna škola Strahoninec",
     "city": "Čakovec",
-    "match_status": "location_mismatch",
-    "institution_id": null,
+    "match_status": "matched_unique_name_location_differs",
+    "institution_id": "institution-7dd567c5ad42",
     "candidate_institution_ids": [
       "institution-7dd567c5ad42"
     ],
@@ -1512,8 +1566,8 @@
     "project_id": "2024-1-HR01-KA121-SCH-000229708",
     "beneficiary_name": "XII. gimnazija",
     "city": "Grad Zagreb",
-    "match_status": "location_mismatch",
-    "institution_id": null,
+    "match_status": "matched_unique_name_location_differs",
+    "institution_id": "institution-b221ca9d71fc",
     "candidate_institution_ids": [
       "institution-b221ca9d71fc"
     ],
@@ -1524,10 +1578,12 @@
     "project_id": "2024-1-HR01-KA121-SCH-000230333",
     "beneficiary_name": "Osnovna škola kraljice Jelene, Solin",
     "city": "Solin",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_user_confirmed_school",
+    "institution_id": "institution-600189498e49",
+    "candidate_institution_ids": [
+      "institution-600189498e49"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2024-1-HR01-KA121-SCH-000230739::row-135",
@@ -1770,10 +1826,12 @@
     "project_id": "2024-1-HR01-KA122-SCH-000221323",
     "beneficiary_name": "Osnovna škola Mate Lovraka Kutina",
     "city": "Kutina",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_user_confirmed_school",
+    "institution_id": "institution-27642bdc3948",
+    "candidate_institution_ids": [
+      "institution-27642bdc3948"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2024-1-HR01-KA122-SCH-000217959::row-156",
@@ -1816,10 +1874,12 @@
     "project_id": "2024-1-HR01-KA122-SCH-000223375",
     "beneficiary_name": "Dječji vrtić Sunce Zadar",
     "city": "Zadar",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_unique_address_and_city",
+    "institution_id": "institution-51bce2abb269",
+    "candidate_institution_ids": [
+      "institution-51bce2abb269"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2024-1-HR01-KA122-SCH-000212938::row-160",
@@ -1920,10 +1980,12 @@
     "project_id": "2024-1-HR01-KA122-SCH-000237641",
     "beneficiary_name": "Dječji vrtić Vjeverica",
     "city": "Zagreb",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-1d9e76ef00e5",
+    "candidate_institution_ids": [
+      "institution-1d9e76ef00e5"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2024-1-HR01-KA122-SCH-000239486::row-169",
@@ -2048,10 +2110,12 @@
     "project_id": "2024-1-HR01-KA122-SCH-000208251",
     "beneficiary_name": "OŠ Vladimir Nazor Čepin",
     "city": "Čepin",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_user_confirmed_school",
+    "institution_id": "institution-5f8ad49770e2",
+    "candidate_institution_ids": [
+      "institution-5f8ad49770e2"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2024-1-HR01-KA122-SCH-000226735::row-180",
@@ -2070,10 +2134,12 @@
     "project_id": "2024-1-HR01-KA122-SCH-000223677",
     "beneficiary_name": "Dječji vrtić Smokvica",
     "city": "Zaprešić",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_unique_address_location_differs",
+    "institution_id": "institution-bee9109f3016",
+    "candidate_institution_ids": [
+      "institution-bee9109f3016"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2024-1-HR01-KA122-SCH-000211958::row-182",
@@ -2114,10 +2180,12 @@
     "project_id": "2024-1-HR01-KA220-SCH-000247292",
     "beneficiary_name": "l. osnovna škola Čakovec",
     "city": "Čakovec",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_unique_address_and_city",
+    "institution_id": "institution-7b577b27ac3a",
+    "candidate_institution_ids": [
+      "institution-7b577b27ac3a"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2024-1-HR01-KA210-SCH-000243439::row-186",
@@ -2172,10 +2240,12 @@
     "project_id": "2024-2-HR01-KA210-SCH-000291370",
     "beneficiary_name": "Dječji vrtić \"Ivanić Grad\"",
     "city": "Ivanić-Grad",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-b11f4d2b8d29",
+    "candidate_institution_ids": [
+      "institution-b11f4d2b8d29"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2024-2-HR01-KA210-SCH-000269023::row-191",
@@ -2300,14 +2370,12 @@
     "project_id": "2024-1-HR01-KA121-VET-000203618",
     "beneficiary_name": "Tehnička škola",
     "city": "Slavonski Brod",
-    "match_status": "location_mismatch",
-    "institution_id": null,
+    "match_status": "matched_unique_address_and_city",
+    "institution_id": "institution-959047446dc2",
     "candidate_institution_ids": [
-      "institution-6518c9e1a1e2",
-      "institution-17ca95a2b720",
-      "institution-4ad4696beeeb"
+      "institution-959047446dc2"
     ],
-    "candidate_count": 3
+    "candidate_count": 1
   },
   {
     "record_id": "2024-1-HR01-KA121-VET-000203652::row-202",
@@ -2434,10 +2502,12 @@
     "project_id": "2024-1-HR01-KA121-VET-000207094",
     "beneficiary_name": "Srednja škola Matije Antuna Reljkovića",
     "city": "Slavonski Brod",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_unique_address_and_city",
+    "institution_id": "institution-a6e2ab66abc0",
+    "candidate_institution_ids": [
+      "institution-a6e2ab66abc0"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2024-1-HR01-KA121-VET-000207132::row-213",
@@ -2634,8 +2704,8 @@
     "project_id": "2024-1-HR01-KA121-VET-000211533",
     "beneficiary_name": "Srednja škola Ivan Švear Ivanić Grad",
     "city": "Grad",
-    "match_status": "location_mismatch",
-    "institution_id": null,
+    "match_status": "matched_unique_name_location_differs",
+    "institution_id": "institution-46057f789b1d",
     "candidate_institution_ids": [
       "institution-46057f789b1d"
     ],
@@ -2778,10 +2848,12 @@
     "project_id": "2024-1-HR01-KA121-VET-000215026",
     "beneficiary_name": "Strukovna škola Đurdevac",
     "city": "Đurđevac",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_unique_address_and_city",
+    "institution_id": "institution-d34fb7ee0f72",
+    "candidate_institution_ids": [
+      "institution-d34fb7ee0f72"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2024-1-HR01-KA121-VET-000215345::row-242",
@@ -2932,8 +3004,8 @@
     "project_id": "2024-1-HR01-KA121-VET-000220609",
     "beneficiary_name": "Srednja škola \"Arboretum Opeka\"",
     "city": "Vinica",
-    "match_status": "location_mismatch",
-    "institution_id": null,
+    "match_status": "matched_unique_name_location_differs",
+    "institution_id": "institution-3a164d7e36a1",
     "candidate_institution_ids": [
       "institution-3a164d7e36a1"
     ],
@@ -2944,8 +3016,8 @@
     "project_id": "2024-1-HR01-KA121-VET-000221342",
     "beneficiary_name": "Srednja škola Novi Marof",
     "city": "Marof",
-    "match_status": "location_mismatch",
-    "institution_id": null,
+    "match_status": "matched_unique_name_location_differs",
+    "institution_id": "institution-48da90365b92",
     "candidate_institution_ids": [
       "institution-48da90365b92"
     ],
@@ -3086,10 +3158,12 @@
     "project_id": "2024-1-HR01-KA121-VET-000228002",
     "beneficiary_name": "Srednja škola Ivana Trnskoga Hrvatska Kostajnica",
     "city": "Hrvatska Kostajnica",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city_suffix",
+    "institution_id": "institution-d202a4c0a312",
+    "candidate_institution_ids": [
+      "institution-d202a4c0a312"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2024-1-HR01-KA121-VET-000229747::row-268",
@@ -3144,8 +3218,8 @@
     "project_id": "2024-1-HR01-KA121-VET-000231789",
     "beneficiary_name": "Srednja škola Jelkovec",
     "city": "Zagreb",
-    "match_status": "location_mismatch",
-    "institution_id": null,
+    "match_status": "matched_unique_name_location_differs",
+    "institution_id": "institution-3cf7c8ad72f3",
     "candidate_institution_ids": [
       "institution-3cf7c8ad72f3"
     ],
@@ -3384,10 +3458,12 @@
     "project_id": "2024-1-HR01-KA122-VET-000240045",
     "beneficiary_name": "Srednja škola Tina Ujevića, Kutina",
     "city": "Kutina",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city_suffix",
+    "institution_id": "institution-9343c47b888a",
+    "candidate_institution_ids": [
+      "institution-9343c47b888a"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2024-1-HR01-KA122-VET-000241127::row-293",
@@ -3822,10 +3898,12 @@
     "project_id": "2024-1-HR01-KA131-HED-000204729",
     "beneficiary_name": "ISTARSKO VELEUČILIŠTE",
     "city": "Pula",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_unique_address_and_city",
+    "institution_id": "institution-eba47b8c092b",
+    "candidate_institution_ids": [
+      "institution-eba47b8c092b"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2024-1-HR01-KA131-HED-000201623::row-331",
@@ -3938,8 +4016,8 @@
     "project_id": "2024-1-HR01-KA131-HED-000208655",
     "beneficiary_name": "MEĐIMURSKO VELEUČILIŠTE U ČAKOVCU",
     "city": "Zagreb",
-    "match_status": "location_mismatch",
-    "institution_id": null,
+    "match_status": "matched_unique_name_location_differs",
+    "institution_id": "institution-804cfe7f62f5",
     "candidate_institution_ids": [
       "institution-804cfe7f62f5"
     ],
@@ -3960,18 +4038,20 @@
     "project_id": "2024-1-HR01-KA131-HED-000200579",
     "beneficiary_name": "ZAGREBAČKA ŠKOLA EKONOMIJE I MANAGEMENTA",
     "city": "Zagreb",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_unique_address_and_city",
+    "institution_id": "institution-6bbca1169f33",
+    "candidate_institution_ids": [
+      "institution-6bbca1169f33"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2024-1-HR01-KA131-HED-000202734::row-344",
     "project_id": "2024-1-HR01-KA131-HED-000202734",
     "beneficiary_name": "VELEUČILIŠTE U ŠIBENIKU",
     "city": "Zagreb",
-    "match_status": "location_mismatch",
-    "institution_id": null,
+    "match_status": "matched_unique_name_location_differs",
+    "institution_id": "institution-e375d605c711",
     "candidate_institution_ids": [
       "institution-e375d605c711"
     ],
@@ -3982,18 +4062,20 @@
     "project_id": "2024-1-HR01-KA131-HED-000213542",
     "beneficiary_name": "RIT CROATIA",
     "city": "Zagreb",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_unique_address_location_differs",
+    "institution_id": "institution-192d637eec3e",
+    "candidate_institution_ids": [
+      "institution-192d637eec3e"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2024-1-HR01-KA131-HED-000206305::row-346",
     "project_id": "2024-1-HR01-KA131-HED-000206305",
     "beneficiary_name": "VELEUČILIŠTE U BJELOVARU",
     "city": "Zagreb",
-    "match_status": "location_mismatch",
-    "institution_id": null,
+    "match_status": "matched_unique_name_location_differs",
+    "institution_id": "institution-20bc9ce4ca75",
     "candidate_institution_ids": [
       "institution-20bc9ce4ca75"
     ],
@@ -4004,8 +4086,8 @@
     "project_id": "2024-1-HR01-KA131-HED-000224663",
     "beneficiary_name": "VELEUČILIŠTE LAVOSLAV RUŽIČKA U VUKOVARU",
     "city": "Zagreb",
-    "match_status": "location_mismatch",
-    "institution_id": null,
+    "match_status": "matched_unique_name_location_differs",
+    "institution_id": "institution-635ed827aa79",
     "candidate_institution_ids": [
       "institution-635ed827aa79"
     ],
@@ -4026,20 +4108,24 @@
     "project_id": "2024-1-HR01-KA131-HED-000212228",
     "beneficiary_name": "HRVATSKO KATOLIČKO SVEUČILIŠTE",
     "city": "Zagreb",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_unique_address_and_city",
+    "institution_id": "institution-562bf2ce561f",
+    "candidate_institution_ids": [
+      "institution-562bf2ce561f"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2024-1-HR01-KA131-HED-000203430::row-350",
     "project_id": "2024-1-HR01-KA131-HED-000203430",
     "beneficiary_name": "SVEUČILIŠTE ALGEBRA",
     "city": "Zagreb",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_unique_address_and_city",
+    "institution_id": "institution-c869e6ccc068",
+    "candidate_institution_ids": [
+      "institution-c869e6ccc068"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2024-1-HR01-KA131-HED-000207742::row-351",
@@ -4138,10 +4224,12 @@
     "project_id": "2024-1-HR01-KA131-HED-000206370",
     "beneficiary_name": "SVEUČILIŠTE SJEVER",
     "city": "Koprivnica",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_unique_address_and_city",
+    "institution_id": "institution-6a194cb86e7d",
+    "candidate_institution_ids": [
+      "institution-6a194cb86e7d"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2024-1-HR01-KA131-HED-000197947::row-360",
@@ -4160,10 +4248,12 @@
     "project_id": "2024-1-HR01-KA131-HED-000212499",
     "beneficiary_name": "ZDRAVSTVENO VELEUČILIŠTE",
     "city": "Zagreb",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_unique_address_and_city",
+    "institution_id": "institution-2dda7aa575e4",
+    "candidate_institution_ids": [
+      "institution-2dda7aa575e4"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2024-1-HR01-KA131-HED-000221383::row-362",
@@ -4242,8 +4332,8 @@
     "project_id": "2024-1-HR01-KA171-HED-000227969",
     "beneficiary_name": "Veleučilište \"Lavoslav Ružička\" u Vukovaru",
     "city": "Zagreb",
-    "match_status": "location_mismatch",
-    "institution_id": null,
+    "match_status": "matched_unique_name_location_differs",
+    "institution_id": "institution-635ed827aa79",
     "candidate_institution_ids": [
       "institution-635ed827aa79"
     ],
@@ -4274,10 +4364,12 @@
     "project_id": "2024-1-HR01-KA171-HED-000241372",
     "beneficiary_name": "Hrvatsko katoličko sveučilište",
     "city": "Zagreb",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_unique_address_and_city",
+    "institution_id": "institution-562bf2ce561f",
+    "candidate_institution_ids": [
+      "institution-562bf2ce561f"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2024-1-HR01-KA171-HED-000222332::row-372",
@@ -4308,8 +4400,8 @@
     "project_id": "2024-1-HR01-KA171-HED-000210876",
     "beneficiary_name": "Veleučiliste u Bjelovaru",
     "city": "Zagreb",
-    "match_status": "location_mismatch",
-    "institution_id": null,
+    "match_status": "matched_unique_name_location_differs",
+    "institution_id": "institution-20bc9ce4ca75",
     "candidate_institution_ids": [
       "institution-20bc9ce4ca75"
     ],
@@ -4354,10 +4446,12 @@
     "project_id": "2024-1-HR01-KA171-HED-000239765",
     "beneficiary_name": "Sveučilište Sjever",
     "city": "Koprivnica",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_unique_address_and_city",
+    "institution_id": "institution-6a194cb86e7d",
+    "candidate_institution_ids": [
+      "institution-6a194cb86e7d"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2024-1-HR01-KA171-HED-000218043::row-379",
@@ -4410,18 +4504,20 @@
     "project_id": "2024-1-HR01-KA171-HED-000204190",
     "beneficiary_name": "Zagrebačka škola ekonomije i managementa",
     "city": "Zagreb",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_unique_address_and_city",
+    "institution_id": "institution-6bbca1169f33",
+    "candidate_institution_ids": [
+      "institution-6bbca1169f33"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2024-1-HR01-KA171-HED-000203038::row-384",
     "project_id": "2024-1-HR01-KA171-HED-000203038",
     "beneficiary_name": "Veleučilište u Šibeniku",
     "city": "Zagreb",
-    "match_status": "location_mismatch",
-    "institution_id": null,
+    "match_status": "matched_unique_name_location_differs",
+    "institution_id": "institution-e375d605c711",
     "candidate_institution_ids": [
       "institution-e375d605c711"
     ],
@@ -4476,8 +4572,8 @@
     "project_id": "2024-1-HR01-KA171-HED-000218711",
     "beneficiary_name": "Međimursko veleučilište u Čakovcu",
     "city": "Zagreb",
-    "match_status": "location_mismatch",
-    "institution_id": null,
+    "match_status": "matched_unique_name_location_differs",
+    "institution_id": "institution-804cfe7f62f5",
     "candidate_institution_ids": [
       "institution-804cfe7f62f5"
     ],
@@ -4858,10 +4954,12 @@
     "project_id": "2024-1-HR01-KA122-ADU-000213244",
     "beneficiary_name": "Gradska knjižnica Ivan Goran Kovačić",
     "city": "Karlovac",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-53b12f23dd6a",
+    "candidate_institution_ids": [
+      "institution-53b12f23dd6a"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2024-1-HR01-KA122-ADU-000241681::row-427",
@@ -5850,10 +5948,12 @@
     "project_id": "2024-3-HR01-KA153-YOU-000268728",
     "beneficiary_name": "Gradska knjižnica i čitaonica Virovitica",
     "city": "Virovitica",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-6d5035304e50",
+    "candidate_institution_ids": [
+      "institution-6d5035304e50"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2024-3-HR01-KA153-YOU-000285046::row-526",
@@ -6370,10 +6470,12 @@
     "project_id": "2025-1-HR01-KA121-SCH-000324922",
     "beneficiary_name": "Osnovna škola Stjepana Cvrkovića Stari Mikanovci",
     "city": "Stari Mikanovci",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_user_confirmed_school",
+    "institution_id": "institution-ae9ea6a7efb8",
+    "candidate_institution_ids": [
+      "institution-ae9ea6a7efb8"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA121-SCH-000324868::row-578",
@@ -6390,20 +6492,24 @@
     "project_id": "2025-1-HR01-KA121-SCH-000311831",
     "beneficiary_name": "Osnovna škola \"Vladimir Nazor\" Pisarovina",
     "city": "Pisarovina",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_user_confirmed_school",
+    "institution_id": "institution-c74248b791e7",
+    "candidate_institution_ids": [
+      "institution-c74248b791e7"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA121-SCH-000313784::row-580",
     "project_id": "2025-1-HR01-KA121-SCH-000313784",
     "beneficiary_name": "Osnovna škola \"Vladimir Nazor\" Komletinci",
     "city": "Komletinci",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_user_confirmed_school",
+    "institution_id": "institution-9e11a4bda5cc",
+    "candidate_institution_ids": [
+      "institution-9e11a4bda5cc"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA121-SCH-000344142::row-581",
@@ -6422,20 +6528,24 @@
     "project_id": "2025-1-HR01-KA121-SCH-000306271",
     "beneficiary_name": "Osnovna škola \"Đuro Pilar\" Slavonski Brod",
     "city": "Slavonski Brod",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_user_confirmed_school",
+    "institution_id": "institution-805cb67ae4ae",
+    "candidate_institution_ids": [
+      "institution-805cb67ae4ae"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA121-SCH-000325286::row-583",
     "project_id": "2025-1-HR01-KA121-SCH-000325286",
     "beneficiary_name": "Srednja škola fra Andrije Kačića Miošića Makarska",
     "city": "Makarska",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city_suffix",
+    "institution_id": "institution-d9991b100d49",
+    "candidate_institution_ids": [
+      "institution-d9991b100d49"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA121-SCH-000310716::row-584",
@@ -6534,10 +6644,12 @@
     "project_id": "2025-1-HR01-KA121-SCH-000318903",
     "beneficiary_name": "Osnovna škola Vladimira Nazora Daruvar",
     "city": "Daruvar",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_user_confirmed_school",
+    "institution_id": "institution-8d3fca658634",
+    "candidate_institution_ids": [
+      "institution-8d3fca658634"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA121-SCH-000314941::row-593",
@@ -6604,10 +6716,12 @@
     "project_id": "2025-1-HR01-KA121-SCH-000323217",
     "beneficiary_name": "Osnovna škola \"Matija Gubec\" Magadenovac",
     "city": "Magadenovac",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_user_confirmed_school",
+    "institution_id": "institution-9c51c72e21da",
+    "candidate_institution_ids": [
+      "institution-9c51c72e21da"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA121-SCH-000330801::row-599",
@@ -6650,20 +6764,24 @@
     "project_id": "2025-1-HR01-KA121-SCH-000342385",
     "beneficiary_name": "Osnovna škola \"Antun Nemčić Gostovinski\" Koprivnica",
     "city": "Koprivnica",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_user_confirmed_school",
+    "institution_id": "institution-2798b65569f7",
+    "candidate_institution_ids": [
+      "institution-2798b65569f7"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA121-SCH-000308512::row-603",
     "project_id": "2025-1-HR01-KA121-SCH-000308512",
     "beneficiary_name": "l. osnovna škola Čakovec",
     "city": "Čakovec",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_unique_address_and_city",
+    "institution_id": "institution-7b577b27ac3a",
+    "candidate_institution_ids": [
+      "institution-7b577b27ac3a"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA121-SCH-000312501::row-604",
@@ -6694,8 +6812,8 @@
     "project_id": "2025-1-HR01-KA121-SCH-000311456",
     "beneficiary_name": "Osnovna škola Višnjevac",
     "city": "Osijek",
-    "match_status": "location_mismatch",
-    "institution_id": null,
+    "match_status": "matched_unique_name_location_differs",
+    "institution_id": "institution-a1ae44ef6e15",
     "candidate_institution_ids": [
       "institution-a1ae44ef6e15"
     ],
@@ -6754,10 +6872,12 @@
     "project_id": "2025-1-HR01-KA121-SCH-000311903",
     "beneficiary_name": "Dječji vrtić Rijeka",
     "city": "Rijeka",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-afc5f6f69f75",
+    "candidate_institution_ids": [
+      "institution-afc5f6f69f75"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA121-SCH-000326123::row-612",
@@ -6800,10 +6920,12 @@
     "project_id": "2025-1-HR01-KA121-SCH-000325254",
     "beneficiary_name": "Dječji vrtić Vesela Kućica",
     "city": "Zagreb",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-5eaf87cb878f",
+    "candidate_institution_ids": [
+      "institution-5eaf87cb878f"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA121-SCH-000325407::row-616",
@@ -6846,8 +6968,8 @@
     "project_id": "2025-1-HR01-KA121-SCH-000312606",
     "beneficiary_name": "Osnovna škola Vugrovec-Kašina",
     "city": "Kašina (Grad Zagreb)",
-    "match_status": "location_mismatch",
-    "institution_id": null,
+    "match_status": "matched_unique_name_location_differs",
+    "institution_id": "institution-164fcd55ea81",
     "candidate_institution_ids": [
       "institution-164fcd55ea81"
     ],
@@ -6870,10 +6992,12 @@
     "project_id": "2025-1-HR01-KA121-SCH-000306617",
     "beneficiary_name": "Dječji vrtić Cvit Mediterana",
     "city": "Split",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-07ff56652978",
+    "candidate_institution_ids": [
+      "institution-07ff56652978"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA121-SCH-000308309::row-622",
@@ -6892,20 +7016,24 @@
     "project_id": "2025-1-HR01-KA121-SCH-000310814",
     "beneficiary_name": "Osnovna škola Petar Zoranić Nin",
     "city": "Nin",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_user_confirmed_school",
+    "institution_id": "institution-a0f59419aa67",
+    "candidate_institution_ids": [
+      "institution-a0f59419aa67"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA121-SCH-000322652::row-624",
     "project_id": "2025-1-HR01-KA121-SCH-000322652",
     "beneficiary_name": "Dječji vrtić Petar Pan",
     "city": "Zagreb",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-4da5985d944e",
+    "candidate_institution_ids": [
+      "institution-4da5985d944e"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA121-SCH-000307912::row-625",
@@ -6948,10 +7076,12 @@
     "project_id": "2025-1-HR01-KA121-SCH-000338877",
     "beneficiary_name": "Osnovna škola kraljice Jelene, Solin",
     "city": "Solin",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_user_confirmed_school",
+    "institution_id": "institution-600189498e49",
+    "candidate_institution_ids": [
+      "institution-600189498e49"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA121-SCH-000313592::row-629",
@@ -6970,10 +7100,12 @@
     "project_id": "2025-1-HR01-KA121-SCH-000310854",
     "beneficiary_name": "Dječji vrtić Matije Gupca",
     "city": "Zagreb",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-926844b5d9a5",
+    "candidate_institution_ids": [
+      "institution-926844b5d9a5"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA121-SCH-000316061::row-631",
@@ -7004,10 +7136,12 @@
     "project_id": "2025-1-HR01-KA121-SCH-000311365",
     "beneficiary_name": "III. gimnazija Zagreb",
     "city": "Zagreb",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city_suffix",
+    "institution_id": "institution-648e260d3d09",
+    "candidate_institution_ids": [
+      "institution-648e260d3d09"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA121-SCH-000310298::row-634",
@@ -7074,10 +7208,12 @@
     "project_id": "2025-1-HR01-KA121-SCH-000324090",
     "beneficiary_name": "Osnova škola Bukovac",
     "city": "Zagreb",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_unique_address_and_city",
+    "institution_id": "institution-beb6e148d039",
+    "candidate_institution_ids": [
+      "institution-beb6e148d039"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA121-SCH-000309438::row-640",
@@ -7108,8 +7244,8 @@
     "project_id": "2025-1-HR01-KA121-SCH-000337453",
     "beneficiary_name": "Osnovna škola Strahoninec",
     "city": "Čakovec",
-    "match_status": "location_mismatch",
-    "institution_id": null,
+    "match_status": "matched_unique_name_location_differs",
+    "institution_id": "institution-7dd567c5ad42",
     "candidate_institution_ids": [
       "institution-7dd567c5ad42"
     ],
@@ -7204,8 +7340,8 @@
     "project_id": "2025-1-HR01-KA121-SCH-000306829",
     "beneficiary_name": "XII. gimnazija",
     "city": "Grad Zagreb",
-    "match_status": "location_mismatch",
-    "institution_id": null,
+    "match_status": "matched_unique_name_location_differs",
+    "institution_id": "institution-b221ca9d71fc",
     "candidate_institution_ids": [
       "institution-b221ca9d71fc"
     ],
@@ -7216,10 +7352,12 @@
     "project_id": "2025-1-HR01-KA121-SCH-000326421",
     "beneficiary_name": "Dječji vrtić Vladimir Nazor",
     "city": "Kastav",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-ea3491fc7e66",
+    "candidate_institution_ids": [
+      "institution-ea3491fc7e66"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA121-SCH-000307890::row-652",
@@ -7298,10 +7436,12 @@
     "project_id": "2025-1-HR01-KA121-SCH-000331452",
     "beneficiary_name": "Osnovna škola Đuro Ester Koprivnica",
     "city": "Koprivnica",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_user_confirmed_school",
+    "institution_id": "institution-e5fabcf1e584",
+    "candidate_institution_ids": [
+      "institution-e5fabcf1e584"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA121-SCH-000326875::row-659",
@@ -7366,20 +7506,24 @@
     "project_id": "2025-1-HR01-KA121-SCH-000306218",
     "beneficiary_name": "Osnovna škola Dr. Branimira Markovića Ravna Gora",
     "city": "Ravna Gora",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_user_confirmed_school",
+    "institution_id": "institution-f68cdc2c8906",
+    "candidate_institution_ids": [
+      "institution-f68cdc2c8906"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA121-SCH-000341628::row-665",
     "project_id": "2025-1-HR01-KA121-SCH-000341628",
     "beneficiary_name": "Dječji vrtić Siget",
     "city": "Zagreb",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-d7202f610035",
+    "candidate_institution_ids": [
+      "institution-d7202f610035"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA121-SCH-000308896::row-666",
@@ -7506,20 +7650,24 @@
     "project_id": "2025-1-HR01-KA121-SCH-000308892",
     "beneficiary_name": "Osnovna škola Pećine, Rijeka",
     "city": "RIjeka",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_user_confirmed_school",
+    "institution_id": "institution-5004c38fdab2",
+    "candidate_institution_ids": [
+      "institution-5004c38fdab2"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA121-SCH-000325869::row-677",
     "project_id": "2025-1-HR01-KA121-SCH-000325869",
     "beneficiary_name": "Dječji vrtić Maslačak",
     "city": "Zaprešić",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-32ca34001f65",
+    "candidate_institution_ids": [
+      "institution-32ca34001f65"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA121-SCH-000314135::row-678",
@@ -7550,10 +7698,12 @@
     "project_id": "2025-1-HR01-KA121-SCH-000319758",
     "beneficiary_name": "Osnovna škola Dure Prejca Desinić",
     "city": "Desinić",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_user_confirmed_school",
+    "institution_id": "institution-782ad7036aa1",
+    "candidate_institution_ids": [
+      "institution-782ad7036aa1"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA121-SCH-000344540::row-681",
@@ -7608,10 +7758,12 @@
     "project_id": "2025-1-HR01-KA121-SCH-000310117",
     "beneficiary_name": "Dječji vrtić Slavuj",
     "city": "Strmec",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-828e79f6d9a4",
+    "candidate_institution_ids": [
+      "institution-828e79f6d9a4"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA121-SCH-000307987::row-686",
@@ -7642,20 +7794,24 @@
     "project_id": "2025-1-HR01-KA121-SCH-000307347",
     "beneficiary_name": "Osnovna škola don Mihovila Pavlinovića Podgora",
     "city": "Podgora",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_user_confirmed_school",
+    "institution_id": "institution-a34ff599916a",
+    "candidate_institution_ids": [
+      "institution-a34ff599916a"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA121-SCH-000325910::row-689",
     "project_id": "2025-1-HR01-KA121-SCH-000325910",
     "beneficiary_name": "Dječji vrtić Varaždin",
     "city": "Varaždin",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-10fe5db7dfac",
+    "candidate_institution_ids": [
+      "institution-10fe5db7dfac"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA121-SCH-000307966::row-690",
@@ -7686,8 +7842,8 @@
     "project_id": "2025-1-HR01-KA121-SCH-000309708",
     "beneficiary_name": "Osnovna škola Ivana Gorana Kovačića Gornje Bazje",
     "city": "Gornje Bazje (Lukač)",
-    "match_status": "location_mismatch",
-    "institution_id": null,
+    "match_status": "matched_unique_name_location_differs",
+    "institution_id": "institution-633288869929",
     "candidate_institution_ids": [
       "institution-633288869929"
     ],
@@ -7698,10 +7854,12 @@
     "project_id": "2025-1-HR01-KA121-SCH-000333961",
     "beneficiary_name": "Osnovna škola Ivana Kukuljevića Sakcinskog Ivanec",
     "city": "Ivanec",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_user_confirmed_school",
+    "institution_id": "institution-d0d6217ce2e8",
+    "candidate_institution_ids": [
+      "institution-d0d6217ce2e8"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA121-SCH-000309846::row-694",
@@ -7780,10 +7938,12 @@
     "project_id": "2025-1-HR01-KA121-SCH-000312505",
     "beneficiary_name": "Dječji vrtić Osijek",
     "city": "Osijek",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-0de1bbeb84fe",
+    "candidate_institution_ids": [
+      "institution-0de1bbeb84fe"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA121-SCH-000320204::row-701",
@@ -7862,10 +8022,12 @@
     "project_id": "2025-1-HR01-KA121-SCH-000327346",
     "beneficiary_name": "Dječji vrtić Vrapčić Šenkovec",
     "city": "Šenkovec",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city_suffix",
+    "institution_id": "institution-14a478f0ec16",
+    "candidate_institution_ids": [
+      "institution-14a478f0ec16"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA121-SCH-000313985::row-708",
@@ -7894,10 +8056,12 @@
     "project_id": "2025-1-HR01-KA121-SCH-000309391",
     "beneficiary_name": "Dječji vrtić Iskrica",
     "city": "Zagreb",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-eaf531c58913",
+    "candidate_institution_ids": [
+      "institution-eaf531c58913"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA121-SCH-000314639::row-711",
@@ -7952,10 +8116,12 @@
     "project_id": "2025-1-HR01-KA121-SCH-000314949",
     "beneficiary_name": "Dječji vrtić Prečko",
     "city": "Zagreb",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-3aae81b589ab",
+    "candidate_institution_ids": [
+      "institution-3aae81b589ab"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA121-SCH-000326015::row-716",
@@ -7974,10 +8140,12 @@
     "project_id": "2025-1-HR01-KA121-SCH-000318406",
     "beneficiary_name": "Dječji vrtić Olga Ban Pazin",
     "city": "Pazin",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city_suffix",
+    "institution_id": "institution-172108c44912",
+    "candidate_institution_ids": [
+      "institution-172108c44912"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA121-SCH-000317747::row-718",
@@ -8092,10 +8260,12 @@
     "project_id": "2025-1-HR01-KA121-SCH-000330393",
     "beneficiary_name": "Srednja škola Zvane Črne Rovinj, Scuola media superiore \"Zvane Crnja\" Rovigno",
     "city": "Rovinj",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_unique_address_and_city",
+    "institution_id": "institution-1c6e359bc0cb",
+    "candidate_institution_ids": [
+      "institution-1c6e359bc0cb"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA121-SCH-000317839::row-728",
@@ -8220,8 +8390,8 @@
     "project_id": "2025-1-HR01-KA122-SCH-000330852",
     "beneficiary_name": "Osnovna škola Sesvetski Kraljevec",
     "city": "Zagreb",
-    "match_status": "location_mismatch",
-    "institution_id": null,
+    "match_status": "matched_unique_name_location_differs",
+    "institution_id": "institution-b2de49be94b6",
     "candidate_institution_ids": [
       "institution-b2de49be94b6"
     ],
@@ -8326,20 +8496,24 @@
     "project_id": "2025-1-HR01-KA122-SCH-000320902",
     "beneficiary_name": "Dječji vrtić Dječja mašta",
     "city": "Čakovec",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-da00d1521375",
+    "candidate_institution_ids": [
+      "institution-da00d1521375"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA122-SCH-000335070::row-748",
     "project_id": "2025-1-HR01-KA122-SCH-000335070",
     "beneficiary_name": "Dječji vrtić Regoč",
     "city": "Babina Greda",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-fe8344a72698",
+    "candidate_institution_ids": [
+      "institution-fe8344a72698"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA122-SCH-000323061::row-749",
@@ -8382,10 +8556,12 @@
     "project_id": "2025-1-HR01-KA122-SCH-000342590",
     "beneficiary_name": "Dječji vrtić Ciciban",
     "city": "Bjelovar",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-adb0aec51b78",
+    "candidate_institution_ids": [
+      "institution-adb0aec51b78"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA122-SCH-000320423::row-753",
@@ -8402,8 +8578,8 @@
     "project_id": "2025-1-HR01-KA122-SCH-000322043",
     "beneficiary_name": "Osnovna škola Pavao Belas",
     "city": "Prigorje Brdovečko",
-    "match_status": "location_mismatch",
-    "institution_id": null,
+    "match_status": "matched_unique_name_location_differs",
+    "institution_id": "institution-d61ab8079095",
     "candidate_institution_ids": [
       "institution-d61ab8079095"
     ],
@@ -8438,10 +8614,12 @@
     "project_id": "2025-1-HR01-KA122-SCH-000316203",
     "beneficiary_name": "Dječji vrtić Videk",
     "city": "Brdovec",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_unique_name_location_differs",
+    "institution_id": "institution-9aea547df557",
+    "candidate_institution_ids": [
+      "institution-9aea547df557"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA122-SCH-000322029::row-758",
@@ -8460,10 +8638,12 @@
     "project_id": "2025-1-HR01-KA122-SCH-000323893",
     "beneficiary_name": "Centar za autizam Osijek",
     "city": "Osijek",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city_suffix",
+    "institution_id": "institution-6a1fd8cea0a1",
+    "candidate_institution_ids": [
+      "institution-6a1fd8cea0a1"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA122-SCH-000329809::row-760",
@@ -8528,10 +8708,12 @@
     "project_id": "2025-1-HR01-KA122-SCH-000328510",
     "beneficiary_name": "Osnovna škola Ksavera Šandora Gjalskog Zabok",
     "city": "Zabok",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_user_confirmed_school",
+    "institution_id": "institution-6750ea1bc0b2",
+    "candidate_institution_ids": [
+      "institution-6750ea1bc0b2"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA122-SCH-000341897::row-766",
@@ -8598,18 +8780,20 @@
     "project_id": "2025-1-HR01-KA122-SCH-000324037",
     "beneficiary_name": "Osnovna škola Vladimir Nazor Neviđane",
     "city": "Neviđane",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_user_confirmed_school",
+    "institution_id": "institution-ccc9d1d614db",
+    "candidate_institution_ids": [
+      "institution-ccc9d1d614db"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA122-SCH-000340779::row-772",
     "project_id": "2025-1-HR01-KA122-SCH-000340779",
     "beneficiary_name": "Gimnazija Sesvete",
     "city": "Zagreb",
-    "match_status": "location_mismatch",
-    "institution_id": null,
+    "match_status": "matched_unique_name_location_differs",
+    "institution_id": "institution-969c9d60b22b",
     "candidate_institution_ids": [
       "institution-969c9d60b22b"
     ],
@@ -8620,10 +8804,12 @@
     "project_id": "2025-1-HR01-KA122-SCH-000345375",
     "beneficiary_name": "Dječji vrtić Medveščak",
     "city": "Zagreb",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-cf1f0f3177a3",
+    "candidate_institution_ids": [
+      "institution-cf1f0f3177a3"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA122-SCH-000322060::row-774",
@@ -8678,30 +8864,36 @@
     "project_id": "2025-1-HR01-KA122-SCH-000334925",
     "beneficiary_name": "OSNOVNA ŠKOLA TAR-VABRIGA",
     "city": "Tar",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_unique_address_and_city",
+    "institution_id": "institution-1b860c786816",
+    "candidate_institution_ids": [
+      "institution-1b860c786816"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA122-SCH-000337037::row-779",
     "project_id": "2025-1-HR01-KA122-SCH-000337037",
     "beneficiary_name": "Dječji vrtić Šumska jagoda",
     "city": "Zagreb",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-3b2855152a25",
+    "candidate_institution_ids": [
+      "institution-3b2855152a25"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA122-SCH-000338904::row-780",
     "project_id": "2025-1-HR01-KA122-SCH-000338904",
     "beneficiary_name": "Osnovna škola \"Braća Radić\" Koprivnica",
     "city": "Koprivnica",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_user_confirmed_school",
+    "institution_id": "institution-8145529bebd3",
+    "candidate_institution_ids": [
+      "institution-8145529bebd3"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA122-SCH-000339312::row-781",
@@ -8720,24 +8912,24 @@
     "project_id": "2025-1-HR01-KA122-SCH-000308721",
     "beneficiary_name": "Osnovna škola \"Braća Seljan\" Karlovac",
     "city": "Karlovac",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_user_confirmed_school",
+    "institution_id": "institution-f0f5bd72fcb5",
+    "candidate_institution_ids": [
+      "institution-f0f5bd72fcb5"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA122-SCH-000311201::row-783",
     "project_id": "2025-1-HR01-KA122-SCH-000311201",
     "beneficiary_name": "Tehnička škola",
     "city": "Slavonski Brod",
-    "match_status": "location_mismatch",
-    "institution_id": null,
+    "match_status": "matched_unique_address_and_city",
+    "institution_id": "institution-959047446dc2",
     "candidate_institution_ids": [
-      "institution-6518c9e1a1e2",
-      "institution-17ca95a2b720",
-      "institution-4ad4696beeeb"
+      "institution-959047446dc2"
     ],
-    "candidate_count": 3
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA122-SCH-000323580::row-784",
@@ -8780,10 +8972,12 @@
     "project_id": "2025-1-HR01-KA122-SCH-000345546",
     "beneficiary_name": "Dječji vrtić \"Lišnjak\"",
     "city": "Pićan",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-edf53c2e227a",
+    "candidate_institution_ids": [
+      "institution-edf53c2e227a"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA220-SCH-000364537::row-788",
@@ -8802,10 +8996,12 @@
     "project_id": "2025-1-HR01-KA220-SCH-000360813",
     "beneficiary_name": "Dječji vrtić Čigra",
     "city": "Zagreb",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-a24f2cb6888e",
+    "candidate_institution_ids": [
+      "institution-a24f2cb6888e"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA220-SCH-000350263::row-790",
@@ -9222,14 +9418,12 @@
     "project_id": "2025-1-HR01-KA121-VET-000317741",
     "beneficiary_name": "Tehnička škola",
     "city": "Slavonski Brod",
-    "match_status": "location_mismatch",
-    "institution_id": null,
+    "match_status": "matched_unique_address_and_city",
+    "institution_id": "institution-959047446dc2",
     "candidate_institution_ids": [
-      "institution-6518c9e1a1e2",
-      "institution-17ca95a2b720",
-      "institution-4ad4696beeeb"
+      "institution-959047446dc2"
     ],
-    "candidate_count": 3
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA121-VET-000318706::row-826",
@@ -9318,10 +9512,12 @@
     "project_id": "2025-1-HR01-KA121-VET-000320365",
     "beneficiary_name": "Srednja škola Matije Antuna Reljkovića",
     "city": "Slavonski Brod",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_unique_address_and_city",
+    "institution_id": "institution-a6e2ab66abc0",
+    "candidate_institution_ids": [
+      "institution-a6e2ab66abc0"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA121-VET-000320668::row-834",
@@ -9364,10 +9560,12 @@
     "project_id": "2025-1-HR01-KA121-VET-000320870",
     "beneficiary_name": "Strojarska i prometna škola Varaždin",
     "city": "Varaždin",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city_suffix",
+    "institution_id": "institution-b10f6d88de23",
+    "candidate_institution_ids": [
+      "institution-b10f6d88de23"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA121-VET-000321446::row-838",
@@ -9458,10 +9656,12 @@
     "project_id": "2025-1-HR01-KA121-VET-000324670",
     "beneficiary_name": "Strukovna škola Đurdevac",
     "city": "Đurđevac",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_unique_address_and_city",
+    "institution_id": "institution-d34fb7ee0f72",
+    "candidate_institution_ids": [
+      "institution-d34fb7ee0f72"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA121-VET-000325386::row-846",
@@ -9492,8 +9692,8 @@
     "project_id": "2025-1-HR01-KA121-VET-000325776",
     "beneficiary_name": "Srednja škola \"Arboretum Opeka\"",
     "city": "Vinica",
-    "match_status": "location_mismatch",
-    "institution_id": null,
+    "match_status": "matched_unique_name_location_differs",
+    "institution_id": "institution-3a164d7e36a1",
     "candidate_institution_ids": [
       "institution-3a164d7e36a1"
     ],
@@ -9648,10 +9848,12 @@
     "project_id": "2025-1-HR01-KA121-VET-000329937",
     "beneficiary_name": "Srednja škola Ivana Trnskoga Hrvatska Kostajnica",
     "city": "Hrvatska Kostajnica",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city_suffix",
+    "institution_id": "institution-d202a4c0a312",
+    "candidate_institution_ids": [
+      "institution-d202a4c0a312"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA121-VET-000330674::row-862",
@@ -9908,8 +10110,8 @@
     "project_id": "2025-1-HR01-KA121-VET-000339448",
     "beneficiary_name": "Srednja škola Jelkovec",
     "city": "Zagreb",
-    "match_status": "location_mismatch",
-    "institution_id": null,
+    "match_status": "matched_unique_name_location_differs",
+    "institution_id": "institution-3cf7c8ad72f3",
     "candidate_institution_ids": [
       "institution-3cf7c8ad72f3"
     ],
@@ -10076,10 +10278,12 @@
     "project_id": "2025-1-HR01-KA122-VET-000344422",
     "beneficiary_name": "Trgovačko-ugostiteljska škola Karlovac",
     "city": "Karlovac",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city_suffix",
+    "institution_id": "institution-b04fe2d2996e",
+    "candidate_institution_ids": [
+      "institution-b04fe2d2996e"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA122-VET-000343779::row-898",
@@ -10652,10 +10856,12 @@
     "project_id": "2025-1-HR01-KA131-HED-000325297",
     "beneficiary_name": "ISTARSKO VELEUČILIŠTE",
     "city": "Pula",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_unique_address_and_city",
+    "institution_id": "institution-eba47b8c092b",
+    "candidate_institution_ids": [
+      "institution-eba47b8c092b"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA131-HED-000341317::row-948",
@@ -10806,20 +11012,24 @@
     "project_id": "2025-1-HR01-KA131-HED-000314327",
     "beneficiary_name": "RIT CROATIA",
     "city": "Dubrovnik",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_unique_address_and_city",
+    "institution_id": "institution-192d637eec3e",
+    "candidate_institution_ids": [
+      "institution-192d637eec3e"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA131-HED-000326999::row-962",
     "project_id": "2025-1-HR01-KA131-HED-000326999",
     "beneficiary_name": "HRVATSKO KATOLIČKO SVEUČILIŠTE",
     "city": "Zagreb",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_unique_address_and_city",
+    "institution_id": "institution-562bf2ce561f",
+    "candidate_institution_ids": [
+      "institution-562bf2ce561f"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA131-HED-000320950::row-963",
@@ -10938,10 +11148,12 @@
     "project_id": "2025-1-HR01-KA131-HED-000310897",
     "beneficiary_name": "SVEUČILIŠTE SJEVER",
     "city": "Koprivnica",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_unique_address_and_city",
+    "institution_id": "institution-6a194cb86e7d",
+    "candidate_institution_ids": [
+      "institution-6a194cb86e7d"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA131-HED-000311729::row-974",
@@ -10960,10 +11172,12 @@
     "project_id": "2025-1-HR01-KA131-HED-000324901",
     "beneficiary_name": "ZDRAVSTVENO VELEUČILIŠTE",
     "city": "Zagreb",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_unique_address_and_city",
+    "institution_id": "institution-2dda7aa575e4",
+    "candidate_institution_ids": [
+      "institution-2dda7aa575e4"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA131-HED-000313674::row-976",
@@ -11030,10 +11244,12 @@
     "project_id": "2025-1-HR01-KA171-HED-000327944",
     "beneficiary_name": "Sveučilište Sjever",
     "city": "Koprivnica",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_unique_address_and_city",
+    "institution_id": "institution-6a194cb86e7d",
+    "candidate_institution_ids": [
+      "institution-6a194cb86e7d"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA171-HED-000321777::row-982",
@@ -11258,10 +11474,12 @@
     "project_id": "2025-1-HR01-KA171-HED-000343189",
     "beneficiary_name": "Hrvatsko katoličko sveučilište",
     "city": "Zagreb",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_unique_address_and_city",
+    "institution_id": "institution-562bf2ce561f",
+    "candidate_institution_ids": [
+      "institution-562bf2ce561f"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA171-HED-000345681::row-1002",
@@ -11412,10 +11630,12 @@
     "project_id": "2025-1-HR01-KA121-ADU-000327757",
     "beneficiary_name": "Gradska knjižnica i čitaonica Virovitica",
     "city": "Virovitica",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-6d5035304e50",
+    "candidate_institution_ids": [
+      "institution-6d5035304e50"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA121-ADU-000328680::row-1017",
@@ -11462,10 +11682,12 @@
     "project_id": "2025-1-HR01-KA121-ADU-000334163",
     "beneficiary_name": "Gradska knjižnica Ivan Goran Kovačić",
     "city": "Karlovac",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-53b12f23dd6a",
+    "candidate_institution_ids": [
+      "institution-53b12f23dd6a"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2025-1-HR01-KA121-ADU-000335766::row-1022",
@@ -13492,8 +13714,8 @@
     "project_id": "2026-1-HR01-KA121-SCH-000405508",
     "beneficiary_name": "Osnovna škola Višnjevac",
     "city": "Osijek",
-    "match_status": "location_mismatch",
-    "institution_id": null,
+    "match_status": "matched_unique_name_location_differs",
+    "institution_id": "institution-a1ae44ef6e15",
     "candidate_institution_ids": [
       "institution-a1ae44ef6e15"
     ],
@@ -13528,8 +13750,8 @@
     "project_id": "2026-1-HR01-KA121-SCH-000407232",
     "beneficiary_name": "XII. gimnazija",
     "city": "Grad Zagreb",
-    "match_status": "location_mismatch",
-    "institution_id": null,
+    "match_status": "matched_unique_name_location_differs",
+    "institution_id": "institution-b221ca9d71fc",
     "candidate_institution_ids": [
       "institution-b221ca9d71fc"
     ],
@@ -13576,10 +13798,12 @@
     "project_id": "2026-1-HR01-KA121-SCH-000407585",
     "beneficiary_name": "Osnovna škola Mate Lovraka Kutina",
     "city": "Kutina",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_user_confirmed_school",
+    "institution_id": "institution-27642bdc3948",
+    "candidate_institution_ids": [
+      "institution-27642bdc3948"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA121-SCH-000407759::row-1230",
@@ -13634,20 +13858,24 @@
     "project_id": "2026-1-HR01-KA121-SCH-000408320",
     "beneficiary_name": "Osnovna škola Đuro Pilar Slavonski Brod",
     "city": "Slavonski Brod",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_user_confirmed_school",
+    "institution_id": "institution-805cb67ae4ae",
+    "candidate_institution_ids": [
+      "institution-805cb67ae4ae"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA121-SCH-000408404::row-1235",
     "project_id": "2026-1-HR01-KA121-SCH-000408404",
     "beneficiary_name": "Dječji vrtić Rijeka",
     "city": "Rijeka",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-afc5f6f69f75",
+    "candidate_institution_ids": [
+      "institution-afc5f6f69f75"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA121-SCH-000408492::row-1236",
@@ -13786,20 +14014,24 @@
     "project_id": "2026-1-HR01-KA121-SCH-000410764",
     "beneficiary_name": "Osnovna škola kraljice Jelene, Solin",
     "city": "Solin",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_user_confirmed_school",
+    "institution_id": "institution-600189498e49",
+    "candidate_institution_ids": [
+      "institution-600189498e49"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA121-SCH-000410781::row-1248",
     "project_id": "2026-1-HR01-KA121-SCH-000410781",
     "beneficiary_name": "Osnovna škola Petar Zoranić Nin",
     "city": "Nin",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_user_confirmed_school",
+    "institution_id": "institution-a0f59419aa67",
+    "candidate_institution_ids": [
+      "institution-a0f59419aa67"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA121-SCH-000410905::row-1249",
@@ -13818,10 +14050,12 @@
     "project_id": "2026-1-HR01-KA121-SCH-000411005",
     "beneficiary_name": "Osnovna škola Andrije Kačića Miošića Donja Voća",
     "city": "Donja Voća",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_user_confirmed_school",
+    "institution_id": "institution-8b6e30af174c",
+    "candidate_institution_ids": [
+      "institution-8b6e30af174c"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA121-SCH-000411121::row-1251",
@@ -13840,18 +14074,20 @@
     "project_id": "2026-1-HR01-KA121-SCH-000411178",
     "beneficiary_name": "Dječji vrtić Maslačak",
     "city": "Zaprešić",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-32ca34001f65",
+    "candidate_institution_ids": [
+      "institution-32ca34001f65"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA121-SCH-000411468::row-1253",
     "project_id": "2026-1-HR01-KA121-SCH-000411468",
     "beneficiary_name": "Osnovna škola Sveti Petar Orehovec",
     "city": "Sveti Petar Orehovec, Orehovec",
-    "match_status": "location_mismatch",
-    "institution_id": null,
+    "match_status": "matched_unique_name_location_differs",
+    "institution_id": "institution-eb143bd47369",
     "candidate_institution_ids": [
       "institution-eb143bd47369"
     ],
@@ -13922,10 +14158,12 @@
     "project_id": "2026-1-HR01-KA121-SCH-000412000",
     "beneficiary_name": "l. osnovna škola Čakovec",
     "city": "Čakovec",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_unique_address_and_city",
+    "institution_id": "institution-7b577b27ac3a",
+    "candidate_institution_ids": [
+      "institution-7b577b27ac3a"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA121-SCH-000412248::row-1260",
@@ -13944,8 +14182,8 @@
     "project_id": "2026-1-HR01-KA121-SCH-000412304",
     "beneficiary_name": "Osnovna škola Ivana Gorana Kovačića Gornje Bazje",
     "city": "Gornje Bazje, Lukač",
-    "match_status": "location_mismatch",
-    "institution_id": null,
+    "match_status": "matched_unique_name_location_differs",
+    "institution_id": "institution-633288869929",
     "candidate_institution_ids": [
       "institution-633288869929"
     ],
@@ -13992,10 +14230,12 @@
     "project_id": "2026-1-HR01-KA121-SCH-000412857",
     "beneficiary_name": "Dječji vrtić Prečko",
     "city": "Zagreb",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-3aae81b589ab",
+    "candidate_institution_ids": [
+      "institution-3aae81b589ab"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA121-SCH-000413012::row-1266",
@@ -14012,20 +14252,24 @@
     "project_id": "2026-1-HR01-KA121-SCH-000413035",
     "beneficiary_name": "Dječji vrtić Olga Ban Pazin",
     "city": "Pazin",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city_suffix",
+    "institution_id": "institution-172108c44912",
+    "candidate_institution_ids": [
+      "institution-172108c44912"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA121-SCH-000413146::row-1268",
     "project_id": "2026-1-HR01-KA121-SCH-000413146",
     "beneficiary_name": "Dječji vrtić Osijek",
     "city": "Osijek",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-0de1bbeb84fe",
+    "candidate_institution_ids": [
+      "institution-0de1bbeb84fe"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA121-SCH-000413368::row-1269",
@@ -14080,10 +14324,12 @@
     "project_id": "2026-1-HR01-KA121-SCH-000415061",
     "beneficiary_name": "Dječji vrtić Siget",
     "city": "Zagreb",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-d7202f610035",
+    "candidate_institution_ids": [
+      "institution-d7202f610035"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA121-SCH-000415167::row-1274",
@@ -14126,10 +14372,12 @@
     "project_id": "2026-1-HR01-KA121-SCH-000415665",
     "beneficiary_name": "Dječji vrtić Vladimir Nazor",
     "city": "Kastav",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-ea3491fc7e66",
+    "candidate_institution_ids": [
+      "institution-ea3491fc7e66"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA121-SCH-000416129::row-1278",
@@ -14160,10 +14408,12 @@
     "project_id": "2026-1-HR01-KA121-SCH-000416331",
     "beneficiary_name": "Osnovna škola Antun Nemčić Gostovinski Koprivnica",
     "city": "Koprivnica",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_user_confirmed_school",
+    "institution_id": "institution-2798b65569f7",
+    "candidate_institution_ids": [
+      "institution-2798b65569f7"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA121-SCH-000416936::row-1281",
@@ -14276,8 +14526,8 @@
     "project_id": "2026-1-HR01-KA121-SCH-000418799",
     "beneficiary_name": "Osnovna škola Vugrovec-Kašina",
     "city": "Kašina (Grad Zagreb)",
-    "match_status": "location_mismatch",
-    "institution_id": null,
+    "match_status": "matched_unique_name_location_differs",
+    "institution_id": "institution-164fcd55ea81",
     "candidate_institution_ids": [
       "institution-164fcd55ea81"
     ],
@@ -14324,8 +14574,8 @@
     "project_id": "2026-1-HR01-KA121-SCH-000420816",
     "beneficiary_name": "I. gimnazija",
     "city": "Grad Zagreb",
-    "match_status": "location_mismatch",
-    "institution_id": null,
+    "match_status": "matched_unique_name_location_differs",
+    "institution_id": "institution-e0139ae5dd33",
     "candidate_institution_ids": [
       "institution-e0139ae5dd33"
     ],
@@ -14384,10 +14634,12 @@
     "project_id": "2026-1-HR01-KA121-SCH-000422251",
     "beneficiary_name": "Dječji vrtić Iskrica",
     "city": "Zagreb",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-eaf531c58913",
+    "candidate_institution_ids": [
+      "institution-eaf531c58913"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA121-SCH-000422374::row-1300",
@@ -14454,10 +14706,12 @@
     "project_id": "2026-1-HR01-KA121-SCH-000423007",
     "beneficiary_name": "Srednja škola Zvane Črnje Rovinj",
     "city": "Rovinj-Rovigno",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_unique_address_location_differs",
+    "institution_id": "institution-1c6e359bc0cb",
+    "candidate_institution_ids": [
+      "institution-1c6e359bc0cb"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA121-SCH-000423020::row-1306",
@@ -14500,10 +14754,12 @@
     "project_id": "2026-1-HR01-KA121-SCH-000423168",
     "beneficiary_name": "Dječji vrtić Marjan",
     "city": "Split",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-61b309ab8f19",
+    "candidate_institution_ids": [
+      "institution-61b309ab8f19"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA121-SCH-000423325::row-1310",
@@ -14522,10 +14778,12 @@
     "project_id": "2026-1-HR01-KA121-SCH-000423447",
     "beneficiary_name": "Osnovna škola don Mihovila Pavlinovića Podgora",
     "city": "Podgora",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_user_confirmed_school",
+    "institution_id": "institution-a34ff599916a",
+    "candidate_institution_ids": [
+      "institution-a34ff599916a"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA121-SCH-000424089::row-1312",
@@ -14744,10 +15002,12 @@
     "project_id": "2026-1-HR01-KA121-SCH-000427802",
     "beneficiary_name": "Dječji vrtić Matije Gupca",
     "city": "Zagreb",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-926844b5d9a5",
+    "candidate_institution_ids": [
+      "institution-926844b5d9a5"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA121-SCH-000428252::row-1331",
@@ -14862,20 +15122,24 @@
     "project_id": "2026-1-HR01-KA121-SCH-000431533",
     "beneficiary_name": "Dječji vrtić Tratinčica",
     "city": "Koprivnica",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-7a8e4c08ebea",
+    "candidate_institution_ids": [
+      "institution-7a8e4c08ebea"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA121-SCH-000432157::row-1341",
     "project_id": "2026-1-HR01-KA121-SCH-000432157",
     "beneficiary_name": "Osnovna škola Vladimir Nazor Komletinci",
     "city": "Komletinci",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_user_confirmed_school",
+    "institution_id": "institution-9e11a4bda5cc",
+    "candidate_institution_ids": [
+      "institution-9e11a4bda5cc"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA121-SCH-000432181::row-1342",
@@ -14892,10 +15156,12 @@
     "project_id": "2026-1-HR01-KA121-SCH-000432603",
     "beneficiary_name": "Osnovna škola Vladimir Nazor Pisarovina",
     "city": "Pisarovina",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_user_confirmed_school",
+    "institution_id": "institution-c74248b791e7",
+    "candidate_institution_ids": [
+      "institution-c74248b791e7"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA121-SCH-000433069::row-1344",
@@ -14962,20 +15228,24 @@
     "project_id": "2026-1-HR01-KA121-SCH-000434605",
     "beneficiary_name": "Dječji vrtić Cvit Mediterana",
     "city": "Split",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-07ff56652978",
+    "candidate_institution_ids": [
+      "institution-07ff56652978"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA121-SCH-000434639::row-1350",
     "project_id": "2026-1-HR01-KA121-SCH-000434639",
     "beneficiary_name": "Dječji vrtić Vesela Kućica",
     "city": "Zagreb",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-5eaf87cb878f",
+    "candidate_institution_ids": [
+      "institution-5eaf87cb878f"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA121-SCH-000434679::row-1351",
@@ -15054,8 +15324,8 @@
     "project_id": "2026-1-HR01-KA121-SCH-000436649",
     "beneficiary_name": "Osnovna škola Strahoninec",
     "city": "Čakovec",
-    "match_status": "location_mismatch",
-    "institution_id": null,
+    "match_status": "matched_unique_name_location_differs",
+    "institution_id": "institution-7dd567c5ad42",
     "candidate_institution_ids": [
       "institution-7dd567c5ad42"
     ],
@@ -15148,10 +15418,12 @@
     "project_id": "2026-1-HR01-KA121-SCH-000439661",
     "beneficiary_name": "Osnovna škola Jurja Dobrile",
     "city": "Rovinj",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_unique_address_and_city",
+    "institution_id": "institution-454066b6e5db",
+    "candidate_institution_ids": [
+      "institution-454066b6e5db"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA121-SCH-000441751::row-1366",
@@ -15276,10 +15548,12 @@
     "project_id": "2026-1-HR01-KA121-SCH-000447084",
     "beneficiary_name": "Dječji vrtić Petar Pan",
     "city": "Zagreb",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-4da5985d944e",
+    "candidate_institution_ids": [
+      "institution-4da5985d944e"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA121-SCH-000447273::row-1377",
@@ -15298,10 +15572,12 @@
     "project_id": "2026-1-HR01-KA121-SCH-000447290",
     "beneficiary_name": "Dječji vrtić Slavuj",
     "city": "Strmec",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-828e79f6d9a4",
+    "candidate_institution_ids": [
+      "institution-828e79f6d9a4"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA121-SCH-000447364::row-1379",
@@ -15332,20 +15608,24 @@
     "project_id": "2026-1-HR01-KA121-SCH-000447710",
     "beneficiary_name": "Osnovna škola Đuro Ester Koprivnica",
     "city": "Koprivnica",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_user_confirmed_school",
+    "institution_id": "institution-e5fabcf1e584",
+    "candidate_institution_ids": [
+      "institution-e5fabcf1e584"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA121-SCH-000447934::row-1382",
     "project_id": "2026-1-HR01-KA121-SCH-000447934",
     "beneficiary_name": "Dječji vrtić Varaždin",
     "city": "Varaždin",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-10fe5db7dfac",
+    "candidate_institution_ids": [
+      "institution-10fe5db7dfac"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA121-SCH-000448225::row-1383",
@@ -15364,10 +15644,12 @@
     "project_id": "2026-1-HR01-KA121-SCH-000448311",
     "beneficiary_name": "Dječji vrtić Vrapčić Šenkovec",
     "city": "Šenkovec",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city_suffix",
+    "institution_id": "institution-14a478f0ec16",
+    "candidate_institution_ids": [
+      "institution-14a478f0ec16"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA121-SCH-000448333::row-1385",
@@ -15410,40 +15692,48 @@
     "project_id": "2026-1-HR01-KA122-SCH-000443580",
     "beneficiary_name": "Srednja škola Tina Ujevića Kutina",
     "city": "Kutina",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city_suffix",
+    "institution_id": "institution-9343c47b888a",
+    "candidate_institution_ids": [
+      "institution-9343c47b888a"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA122-SCH-000443525::row-1389",
     "project_id": "2026-1-HR01-KA122-SCH-000443525",
     "beneficiary_name": "Djeji vrtić Tamaris Vodice",
     "city": "Vodice",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_unique_address_and_city",
+    "institution_id": "institution-b389b30574fb",
+    "candidate_institution_ids": [
+      "institution-b389b30574fb"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA122-SCH-000437248::row-1390",
     "project_id": "2026-1-HR01-KA122-SCH-000437248",
     "beneficiary_name": "Dječji vrtić Radost Ludbreg",
     "city": "Ludbreg",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city_suffix",
+    "institution_id": "institution-fabed334a911",
+    "candidate_institution_ids": [
+      "institution-fabed334a911"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA122-SCH-000444855::row-1391",
     "project_id": "2026-1-HR01-KA122-SCH-000444855",
     "beneficiary_name": "Dječji vrtić Maslačak Đurđevac",
     "city": "Đurđevac",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city_suffix",
+    "institution_id": "institution-f9327aae51fb",
+    "candidate_institution_ids": [
+      "institution-f9327aae51fb"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA122-SCH-000431644::row-1392",
@@ -15462,10 +15752,12 @@
     "project_id": "2026-1-HR01-KA122-SCH-000435614",
     "beneficiary_name": "Dječji vrtić Utrina",
     "city": "Zagreb",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-24cb4bd645b6",
+    "candidate_institution_ids": [
+      "institution-24cb4bd645b6"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA122-SCH-000443555::row-1394",
@@ -15508,10 +15800,12 @@
     "project_id": "2026-1-HR01-KA122-SCH-000439974",
     "beneficiary_name": "Dječji vrtić Vladimira Nazora",
     "city": "Zagreb",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-2b711618e4ad",
+    "candidate_institution_ids": [
+      "institution-2b711618e4ad"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA122-SCH-000415370::row-1398",
@@ -15542,10 +15836,12 @@
     "project_id": "2026-1-HR01-KA122-SCH-000425644",
     "beneficiary_name": "Dječji vrtić Mali princ",
     "city": "Zagreb",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-2516c2f6233b",
+    "candidate_institution_ids": [
+      "institution-2516c2f6233b"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA122-SCH-000427931::row-1401",
@@ -15564,10 +15860,12 @@
     "project_id": "2026-1-HR01-KA122-SCH-000425218",
     "beneficiary_name": "Osnovna škola Vladimir Nazor Čepin",
     "city": "Čepin",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_user_confirmed_school",
+    "institution_id": "institution-5f8ad49770e2",
+    "candidate_institution_ids": [
+      "institution-5f8ad49770e2"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA122-SCH-000442062::row-1403",
@@ -15608,10 +15906,12 @@
     "project_id": "2026-1-HR01-KA122-SCH-000427744",
     "beneficiary_name": "Dječji vrtić Videk",
     "city": "Brdovec",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_unique_name_location_differs",
+    "institution_id": "institution-9aea547df557",
+    "candidate_institution_ids": [
+      "institution-9aea547df557"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA122-SCH-000433179::row-1407",
@@ -15630,10 +15930,12 @@
     "project_id": "2026-1-HR01-KA122-SCH-000439492",
     "beneficiary_name": "Osnovna škola fra Kaje Adžića",
     "city": "Pleternica",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_unique_address_and_city",
+    "institution_id": "institution-39c640eb08dc",
+    "candidate_institution_ids": [
+      "institution-39c640eb08dc"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA122-SCH-000443099::row-1409",
@@ -15652,10 +15954,12 @@
     "project_id": "2026-1-HR01-KA122-SCH-000443884",
     "beneficiary_name": "Gimnazija Vladimira Nazora Zadar",
     "city": "Zadar",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city_suffix",
+    "institution_id": "institution-9145ca9fc39a",
+    "candidate_institution_ids": [
+      "institution-9145ca9fc39a"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA122-SCH-000436915::row-1411",
@@ -15686,40 +15990,48 @@
     "project_id": "2026-1-HR01-KA122-SCH-000440943",
     "beneficiary_name": "Klasična gimnazija Zagreb",
     "city": "Zagreb",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city_suffix",
+    "institution_id": "institution-b7d25ce4404d",
+    "candidate_institution_ids": [
+      "institution-b7d25ce4404d"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA122-SCH-000436714::row-1414",
     "project_id": "2026-1-HR01-KA122-SCH-000436714",
     "beneficiary_name": "Djecji vrtic Medulin",
     "city": "Medulin",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-20396d2ff72e",
+    "candidate_institution_ids": [
+      "institution-20396d2ff72e"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA122-SCH-000417787::row-1415",
     "project_id": "2026-1-HR01-KA122-SCH-000417787",
     "beneficiary_name": "Dječji vrtić Dječja mašta",
     "city": "Cakovec",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-da00d1521375",
+    "candidate_institution_ids": [
+      "institution-da00d1521375"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA122-SCH-000438055::row-1416",
     "project_id": "2026-1-HR01-KA122-SCH-000438055",
     "beneficiary_name": "Osnovna skola Nikole Hribara, Velika Gorica",
     "city": "Velika Gorica",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_user_confirmed_school",
+    "institution_id": "institution-0d38b84cbef9",
+    "candidate_institution_ids": [
+      "institution-0d38b84cbef9"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA122-SCH-000427543::row-1417",
@@ -15774,10 +16086,12 @@
     "project_id": "2026-1-HR01-KA122-SCH-000433146",
     "beneficiary_name": "Djecji vrtic Ciciban",
     "city": "Bjelovar",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-adb0aec51b78",
+    "candidate_institution_ids": [
+      "institution-adb0aec51b78"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA122-SCH-000434516::row-1422",
@@ -15808,24 +16122,24 @@
     "project_id": "2026-1-HR01-KA122-SCH-000428549",
     "beneficiary_name": "Tehnička škola",
     "city": "Slavonski Brod",
-    "match_status": "location_mismatch",
-    "institution_id": null,
+    "match_status": "matched_unique_address_and_city",
+    "institution_id": "institution-959047446dc2",
     "candidate_institution_ids": [
-      "institution-6518c9e1a1e2",
-      "institution-17ca95a2b720",
-      "institution-4ad4696beeeb"
+      "institution-959047446dc2"
     ],
-    "candidate_count": 3
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA122-SCH-000437376::row-1425",
     "project_id": "2026-1-HR01-KA122-SCH-000437376",
     "beneficiary_name": "Osnovna škola Marina Držića Dubrovnik",
     "city": "Dubrovnik",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_user_confirmed_school",
+    "institution_id": "institution-d1e4db51ba92",
+    "candidate_institution_ids": [
+      "institution-d1e4db51ba92"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA122-SCH-000445720::row-1426",
@@ -15844,10 +16158,12 @@
     "project_id": "2026-1-HR01-KA122-SCH-000429106",
     "beneficiary_name": "Dječji vrtić \"Orepčići\"",
     "city": "Kraljevica",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-57104a5652ac",
+    "candidate_institution_ids": [
+      "institution-57104a5652ac"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA122-SCH-000422356::row-1428",
@@ -15890,10 +16206,12 @@
     "project_id": "2026-1-HR01-KA122-SCH-000446244",
     "beneficiary_name": "Dječji vrtić \"Šumska Jagoda\"",
     "city": "Zagreb",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-3b2855152a25",
+    "candidate_institution_ids": [
+      "institution-3b2855152a25"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA122-SCH-000425426::row-1432",
@@ -15982,20 +16300,24 @@
     "project_id": "2026-1-HR01-KA122-SCH-000416644",
     "beneficiary_name": "Dječji vrtić Moj Bambi",
     "city": "Valpovo",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-363fd7253f44",
+    "candidate_institution_ids": [
+      "institution-363fd7253f44"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA122-SCH-000437170::row-1440",
     "project_id": "2026-1-HR01-KA122-SCH-000437170",
     "beneficiary_name": "Osnovna škola \"Slava Raškaj\" Ozalj",
     "city": "Ozalj",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_user_confirmed_school",
+    "institution_id": "institution-7004b51a0509",
+    "candidate_institution_ids": [
+      "institution-7004b51a0509"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA220-SCH-000454201::row-1441",
@@ -16014,8 +16336,8 @@
     "project_id": "2026-1-HR01-KA220-SCH-000448923",
     "beneficiary_name": "Osnovna škola Brodarica",
     "city": "Šibenik - Brodarica",
-    "match_status": "location_mismatch",
-    "institution_id": null,
+    "match_status": "matched_unique_name_location_differs",
+    "institution_id": "institution-96eb6634b289",
     "candidate_institution_ids": [
       "institution-96eb6634b289"
     ],
@@ -16172,10 +16494,12 @@
     "project_id": "2026-1-HR01-KA121-VET-000410101",
     "beneficiary_name": "Srednja škola Antun Matijašević - Karamaneo Vis",
     "city": "Vis",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city_suffix",
+    "institution_id": "institution-28c1c9e94209",
+    "candidate_institution_ids": [
+      "institution-28c1c9e94209"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA121-VET-000410127::row-1457",
@@ -16194,10 +16518,12 @@
     "project_id": "2026-1-HR01-KA121-VET-000410526",
     "beneficiary_name": "Strojarska i prometna škola Varaždin",
     "city": "Varaždin",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city_suffix",
+    "institution_id": "institution-b10f6d88de23",
+    "candidate_institution_ids": [
+      "institution-b10f6d88de23"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA121-VET-000410862::row-1459",
@@ -16240,10 +16566,12 @@
     "project_id": "2026-1-HR01-KA121-VET-000411489",
     "beneficiary_name": "Srednja škola Matije Antuna Reljkovića",
     "city": "Slavonski Brod",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_unique_address_and_city",
+    "institution_id": "institution-a6e2ab66abc0",
+    "candidate_institution_ids": [
+      "institution-a6e2ab66abc0"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA121-VET-000411644::row-1463",
@@ -16322,14 +16650,12 @@
     "project_id": "2026-1-HR01-KA121-VET-000412526",
     "beneficiary_name": "Tehnička škola",
     "city": "Slavonski Brod",
-    "match_status": "location_mismatch",
-    "institution_id": null,
+    "match_status": "matched_unique_address_and_city",
+    "institution_id": "institution-959047446dc2",
     "candidate_institution_ids": [
-      "institution-6518c9e1a1e2",
-      "institution-17ca95a2b720",
-      "institution-4ad4696beeeb"
+      "institution-959047446dc2"
     ],
-    "candidate_count": 3
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA121-VET-000412721::row-1470",
@@ -16480,8 +16806,8 @@
     "project_id": "2026-1-HR01-KA121-VET-000418608",
     "beneficiary_name": "Srednja škola Jelkovec",
     "city": "Zagreb",
-    "match_status": "location_mismatch",
-    "institution_id": null,
+    "match_status": "matched_unique_name_location_differs",
+    "institution_id": "institution-3cf7c8ad72f3",
     "candidate_institution_ids": [
       "institution-3cf7c8ad72f3"
     ],
@@ -16732,10 +17058,12 @@
     "project_id": "2026-1-HR01-KA121-VET-000428250",
     "beneficiary_name": "Srednja škola Ivana Trnskoga Hrvatska Kostajnica",
     "city": "Hrvatska Kostajnica",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city_suffix",
+    "institution_id": "institution-d202a4c0a312",
+    "candidate_institution_ids": [
+      "institution-d202a4c0a312"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA121-VET-000428492::row-1504",
@@ -17208,8 +17536,8 @@
     "project_id": "2026-1-HR01-KA121-VET-000444195",
     "beneficiary_name": "Srednja škola \"Arboretum Opeka\"",
     "city": "Vinica",
-    "match_status": "location_mismatch",
-    "institution_id": null,
+    "match_status": "matched_unique_name_location_differs",
+    "institution_id": "institution-3a164d7e36a1",
     "candidate_institution_ids": [
       "institution-3a164d7e36a1"
     ],
@@ -17508,10 +17836,12 @@
     "project_id": "2026-1-HR01-KA122-VET-000434526",
     "beneficiary_name": "Tehnička škola Šibenik",
     "city": "Šibenik",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city_suffix",
+    "institution_id": "institution-4ad4696beeeb",
+    "candidate_institution_ids": [
+      "institution-4ad4696beeeb"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA122-VET-000442478::row-1569",
@@ -17672,8 +18002,8 @@
     "project_id": "2026-1-HR01-KA122-VET-000448063",
     "beneficiary_name": "Ekonomska škola Velika Gorica",
     "city": "Gorica",
-    "match_status": "location_mismatch",
-    "institution_id": null,
+    "match_status": "matched_unique_name_location_differs",
+    "institution_id": "institution-13574fc045c9",
     "candidate_institution_ids": [
       "institution-13574fc045c9"
     ],
@@ -17814,8 +18144,8 @@
     "project_id": "2026-1-HR01-KA220-VET-000467966",
     "beneficiary_name": "Srednja škola \"Arboretum Opeka\"",
     "city": "Vinica",
-    "match_status": "location_mismatch",
-    "institution_id": null,
+    "match_status": "matched_unique_name_location_differs",
+    "institution_id": "institution-3a164d7e36a1",
     "candidate_institution_ids": [
       "institution-3a164d7e36a1"
     ],
@@ -18074,10 +18404,12 @@
     "project_id": "2026-1-HR01-KA131-HED-000415184",
     "beneficiary_name": "ZAGREBAČKA ŠKOLA EKONOMIJE I MANAGEMENTA",
     "city": "Zagreb",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_unique_address_and_city",
+    "institution_id": "institution-6bbca1169f33",
+    "candidate_institution_ids": [
+      "institution-6bbca1169f33"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA131-HED-000416708::row-1619",
@@ -18226,10 +18558,12 @@
     "project_id": "2026-1-HR01-KA131-HED-000437529",
     "beneficiary_name": "ZDRAVSTVENO VELEUČILIŠTE",
     "city": "Zagreb",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_unique_address_and_city",
+    "institution_id": "institution-2dda7aa575e4",
+    "candidate_institution_ids": [
+      "institution-2dda7aa575e4"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA131-HED-000413223::row-1633",
@@ -18756,10 +19090,12 @@
     "project_id": "2026-1-HR01-KA121-ADU-000413988",
     "beneficiary_name": "Gradska knjižnica i čitaonica Virovitica",
     "city": "Virovitica",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-6d5035304e50",
+    "candidate_institution_ids": [
+      "institution-6d5035304e50"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA121-ADU-000417649::row-1681",
@@ -18906,10 +19242,12 @@
     "project_id": "2026-1-HR01-KA121-ADU-000428714",
     "beneficiary_name": "Gradska knjižnica Ivan Goran Kovačić",
     "city": "Karlovac",
-    "match_status": "unmatched",
-    "institution_id": null,
-    "candidate_institution_ids": [],
-    "candidate_count": 0
+    "match_status": "matched_exact_name_and_city",
+    "institution_id": "institution-53b12f23dd6a",
+    "candidate_institution_ids": [
+      "institution-53b12f23dd6a"
+    ],
+    "candidate_count": 1
   },
   {
     "record_id": "2026-1-HR01-KA121-ADU-000428715::row-1696",
@@ -20390,7 +20728,7 @@
   {
     "record_id": "2026-1-HR01-KA182-SPO-000399257::row-1842",
     "project_id": "2026-1-HR01-KA182-SPO-000399257",
-    "beneficiary_name": "HRVATSKA UDRUGA LJUBITELJA\nSKIJANJA I SNOWBOARDANJA",
+    "beneficiary_name": "HRVATSKA UDRUGA LJUBITELJA\r\nSKIJANJA I SNOWBOARDANJA",
     "city": "Farkaševac",
     "match_status": "unmatched",
     "institution_id": null,
@@ -20400,7 +20738,7 @@
   {
     "record_id": "2026-1-HR01-KA182-SPO-000393612::row-1843",
     "project_id": "2026-1-HR01-KA182-SPO-000393612",
-    "beneficiary_name": "Klub padobranskog jedrenja\nParadigma Krapina",
+    "beneficiary_name": "Klub padobranskog jedrenja\r\nParadigma Krapina",
     "city": "Krapina",
     "match_status": "unmatched",
     "institution_id": null,
@@ -20410,7 +20748,7 @@
   {
     "record_id": "2026-1-HR01-KA182-SPO-000389276::row-1844",
     "project_id": "2026-1-HR01-KA182-SPO-000389276",
-    "beneficiary_name": "Društvo sportske rekreacije\nSportAktiv",
+    "beneficiary_name": "Društvo sportske rekreacije\r\nSportAktiv",
     "city": "Zagreb",
     "match_status": "unmatched",
     "institution_id": null,
@@ -20420,7 +20758,7 @@
   {
     "record_id": "2026-1-HR01-KA182-SPO-000399416::row-1845",
     "project_id": "2026-1-HR01-KA182-SPO-000399416",
-    "beneficiary_name": "AKROBATSKI ROCK 'N' ROLL KLUB\n\"MEGAROCK\"",
+    "beneficiary_name": "AKROBATSKI ROCK 'N' ROLL KLUB\r\n\"MEGAROCK\"",
     "city": "Zagreb",
     "match_status": "unmatched",
     "institution_id": null,
@@ -20450,7 +20788,7 @@
   {
     "record_id": "2026-1-HR01-KA182-SPO-000393467::row-1848",
     "project_id": "2026-1-HR01-KA182-SPO-000393467",
-    "beneficiary_name": "TUHOBIC MOUNTAINEERING\nASSOCIATION",
+    "beneficiary_name": "TUHOBIC MOUNTAINEERING\r\nASSOCIATION",
     "city": "Rijeka",
     "match_status": "unmatched",
     "institution_id": null,
@@ -20470,7 +20808,7 @@
   {
     "record_id": "2026-1-HR01-KA182-SPO-000394710::row-1850",
     "project_id": "2026-1-HR01-KA182-SPO-000394710",
-    "beneficiary_name": "UDRUGA KINEZIOLOGA GRADA\nVUKOVARA",
+    "beneficiary_name": "UDRUGA KINEZIOLOGA GRADA\r\nVUKOVARA",
     "city": "Vukovar",
     "match_status": "unmatched",
     "institution_id": null,
@@ -20480,7 +20818,7 @@
   {
     "record_id": "2026-1-HR01-KA182-SPO-000398000::row-1851",
     "project_id": "2026-1-HR01-KA182-SPO-000398000",
-    "beneficiary_name": "ŽENSKI KOŠARKAŠKI KLUB FALCONS\nZAGREB",
+    "beneficiary_name": "ŽENSKI KOŠARKAŠKI KLUB FALCONS\r\nZAGREB",
     "city": "Zagreb",
     "match_status": "unmatched",
     "institution_id": null,
@@ -20490,7 +20828,7 @@
   {
     "record_id": "2026-1-HR01-KA182-SPO-000399815::row-1852",
     "project_id": "2026-1-HR01-KA182-SPO-000399815",
-    "beneficiary_name": "ZAGREB ACADEMIC SPORTS\nFEDERATION",
+    "beneficiary_name": "ZAGREB ACADEMIC SPORTS\r\nFEDERATION",
     "city": "Zagreb",
     "match_status": "unmatched",
     "institution_id": null,
@@ -20510,7 +20848,7 @@
   {
     "record_id": "2026-1-HR01-KA182-SPO-000397244::row-1854",
     "project_id": "2026-1-HR01-KA182-SPO-000397244",
-    "beneficiary_name": "Karate klub osoba s invaliditetom\nSveta Nedjelja",
+    "beneficiary_name": "Karate klub osoba s invaliditetom\r\nSveta Nedjelja",
     "city": "Sveta Nedjelja",
     "match_status": "unmatched",
     "institution_id": null,
@@ -20530,7 +20868,7 @@
   {
     "record_id": "2026-1-HR01-KA182-SPO-000398504::row-1856",
     "project_id": "2026-1-HR01-KA182-SPO-000398504",
-    "beneficiary_name": "KOŠARKAŠKI KLUB PODSUSED -\nZAGREB",
+    "beneficiary_name": "KOŠARKAŠKI KLUB PODSUSED -\r\nZAGREB",
     "city": "Zagreb",
     "match_status": "unmatched",
     "institution_id": null,
@@ -20540,7 +20878,7 @@
   {
     "record_id": "2026-1-HR01-KA182-SPO-000395098::row-1857",
     "project_id": "2026-1-HR01-KA182-SPO-000395098",
-    "beneficiary_name": "Public institution for the\nmanagement of sports facilities of\nthe City of Vukovar Sports facilities\nVukovar",
+    "beneficiary_name": "Public institution for the\r\nmanagement of sports facilities of\r\nthe City of Vukovar Sports facilities\r\nVukovar",
     "city": "Vukovar",
     "match_status": "unmatched",
     "institution_id": null,

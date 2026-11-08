@@ -31,6 +31,7 @@ SCHOOL_SOURCES = (
     ("data (1).csv", "school"),
     ("data.csv", "school"),
 )
+KINDERGARTEN_SOURCE = ("data (4).csv", "kindergarten")
 HIGHER_EDUCATION_SOURCE = ("data (2).csv", "higher_education")
 
 FINANCIAL_SECTORS = (
@@ -53,6 +54,68 @@ APPLICATION_SECTORS = (
     ("Ukupno", 10),
 )
 
+USER_CONFIRMED_SCHOOL_MATCHES = {
+    38: 533,
+    45: 425,
+    52: 134,
+    53: 808,
+    63: 392,
+    81: 161,
+    93: 33,
+    100: 176,
+    105: 178,
+    134: 356,
+    155: 75,
+    179: 641,
+    577: 725,
+    579: 33,
+    580: 720,
+    582: 479,
+    592: 206,
+    598: 657,
+    602: 176,
+    623: 533,
+    628: 356,
+    658: 178,
+    664: 425,
+    676: 392,
+    680: 51,
+    688: 808,
+    693: 134,
+    765: 44,
+    771: 537,
+    780: 177,
+    782: 116,
+    1229: 75,
+    1234: 479,
+    1247: 356,
+    1248: 533,
+    1250: 161,
+    1280: 176,
+    1311: 808,
+    1341: 720,
+    1343: 33,
+    1381: 178,
+    1402: 641,
+    1416: 10,
+    1425: 876,
+    1440: 119,
+}
+
+USER_CONFIRMED_UNMATCHED_PROJECT_ROWS = {74, 734, 742}
+
+CURATED_ADDRESS_MATCHES = {
+    47: ("data (1).csv", 910),
+    185: ("data (1).csv", 910),
+    241: ("data.csv", 92),
+    603: ("data (1).csv", 910),
+    639: ("data (1).csv", 273),
+    727: ("data.csv", 307),
+    845: ("data.csv", 92),
+    1259: ("data (1).csv", 910),
+    1389: ("data (4).csv", 10),
+}
+
 
 def normalize_text(value):
     value = unicodedata.normalize("NFKD", str(value or "").casefold())
@@ -62,6 +125,13 @@ def normalize_text(value):
     value = re.sub(r"\b(s s|ss)\b", "srednja skola", value)
     value = re.sub(r"\b(d v|dv)\b", "djecji vrtic", value)
     return re.sub(r"\s+", " ", value)
+
+
+def _county_key(value):
+    normalized = normalize_text(value)
+    if normalized.endswith(" zupanija"):
+        normalized = normalized[: -len(" zupanija")]
+    return normalized
 
 
 def parse_eur(value):
@@ -167,7 +237,10 @@ def load_projects():
 
 def load_institutions():
     records = []
-    sources = list(SCHOOL_SOURCES) + [HIGHER_EDUCATION_SOURCE]
+    sources = (
+        list(SCHOOL_SOURCES)
+        + [KINDERGARTEN_SOURCE, HIGHER_EDUCATION_SOURCE]
+    )
     for filename, registry_kind in sources:
         for row_number, row in _read_dict_rows(filename):
             if registry_kind == "school":
@@ -178,6 +251,14 @@ def load_institutions():
                 county = _value(row, "Županija", "Župnija")
                 institution_type = _value(row, "TipUstanove")
                 registry_code = _value(row, "Šifra")
+            elif registry_kind == "kindergarten":
+                name = _value(row, "Naziv")
+                city = _value(row, "Mjesto")
+                address = _value(row, "Adresa")
+                postal_code = _value(row, "PostanskiBroj", "PoštanskiBroj")
+                county = _value(row, "Zupanija", "Županija").strip()
+                institution_type = "Predškolska ustanova"
+                registry_code = ""
             else:
                 name = _value(row, "NazivUstanove")
                 city = _value(row, "Mjesto")
@@ -205,6 +286,33 @@ def load_institutions():
                 }
             )
 
+    canonical_counties = defaultdict(set)
+    for record in records:
+        if record["registry_kind"] == "school" and record["county"]:
+            canonical_counties[_county_key(record["county"])].add(record["county"])
+
+    for record in records:
+        if record["registry_kind"] != "kindergarten" or not record["county"]:
+            continue
+        matching_counties = canonical_counties.get(_county_key(record["county"]), set())
+        if len(matching_counties) == 1:
+            record["county"] = next(iter(matching_counties))
+
+    counties_by_city = defaultdict(set)
+    for record in records:
+        if record["registry_kind"] == "school" and record["county"]:
+            counties_by_city[record["normalized_city"]].add(record["county"])
+
+    for record in records:
+        if record["registry_kind"] != "higher_education" or record["county"]:
+            continue
+        city_counties = counties_by_city.get(record["normalized_city"], set())
+        if len(city_counties) == 1:
+            record["county"] = next(iter(city_counties))
+            record["county_assignment_method"] = "school_registry_city_lookup"
+        else:
+            record["county_assignment_method"] = None
+
     grouped = {}
     for record in records:
         identity = (
@@ -226,6 +334,7 @@ def load_institutions():
                 "institution_types": [],
                 "registry_kinds": [],
                 "source_records": [],
+                "county_assignment_methods": [],
                 "normalized_name": record["normalized_name"],
                 "normalized_city": record["normalized_city"],
             }
@@ -234,6 +343,7 @@ def load_institutions():
             ("institution_types", record["institution_type"]),
             ("registry_kinds", record["registry_kind"]),
             ("county_candidates", record["county"]),
+            ("county_assignment_methods", record.get("county_assignment_method")),
         ):
             if value and value not in institution[field]:
                 institution[field].append(value)
@@ -251,33 +361,334 @@ def load_institutions():
     return institutions, len(records)
 
 
-def match_project(project, institutions, institutions_by_name=None):
+def load_study_programs(institutions):
+    institutions_by_name = defaultdict(list)
+    counties_by_city = defaultdict(set)
+    for institution in institutions:
+        if "higher_education" not in institution["registry_kinds"]:
+            continue
+        institutions_by_name[institution["normalized_name"]].append(institution)
+        if institution["county"]:
+            counties_by_city[institution["normalized_city"]].add(
+                institution["county"]
+            )
+
+    programs = []
+    for row_number, row in _read_dict_rows("data (3).csv"):
+        provider = _value(row, "Izvodjac")
+        city = _value(row, "IzvodjacMjesto")
+        normalized_provider = normalize_text(provider)
+        normalized_city = normalize_text(city)
+        name_candidates = institutions_by_name.get(normalized_provider, [])
+        city_candidates = [
+            institution
+            for institution in name_candidates
+            if institution["normalized_city"] == normalized_city
+        ]
+        if len(city_candidates) == 1:
+            match_status = "matched_exact_name_and_city"
+            institution = city_candidates[0]
+            institution_id = institution["institution_id"]
+            county = institution["county"]
+        elif len(city_candidates) > 1:
+            match_status = "ambiguous_exact_name_and_city"
+            institution_id = None
+            county = None
+        elif name_candidates:
+            match_status = "location_mismatch"
+            institution_id = None
+            county = None
+        else:
+            match_status = "unmatched"
+            institution_id = None
+            county = None
+
+        if not county:
+            city_counties = counties_by_city.get(normalized_city, set())
+            if len(city_counties) == 1:
+                county = next(iter(city_counties))
+
+        programs.append(
+            {
+                "record_id": f"data (3).csv::row-{row_number}",
+                "program_code": _value(row, "Sifra"),
+                "name": _value(row, "Naziv"),
+                "ects": _value(row, "ECTS"),
+                "program_type": _value(row, "TipSP"),
+                "program_category": _value(row, "VrstaSP"),
+                "duration": _value(row, "Trajanje"),
+                "academic_level": _value(row, "Akademski_stupanj"),
+                "provider": provider,
+                "city": city,
+                "county": county,
+                "institution_id": institution_id,
+                "institution_name": (
+                    city_candidates[0]["name"]
+                    if len(city_candidates) == 1
+                    else None
+                ),
+                "match_status": match_status,
+            }
+        )
+    return programs
+
+
+def summarize_study_programs(programs):
+    by_county = defaultdict(
+        lambda: {"program_records": 0, "institution_ids": set()}
+    )
+    for program in programs:
+        if (
+            program["match_status"] != "matched_exact_name_and_city"
+            or not program["county"]
+            or not program["institution_id"]
+        ):
+            continue
+        summary = by_county[program["county"]]
+        summary["program_records"] += 1
+        summary["institution_ids"].add(program["institution_id"])
+
+    return [
+        {
+            "Županija": county,
+            "Zapisi studijskih programa": values["program_records"],
+            "Izvoditelji programa": len(values["institution_ids"]),
+        }
+        for county, values in sorted(by_county.items())
+    ]
+
+
+def match_project(
+    project,
+    institutions,
+    institutions_by_name=None,
+    institutions_by_address=None,
+):
+    source_row = int(project.get("source_row") or 0)
+    if source_row in USER_CONFIRMED_UNMATCHED_PROJECT_ROWS:
+        return {
+            "record_id": project["record_id"],
+            "project_id": project["project_id"],
+            "beneficiary_name": project["beneficiary_name"],
+            "city": project["city"],
+            "match_status": "unmatched",
+            "institution_id": None,
+            "candidate_institution_ids": [],
+            "candidate_count": 0,
+        }
+
+    curated_registry_record = CURATED_ADDRESS_MATCHES.get(source_row)
+    if curated_registry_record is not None:
+        curated_registry_file, curated_registry_row = curated_registry_record
+        curated_matches = [
+            institution
+            for institution in institutions
+            if any(
+                record["file"] == curated_registry_file
+                and record["row"] == curated_registry_row
+                for record in institution.get("source_records", [])
+            )
+        ]
+        if len(curated_matches) != 1:
+            raise ValueError(
+                "Expected one curated school or kindergarten registry record "
+                f"at {curated_registry_file} row {curated_registry_row}; "
+                f"found {len(curated_matches)}"
+            )
+        institution = curated_matches[0]
+        if institution["normalized_city"] != normalize_text(project["city"]):
+            raise ValueError(
+                "Curated address match has a different city for project "
+                f"source row {source_row}"
+            )
+        if normalize_text(institution["address"]) != normalize_text(
+            project.get("address", "")
+        ):
+            raise ValueError(
+                "Curated address match has a different address for project "
+                f"source row {source_row}"
+            )
+        return {
+            "record_id": project["record_id"],
+            "project_id": project["project_id"],
+            "beneficiary_name": project["beneficiary_name"],
+            "city": project["city"],
+            "match_status": "matched_unique_address_and_city",
+            "institution_id": institution["institution_id"],
+            "candidate_institution_ids": [institution["institution_id"]],
+            "candidate_count": 1,
+        }
+
+    confirmed_registry_row = USER_CONFIRMED_SCHOOL_MATCHES.get(source_row)
+    if confirmed_registry_row is not None:
+        confirmed_matches = [
+            institution
+            for institution in institutions
+            if "school" in institution.get("registry_kinds", [])
+            and any(
+                record["file"] == "data (1).csv"
+                and record["row"] == confirmed_registry_row
+                for record in institution.get("source_records", [])
+            )
+        ]
+        if len(confirmed_matches) != 1:
+            raise ValueError(
+                "Expected one primary-school registry record at "
+                f"data (1).csv row {confirmed_registry_row}; "
+                f"found {len(confirmed_matches)}"
+            )
+        institution = confirmed_matches[0]
+        if institution["normalized_city"] != normalize_text(project["city"]):
+            raise ValueError(
+                "User-confirmed school match has a different city for "
+                f"project source row {project.get('source_row')}"
+            )
+        return {
+            "record_id": project["record_id"],
+            "project_id": project["project_id"],
+            "beneficiary_name": project["beneficiary_name"],
+            "city": project["city"],
+            "match_status": "matched_user_confirmed_school",
+            "institution_id": institution["institution_id"],
+            "candidate_institution_ids": [institution["institution_id"]],
+            "candidate_count": 1,
+        }
+
     if institutions_by_name is None:
         institutions_by_name = defaultdict(list)
         for institution in institutions:
             institutions_by_name[institution["normalized_name"]].append(institution)
+    if institutions_by_address is None:
+        institutions_by_address = defaultdict(list)
+        for institution in institutions:
+            institutions_by_address[
+                normalize_text(institution.get("address", ""))
+            ].append(
+                institution
+            )
+
+    normalized_name = normalize_text(project["beneficiary_name"])
+    normalized_city = normalize_text(project["city"])
+    normalized_address = normalize_text(project.get("address", ""))
     name_candidates = institutions_by_name.get(
-        normalize_text(project["beneficiary_name"]), []
+        normalized_name, []
     )
-    city = normalize_text(project["city"])
-    city_candidates = [item for item in name_candidates if item["normalized_city"] == city]
+    city_candidates = [
+        item for item in name_candidates
+        if item["normalized_city"] == normalized_city
+    ]
+    name_without_city = normalized_name
+    if normalized_city and normalized_name.endswith(" " + normalized_city):
+        name_without_city = normalized_name[: -(len(normalized_city) + 1)].strip()
+    city_suffix_candidates = (
+        [
+            item
+            for item in institutions_by_name.get(name_without_city, [])
+            if item["normalized_city"] == normalized_city
+        ]
+        if name_without_city != normalized_name
+        else []
+    )
+    address_candidates = (
+        institutions_by_address.get(normalized_address, [])
+        if normalized_address
+        else []
+    )
+    address_candidate_ids = {
+        item["institution_id"] for item in address_candidates
+    }
+    address_parts = str(project.get("address", "")).rsplit(",", 1)
+    if len(address_parts) == 2:
+        street_address, address_city = address_parts
+        city_address_candidates = institutions_by_address.get(
+            normalize_text(street_address), []
+        )
+        address_candidates.extend(
+            item
+            for item in city_address_candidates
+            if item["normalized_city"] == normalize_text(address_city)
+            and item["institution_id"] not in address_candidate_ids
+        )
+    address_candidates = [
+        item
+        for item in address_candidates
+        if (normalized_name or name_without_city)
+        and (
+            item["normalized_name"] in {normalized_name, name_without_city}
+            or any(
+                item["normalized_name"].startswith(name_variant + " ")
+                for name_variant in (normalized_name, name_without_city)
+                if name_variant
+            )
+        )
+    ]
 
     if len(city_candidates) == 1:
         status = "matched_exact_name_and_city"
         matched_id = city_candidates[0]["institution_id"]
         candidates = city_candidates
     elif len(city_candidates) > 1:
-        status = "ambiguous_exact_name_and_city"
-        matched_id = None
-        candidates = city_candidates
-    elif name_candidates:
-        status = "location_mismatch"
-        matched_id = None
-        candidates = name_candidates
+        address_city_candidates = [
+            item for item in address_candidates if item in city_candidates
+        ]
+        if len(address_city_candidates) == 1:
+            status = "matched_unique_address_and_city"
+            matched_id = address_city_candidates[0]["institution_id"]
+            candidates = address_city_candidates
+        else:
+            status = "ambiguous_exact_name_and_city"
+            matched_id = None
+            candidates = city_candidates
+    elif len(city_suffix_candidates) == 1:
+        status = "matched_exact_name_and_city_suffix"
+        matched_id = city_suffix_candidates[0]["institution_id"]
+        candidates = city_suffix_candidates
+    elif len(city_suffix_candidates) > 1:
+        address_city_candidates = [
+            item for item in address_candidates if item in city_suffix_candidates
+        ]
+        if len(address_city_candidates) == 1:
+            status = "matched_unique_address_and_city"
+            matched_id = address_city_candidates[0]["institution_id"]
+            candidates = address_city_candidates
+        else:
+            status = "ambiguous_exact_name_and_city"
+            matched_id = None
+            candidates = city_suffix_candidates
+    elif len(name_candidates) == 1:
+        if (
+            len(address_candidates) == 1
+            and address_candidates[0]["institution_id"]
+            != name_candidates[0]["institution_id"]
+        ):
+            status = (
+                "matched_unique_address_and_city"
+                if address_candidates[0]["normalized_city"] == normalized_city
+                else "matched_unique_address_location_differs"
+            )
+            matched_id = address_candidates[0]["institution_id"]
+            candidates = address_candidates
+        else:
+            status = "matched_unique_name_location_differs"
+            matched_id = name_candidates[0]["institution_id"]
+            candidates = name_candidates
     else:
-        status = "unmatched"
-        matched_id = None
-        candidates = []
+        if len(address_candidates) == 1:
+            status = (
+                "matched_unique_address_and_city"
+                if address_candidates[0]["normalized_city"] == normalized_city
+                else "matched_unique_address_location_differs"
+            )
+            matched_id = address_candidates[0]["institution_id"]
+            candidates = address_candidates
+        elif name_candidates:
+            status = "location_mismatch"
+            matched_id = None
+            candidates = name_candidates
+        else:
+            status = "unmatched"
+            matched_id = None
+            candidates = []
 
     return {
         "record_id": project["record_id"],
@@ -397,11 +808,31 @@ def _sum_eur(values):
 def build_outputs():
     projects = load_projects()
     institutions, registry_row_count = load_institutions()
+    study_programs = load_study_programs(institutions)
+    study_program_summary = summarize_study_programs(study_programs)
     institutions_by_name = defaultdict(list)
+    institutions_by_address = defaultdict(list)
     for institution in institutions:
         institutions_by_name[institution["normalized_name"]].append(institution)
+        institutions_by_address[
+            normalize_text(institution.get("address", ""))
+        ].append(
+            institution
+        )
+    school_counties_by_city = defaultdict(set)
+    for institution in institutions:
+        if "school" not in institution["registry_kinds"]:
+            continue
+        school_counties_by_city[institution["normalized_city"]].update(
+            institution["county_candidates"]
+        )
     matches = [
-        match_project(project, institutions, institutions_by_name)
+        match_project(
+            project,
+            institutions,
+            institutions_by_name,
+            institutions_by_address,
+        )
         for project in projects
     ]
     institution_by_id = {item["institution_id"]: item for item in institutions}
@@ -428,8 +859,7 @@ def build_outputs():
                 "sectors": sorted({item["sector"] for item in records}),
                 "project_record_ids": [item["record_id"] for item in records],
                 "matched_project_count": sum(
-                    item["match_status"] == "matched_exact_name_and_city"
-                    for item in record_matches
+                    bool(item["institution_id"]) for item in record_matches
                 ),
                 "institution_ids": sorted(linked_ids),
             }
@@ -484,6 +914,9 @@ def build_outputs():
         for institution in institutions
         if len(institution["county_candidates"]) > 1
     ]
+    study_program_match_status_counts = Counter(
+        program["match_status"] for program in study_programs
+    )
 
     funding_results = load_funding_results()
     application_results = load_application_results()
@@ -534,17 +967,59 @@ def build_outputs():
         ),
         "registry_source_rows": registry_row_count,
         "deduplicated_institutions": len(institutions),
+        "kindergarten_registry_count": sum(
+            "kindergarten" in institution["registry_kinds"]
+            for institution in institutions
+        ),
         "school_registry_missing_counties": sum(
             "school" in institution["registry_kinds"] and not institution["county"]
             for institution in institutions
         ),
+        "ambiguous_school_city_county_mappings": sum(
+            len(counties) > 1 for counties in school_counties_by_city.values()
+        ),
+        "higher_education_registry_county_coverage": {
+            "with_county": sum(
+                "higher_education" in institution["registry_kinds"]
+                and bool(institution["county"])
+                for institution in institutions
+            ),
+            "total": sum(
+                "higher_education" in institution["registry_kinds"]
+                for institution in institutions
+            ),
+            "method": "Unique city-to-county lookup in the school registries",
+        },
+        "study_program_records": len(study_programs),
+        "study_program_match_status_counts": dict(
+            sorted(study_program_match_status_counts.items())
+        ),
+        "study_program_records_with_unique_institution_and_county": sum(
+            program["match_status"] == "matched_exact_name_and_city"
+            and bool(program["county"])
+            for program in study_programs
+        ),
         "conflicting_registry_counties": conflicting_registry_counties,
         "project_match_status_counts": dict(sorted(status_counts.items())),
-        "project_matches_are_exact_name_and_city_only": True,
+        "project_matching_method": (
+            "Unique exact normalized name and city; otherwise a unique exact "
+            "normalized name across locations; for a shortened name, a unique "
+            "exact address with the beneficiary name as a full-word prefix of "
+            "the registry name. An exact registry name with the project city "
+            "removed from the end of the beneficiary name is also accepted when "
+            "unique in that city; the same shortened name can support an exact "
+            "address match. Nine additional school records with exact city and "
+            "address matches were explicitly curated. Additionally, 45 primary-"
+            "school records were linked to registry records confirmed by the user; "
+            "3 Italian or bilingual Rovinj primary-school records remain unmatched."
+        ),
         "regional_summary_scope": (
-            "Only projects matched by unique exact normalized beneficiary name and city "
-            "to a school registry record with a county. This is not a complete regional "
-            "distribution of all Erasmus+ projects."
+            "Projects matched to a school, kindergarten, or higher-education "
+            "registry record with a county. A unique name match can link across "
+            "different beneficiary and registry place values; the regional "
+            "assignment uses the registry county. Higher-education counties are "
+            "inferred only from a unique school-registry city lookup. This is not "
+            "a complete regional distribution of all Erasmus+ projects."
         ),
         "source_reconciliation": source_reconciliation,
         "project_list_year_coverage": sorted(projects_by_year),
@@ -556,7 +1031,11 @@ def build_outputs():
         "beneficiary_count": len(beneficiaries),
         "institution_count": len(institutions),
         "total_grant_eur": _sum_eur(item["grant_amount_eur"] for item in projects),
-        "exactly_matched_project_count": status_counts["matched_exact_name_and_city"],
+        "exactly_matched_project_count": (
+            status_counts["matched_exact_name_and_city"]
+            + status_counts["matched_exact_name_and_city_suffix"]
+        ),
+        "linked_project_count": sum(bool(item["institution_id"]) for item in matches),
         "projects_by_year": [
             {
                 "year": year,
@@ -583,6 +1062,8 @@ def build_outputs():
         "project_institution_matches": matches,
         "beneficiaries": beneficiaries,
         "regional_summary": regional_summary,
+        "study_programs": study_programs,
+        "study_program_summary": study_program_summary,
         "funding_results": funding_results,
         "application_results": application_results,
         "dashboard_summary": dashboard_summary,
