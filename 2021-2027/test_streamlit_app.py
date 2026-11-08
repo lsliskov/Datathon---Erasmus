@@ -384,7 +384,7 @@ class StreamlitAppTests(unittest.TestCase):
         self.assertEqual(comparison["peers"][0]["similarity_percent"], 100)
         self.assertEqual(len(comparison["selected"]["project_ids"]), 2)
 
-    def test_similar_institutions_wait_for_enough_comparable_peers(self):
+    def test_similar_institutions_are_returned_even_when_only_one_is_comparable(self):
         institutions = {
             "selected": {
                 "name": "Odabrana škola",
@@ -423,7 +423,9 @@ class StreamlitAppTests(unittest.TestCase):
         )
 
         self.assertEqual(comparison["comparable_institution_count"], 1)
-        self.assertEqual(comparison["peers"], [])
+        self.assertEqual(len(comparison["peers"]), 1)
+        self.assertEqual(comparison["peers"][0]["institution_id"], "peer")
+        self.assertEqual(comparison["peers"][0]["similarity_percent"], 100)
 
     def test_institution_page_explains_the_similar_profile_comparison(self):
         app = AppTest.from_file(str(APP_PATH)).run(timeout=60)
@@ -435,7 +437,7 @@ class StreamlitAppTests(unittest.TestCase):
             any("Pametna usporedba sličnih ustanova" in item.value for item in app.subheader)
         )
         self.assertTrue(
-            any("Usporedili smo je s" in item.value for item in app.markdown)
+            any("Broj drugih ustanova" in item.value for item in app.markdown)
         )
 
 

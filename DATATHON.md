@@ -6,11 +6,15 @@ Erasmus+ Explorer RH je prototip za istraživanje financiranih Erasmus+ projekat
 i sudjelovanja obrazovnih ustanova u Hrvatskoj. Povezuje popis projekata,
 agregate prijava i financiranja te registre škola i visokih učilišta. Služi kao
 informacijski alat za obrazovne ustanove, javnu upravu, istraživače i građane koji
-žele razumjeti gdje se projekti provode, koje vrste ustanova sudjeluju i koliko je
-financiranje koncentrirano.
+žele razumjeti gdje su evidentirani korisnici projekata, koje vrste ustanova
+sudjeluju i koliko je financiranje koncentrirano.
 
 Rješenje ne procjenjuje kvalitetu pojedinih ustanova niti uzročni učinak programa.
-Broj projekata nije isto što i vjerojatnost uspjeha ili dostupnost prilike.
+Analizira zabilježeno sudjelovanje i financiranje, ali ne mjeri potpunu dostupnost
+Erasmus+ prilika niti objašnjava uzroke regionalnih ili sektorskih razlika. Broj
+projekata nije isto što i vjerojatnost uspjeha ili dostupnost prilike; za takve
+zaključke trebali bi, među ostalim, podaci o prijavama i odbijenim prijavama po
+ustanovi te usporedivi podaci o veličini i broju ustanova.
 
 ## Pitanje i javna korist
 
@@ -18,12 +22,13 @@ Jesu li financirani Erasmus+ projekti i iznosi ravnomjerno raspoređeni među
 obrazovnim sektorima, vrstama ustanova i hrvatskim županijama — i koliko je
 pouzdano to moguće zaključiti iz javno dostupnih podataka?
 
-Odgovor pomaže korisnicima uočiti obrasce sudjelovanja, ponovljene korisnike,
+Analiza pomaže uočiti obrasce zabilježenog sudjelovanja, ponovljene korisnike,
 regionalne razlike i praznine u podacima. Ustanove mogu pronaći usporedive
-korisnike i vidjeti da li je njihov kraj zastupljen u dostupnim rezultatima.
-Javna uprava može lakše prepoznati gdje su potrebni dodatni podaci ili ciljana
-informativna podrška. To su indikacije za daljnje istraživanje, ne dokaz
-nejednakog pristupa ili uzroka slabijeg sudjelovanja.
+korisnike i vidjeti gdje su evidentirani projekti. Javna uprava može prepoznati
+gdje vrijedi prikupiti dodatne podatke ili istražiti potrebu za informativnom
+podrškom. Rezultati su pokazatelji za daljnje istraživanje, a ne mjera potpune
+dostupnosti Erasmus+ mogućnosti, dokaz nejednakog pristupa ili objašnjenje uzroka
+razlika.
 
 ## Funkcionalnosti prototipa
 
@@ -169,7 +174,10 @@ prepravljan.
 - **Projektni zapis** je redak u popisu financiranih projekata. Projektni broj se
   čuva kao poseban pokazatelj; ponovljeni broj se ne uklanja automatski jer
   izvorni redci mogu imati različite korisnike.
-- **Korisnik** se grupira prema normaliziranom nazivu i mjestu.
+- **Normalizirani naziv** je naziv prilagođen za usporedbu: slova se ujednačuju,
+  dijakritički znakovi i interpunkcija uklanjaju, a kratice OŠ, SŠ i DV
+  proširuju. Tako se nebitne razlike u zapisu ne tretiraju kao različiti nazivi.
+  Korisnik se grupira prema takvom nazivu i mjestu.
 - Različit broj projektnih redaka i jedinstvenih naziva korisnika ne znači
   jednak broj pravnih osoba. „Jedinstveni nazivi” broje tekstualne oznake nakon
   normalizacije; više organizacija može imati sličan naziv, a ista organizacija
@@ -181,17 +189,24 @@ prepravljan.
 - **Sličnost obrazovnih ustanova** nije model koji ustanove svrstava u unaprijed
   zadane skupine niti ocjena njihove kvalitete. Za odabranu ustanovu prvo se
   izdvoje druge ustanove iste vrste koje imaju barem jedan sigurno povezani
-  projekt u trenutno odabranim godinama i sektorima. Ako ih je manje od četiri,
-  usporedba se ne prikazuje. Inače se prikazuje do pet najsličnijih ustanova
-  prema četiri jednako ponderirane značajke: broj različitih projektnih
-  brojeva i ukupno odobrena sredstva uspoređuju se prema rasponu u toj skupini,
-  a preklapanje aktivnosti i godina računa se Jaccardovim omjerom. Prikazuju se
-  broj usporedivih ustanova, rezultat sličnosti i stvarne vrijednosti značajki.
-  To je namjerno jednostavna i objašnjiva usporedba; ne koristi K-means jer
-  količina i obuhvat podataka ne opravdavaju složenije grupiranje.
+  projekt u trenutno odabranim godinama i sektorima. Prikazuju se sve pronađene
+  ustanove do najviše pet, pa se rezultat vidi i kada postoji samo jedna ili
+  nekoliko usporedivih ustanova. Za brojčane pokazatelje – projekte i iznos –
+  sličnost veća je što su vrijednosti bliže jedna drugoj u uspoređenoj skupini.
+  Za aktivnosti i godine računa se Jaccardov omjer. Četiri pokazatelja imaju
+  jednaku težinu pri izračunu ukupnog postotka sličnosti.
+- **Jaccardov omjer** jednostavno mjeri preklapanje dvaju popisa: broj zajedničkih
+  stavki dijeli se brojem svih različitih stavki u oba popisa. Primjerice, ako
+  jedna ustanova ima aktivnosti A i B, a druga A i C, zajednička je jedna od
+  ukupno tri različite aktivnosti, pa je omjer 1/3. Ista se logika primjenjuje
+  na godine sudjelovanja.
+- **Postotak sličnosti** je usporedni rezultat za četiri navedena pokazatelja,
+  a ne ocjena uspješnosti ustanove. Uz njega se prikazuju i izvorne vrijednosti
+  kako bi korisnik mogao vidjeti na čemu se usporedba temelji.
 - **Vrsta ustanove** izvedena je iz vrste u registru. Kombinirane vrste škola
   prikazuju se kao zasebna kategorija kako ista ustanova ne bi bila više puta
-  uračunata u nazivnik. Visoka učilišta određuju se prema vrsti registra.
+  uračunata u nazivnik, odnosno u ukupni broj ustanova s kojim se uspoređuje
+  broj ustanova s projektom. Visoka učilišta određuju se prema vrsti registra.
 - **Udio ustanova s povezanim projektom** računa broj jedinstvenih ustanova iz
   registra koje imaju projekt u odabranom skupu podijeljen ukupnim brojem
   jedinstvenih škola, vrtića i visokih učilišta u registru županije. To je pokrivenost
@@ -220,11 +235,35 @@ rezultatima. Pomoćne agregacije nalaze se u `2021-2027/app_helpers.py`.
 
 U ovoj verziji podaci se osvježavaju ručno: CSV-resursi su preuzeti izravno s
 poveznica u tablici izvora, ali aplikacija ih još ne dohvaća sama s CKAN-a niti
-se automatski osvježava. U budućem razvoju može se dodati kontrolirano
-preuzimanje s istih pojedinačnih poveznica, provjera promjene strukture izvora
-i datuma preuzimanja te čuvanje preuzete izvorne datoteke prije obrade. Tako
-automatsko osvježavanje ne bi narušilo usporedivost podataka niti zamijenilo
-stabilnu lokalnu demonstraciju.
+se automatski osvježava. U nastavku su mogući smjerovi daljnjeg razvoja; oni
+nisu dio trenutačne funkcionalnosti prototipa.
+
+- **Izravno i kontrolirano preuzimanje:** dohvat najnovijih datoteka s CKAN
+  resursa, uz evidentiranje datuma preuzimanja, provjeru strukture i obveznih
+  polja te čuvanje izvorne snimke prije obrade. Promjene bi se prvo prikazale
+  kao upozorenja, a ne bi neprimjetno zamijenile podatke.
+- **Proširenje na razdoblje 2014.–2020.:** pronaći i provjeriti odgovarajuće
+  izvore te mapirati njihove podatke na zajedničku strukturu. Usporedbe s
+  razdobljem 2021.–2027. zahtijevale bi jasno označavanje razlika u pravilima,
+  definicijama, sektorima i dostupnosti podataka; ne bi se pretpostavljalo da su
+  pokazatelji iz oba razdoblja izravno usporedivi.
+- **Potpuniji nazivnici i podaci o prijavama:** povezati broj projekata i iznose
+  s usporedivim podacima o broju ustanova, učenika ili studenata, gdje su
+  dostupni. Dodati prijave, odobrene i odbijene projekte na razini ustanove
+  samo ako izvor takve podatke pruža, kako bi se bolje istraživalo sudjelovanje
+  i uspješnost prijava.
+- **Proširenje registara i obuhvata korisnika:** uključiti nove javne registre
+  i vrste organizacija koje sudjeluju u programu, uz zasebna i provjerljiva
+  pravila povezivanja. Nesigurne podudarnosti trebale bi ostati označene za
+  provjeru, ne potvrđivati se automatski.
+- **Praćenje promjena kroz vrijeme i dostupniji rezultati:** sačuvati više
+  vremenskih presjeka radi prikaza promjena te, prema potrebi, ponuditi javni
+  API ili redovito objavljene obrađene skupove podataka.
+
+Takva proširenja trebala bi čuvati izvornu datoteku i trag obrade te prikazivati
+obuhvat, datum i ograničenja svakog skupa. Ni prošireni podaci sami po sebi ne bi
+dokazali dostupnost prilika ni uzrok razlika; za to bi i dalje bili potrebni
+odgovarajući podaci o prijavama, odbijanjima i populaciji ustanova.
 
 Za novi presjek podataka potrebno je preuzeti novije CSV-resurse s poveznica u
 tablici izvora, zamijeniti odgovarajuće lokalne ulazne datoteke u
@@ -272,56 +311,3 @@ Priprema podataka koristi Python standardnu biblioteku; aplikacija koristi
 Streamlit, pandas, Plotly i openpyxl. Rezultati su dostupni kao JSON/CSV za daljnju
 integraciju. Trenutna verzija nema javni API, zakazano osvježavanje ni
 automatizirano dohvaćanje podataka.
-
-## Usklađenost s kriterijima ocjenjivanja
-
-| Kriterij iz poziva | Dokaz u rješenju / preostali korak tima |
-|---|---|
-| Upotreba otvorenih podataka (1–5) | Više skupova s kataloškim URL-ovima, izdavačima, licencijama i datumom preuzimanja lokalnih snimki navedenima u dokumentaciji i aplikaciji. |
-| Povezivanje javno dostupnih podataka (1–5) | Projekti su povezani sa školskim i visokoobrazovnim registrima; regionalni pokazatelji kombiniraju projekte i registre. Veze su konzervativne i objašnjene. |
-| Relevantnost rješenja (1–5) | Analiza podataka za obrazovne ustanove pripada javnim uslugama i informiranju građana. |
-| Utjecaj i korist zajednici (1–5) | Karta, usporedba vrsta i koncentracija financiranja olakšavaju uočavanje obrazaca. Za tvrdnje o pristupu potrebni su podaci o prijavama i prihvatljivim ustanovama. |
-| Inovativnost i tehnologija (1–5) | Povezivanje više skupova, provjera kvalitete, regionalno normalizirani pokazatelji i preuzimanje podataka daju novu uporabnu vrijednost. Ne tvrdi se da prototip koristi AI ili druge napredne tehnologije. |
-| Izvedivost rješenja (1–10) | Pokretljiv Streamlit prototip, ponovljiva priprema podataka i automatizirani testovi. Tim treba demonstrirati lokalno pokretanje i provjeriti sve stranice. |
-| Tehnička arhitektura i integracijski potencijal (1–5) | Dokumentirani pipeline i JSON/CSV izlazi. Javni API i automatizirano osvježavanje ostaju mogući nastavak, ne postojeća funkcionalnost. |
-| Dojam rješenja (1–5) | Pokazati stvarni prototip i jasno objasniti što karta može, a što ne može zaključiti. |
-| Prezentacija rješenja (1–10) | Poziv traži video-prezentaciju od 3 minute. Scenarij je ispod; tim treba snimiti i provjeriti trajanje videa. |
-
-## Predloženi tijek 3-minutnog videa
-
-Ovo je struktura za snimanje stvarne demonstracije, ne zamjena za predani video.
-
-| Vrijeme | Što prikazati i reći |
-|---|---|
-| 0:00–0:25 | Problem: objavljeni popisi projekata, financija i ustanova postoje odvojeno; teško je vidjeti tko sudjeluje i gdje. |
-| 0:25–0:50 | Ukratko prikazati početnu stranicu i objasniti razliku između projektnog popisa 2024.–2026. i agregata prijava 2021.–2026. |
-| 0:50–1:20 | Otvoriti kartu. Pokazati broj ustanova u registru, broj s povezanim projektom i udio; naglasiti da to nije mjera pristupa ni uspjeha. |
-| 1:20–1:50 | Otvoriti usporedbu vrsta ustanova. Prikazati izdvojene kategorije i objasniti da se kombinirane vrste broje kao zasebna kategorija. |
-| 1:50–2:15 | Pokazati koncentraciju financiranja i prebaciti obuhvat sa svih korisnika na pouzdano povezane obrazovne ustanove. |
-| 2:15–2:40 | Pokazati stranicu „Podaci i metodologija”: veze s registrima, razlike izvora, ponovljene projektne brojeve i popis projekata. |
-| 2:40–3:00 | Sažeti korist, navesti gdje se nalaze kod i dokumentacija te pozvati na nastavak povezivanja izvora. |
-
-## Kontrolni popis prije predaje
-
-Pravila organizatora traže završno rješenje i dokumentaciju, izvorni kod ili
-poveznicu na javni repozitorij, korištene skupove podataka s izvorima te demo
-materijale (primjerice poveznicu na radni prototip ili snimke zaslona).
-Pojedinosti o prijavi tima i roku treba provjeriti u pravilima i javnom pozivu
-na [Portalu otvorenih podataka](https://data.gov.hr/uploads/images/2026-10-19/1792415200857_praviladatathonfinal.pdf).
-
-- [x] Navesti kataloške poveznice, izdavače i licence korištenih skupova.
-- [x] Zabilježiti da su lokalne izvorne datoteke preuzete 6. 11. 2026. i
-  pojasniti da CSV snimke nisu naknadno filtrirane.
-- [x] Priložiti lokalne CSV snimke i pripremljene rezultate aplikacije.
-- [x] Uključiti kod, README i tehničku dokumentaciju u projektu.
-- [x] Ponovno generirati pripremljene podatke i uspješno pokrenuti testove
-  (33 testa).
-- [ ] Objaviti posljednje izmjene na javnom repozitoriju ili pripremiti izvorni
-  kod za dostavu; lokalne izmjene same po sebi organizatorima nisu dostupne.
-- [ ] Pripremiti demo materijal za organizatora: javno dostupnu poveznicu na
-  pokrenutu aplikaciju ili snimke zaslona. Lokalna provjera nije javni demo.
-- [ ] Snimiti i dostaviti 3-minutnu video-prezentaciju iz javnog poziva te
-  provjeriti da njezini prikazi i zaključci odgovaraju predanim podacima.
-- [ ] Provjeriti da je tim zasebno podnio traženu prijavu za izazov te da su
-  naziv tima, izazov i kontakt mentora ispravno navedeni.
-- [ ] Provjeriti aktualni rok i način dostave u javnom pozivu prije slanja.

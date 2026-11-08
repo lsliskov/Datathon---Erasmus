@@ -1,9 +1,11 @@
 # Erasmus+ Explorer RH
 
 Erasmus+ Explorer RH omogućuje pregled financiranih projekata, korisnika i regionalne
-zastupljenosti te analizu koncentracije financiranja. Projekt sadrži pripremu podataka
-i Streamlit MVP sučelje; izlazne JSON/CSV datoteke ostaju dostupne za integraciju s
-drugim sučeljem, a tablični prikazi mogu se preuzeti u XLSX formatu.
+zastupljenosti te analizu koncentracije financiranja. Projekt istražuje obrasce
+zabilježenog sudjelovanja; ne mjeri potpunu dostupnost Erasmus+ prilika niti uzroke
+razlika. Projekt sadrži pripremu podataka i Streamlit MVP sučelje; izlazne JSON/CSV
+datoteke ostaju dostupne za integraciju s drugim sučeljem, a tablični prikazi mogu
+se preuzeti u XLSX formatu.
 
 Dokumentacija projekta, metodologija, pregled natječajnih kriterija i predloženi
 tijek trosminutne demonstracije nalaze se u [DATATHON.md](./DATATHON.md).
@@ -111,12 +113,33 @@ obrazovnih ustanova u registru županije. Županija visokog učilišta preuzima 
 školskim registrima jednoznačna. To je obuhvat registarskih zapisa, a ne stopa prijava,
 odobravanja ili dostupnosti programa. Studijski programi agregirani po županiji daju
 kontekst obrazovne ponude i ne predstavljaju Erasmus+ projekte ni financiranje.
+Stoga prikazane regionalne i sektorske razlike opisuju zabilježeno sudjelovanje i
+financiranje u dostupnim podacima, a ne dokazuju nejednak pristup ili uzrok razlika.
+Za izravnije istraživanje dostupnosti potrebni bi bili, primjerice, podaci o
+prijavama i odbijenim projektima po ustanovi te usporedivi podaci o broju i
+veličini ustanova.
 
 Usporedba sličnih ustanova uzima samo ustanove iste vrste s barem jednim
-sigurno povezanim projektom u odabranim godinama i sektorima. Uspoređuje broj
-projektnih brojeva, aktivnosti, godine sudjelovanja i ukupna sredstva; ne
-ocjenjuje kvalitetu ustanove. Metodu i uvjete za prikaz rezultata objašnjava
+sigurno povezanim projektom u odabranim godinama i sektorima. Prikazuje sve
+pronađene slične ustanove, do najviše pet, pa i manji broj kandidata daje
+rezultat. Uspoređuju se projektni brojevi, aktivnosti, godine sudjelovanja i
+ukupna sredstva; rezultat ne ocjenjuje kvalitetu ustanove. Metodu objašnjava
 [tehnička dokumentacija](./DATATHON.md).
+
+## Mogući daljnji razvoj
+
+Ovo su prijedlozi, a ne funkcionalnosti koje su već dostupne u aplikaciji:
+
+- izravno preuzimanje s CKAN-a uz provjeru strukture, datum preuzimanja i arhivu
+  izvornih presjeka;
+- dodavanje podataka za 2014.–2020. nakon provjere izvora i pažljivo označavanje
+  razlika u definicijama i pravilima programa prije usporedbe s 2021.–2027.;
+- usporedba projekata i financiranja s podacima o broju ustanova, učenika ili
+  studenata, gdje su usporedivi podaci dostupni;
+- detaljniji podaci o prijavama i odobrenim/odbijenim projektima po ustanovi,
+  ako ih izdavač objavljuje;
+- dodatni javni registri, vrste organizacija i bolji pregled nepovezanih zapisa;
+- arhiva vremenskih presjeka te redovito objavljeni obrađeni skupovi ili javni API.
 
 ## Pravila povezivanja i ograničenja
 

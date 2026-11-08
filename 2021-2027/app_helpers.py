@@ -187,7 +187,6 @@ def compare_similar_institutions(
     institutions_by_id,
     selected_institution_id,
     limit=5,
-    minimum_comparable_institutions=4,
 ):
     profiles = {}
     for project in projects:
@@ -230,9 +229,6 @@ def compare_similar_institutions(
         "comparable_institution_count": len(candidates),
         "peers": [],
     }
-    if len(candidates) < minimum_comparable_institutions:
-        return result
-
     cohort = [selected, *candidates]
     project_counts = [len(profile["project_ids"]) for profile in cohort]
     grant_amounts = [profile["grant_amount_eur"] for profile in cohort]

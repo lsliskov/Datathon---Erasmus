@@ -744,71 +744,70 @@ def render_beneficiaries(projects, matches_by_record, institutions_by_id, instit
             st.caption(
                 "Za odabranu ustanovu u trenutačnom skupu nema podataka za usporedbu."
             )
-        elif comparison["comparable_institution_count"] < 4:
-            st.caption(
-                f"Pronađeno je samo {comparison['comparable_institution_count']} "
-                "drugih ustanova iste vrste s povezanim projektom. Za smisleniju "
-                "usporedbu potrebno je najmanje četiri; pokušajte proširiti filtre "
-                "godina ili sektora."
-            )
         else:
             selected_profile = comparison["selected"]
             peers = comparison["peers"]
-            average_peer_projects = sum(
-                len(peer["project_ids"]) for peer in peers
-            ) / len(peers)
-            average_peer_projects_text = f"{average_peer_projects:.1f}".replace(
-                ".", ","
-            )
             st.markdown(
                 f"**{selected_profile['name']}** ({selected_profile['city']}) "
                 f"ima **{len(selected_profile['project_ids'])}** jedinstvenih "
-                "projektnih brojeva u odabranim podacima. Usporedili smo je s "
-                f"**{comparison['comparable_institution_count']}** drugim "
-                "ustanovama iste vrste koje imaju povezane projekte; u tablici "
-                f"je do pet najsličnijih. Te ustanove imaju prosječno "
-                f"**{average_peer_projects_text}** jedinstvenih projektnih brojeva."
+                "projektnih brojeva u odabranim podacima. Broj drugih ustanova "
+                "iste vrste s povezanim projektom za usporedbu: "
+                f"**{comparison['comparable_institution_count']}**."
             )
-            peer_rows = [
-                {
-                    "Ustanova": peer["name"],
-                    "Mjesto": peer["city"],
-                    "Sličnost profila (%)": peer["similarity_percent"],
-                    "Jedinstveni projektni brojevi": len(peer["project_ids"]),
-                    "Odobreno (EUR)": peer["grant_amount_eur"],
-                    "Aktivnosti": ", ".join(sorted(peer["activities"])),
-                    "Godine sudjelovanja": ", ".join(
-                        str(year) for year in sorted(peer["years"])
-                    ),
-                }
-                for peer in peers
-            ]
-            st.caption(
-                "Postotak sličnosti nije ocjena uspješnosti. Sve četiri značajke "
-                "imaju jednaku težinu: uspoređujemo koliko su broj projekata i "
-                "iznos blizu vrijednostima u skupini te koliko se aktivnosti i "
-                "godine sudjelovanja preklapaju. Zbog malog i nejednakog broja "
-                "podataka koristimo ovu jednostavnu usporedbu umjesto strojnog "
-                "grupiranja."
-            )
-            peer_frame = pd.DataFrame(peer_rows)
-            st.dataframe(
-                format_table(peer_frame, ("Odobreno (EUR)",)),
-                hide_index=True,
-                column_config={
-                    "Sličnost profila (%)": st.column_config.NumberColumn(
-                        "Sličnost profila (%)",
-                        format="%.1f %%"
-                    )
-                },
-                alt="Do pet ustanova istog tipa s najsličnijim Erasmus+ profilom",
-            )
-            download_excel(
-                peer_frame,
-                "erasmus_slicne_ustanove.xlsx",
-                "Slicne ustanove",
-                "download_similar_institutions",
-            )
+            if peers:
+                average_peer_projects = sum(
+                    len(peer["project_ids"]) for peer in peers
+                ) / len(peers)
+                average_peer_projects_text = f"{average_peer_projects:.1f}".replace(
+                    ".", ","
+                )
+                st.caption(
+                    f"Prikazujemo do pet najsličnijih ustanova. One imaju prosječno "
+                    f"{average_peer_projects_text} jedinstvenih projektnih brojeva."
+                )
+                peer_rows = [
+                    {
+                        "Ustanova": peer["name"],
+                        "Mjesto": peer["city"],
+                        "Sličnost profila (%)": peer["similarity_percent"],
+                        "Jedinstveni projektni brojevi": len(peer["project_ids"]),
+                        "Odobreno (EUR)": peer["grant_amount_eur"],
+                        "Aktivnosti": ", ".join(sorted(peer["activities"])),
+                        "Godine sudjelovanja": ", ".join(
+                            str(year) for year in sorted(peer["years"])
+                        ),
+                    }
+                    for peer in peers
+                ]
+                st.caption(
+                    "Postotak sličnosti nije ocjena uspješnosti. Sve četiri značajke "
+                    "imaju jednaku težinu: uspoređujemo koliko su broj projekata i "
+                    "iznos blizu vrijednostima u skupini te koliko se aktivnosti i "
+                    "godine sudjelovanja preklapaju."
+                )
+                peer_frame = pd.DataFrame(peer_rows)
+                st.dataframe(
+                    format_table(peer_frame, ("Odobreno (EUR)",)),
+                    hide_index=True,
+                    column_config={
+                        "Sličnost profila (%)": st.column_config.NumberColumn(
+                            "Sličnost profila (%)",
+                            format="%.1f %%"
+                        )
+                    },
+                    alt="Do pet ustanova istog tipa s najsličnijim Erasmus+ profilom",
+                )
+                download_excel(
+                    peer_frame,
+                    "erasmus_slicne_ustanove.xlsx",
+                    "Slicne ustanove",
+                    "download_similar_institutions",
+                )
+            else:
+                st.caption(
+                    "U odabranim godinama i sektorima nema drugih ustanova iste "
+                    "vrste s povezanim projektom za usporedbu."
+                )
 
     st.divider()
     st.subheader("Pretraživanje korisnika i profili")
