@@ -160,6 +160,15 @@ nakon čišćenja ne stvaraju novi naziv. Broj 326 zato nije broj ustanova:
 različite ustanove mogu imati isti naziv, a ista ustanova može biti zapisana
 pod dovoljno različitim nazivima da se broje odvojeno.
 
+Dodatna kontrolna tablica [pregled nepovezanih Erasmus+ zapisa i provjere škola
+te vrtića](./pregled_nepovezanih_erasmus_zapisa_azurirano_skole_vrtici_2026-11-08.xlsx)
+bilježi pregled povezivanja na dan 8. 11. 2026. Sadrži sažetak i radne popise
+povezanih zapisa, 34 dodatno povezana zapisa, preostalih 138 nepovezanih zapisa
+obrazovnih sektora, 555 zapisa iz ostalih obuhvaćenih sektora te 326 različitih
+naziva među tim zapisima. Uključuje i popis 48 pregledanih školskih zapisa.
+Datoteka služi kao dopunski trag provjere povezivanja; nije izvorna datoteka
+portala niti je aplikacija izravno učitava kao ulaz.
+
 U usporedbi izvora za godine u kojima postoji projektni popis, 2024. broj se
 podudara (575), ali se iznos razlikuje za **+312.097 EUR** u popisu projekata
 prema financijskom agregatu. Za 2025. popis ima **641** zapis, a agregat

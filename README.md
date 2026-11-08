@@ -80,6 +80,12 @@ python -m unittest discover -s .\2021-2027 -p "test_*.py"
 - `dashboard_summary.json` — sažeti pokazatelji za početni prikaz.
 - `data_quality.json` — provjere, duplikati i ograničenja podataka.
 
+U korijenu repozitorija nalazi se i [dodatna kontrolna tablica za pregled
+povezivanja i nepovezanih zapisa](./pregled_nepovezanih_erasmus_zapisa_azurirano_skole_vrtici_2026-11-08.xlsx).
+To je dopunski pregled stanja na dan 8. 11. 2026., a ne ulazna datoteka
+aplikacije; njezin sadržaj i uloga objašnjeni su u
+[Datathon dokumentaciji](./DATATHON.md).
+
 U `data_quality.json` nalazi se i godišnja usporedba broja projekata i financiranja
 iz popisa projekata s agregatnim tablicama prijava i financija. Razlike su upozorenja
 za pregled, ne automatski razlog za uklanjanje zapisa.
