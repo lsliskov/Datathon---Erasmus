@@ -1,3 +1,6 @@
+import json
+from io import BytesIO
+
 import pandas as pd
 
 
@@ -296,3 +299,30 @@ def project_export_frame(projects):
             for row in projects
         ]
     )
+
+
+def dataset_export_frame(dataset):
+    if isinstance(dataset, dict):
+        frame = pd.json_normalize([dataset], sep=".")
+    elif isinstance(dataset, list) and all(isinstance(row, dict) for row in dataset):
+        frame = pd.json_normalize(dataset, sep=".")
+    elif isinstance(dataset, list):
+        frame = pd.DataFrame({"value": dataset})
+    else:
+        frame = pd.DataFrame({"value": [dataset]})
+
+    for column in frame.columns:
+        if frame[column].map(lambda value: isinstance(value, (dict, list))).any():
+            frame[column] = frame[column].map(
+                lambda value: json.dumps(value, ensure_ascii=False)
+                if isinstance(value, (dict, list))
+                else value
+            )
+    return frame
+
+
+def excel_bytes(frame, sheet_name):
+    buffer = BytesIO()
+    with pd.ExcelWriter(buffer, engine="openpyxl") as writer:
+        frame.to_excel(writer, index=False, sheet_name=sheet_name)
+    return buffer.getvalue()

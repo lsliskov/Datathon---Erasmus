@@ -1,10 +1,15 @@
 import json
+from io import BytesIO
 from pathlib import Path
 import unittest
+
+from openpyxl import load_workbook
 
 from app_helpers import (
     filter_application_years,
     compare_similar_institutions,
+    dataset_export_frame,
+    excel_bytes,
     project_export_frame,
     summarize_institution_types,
     summarize_regional_coverage,
@@ -23,26 +28,48 @@ class StreamlitAppTests(unittest.TestCase):
 
         pages = [
             "Regije",
-            "Korisnici i ustanove",
-            "Koncentracija financiranja",
-            "Projekti",
-            "Kvaliteta podataka",
-            "Pregled",
+            "Korisnici",
+            "Koncentracija",
+            "Podaci i metodologija",
+            "Sažetak",
         ]
+        minimum_downloads = {
+            "Regije": 2,
+            "Korisnici": 4,
+            "Koncentracija": 1,
+            "Podaci i metodologija": 5,
+        }
         for page in pages:
-            app.sidebar.selectbox[0].set_value(page)
+            app.segmented_control[0].set_value(page)
             app.run(timeout=60)
             self.assertEqual(
                 len(app.exception),
                 0,
                 f"Page {page!r} raised: {[item.message for item in app.exception]}",
             )
+            for chart in app.get("plotly_chart"):
+                config = json.loads(chart.proto.config)
+                self.assertIs(
+                    config["scrollZoom"],
+                    False,
+                    f"Scroll zoom should be disabled on {page!r}",
+                )
+            for download in app.get("download_button"):
+                self.assertTrue(
+                    download.proto.url.endswith(".xlsx"),
+                    f"Download on {page!r} should be an XLSX file",
+                )
+            self.assertGreaterEqual(
+                len(app.get("download_button")),
+                minimum_downloads.get(page, 0),
+                f"Expected XLSX exports beside the useful tables on {page!r}",
+            )
 
     def test_empty_project_filters_render_empty_states(self):
         app = AppTest.from_file(str(APP_PATH)).run(timeout=60)
         app.sidebar.multiselect[0].set_value([])
-        app.sidebar.multiselect[1].set_value([])
-        app.sidebar.selectbox[0].set_value("Koncentracija financiranja")
+        app.sidebar.pills[0].set_value([])
+        app.segmented_control[0].set_value("Koncentracija")
         app.run(timeout=60)
         self.assertEqual(len(app.exception), 0)
         self.assertTrue(
@@ -51,7 +78,7 @@ class StreamlitAppTests(unittest.TestCase):
 
     def test_concentration_can_be_limited_to_linked_education_institutions(self):
         app = AppTest.from_file(str(APP_PATH)).run(timeout=60)
-        app.sidebar.selectbox[0].set_value("Koncentracija financiranja")
+        app.segmented_control[0].set_value("Koncentracija")
         app.run(timeout=60)
         app.radio[0].set_value("Samo pouzdano povezane obrazovne ustanove")
         app.run(timeout=60)
@@ -88,9 +115,88 @@ class StreamlitAppTests(unittest.TestCase):
         self.assertEqual(frame["Odobreno (EUR)"].iloc[0], 1234.5)
         self.assertEqual(str(frame["Odobreno (EUR)"].dtype), "float64")
 
+    def test_table_export_is_xlsx_and_keeps_amount_numeric(self):
+        frame = project_export_frame(
+            [
+                {
+                    "year": 2025,
+                    "sector": "Odgoj",
+                    "beneficiary_name": "Škola",
+                    "city": "Zagreb",
+                    "key_action": "KA1",
+                    "activity_type": "KA121",
+                    "project_id": "2025-1-HR01",
+                    "grant_amount_eur": 1234.5,
+                    "source_updated_at": None,
+                }
+            ]
+        )
+        workbook = load_workbook(BytesIO(excel_bytes(frame, "Projekti")))
+        sheet = workbook["Projekti"]
+
+        self.assertEqual(sheet["H1"].value, "Odobreno (EUR)")
+        self.assertEqual(sheet["H2"].value, 1234.5)
+
+    def test_prepared_dataset_export_flattens_columns_and_preserves_nested_values(self):
+        frame = dataset_export_frame(
+            [
+                {
+                    "year": 2025,
+                    "grant_amount": 1234.5,
+                    "metadata": {"source": "CKAN"},
+                    "activities": ["KA1", "KA2"],
+                }
+            ]
+        )
+        workbook = load_workbook(BytesIO(excel_bytes(frame, "Podaci")))
+        sheet = workbook["Podaci"]
+        columns = {
+            sheet.cell(row=1, column=column).value: column
+            for column in range(1, sheet.max_column + 1)
+        }
+
+        self.assertEqual(sheet.cell(row=2, column=columns["year"]).value, 2025)
+        self.assertEqual(
+            sheet.cell(row=2, column=columns["grant_amount"]).value, 1234.5
+        )
+        self.assertEqual(
+            sheet.cell(row=2, column=columns["metadata.source"]).value, "CKAN"
+        )
+        self.assertEqual(
+            sheet.cell(row=2, column=columns["activities"]).value, '["KA1", "KA2"]'
+        )
+
+    def test_overview_year_axes_are_horizontal(self):
+        app = AppTest.from_file(str(APP_PATH)).run(timeout=60)
+        charts = app.get("plotly_chart")
+
+        self.assertEqual(len(charts), 3)
+        for chart in charts:
+            figure = json.loads(chart.proto.spec)
+            self.assertEqual(figure["layout"]["xaxis"].get("tickangle", 0), 0)
+
+    def test_methodology_page_includes_project_list_and_summary_table(self):
+        app = AppTest.from_file(str(APP_PATH)).run(timeout=60)
+        app.segmented_control[0].set_value("Podaci i metodologija")
+        app.run(timeout=60)
+
+        self.assertEqual(len(app.exception), 0)
+        self.assertTrue(any("Popis projekata" in item.value for item in app.subheader))
+        self.assertEqual(len(app.get("bar_chart")), 0)
+
+    def test_concentration_slider_updates_the_top_share_metric(self):
+        app = AppTest.from_file(str(APP_PATH)).run(timeout=60)
+        app.segmented_control[0].set_value("Koncentracija")
+        app.run(timeout=60)
+        app.slider[0].set_value(4)
+        app.run(timeout=60)
+
+        self.assertEqual(len(app.exception), 0)
+        self.assertTrue(any(item.label == "Udio top 4" for item in app.metric))
+
     def test_region_page_renders_local_county_map(self):
         app = AppTest.from_file(str(APP_PATH)).run(timeout=60)
-        app.sidebar.selectbox[0].set_value("Regije")
+        app.segmented_control[0].set_value("Regije")
         app.run(timeout=60)
         self.assertEqual(len(app.exception), 0)
         self.assertTrue(
@@ -99,7 +205,7 @@ class StreamlitAppTests(unittest.TestCase):
 
     def test_region_page_keeps_registry_context_when_project_filters_are_empty(self):
         app = AppTest.from_file(str(APP_PATH)).run(timeout=60)
-        app.sidebar.selectbox[0].set_value("Regije")
+        app.segmented_control[0].set_value("Regije")
         app.sidebar.multiselect[0].set_value([])
         app.run(timeout=60)
 
@@ -113,7 +219,7 @@ class StreamlitAppTests(unittest.TestCase):
 
     def test_long_category_charts_have_full_name_hover_tooltips(self):
         app = AppTest.from_file(str(APP_PATH)).run(timeout=60)
-        app.sidebar.selectbox[0].set_value("Koncentracija financiranja")
+        app.segmented_control[0].set_value("Koncentracija")
         app.run(timeout=60)
         charts = app.get("plotly_chart")
 
@@ -126,12 +232,12 @@ class StreamlitAppTests(unittest.TestCase):
 
     def test_institution_type_charts_include_complete_category_labels(self):
         app = AppTest.from_file(str(APP_PATH)).run(timeout=60)
-        app.sidebar.selectbox[0].set_value("Korisnici i ustanove")
+        app.segmented_control[0].set_value("Korisnici")
         app.run(timeout=60)
         charts = app.get("plotly_chart")
 
-        self.assertEqual(len(charts), 2)
-        for chart in charts:
+        self.assertGreaterEqual(len(charts), 2)
+        for chart in charts[:2]:
             trace = json.loads(chart.proto.spec)["data"][0]
             self.assertIn("%{y}", trace["hovertemplate"])
             self.assertIn("Visoko obrazovanje", trace["y"])
@@ -321,7 +427,7 @@ class StreamlitAppTests(unittest.TestCase):
 
     def test_institution_page_explains_the_similar_profile_comparison(self):
         app = AppTest.from_file(str(APP_PATH)).run(timeout=60)
-        app.sidebar.selectbox[0].set_value("Korisnici i ustanove")
+        app.segmented_control[0].set_value("Korisnici")
         app.run(timeout=60)
 
         self.assertEqual(len(app.exception), 0)

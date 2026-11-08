@@ -34,18 +34,36 @@ nejednakog pristupa ili uzroka slabijeg sudjelovanja.
   obrazovne ponude.
 - Usporedba registarskih i povezanih ustanova prema vrsti ustanove, s brojem
   korisnika, projektnim zapisima, jedinstvenim projektnim brojevima i iznosima.
-- Pretraživanje profila korisnika, analiza koncentracije financiranja i izvoz
-  filtriranih projektnih i agregiranih regionalnih pokazatelja u CSV.
+- Pretraživanje profila korisnika, analiza koncentracije financiranja i preuzimanje
+  filtriranih projektnih, regionalnih i institucionalnih tablica te obrađenih
+  analitičkih skupova u XLSX formatu.
 - Pametna usporedba odabrane obrazovne ustanove s do pet najsličnijih ustanova
   iste vrste, prema broju projekata, aktivnostima, godinama sudjelovanja i
   odobrenim sredstvima; način izračuna i broj usporedivih ustanova vidljivi su
   uz rezultat.
-- Prikaz kvalitete podataka, nepodudarnosti izvora, metodologije i ograničenja.
+- Prikaz kvalitete podataka, nepodudarnosti izvora i metodologije; na istoj
+  stranici nalazi se i filtrirani popis projekata.
 
 Sučelje je namijenjeno i osobama koje ne rade svakodnevno s analizom podataka:
-uz svaki grafikon, kartu i tablicu objašnjeno je što se broji, na koje filtre
-prikaz reagira i što iz njega nije moguće zaključiti. Kratke tehničke definicije
-ostaju u metodologiji i na stranici kvalitete podataka.
+uz prikaze su kratka objašnjenja ključnih mjera i načina čitanja. Granice podataka
+i metodološka ograničenja navedeni su odvojeno na stranici „Podaci i metodologija”.
+
+## Snimke zaslona sučelja
+
+Početni pregled povezuje financirane projektne zapise s agregatima prijava i
+ugovaranja. Regionalna karta i tablica zatim prikazuju prostorni raspored
+sigurno povezanih ustanova; gumb **Preuzmi** uz tablicu sprema XLSX s brojčanim
+vrijednostima.
+
+![Početni pregled programa i financiranja](./docs/screenshots/pregled.png)
+
+![Regionalna karta i županijska tablica](./docs/screenshots/regije.png)
+
+Na stranici korisnika moguće je usporediti ustanovu s drugim ustanovama istog
+tipa. Usporedba prikazuje značajke, broj uključenih ustanova i ograničenja
+metode, a tablica se može preuzeti u Excel.
+
+![Usporedba odabrane ustanove sličnim ustanovama](./docs/screenshots/usporedba-ustanova.png)
 
 ## Izvori podataka i metapodaci
 
@@ -53,6 +71,15 @@ Lokalne podatkovne datoteke preuzete su 6. studenoga 2026. Kataloški metapodaci
 provjereni su 7. studenoga 2026. U nastavku su kataloške kartice, izdavači,
 licence prikazane u CKAN-u i lokalne datoteke. Datum izmjene odnosi se na
 metapodatke kartice, ne nužno na sadržaj svake lokalne CSV snimke.
+
+Svaka lokalna CSV snimka preuzeta je izravno s odgovarajućeg CKAN skupa ili
+njegova resursa navedenog u tablici ispod; izvorne datoteke nisu naknadno
+filtrirane, ručno skraćivane niti prepravljane. Skripta učitava te snimke i
+priprema podatke za analizu:
+pretvara tipove vrijednosti, normalizira tekst radi povezivanja te izrađuje
+izvedene sažetke. Filtri u aplikaciji su interaktivni i mijenjaju samo prikaz,
+ne sadržaj preuzetih izvornih CSV datoteka. Iznimke i opseg izvedenih tablica
+objašnjeni su u odjeljku analize ulaznih tablica.
 
 | Kataloški skup | Lokalna datoteka i uloga | Izdavač | Licencija u katalogu | Izmjena metapodataka |
 |---|---|---|---|---|
@@ -191,12 +218,19 @@ rezultatima. Pomoćne agregacije nalaze se u `2021-2027/app_helpers.py`.
 
 ### Osvježavanje podataka i proširenje
 
-Podaci se trenutačno osvježavaju ručno; aplikacija ne dohvaća CKAN niti se
-automatski osvježava. Za novi presjek podataka potrebno je preuzeti novije
-CSV-resurse s poveznica u tablici izvora, zamijeniti odgovarajuće lokalne
-ulazne datoteke u `2021-2027/` uz nazive koje očekuje `prepare_data.py`,
-zabilježiti datum preuzimanja i provjeriti jesu li zaglavlja/obvezna polja
-promijenjena. Zatim iz korijena repozitorija pokrenuti:
+U ovoj verziji podaci se osvježavaju ručno: CSV-resursi su preuzeti izravno s
+poveznica u tablici izvora, ali aplikacija ih još ne dohvaća sama s CKAN-a niti
+se automatski osvježava. U budućem razvoju može se dodati kontrolirano
+preuzimanje s istih pojedinačnih poveznica, provjera promjene strukture izvora
+i datuma preuzimanja te čuvanje preuzete izvorne datoteke prije obrade. Tako
+automatsko osvježavanje ne bi narušilo usporedivost podataka niti zamijenilo
+stabilnu lokalnu demonstraciju.
+
+Za novi presjek podataka potrebno je preuzeti novije CSV-resurse s poveznica u
+tablici izvora, zamijeniti odgovarajuće lokalne ulazne datoteke u
+`2021-2027/` uz nazive koje očekuje `prepare_data.py`, zabilježiti datum
+preuzimanja i provjeriti jesu li zaglavlja/obvezna polja promijenjena. Zatim
+iz korijena repozitorija pokrenuti:
 
 ```powershell
 python .\2021-2027\prepare_data.py
@@ -235,7 +269,7 @@ python -m unittest discover -s .\2021-2027 -p "test_*.py"
 ```
 
 Priprema podataka koristi Python standardnu biblioteku; aplikacija koristi
-Streamlit, pandas i Plotly. Rezultati su dostupni kao JSON/CSV za daljnju
+Streamlit, pandas, Plotly i openpyxl. Rezultati su dostupni kao JSON/CSV za daljnju
 integraciju. Trenutna verzija nema javni API, zakazano osvježavanje ni
 automatizirano dohvaćanje podataka.
 
@@ -264,16 +298,30 @@ Ovo je struktura za snimanje stvarne demonstracije, ne zamjena za predani video.
 | 0:50–1:20 | Otvoriti kartu. Pokazati broj ustanova u registru, broj s povezanim projektom i udio; naglasiti da to nije mjera pristupa ni uspjeha. |
 | 1:20–1:50 | Otvoriti usporedbu vrsta ustanova. Prikazati izdvojene kategorije i objasniti da se kombinirane vrste broje kao zasebna kategorija. |
 | 1:50–2:15 | Pokazati koncentraciju financiranja i prebaciti obuhvat sa svih korisnika na pouzdano povezane obrazovne ustanove. |
-| 2:15–2:40 | Pokazati stranicu kvalitete: nejasne veze, razlike izvora, duplikate i poznata ograničenja. |
+| 2:15–2:40 | Pokazati stranicu „Podaci i metodologija”: veze s registrima, razlike izvora, ponovljene projektne brojeve i popis projekata. |
 | 2:40–3:00 | Sažeti korist, navesti gdje se nalaze kod i dokumentacija te pozvati na nastavak povezivanja izvora. |
 
 ## Kontrolni popis prije predaje
 
-- [x] Navesti kataloške URL-ove, izdavače i licencije za korištene registre i Erasmus+ skup.
-- [x] Zabilježen je datum preuzimanja lokalnih podatkovnih datoteka: 6. 11. 2026.
-- [ ] Ponovno generirati pripremljene podatke iz dostavljenih izvornih CSV datoteka.
-- [ ] Pokrenuti testove i demonstrirati sve stranice aplikacije.
-- [ ] Provjeriti da zaključci u videu odgovaraju upravo korištenim verzijama podataka.
-- [ ] Snimiti i dostaviti zaseban video u trajanju od 3 minute.
-- [ ] Priložiti projektni opis, tehničku dokumentaciju, kod i demo materijale u formatu i roku iz poziva.
-- [ ] Provjeriti prihvatljivost studentskog tima, mentora i način dostave prema pravilima natječaja.
+Pravila organizatora traže završno rješenje i dokumentaciju, izvorni kod ili
+poveznicu na javni repozitorij, korištene skupove podataka s izvorima te demo
+materijale (primjerice poveznicu na radni prototip ili snimke zaslona).
+Pojedinosti o prijavi tima i roku treba provjeriti u pravilima i javnom pozivu
+na [Portalu otvorenih podataka](https://data.gov.hr/uploads/images/2026-10-19/1792415200857_praviladatathonfinal.pdf).
+
+- [x] Navesti kataloške poveznice, izdavače i licence korištenih skupova.
+- [x] Zabilježiti da su lokalne izvorne datoteke preuzete 6. 11. 2026. i
+  pojasniti da CSV snimke nisu naknadno filtrirane.
+- [x] Priložiti lokalne CSV snimke i pripremljene rezultate aplikacije.
+- [x] Uključiti kod, README i tehničku dokumentaciju u projektu.
+- [x] Ponovno generirati pripremljene podatke i uspješno pokrenuti testove
+  (33 testa).
+- [ ] Objaviti posljednje izmjene na javnom repozitoriju ili pripremiti izvorni
+  kod za dostavu; lokalne izmjene same po sebi organizatorima nisu dostupne.
+- [ ] Pripremiti demo materijal za organizatora: javno dostupnu poveznicu na
+  pokrenutu aplikaciju ili snimke zaslona. Lokalna provjera nije javni demo.
+- [ ] Snimiti i dostaviti 3-minutnu video-prezentaciju iz javnog poziva te
+  provjeriti da njezini prikazi i zaključci odgovaraju predanim podacima.
+- [ ] Provjeriti da je tim zasebno podnio traženu prijavu za izazov te da su
+  naziv tima, izazov i kontakt mentora ispravno navedeni.
+- [ ] Provjeriti aktualni rok i način dostave u javnom pozivu prije slanja.

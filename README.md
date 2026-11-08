@@ -3,7 +3,7 @@
 Erasmus+ Explorer RH omogućuje pregled financiranih projekata, korisnika i regionalne
 zastupljenosti te analizu koncentracije financiranja. Projekt sadrži pripremu podataka
 i Streamlit MVP sučelje; izlazne JSON/CSV datoteke ostaju dostupne za integraciju s
-drugim sučeljem.
+drugim sučeljem, a tablični prikazi mogu se preuzeti u XLSX formatu.
 
 Dokumentacija projekta, metodologija, pregled natječajnih kriterija i predloženi
 tijek trosminutne demonstracije nalaze se u [DATATHON.md](./DATATHON.md).
@@ -21,6 +21,23 @@ python -m streamlit run .\2021-2027\streamlit_app.py
 Aplikacija sadrži pregled programa, regionalnu analizu, pretraživanje korisnika i
 ustanova, koncentraciju financiranja, filtrirani popis projekata te prikaz kvalitete
 i ograničenja podataka.
+
+## Snimke zaslona
+
+Početna stranica daje pregled projekata, financiranja i prijava; regionalna karta
+zatim prikazuje gdje su sigurno povezane ustanove zastupljene u dostupnim podacima.
+
+![Početni pregled Erasmus+ projekata i financiranja](./docs/screenshots/pregled.png)
+
+Na stranici Regije uz kartu je tablica s brojčanim vrijednostima po županijama,
+a gumb **Preuzmi** sprema trenutačni regionalni sažetak u Excel.
+
+![Regionalna analiza i tablica za preuzimanje](./docs/screenshots/regije.png)
+
+Usporedba ustanova pomaže korisniku staviti rezultate odabrane ustanove u kontekst
+sličnih ustanova istog tipa. Prikazane značajke i ograničenja objašnjeni su uz tablicu.
+
+![Usporedba profila sličnih ustanova](./docs/screenshots/usporedba-ustanova.png)
 
 ## Priprema podataka
 
@@ -67,23 +84,26 @@ za pregled, ne automatski razlog za uklanjanje zapisa.
 
 ## Što prikazuje sučelje
 
-- **Pregled** — ključni pokazatelji, projekti po godini, sredstva po sektoru te
+- **Sažetak** — ključni pokazatelji, projekti po godini, sredstva po sektoru te
   agregatni broj prijava i ugovorenih projekata.
 - **Regije** — županijski prikaz projekata sigurno povezanih sa školama i visokim
   učilištima te zaseban kontekst zapisa studijskih programa po županiji.
-- **Korisnici i ustanove** — usporedba sudjelovanja prema vrsti ustanove te pretraživi
+- **Korisnici** — usporedba sudjelovanja prema vrsti ustanove te pretraživi
   profili korisnika iz popisa projekata, s odvojenim prikazom sigurnih veza na registre
   i usporedbom odabrane ustanove s drugim ustanovama iste vrste sličnog Erasmus+
   profila.
-- **Koncentracija financiranja** — udio vodećih korisnika i broj ponovljenih korisnika.
-- **Projekti** — pretraživ i filtriran popis s preuzimanjem CSV-a.
-- **Kvaliteta podataka** — metodologija povezivanja, usporedba izvora i upozorenja,
-  uz preuzimanje pripremljenih skupova u JSON-u.
+- **Koncentracija** — udio vodećih korisnika i broj ponovljenih korisnika.
+- **Podaci i metodologija** — izvori, pravila povezivanja i kvaliteta podataka,
+  uz pretraživ popis projekata na dnu stranice i preuzimanje pripremljenih skupova
+  u Excelu. Ispod važnijih tablica nalazi se gumb **Preuzmi** za XLSX; izbornik
+  ugrađene tablice Streamlit može nuditi i vlastiti CSV izvoz.
 
 Filtri godina i sektora projekata u bočnoj traci odnose se na popis projekata
 (2024.–2026.). Agregati prijava imaju zaseban filtar godina (2021.–2026.) i nisu
-filtrirani prema sektoru projekata. CSV izvoz projekata čuva iznose kao numeričke
-vrijednosti, ne kao formatirani tekst.
+filtrirani prema sektoru projekata. Svi podaci koji se preuzimaju kroz sučelje
+dostupni su u XLSX formatu; iznosi ostaju numeričke vrijednosti. Ugniježđeni
+elementi u analitičkim skupovima prikazuju se kao JSON tekst unutar ćelija.
+Pripremljeni JSON/CSV izlazi i dalje su dostupni u mapi `2021-2027/processed/`.
 
 Regionalni pokazatelj „udio ustanova s povezanim projektom” dijeli jedinstvene škole,
 dječje vrtiće i visoka učilišta povezana s projektom u odabranom skupu s brojem

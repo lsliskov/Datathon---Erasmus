@@ -9,6 +9,8 @@ import streamlit as st
 from app_helpers import (
     filter_application_years,
     compare_similar_institutions,
+    dataset_export_frame,
+    excel_bytes,
     institution_category,
     project_export_frame,
     summarize_institution_types,
@@ -56,6 +58,10 @@ DATA_FILES = (
     "study_programs.json",
     "study_program_summary.json",
 )
+PLOTLY_CONFIG = {"displayModeBar": False, "scrollZoom": False}
+EXCEL_MIME_TYPE = (
+    "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+)
 
 st.set_page_config(
     page_title="Erasmus+ Explorer RH",
@@ -99,8 +105,25 @@ def format_table(frame, amount_columns=()):
     return frame
 
 
+def download_excel(frame, file_name, sheet_name, key):
+    st.download_button(
+        "Preuzmi",
+        data=excel_bytes(frame, sheet_name),
+        file_name=file_name,
+        mime=EXCEL_MIME_TYPE,
+        key=key,
+    )
+
+
 def horizontal_bar_figure(
-    frame, category_column, value_column, value_label, value_format, suffix=""
+    frame,
+    category_column,
+    value_column,
+    value_label,
+    value_format,
+    suffix="",
+    height=None,
+    left_margin=260,
 ):
     figure = px.bar(
         frame,
@@ -120,8 +143,8 @@ def horizontal_bar_figure(
         cliponaxis=False,
     )
     figure.update_layout(
-        height=max(360, 46 * len(frame) + 100),
-        margin={"l": 260, "r": 30, "t": 25, "b": 55},
+        height=height or max(360, 46 * len(frame) + 100),
+        margin={"l": left_margin, "r": 30, "t": 25, "b": 55},
         yaxis={"automargin": True, "title": None},
         xaxis={"title": value_label},
         hoverlabel={"align": "left"},
@@ -209,8 +232,8 @@ def render_overview(data, projects, matches_by_record):
         )
     st.caption(
         "„Korisnik” je ovdje jedinstvena kombinacija naziva i mjesta, a ne "
-        "provjereni broj pravnih osoba. Povezani zapisi su oni za koje je "
-        "pronađena sigurna veza s dostupnim registrom obrazovnih ustanova."
+        "broj pravnih osoba. Povezani zapisi imaju sigurnu vezu s dostupnim "
+        "registrom obrazovnih ustanova."
     )
 
     yearly = defaultdict(lambda: {"project_count": 0, "grant_amount_eur": 0.0})
@@ -221,13 +244,9 @@ def render_overview(data, projects, matches_by_record):
         sector_totals[project["sector"]]["project_count"] += 1
         sector_totals[project["sector"]]["grant_amount_eur"] += project["grant_amount_eur"]
 
-    left, right = st.columns(2)
+    left, right = st.columns([1, 2])
     with left:
         st.subheader("Projekti po godini")
-        st.caption(
-            "Svaki stupac broji retke financiranih projekata iz odabranih "
-            "godina i sektora. Više zapisa može imati isti projektni broj."
-        )
         yearly_frame = pd.DataFrame(
             [
                 {"Godina": year, "Broj projekata": values["project_count"]}
@@ -235,18 +254,17 @@ def render_overview(data, projects, matches_by_record):
             ]
         )
         if not yearly_frame.empty:
-            st.bar_chart(
-                yearly_frame,
-                x="Godina",
-                y="Broj projekata",
+            figure = px.bar(yearly_frame, x="Godina", y="Broj projekata")
+            figure.update_xaxes(tickangle=0)
+            figure.update_layout(height=360)
+            st.plotly_chart(
+                figure,
+                width="stretch",
+                config=PLOTLY_CONFIG,
                 alt="Broj financiranih projektnih zapisa po godini",
             )
     with right:
         st.subheader("Odobrena sredstva po sektoru")
-        st.caption(
-            "Ovdje je zbrojen odobreni iznos iz istih filtriranih projektnih "
-            "redaka; usporedite visinu sredstava, a ne broj ustanova."
-        )
         sector_frame = pd.DataFrame(
             [
                 {"Sektor": sector, "Odobreno (EUR)": values["grant_amount_eur"]}
@@ -258,19 +276,26 @@ def render_overview(data, projects, matches_by_record):
             ]
         )
         if not sector_frame.empty:
-            st.bar_chart(
-                sector_frame,
-                x="Sektor",
-                y="Odobreno (EUR)",
-                horizontal=True,
+            st.plotly_chart(
+                horizontal_bar_figure(
+                    sector_frame,
+                    "Sektor",
+                    "Odobreno (EUR)",
+                    "Odobreno",
+                    ",.2f",
+                    " €",
+                    height=360,
+                    left_margin=320,
+                ),
+                width="stretch",
+                config=PLOTLY_CONFIG,
                 alt="Odobrena sredstva po sektoru",
             )
 
     st.subheader("Prijave i ugovoreni projekti")
     st.caption(
         "Ovaj grafikon uspoređuje ukupan broj zaprimljenih prijava s brojem "
-        "ugovorenih projekata po godini. Razlika pokazuje koliko prijava nije "
-        "završilo ugovaranjem, ali nije prikaz uspjeha pojedine ustanove."
+        "ugovorenih projekata po godini; agregat obuhvaća sve sektore."
     )
     application_rows = filter_application_years(
         data["dashboard_summary"]["applications_by_year"],
@@ -286,25 +311,27 @@ def render_overview(data, projects, matches_by_record):
                 }
                 for row in application_rows
             ]
-        ).set_index("Godina")
-        st.bar_chart(
+        )
+        figure = px.bar(
             application_frame,
+            x="Godina",
+            y=["Prijave", "Ugovoreni"],
+            barmode="group",
+        )
+        figure.update_xaxes(tickangle=0)
+        figure.update_layout(height=420)
+        st.plotly_chart(
+            figure,
+            width="stretch",
+            config=PLOTLY_CONFIG,
             alt="Broj Erasmus+ prijava i ugovorenih projekata po godini",
         )
         st.caption(
-            "Agregatni podaci iz tablice 9 uključuju sve sektore i nisu ograničeni "
-            "filtrom sektora u bočnoj traci."
+            "Agregatni podaci iz tablice 9 sažimaju sve sektore; odabrane godine "
+            "mijenjaju prikaz."
         )
     else:
         st.caption("Za odabrane godine nema agregatnih podataka o prijavama.")
-
-    duplicate_count = len(data["data_quality"]["duplicate_project_ids"])
-    if duplicate_count:
-        st.warning(
-            f"Izvor sadrži {duplicate_count} ponovljeni projektni broj uz različite "
-            "korisnike. Redci su sačuvani; pojedinosti su na stranici Kvaliteta podataka."
-        )
-
 
 def render_regions(
     projects,
@@ -375,12 +402,6 @@ def render_regions(
     selected_metric_label = st.selectbox(
         "Pokazatelj na karti",
         list(metric_options),
-    )
-    st.caption(
-        "Odaberite što želite usporediti po županijama. Tamnija boja znači "
-        "veću vrijednost odabranog pokazatelja; prelaskom preko županije "
-        "možete vidjeti i ostale vrijednosti. Projektni pokazatelji mijenjaju "
-        "se s bočnim filtrima, dok se broj ustanova u registru ne mijenja."
     )
     selected_metric = metric_options[selected_metric_label]
     county_rows = []
@@ -466,7 +487,7 @@ def render_regions(
     st.plotly_chart(
         figure,
         width="stretch",
-        config={"displayModeBar": False},
+        config=PLOTLY_CONFIG,
         alt=f"Karta hrvatskih županija: {selected_metric}",
     )
     st.caption(
@@ -497,11 +518,11 @@ def render_regions(
         hide_index=True,
         alt="Regionalni pokazatelji i obuhvat školskih ustanova po županiji",
     )
-    st.download_button(
-        "Preuzmi regionalne pokazatelje (CSV)",
-        data=county_frame.to_csv(index=False).encode("utf-8-sig"),
-        file_name="erasmus_regionalni_pokazatelji.csv",
-        mime="text/csv",
+    download_excel(
+        county_frame,
+        "erasmus_regionalni_pokazatelji.xlsx",
+        "Regionalni pokazatelji",
+        "download_regional_summary",
     )
 
     if rows:
@@ -549,17 +570,20 @@ def render_regions(
             hide_index=True,
             alt="Popis projekata pouzdano povezanih sa školskim, predškolskim i visokoškolskim registrom",
         )
+        download_excel(
+            details,
+            "erasmus_povezani_projekti_zupanije.xlsx",
+            "Povezani projekti",
+            "download_county_projects",
+        )
 
 
 def render_beneficiaries(projects, matches_by_record, institutions_by_id, institutions):
-    st.title("Korisnici i vrste ustanova")
+    st.title("Korisnici i ustanove")
     render_page_context(
-        "Ovdje možete najprije vidjeti koje vrste obrazovnih ustanova sudjeluju "
-        "u odabranim projektima, a zatim potražiti pojedinog korisnika ili "
-        "usporediti ustanovu sličnog profila. Usporedba s registrom uključuje "
-        "samo sigurno povezane ustanove; nepovezani korisnici nisu nužno "
-        "neobrazovne ustanove jer korišteni registri ne obuhvaćaju sve moguće "
-        "korisnike. Svi projektni prikazi prate filtre godina i sektora."
+        "Usporedite sudjelovanje po vrstama obrazovnih ustanova, pronađite "
+        "korisnika ili usporedite ustanovu s drugima sličnog profila. Prikazi "
+        "prate odabrane godine i sektore."
     )
     type_summary = summarize_institution_types(
         projects, matches_by_record, institutions_by_id, institutions
@@ -582,6 +606,19 @@ def render_beneficiaries(projects, matches_by_record, institutions_by_id, instit
     )
     type_frame = pd.DataFrame(type_summary)
     if not type_frame.empty:
+        type_frame = type_frame[
+            [
+                "Vrsta ustanove",
+                "Odobreno (EUR)",
+                "Ustanove s povezanim projektom",
+                "Udio ustanova s povezanim projektom (%)",
+                "Projektni zapisi",
+                "Jedinstveni projektni brojevi",
+                "Korisnici",
+                "Ustanove u registru",
+            ]
+        ]
+    if not type_frame.empty:
         left, right = st.columns(2)
         with left:
             st.plotly_chart(
@@ -593,7 +630,7 @@ def render_beneficiaries(projects, matches_by_record, institutions_by_id, instit
                     ",.0f",
                 ),
                 width="stretch",
-                config={"displayModeBar": False},
+                config=PLOTLY_CONFIG,
                 alt="Broj ustanova s projektom po vrsti obrazovne ustanove",
             )
             st.caption(
@@ -611,7 +648,7 @@ def render_beneficiaries(projects, matches_by_record, institutions_by_id, instit
                     " %",
                 ),
                 width="stretch",
-                config={"displayModeBar": False},
+                config=PLOTLY_CONFIG,
                 alt="Udio ustanova s projektom među zapisima registra po vrsti",
             )
             st.caption(
@@ -637,11 +674,11 @@ def render_beneficiaries(projects, matches_by_record, institutions_by_id, instit
             },
             alt="Projekti, sredstva i obuhvat registra po vrsti ustanove",
         )
-        st.download_button(
-            "Preuzmi pokazatelje po vrsti ustanove (CSV)",
-            data=type_frame.to_csv(index=False).encode("utf-8-sig"),
-            file_name="erasmus_vrste_ustanova.csv",
-            mime="text/csv",
+        download_excel(
+            type_frame,
+            "erasmus_vrste_ustanova.xlsx",
+            "Vrste ustanova",
+            "download_institution_types",
         )
     else:
         st.caption("Nema obrazovnih ustanova u registrima za odabrane filtre.")
@@ -738,11 +775,11 @@ def render_beneficiaries(projects, matches_by_record, institutions_by_id, instit
                     "Mjesto": peer["city"],
                     "Sličnost profila (%)": peer["similarity_percent"],
                     "Jedinstveni projektni brojevi": len(peer["project_ids"]),
+                    "Odobreno (EUR)": peer["grant_amount_eur"],
                     "Aktivnosti": ", ".join(sorted(peer["activities"])),
                     "Godine sudjelovanja": ", ".join(
                         str(year) for year in sorted(peer["years"])
                     ),
-                    "Odobreno (EUR)": peer["grant_amount_eur"],
                 }
                 for peer in peers
             ]
@@ -754,11 +791,9 @@ def render_beneficiaries(projects, matches_by_record, institutions_by_id, instit
                 "podataka koristimo ovu jednostavnu usporedbu umjesto strojnog "
                 "grupiranja."
             )
+            peer_frame = pd.DataFrame(peer_rows)
             st.dataframe(
-                format_table(
-                    pd.DataFrame(peer_rows),
-                    ("Odobreno (EUR)",),
-                ),
+                format_table(peer_frame, ("Odobreno (EUR)",)),
                 hide_index=True,
                 column_config={
                     "Sličnost profila (%)": st.column_config.NumberColumn(
@@ -767,6 +802,12 @@ def render_beneficiaries(projects, matches_by_record, institutions_by_id, instit
                     )
                 },
                 alt="Do pet ustanova istog tipa s najsličnijim Erasmus+ profilom",
+            )
+            download_excel(
+                peer_frame,
+                "erasmus_slicne_ustanove.xlsx",
+                "Slicne ustanove",
+                "download_similar_institutions",
             )
 
     st.divider()
@@ -817,8 +858,8 @@ def render_beneficiaries(projects, matches_by_record, institutions_by_id, instit
         st.metric("Godine sudjelovanja", ", ".join(map(str, years)), border=True)
     st.caption(
         "Ovi pokazatelji opisuju projekte odabranog korisnika u trenutačnom "
-        "filtru. Korisnik je grupiran prema nazivu i mjestu, što nije uvijek "
-        "isto što i jedna pravna osoba."
+        "filtru. Korisnik se grupira prema nazivu i mjestu, pa može "
+        "predstavljati više pravnih osoba."
     )
 
     linked_institution_ids = {
@@ -830,8 +871,7 @@ def render_beneficiaries(projects, matches_by_record, institutions_by_id, instit
         st.subheader("Povezani zapisi u registru")
         st.caption(
             "Ovi registarski zapisi odgovaraju odabranom korisniku prema "
-            "primijenjenim pravilima povezivanja. Ako tablice nema, to ne "
-            "dokazuje da korisnik nije obrazovna ustanova."
+            "primijenjenim pravilima povezivanja."
         )
         linked_records = [
             {
@@ -848,10 +888,15 @@ def render_beneficiaries(projects, matches_by_record, institutions_by_id, instit
             hide_index=True,
             alt="Povezani zapisi korisnika u obrazovnim registrima",
         )
+        download_excel(
+            pd.DataFrame(linked_records),
+            "erasmus_povezani_registri_korisnika.xlsx",
+            "Povezani registri",
+            "download_beneficiary_matches",
+        )
     else:
         st.caption(
-            "Za ovog korisnika nije pronađena jedinstvena podudarnost u dostupnim "
-            "registrima. To ne znači da korisnik nije obrazovna ustanova."
+            "Korisnik nema jedinstvenu vezu s trenutno korištenim registrima."
         )
 
     st.subheader("Projekti korisnika")
@@ -866,15 +911,22 @@ def render_beneficiaries(projects, matches_by_record, institutions_by_id, instit
             "Ključna aktivnost": row["key_action"],
             "Tip aktivnosti": row["activity_type"],
             "Projektni broj": row["project_id"],
-            "Mjesto korisnika": row["city"],
             "Odobreno (EUR)": row["grant_amount_eur"],
+            "Mjesto korisnika": row["city"],
         }
         for row in beneficiary_projects
     ]
+    beneficiary_project_frame = pd.DataFrame(project_rows)
     st.dataframe(
-        format_table(pd.DataFrame(project_rows), ("Odobreno (EUR)",)),
+        format_table(beneficiary_project_frame, ("Odobreno (EUR)",)),
         hide_index=True,
         alt="Financirani projekti odabranog korisnika",
+    )
+    download_excel(
+        beneficiary_project_frame,
+        "erasmus_projekti_korisnika.xlsx",
+        "Projekti korisnika",
+        "download_beneficiary_projects",
     )
 
     yearly = defaultdict(float)
@@ -892,10 +944,13 @@ def render_beneficiaries(projects, matches_by_record, institutions_by_id, instit
             "Ovaj grafikon zbraja odobrene iznose po godini za odabranog "
             "korisnika i pomaže vidjeti kada je sudjelovao."
         )
-        st.bar_chart(
-            yearly_frame,
-            x="Godina",
-            y="Odobreno (EUR)",
+        figure = px.bar(yearly_frame, x="Godina", y="Odobreno (EUR)")
+        figure.update_xaxes(tickangle=0)
+        figure.update_layout(height=360)
+        st.plotly_chart(
+            figure,
+            width="stretch",
+            config=PLOTLY_CONFIG,
             alt="Odobrena sredstva odabranog korisnika po godini",
         )
 
@@ -905,9 +960,7 @@ def render_concentration(projects, matches_by_record, institutions_by_id):
     render_page_context(
         "Ova stranica pokazuje koliki dio ukupnih odobrenih sredstava pripada "
         "korisnicima s najvećim iznosima i koliko se korisnika ponavlja kroz "
-        "više projekata. Tako možete procijeniti jesu li sredstva raspoređena "
-        "na mnogo korisnika ili se veći dio iznosa slijeva manjem broju njih. "
-        "To je opis raspodjele, a ne procjena pravednosti ili dostupnosti programa."
+        "više projekata. Udio vodećih korisnika mijenja se prema odabranom broju."
     )
     scope = st.radio(
         "Obuhvat korisnika",
@@ -935,37 +988,31 @@ def render_concentration(projects, matches_by_record, institutions_by_id):
         return
 
     total_funding = sum(row["grant_amount_eur"] for row in recipients)
-    top_10_amount = sum(row["grant_amount_eur"] for row in recipients[:10])
-    top_20_amount = sum(row["grant_amount_eur"] for row in recipients[:20])
     repeat_recipients = sum(row["project_count"] > 1 for row in recipients)
+    top_count = st.slider(
+        "Broj vodećih korisnika",
+        min_value=1,
+        max_value=min(20, len(recipients)),
+        value=min(10, len(recipients)),
+    )
+    top_amount = sum(row["grant_amount_eur"] for row in recipients[:top_count])
     with st.container(horizontal=True):
         st.metric("Korisnici", len(recipients), border=True)
         st.metric("S 2+ projekata", repeat_recipients, border=True)
         st.metric(
-            "Udio top 10 korisnika",
-            percent(top_10_amount / total_funding * 100 if total_funding else None),
+            "Ukupno odobreno",
+            euro(total_funding),
             border=True,
         )
         st.metric(
-            "Udio top 20 korisnika",
-            percent(top_20_amount / total_funding * 100 if total_funding else None),
+            f"Udio top {top_count}",
+            percent(top_amount / total_funding * 100 if total_funding else None),
             border=True,
         )
     st.caption(
-        "Pokazatelji top 10 i top 20 računaju udio njihovih sredstava u ukupnom "
-        "iznosu odabranog obuhvata. „S 2+ projekata” broji korisnike s najmanje "
+        f"Odabrani broj {top_count} određuje i udio financiranja i popis vodećih "
+        "korisnika u grafikonu i tablici. Korisnik s 2+ projekata ima najmanje "
         "dva projektna zapisa."
-    )
-
-    top_count = st.slider(
-        "Broj korisnika na grafikonu",
-        min_value=1,
-        max_value=min(30, len(recipients)),
-        value=min(10, len(recipients)),
-    )
-    st.caption(
-        "Odaberite koliko vodećih korisnika prikazati. Ovaj izbor mijenja "
-        "samo grafikon i tablicu; pokazatelji udjela top 10 i top 20 ostaju isti."
     )
     top_frame = pd.DataFrame(
         [
@@ -984,9 +1031,11 @@ def render_concentration(projects, matches_by_record, institutions_by_id):
             "Odobreno",
             ",.2f",
             " €",
+            height=620,
+            left_margin=300,
         ),
         width="stretch",
-        config={"displayModeBar": False},
+        config=PLOTLY_CONFIG,
         alt=f"Vodećih {top_count} korisnika prema odobrenim sredstvima",
     )
     st.caption(
@@ -1013,11 +1062,18 @@ def render_concentration(projects, matches_by_record, institutions_by_id):
     )
     st.dataframe(
         format_table(table, ("Odobreno (EUR)",)),
+        height=620,
         hide_index=True,
         column_config={
             "Udio (%)": st.column_config.NumberColumn("Udio (%)", format="%.2f %%")
         },
         alt="Udio vodećih korisnika u financiranju",
+    )
+    download_excel(
+        table,
+        "erasmus_koncentracija_financiranja.xlsx",
+        "Vodeci korisnici",
+        "download_funding_concentration",
     )
     st.caption(
         "Tablica uz iznos prikazuje broj projektnih zapisa i postotni udio "
@@ -1025,8 +1081,11 @@ def render_concentration(projects, matches_by_record, institutions_by_id):
     )
 
 
-def render_projects(projects):
-    st.title("Popis projekata")
+def render_projects(projects, nested=False):
+    if nested:
+        st.subheader("Popis projekata")
+    else:
+        st.title("Popis projekata")
     render_page_context(
         "Svaki redak predstavlja zapis iz popisa financiranih projekata, a ne "
         "nužno jedinstven projektni broj. Godine i sektori u bočnoj traci "
@@ -1050,31 +1109,25 @@ def render_projects(projects):
     ]
     export_frame = project_export_frame(filtered)
     st.write(f"Prikazano zapisa: {len(export_frame):,}".replace(",", "."))
-    st.caption(
-        "Svaki redak je zapis iz izvora; ponovljeni projektni brojevi nisu "
-        "automatski uklonjeni. CSV preuzima točno ove prikazane retke."
-    )
     st.dataframe(
         format_table(export_frame, ("Odobreno (EUR)",)),
         hide_index=True,
         alt="Filtrirani popis projekata s odobrenim sredstvima",
     )
-    st.download_button(
-        "Preuzmi filtrirane projekte (CSV)",
-        data=export_frame.to_csv(index=False).encode("utf-8-sig"),
-        file_name="erasmus_projekti.csv",
-        mime="text/csv",
+    download_excel(
+        export_frame,
+        "erasmus_projekti.xlsx",
+        "Projekti",
+        "download_filtered_projects",
     )
 
 
-def render_data_quality(data):
-    st.title("Kvaliteta i metodologija")
+def render_data_quality(data, filtered_projects):
+    st.title("Podaci i metodologija")
     render_page_context(
         "Ova stranica objašnjava odakle dolaze brojke i koliko su veze među "
-        "izvorima pouzdane. Najprije je prikazano što sve podaci obuhvaćaju, "
-        "zatim kako su projekti povezani s registrima te gdje se izvori "
-        "razlikuju. Brojke ovdje opisuju cijeli učitani skup i ne mijenjaju "
-        "se bočnim filtrima projekata."
+        "izvorima pouzdane. Na dnu se nalazi pretraživ popis projekata koji "
+        "prati odabrane godine i sektore."
     )
     quality = data["data_quality"]
 
@@ -1104,38 +1157,39 @@ def render_data_quality(data):
 
     st.subheader("Povezivanje s registrima")
     st.caption(
-        "Grafikon prikazuje rezultat povezivanja svakog projektnog retka s "
-        "dostupnim obrazovnim registrima. Uspješna veza znači da je pronađen "
-        "jedinstven kandidat prema pravilima ispod; neuspjela veza ne dokazuje "
-        "da korisnik nije obrazovna ustanova."
+        "Tablica sažima koliko je projektnih zapisa sigurno povezano s dostupnim "
+        "obrazovnim registrima."
     )
-    status_counts = quality["project_match_status_counts"]
+    matched_count = sum(
+        bool(item["institution_id"])
+        for item in data["project_institution_matches"]
+    )
     match_frame = pd.DataFrame(
         [
-            {"Status": "Jedinstveni naziv i mjesto", "Zapisa": status_counts.get("matched_exact_name_and_city", 0)},
-            {"Status": "Točan naziv, mjesto dodano uz naziv", "Zapisa": status_counts.get("matched_exact_name_and_city_suffix", 0)},
-            {"Status": "Jedinstveni naziv, mjesto se razlikuje", "Zapisa": status_counts.get("matched_unique_name_location_differs", 0)},
-            {"Status": "Skraćeni naziv + jedinstvena adresa i mjesto", "Zapisa": status_counts.get("matched_unique_address_and_city", 0)},
-            {"Status": "Jedinstvena adresa, mjesto se razlikuje", "Zapisa": status_counts.get("matched_unique_address_location_differs", 0)},
-            {"Status": "Ručno potvrđene veze osnovnih škola", "Zapisa": status_counts.get("matched_user_confirmed_school", 0)},
-            {"Status": "Više kandidata / razlika u mjestu", "Zapisa": status_counts.get("location_mismatch", 0) + status_counts.get("ambiguous_exact_name_and_city", 0)},
-            {"Status": "Bez kandidata", "Zapisa": status_counts.get("unmatched", 0)},
+            {"Status povezivanja": "Povezano s registrom", "Projektnih zapisa": matched_count},
+            {
+                "Status povezivanja": "Nije povezano s registrom",
+                "Projektnih zapisa": (
+                    len(data["project_institution_matches"]) - matched_count
+                ),
+            },
         ]
     )
-    st.bar_chart(
+    st.dataframe(
         match_frame,
-        x="Status",
-        y="Zapisa",
-        alt="Broj projektnih zapisa po statusu povezivanja s ustanovama",
+        hide_index=True,
+        alt="Broj povezanih i nepovezanih projektnih zapisa",
+    )
+    download_excel(
+        match_frame,
+        "erasmus_status_povezivanja.xlsx",
+        "Status povezivanja",
+        "download_match_summary",
     )
     st.caption(
-        "Projekt se može povezati jedinstvenim nazivom i kad se mjesto korisnika "
-        "razlikuje od mjesta registra, kao i kad je točno ime ustanove navedeno uz "
-        "mjesto na kraju naziva korisnika. Za skraćeni naziv traži se i jedinstvena "
-        "podudarnost adrese i mjesta. Tri talijanska/dvojezična zapisa škola u Rovinju "
-        "ostaju nepovezana. Mjesto u popisu označava korisnika, ne mjesto provedbe "
-        "aktivnosti. Nema automatskog fuzzy povezivanja. Visoka učilišta dobivaju "
-        "županiju samo kad se njihovo mjesto jednoznačno podudara sa školskim registrom."
+        "Veze se temelje na jedinstvenim podudaranjima naziva, mjesta i adrese; "
+        "tri talijanska/dvojezična zapisa škola u Rovinju ostaju nepovezana. "
+        "Mjesto označava korisnika projekta."
     )
     st.write(
         f"Školskih zapisa bez županije: "
@@ -1189,6 +1243,12 @@ def render_data_quality(data):
             hide_index=True,
             alt="Ustanove s proturječnim županijama u izvorima",
         )
+        download_excel(
+            conflict_frame,
+            "erasmus_proturjecne_zupanije.xlsx",
+            "Proturjecne zupanije",
+            "download_county_conflicts",
+        )
         st.caption(
             "Ovi zapisi imaju više mogućih županija; nijedna nije odabrana "
             "automatski pa se ustanove ne koriste u regionalnom izračunu."
@@ -1220,6 +1280,12 @@ def render_data_quality(data):
         ),
         hide_index=True,
         alt="Usklađenje broja projekata i financiranja među izvorima",
+    )
+    download_excel(
+        reconciliation,
+        "erasmus_usporedba_izvora.xlsx",
+        "Usporedba izvora",
+        "download_source_reconciliation",
     )
     st.caption(
         "Izvorne tablice imaju različite datume ažuriranja. Prikazane razlike su "
@@ -1363,40 +1429,43 @@ def render_data_quality(data):
             hide_index=True,
             alt="Ponovljeni projektni brojevi i pripadajući korisnici",
         )
+        download_excel(
+            duplicate_frame,
+            "erasmus_ponovljeni_projektni_brojevi.xlsx",
+            "Ponovljeni brojevi",
+            "download_duplicate_projects",
+        )
     else:
         st.success("Nema ponovljenih projektnih brojeva.")
 
     st.subheader("Preuzimanje podataka za daljnju obradu")
     st.caption(
-        "Odaberite pripremljeni analitički skup u JSON obliku. To su obrađeni "
-        "rezultati za ponovnu uporabu, a ne izvorne CSV datoteke s portala."
+        "Odaberite obrađeni analitički skup za preuzimanje u Excelu. "
+        "Ugniježđene vrijednosti prikazane su kao JSON tekst u ćelijama."
     )
     dataset_options = {
-        "Projekti (JSON)": "projects",
-        "Korisnici (JSON)": "beneficiaries",
-        "Ustanove (JSON)": "institutions",
-        "Povezivanje projekata i ustanova (JSON)": "project_institution_matches",
-        "Regionalni sažetak (JSON)": "regional_summary",
-        "Studijski programi i status veze (JSON)": "study_programs",
-        "Financije po godini i sektoru (JSON)": "funding_results",
-        "Prijave i ugovaranja (JSON)": "application_results",
-        "Sažeti pokazatelji (JSON)": "dashboard_summary",
+        "Projekti": "projects",
+        "Korisnici": "beneficiaries",
+        "Ustanove": "institutions",
+        "Povezivanje projekata i ustanova": "project_institution_matches",
+        "Regionalni sažetak": "regional_summary",
+        "Studijski programi i status veze": "study_programs",
+        "Financije po godini i sektoru": "funding_results",
+        "Prijave i ugovaranja": "application_results",
+        "Sažeti pokazatelji": "dashboard_summary",
     }
     selection = st.selectbox(
         "Skup podataka",
         list(dataset_options),
     )
-    payload = json.dumps(
-        data[dataset_options[selection]],
-        ensure_ascii=False,
-        indent=2,
-    ).encode("utf-8")
-    st.download_button(
-        "Preuzmi JSON",
-        data=payload,
-        file_name=f"{dataset_options[selection]}.json",
-        mime="application/json",
+    export_frame = dataset_export_frame(data[dataset_options[selection]])
+    download_excel(
+        export_frame,
+        f"{dataset_options[selection]}.xlsx",
+        "Podaci",
+        "download_prepared_dataset",
     )
+    render_projects(filtered_projects, nested=True)
 
 
 missing_files = [filename for filename in DATA_FILES if not (DATA_DIR / filename).is_file()]
@@ -1429,28 +1498,28 @@ institutions_by_id = {
     item["institution_id"]: item for item in data["institutions"]
 }
 
+page = st.segmented_control(
+    "Odaberite prikaz",
+    [
+        "Sažetak",
+        "Regije",
+        "Korisnici",
+        "Koncentracija",
+        "Podaci i metodologija",
+    ],
+    default="Sažetak",
+    required=True,
+    label_visibility="collapsed",
+    width="stretch",
+    wrap=True,
+    key="main_navigation",
+)
+
 with st.sidebar:
-    st.title("Erasmus+ Explorer RH")
-    page = st.selectbox(
-        "Odaberite prikaz",
-        [
-            "Pregled",
-            "Regije",
-            "Korisnici i ustanove",
-            "Koncentracija financiranja",
-            "Projekti",
-            "Kvaliteta podataka",
-        ],
-    )
-    st.caption(
-        "Odaberite temu analize. Filtri ispod utječu na stranice s projektnim "
-        "podacima, a ne na cijelu stranicu kvalitete."
-    )
     st.divider()
     st.subheader("Filtri projekata")
     st.caption(
-        "Projektni popis sadrži godine 2024.–2026. Odabrane godine i sektori "
-        "primjenjuju se na pregled, regije, korisnike, koncentraciju i popis projekata."
+        "Odabrane godine i sektori primjenjuju se na projektne prikaze i popis."
     )
     selected_years = st.multiselect(
         "Godine projekata",
@@ -1458,11 +1527,18 @@ with st.sidebar:
         default=project_years,
         key="selected_years",
     )
-    selected_sectors = st.multiselect(
+    sector_labels = {
+        "Odgoj i opće obrazovanje": "Opće obrazovanje",
+        "Strukovno obrazovanje i osposobljavanje": "Strukovno obrazovanje",
+    }
+    selected_sectors = st.pills(
         "Sektori projekata",
         sectors,
+        format_func=lambda sector: sector_labels.get(sector, sector),
         default=sectors,
+        selection_mode="multi",
         key="selected_sectors",
+        wrap=True,
     )
     st.caption(
         "Agregat prijava pokriva 2021.–2026. i ima zaseban filtar. "
@@ -1484,9 +1560,9 @@ with st.sidebar:
         f"{data['dashboard_summary']['institution_count']:,} zapisa ustanova".replace(",", ".")
     )
 
-filtered_projects = filter_projects(projects, selected_years, selected_sectors)
+filtered_projects = filter_projects(projects, selected_years, selected_sectors or [])
 
-if page == "Pregled":
+if page == "Sažetak":
     render_overview(data, filtered_projects, matches_by_record)
 elif page == "Regije":
     if not COUNTY_GEOJSON_PATH.is_file():
@@ -1505,20 +1581,18 @@ elif page == "Regije":
         data["study_program_summary"],
         county_geojson,
     )
-elif page == "Korisnici i ustanove":
+elif page == "Korisnici":
     render_beneficiaries(
         filtered_projects,
         matches_by_record,
         institutions_by_id,
         data["institutions"],
     )
-elif page == "Koncentracija financiranja":
+elif page == "Koncentracija":
     render_concentration(
         filtered_projects,
         matches_by_record,
         institutions_by_id,
     )
-elif page == "Projekti":
-    render_projects(filtered_projects)
 else:
-    render_data_quality(data)
+    render_data_quality(data, filtered_projects)
