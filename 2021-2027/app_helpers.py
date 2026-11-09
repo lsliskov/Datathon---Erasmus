@@ -8,6 +8,10 @@ def filter_application_years(results, selected_years):
     return [row for row in results if row["year"] in selected_years]
 
 
+def dataframe_height(row_count, row_height=35, header_height=38, max_height=620):
+    return min(max_height, header_height + max(1, row_count) * row_height)
+
+
 def institution_category(institution):
     if "higher_education" in institution["registry_kinds"]:
         return "Visoko obrazovanje"

@@ -9,6 +9,7 @@ import streamlit as st
 from app_helpers import (
     filter_application_years,
     compare_similar_institutions,
+    dataframe_height,
     dataset_export_frame,
     excel_bytes,
     institution_category,
@@ -1061,7 +1062,7 @@ def render_concentration(projects, matches_by_record, institutions_by_id):
     )
     st.dataframe(
         format_table(table, ("Odobreno (EUR)",)),
-        height=620,
+        height=dataframe_height(len(table)),
         hide_index=True,
         column_config={
             "Udio (%)": st.column_config.NumberColumn("Udio (%)", format="%.2f %%")

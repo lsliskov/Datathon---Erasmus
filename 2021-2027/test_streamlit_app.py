@@ -8,6 +8,7 @@ from openpyxl import load_workbook
 from app_helpers import (
     filter_application_years,
     compare_similar_institutions,
+    dataframe_height,
     dataset_export_frame,
     excel_bytes,
     project_export_frame,
@@ -22,6 +23,11 @@ APP_PATH = Path(__file__).with_name("streamlit_app.py")
 
 
 class StreamlitAppTests(unittest.TestCase):
+    def test_concentration_table_height_matches_visible_rows(self):
+        self.assertEqual(dataframe_height(10), 388)
+        self.assertEqual(dataframe_height(1), 73)
+        self.assertEqual(dataframe_height(30), 620)
+
     def test_all_pages_render_without_exceptions(self):
         app = AppTest.from_file(str(APP_PATH)).run(timeout=60)
         self.assertEqual(len(app.exception), 0)
