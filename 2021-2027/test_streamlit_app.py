@@ -34,15 +34,15 @@ class StreamlitAppTests(unittest.TestCase):
 
         pages = [
             "Regije",
-            "Korisnici",
-            "Koncentracija",
+            "Organizacije i ustanove",
+            "Financiranje",
             "Podaci i metodologija",
             "Sažetak",
         ]
         minimum_downloads = {
             "Regije": 2,
-            "Korisnici": 4,
-            "Koncentracija": 1,
+            "Organizacije i ustanove": 4,
+            "Financiranje": 1,
             "Podaci i metodologija": 5,
         }
         for page in pages:
@@ -75,7 +75,7 @@ class StreamlitAppTests(unittest.TestCase):
         app = AppTest.from_file(str(APP_PATH)).run(timeout=60)
         app.sidebar.multiselect[0].set_value([])
         app.sidebar.pills[0].set_value([])
-        app.segmented_control[0].set_value("Koncentracija")
+        app.segmented_control[0].set_value("Financiranje")
         app.run(timeout=60)
         self.assertEqual(len(app.exception), 0)
         self.assertTrue(
@@ -84,13 +84,17 @@ class StreamlitAppTests(unittest.TestCase):
 
     def test_concentration_can_be_limited_to_linked_education_institutions(self):
         app = AppTest.from_file(str(APP_PATH)).run(timeout=60)
-        app.segmented_control[0].set_value("Koncentracija")
+        app.segmented_control[0].set_value("Financiranje")
         app.run(timeout=60)
-        app.radio[0].set_value("Samo pouzdano povezane obrazovne ustanove")
+        app.radio[0].set_value(
+            "Samo ustanove koje smo pronašli u obrazovnim registrima"
+        )
         app.run(timeout=60)
 
         self.assertEqual(len(app.exception), 0)
-        self.assertTrue(any("top 10" in item.label.casefold() for item in app.metric))
+        self.assertTrue(
+            any("vodećih 10 organizacija" in item.label.casefold() for item in app.metric)
+        )
 
     def test_application_year_filter_is_independent_from_project_years(self):
         results = [
@@ -192,13 +196,18 @@ class StreamlitAppTests(unittest.TestCase):
 
     def test_concentration_slider_updates_the_top_share_metric(self):
         app = AppTest.from_file(str(APP_PATH)).run(timeout=60)
-        app.segmented_control[0].set_value("Koncentracija")
+        app.segmented_control[0].set_value("Financiranje")
         app.run(timeout=60)
         app.slider[0].set_value(4)
         app.run(timeout=60)
 
         self.assertEqual(len(app.exception), 0)
-        self.assertTrue(any(item.label == "Udio top 4" for item in app.metric))
+        self.assertTrue(
+            any(
+                item.label == "Udio ukupnog financiranja vodećih 4 organizacija"
+                for item in app.metric
+            )
+        )
 
     def test_region_page_renders_local_county_map(self):
         app = AppTest.from_file(str(APP_PATH)).run(timeout=60)
@@ -225,7 +234,7 @@ class StreamlitAppTests(unittest.TestCase):
 
     def test_long_category_charts_have_full_name_hover_tooltips(self):
         app = AppTest.from_file(str(APP_PATH)).run(timeout=60)
-        app.segmented_control[0].set_value("Koncentracija")
+        app.segmented_control[0].set_value("Financiranje")
         app.run(timeout=60)
         charts = app.get("plotly_chart")
 
@@ -238,7 +247,7 @@ class StreamlitAppTests(unittest.TestCase):
 
     def test_institution_type_charts_include_complete_category_labels(self):
         app = AppTest.from_file(str(APP_PATH)).run(timeout=60)
-        app.segmented_control[0].set_value("Korisnici")
+        app.segmented_control[0].set_value("Organizacije i ustanove")
         app.run(timeout=60)
         charts = app.get("plotly_chart")
 
@@ -435,12 +444,12 @@ class StreamlitAppTests(unittest.TestCase):
 
     def test_institution_page_explains_the_similar_profile_comparison(self):
         app = AppTest.from_file(str(APP_PATH)).run(timeout=60)
-        app.segmented_control[0].set_value("Korisnici")
+        app.segmented_control[0].set_value("Organizacije i ustanove")
         app.run(timeout=60)
 
         self.assertEqual(len(app.exception), 0)
         self.assertTrue(
-            any("Pametna usporedba sličnih ustanova" in item.value for item in app.subheader)
+            any("Usporedba sličnih ustanova" in item.value for item in app.subheader)
         )
         self.assertTrue(
             any("Broj drugih ustanova" in item.value for item in app.markdown)

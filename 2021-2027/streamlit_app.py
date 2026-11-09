@@ -191,17 +191,12 @@ def aggregate_recipients(projects):
 def render_overview(data, projects, matches_by_record):
     st.title("Erasmus+ Explorer RH")
     st.caption(
-        "Istražite financirane projekte, korisnike i regionalnu zastupljenost "
+        "Istražite financirane projekte, organizacije i regionalnu zastupljenost "
         "na temelju dostupnih podataka za Hrvatsku."
     )
     render_page_context(
-        "Ova stranica povezuje tri pogleda na program: koliko je projekata "
-        "financirano, kako se odobrena sredstva razlikuju među sektorima te "
-        "koliko je prijava završilo ugovaranjem. Prva dva prikaza temelje se "
-        "na pojedinačnim projektima za 2024.–2026.; bočni filtri za godine i "
-        "sektore mijenjaju te rezultate i ostale projektne stranice. Prijave "
-        "i ugovoreni projekti dolaze iz zasebnog godišnjeg agregata za "
-        "2021.–2026. i imaju vlastiti filtar godina."
+        "Ovdje možete vidjeti koliko je projekata financirano, koliko je "
+        "sredstava odobreno i koliko je prijava ugovoreno."
     )
 
     linked_project_count = sum(
@@ -212,12 +207,12 @@ def render_overview(data, projects, matches_by_record):
     recipients = aggregate_recipients(projects)
     with st.container(horizontal=True):
         st.metric(
-            "Projektni zapisi",
+            "Projekti",
             f"{len(projects):,}".replace(",", "."),
             border=True,
         )
         st.metric(
-            "Korisnici projektnog popisa",
+            "Organizacije uz projekte",
             f"{len(recipients):,}".replace(",", "."),
             border=True,
         )
@@ -227,14 +222,14 @@ def render_overview(data, projects, matches_by_record):
             border=True,
         )
         st.metric(
-            "Pouzdano povezani zapisi",
+            "Projekti povezani s ustanovom iz registra",
             f"{linked_project_count:,}".replace(",", "."),
             border=True,
         )
     st.caption(
-        "„Korisnik” je ovdje jedinstvena kombinacija naziva i mjesta, a ne "
-        "broj pravnih osoba. Povezani zapisi imaju sigurnu vezu s dostupnim "
-        "registrom obrazovnih ustanova."
+        "Organizacija uz projekt je naziv organizacije naveden u izvornom popisu. "
+        "Kod povezanih projekata taj se naziv i mjesto mogu sigurno povezati s "
+        "ustanovom iz dostupnog registra."
     )
 
     yearly = defaultdict(lambda: {"project_count": 0, "grant_amount_eur": 0.0})
@@ -244,10 +239,16 @@ def render_overview(data, projects, matches_by_record):
         yearly[project["year"]]["grant_amount_eur"] += project["grant_amount_eur"]
         sector_totals[project["sector"]]["project_count"] += 1
         sector_totals[project["sector"]]["grant_amount_eur"] += project["grant_amount_eur"]
+    project_years_label = ", ".join(
+        str(year) for year in sorted(yearly)
+    ) or "nema odabrane godine"
 
     left, right = st.columns([1, 2])
     with left:
         st.subheader("Projekti po godini")
+        st.caption(
+            f"Odabrane godine: {project_years_label} — prema popisu financiranih projekata."
+        )
         yearly_frame = pd.DataFrame(
             [
                 {"Godina": year, "Broj projekata": values["project_count"]}
@@ -266,6 +267,9 @@ def render_overview(data, projects, matches_by_record):
             )
     with right:
         st.subheader("Odobrena sredstva po sektoru")
+        st.caption(
+            f"Odabrane godine: {project_years_label} — prema popisu financiranih projekata."
+        )
         sector_frame = pd.DataFrame(
             [
                 {"Sektor": sector, "Odobreno (EUR)": values["grant_amount_eur"]}
@@ -293,10 +297,12 @@ def render_overview(data, projects, matches_by_record):
                 alt="Odobrena sredstva po sektoru",
             )
 
+    st.divider()
     st.subheader("Prijave i ugovoreni projekti")
     st.caption(
+        "Razdoblje: 2021.–2026. — prema godišnjim agregatima prijava. "
         "Ovaj grafikon uspoređuje ukupan broj zaprimljenih prijava s brojem "
-        "ugovorenih projekata po godini; agregat obuhvaća sve sektore."
+        "ugovorenih projekata po godini i obuhvaća sve sektore."
     )
     application_rows = filter_application_years(
         data["dashboard_summary"]["applications_by_year"],
@@ -327,10 +333,6 @@ def render_overview(data, projects, matches_by_record):
             config=PLOTLY_CONFIG,
             alt="Broj Erasmus+ prijava i ugovorenih projekata po godini",
         )
-        st.caption(
-            "Agregatni podaci iz tablice 9 sažimaju sve sektore; odabrane godine "
-            "mijenjaju prikaz."
-        )
     else:
         st.caption("Za odabrane godine nema agregatnih podataka o prijavama.")
 
@@ -344,12 +346,13 @@ def render_regions(
 ):
     st.title("Regionalna zastupljenost")
     render_page_context(
-        "Broj projekata i iznosi uključuju sigurno povezane škole, dječje vrtiće "
-        "i visoka učilišta s poznatom županijom. Mjesto u projektnom popisu je "
-        "mjesto korisnika, ne mjesto provedbe aktivnosti; regionalna županija "
-        "uzima se iz registra ustanove. Filtri godina i sektora mijenjaju projektne "
-        "pokazatelje, ali ne i registarski nazivnik. Studijski programi su zaseban "
-        "kontekst ponude obrazovanja, nisu Erasmus+ projekti i ne prate te filtre."
+        "Broj projekata i iznosi uključuju organizacije čiji se naziv i mjesto "
+        "mogu sigurno povezati sa školom, dječjim vrtićem "
+        "i visoka učilišta s poznatom županijom. Mjesto organizacije uz projekt iz "
+        "izvornog popisa može se razlikovati od mjesta ustanove u registru; "
+        "mjesto provedbe aktivnosti nije navedeno u dostupnim podacima. "
+        "Broj registriranih ustanova služi kao usporedna osnova, a podaci o "
+        "projektima mijenjaju se prema odabranim godinama i sektorima."
     )
 
     rows = []
@@ -387,17 +390,14 @@ def render_regions(
     }
 
     metric_options = {
-        "Projektni zapisi": "Projektni zapisi",
-        "Jedinstveni projektni brojevi": "Jedinstveni projektni brojevi",
+        "Projekti": "Projekti",
+        "Različiti projektni brojevi": "Različiti projektni brojevi",
         "Registrirane školske ustanove": "Registrirane školske ustanove",
         "Registrirana visoka učilišta": "Registrirana visoka učilišta",
         "Registrirani dječji vrtići": "Registrirani dječji vrtići",
         "Registrirane obrazovne ustanove": "Registrirane obrazovne ustanove",
-        "Ustanove s povezanim projektom": "Ustanove s povezanim projektom",
-        "Udio obrazovnih ustanova s projektom (%)": (
-            "Udio obrazovnih ustanova s projektom (%)"
-        ),
-        "Zapisi studijskih programa": "Zapisi studijskih programa",
+        "Ustanove s projektom u registru": "Ustanove s projektom u registru",
+        "Udio ustanova s projektom (%)": "Udio ustanova s projektom (%)",
         "Odobreno (EUR)": "Odobreno (EUR)",
     }
     selected_metric_label = st.selectbox(
@@ -425,22 +425,16 @@ def render_regions(
                 "Registrirane obrazovne ustanove": values.get(
                     "Registrirane obrazovne ustanove", 0
                 ),
-                "Ustanove s povezanim projektom": values.get(
+                "Ustanove s projektom u registru": values.get(
                     "Ustanove s povezanim projektom", 0
                 ),
-                "Udio obrazovnih ustanova s projektom (%)": values.get(
+                "Udio ustanova s projektom (%)": values.get(
                     "Udio ustanova s povezanim projektom (%)", 0
                 ),
-                "Korisnici": values.get("Korisnici", 0),
-                "Projektni zapisi": values.get("Projektni zapisi", 0),
-                "Jedinstveni projektni brojevi": values.get(
+                "Organizacije uz projekte": values.get("Korisnici", 0),
+                "Projekti": values.get("Projektni zapisi", 0),
+                "Različiti projektni brojevi": values.get(
                     "Jedinstveni projektni brojevi", 0
-                ),
-                "Zapisi studijskih programa": program_values.get(
-                    "Zapisi studijskih programa", 0
-                ),
-                "Izvoditelji programa": program_values.get(
-                    "Izvoditelji programa", 0
                 ),
                 "Odobreno (EUR)": values.get("Odobreno (EUR)", 0),
             }
@@ -459,13 +453,10 @@ def render_regions(
             "Registrirana visoka učilišta": ":,.0f",
             "Registrirani dječji vrtići": ":,.0f",
             "Registrirane obrazovne ustanove": ":,.0f",
-            "Ustanove s povezanim projektom": ":,.0f",
-            "Udio obrazovnih ustanova s projektom (%)": ":,.2f",
-            "Korisnici": ":,.0f",
-            "Projektni zapisi": ":,.0f",
-            "Jedinstveni projektni brojevi": ":,.0f",
-            "Zapisi studijskih programa": ":,.0f",
-            "Izvoditelji programa": ":,.0f",
+            "Ustanove s projektom u registru": ":,.0f",
+            "Udio ustanova s projektom (%)": ":,.2f",
+            "Projekti": ":,.0f",
+            "Različiti projektni brojevi": ":,.0f",
             "Odobreno (EUR)": ":,.2f",
         },
         color_continuous_scale="Blues",
@@ -492,27 +483,34 @@ def render_regions(
         alt=f"Karta hrvatskih županija: {selected_metric}",
     )
     st.caption(
-        "Karta obuhvaća samo projekte sigurno povezane sa školama, vrtićima "
-        "i visokim učilištima. Prazna ili svjetlija županija ne znači da ondje "
-        "nema projekata: dio korisnika nije moguće povezati s ovim registrima. "
-        "Udio ustanova s projektom nije stopa prijava niti mjera dostupnosti "
-        "programa. Granice su lokalno pripremljene iz podataka Natural Earth."
+        "Karta obuhvaća samo projekte čije se organizacije mogu sigurno povezati "
+        "sa školama, vrtićima "
+        "i visokim učilištima. Prazna ili svjetlija županija ne pokazuje nužno da ondje "
+        "nema projekata: dio organizacija i ustanova nije moguće povezati s "
+        "trenutačno dostupnim registrima. Udio ustanova s projektom računa se "
+        "kao broj ustanova iz registra s barem jednim povezanim projektom "
+        "podijeljen s ukupnim brojem ustanova iste skupine u registru — posebno "
+        "za škole, vrtiće i visoka učilišta. To nije stopa prijava niti mjera "
+        "dostupnosti programa. Granice su lokalno pripremljene iz podataka "
+        "Natural Earth."
     )
     county_rows.sort(
-        key=lambda row: row["Projektni zapisi"] or 0,
+        key=lambda row: row["Projekti"] or 0,
         reverse=True,
     )
     county_frame = pd.DataFrame(county_rows)
     county_frame = county_frame.drop(columns=["county_id"])
+    county_frame = county_frame.drop(columns=["Udio ustanova s projektom (%)"])
+    county_frame = county_frame.rename(
+        columns={"Različiti projektni brojevi": "Broj različitih projekata"}
+    )
     st.caption(
         "Tablica ispod karte daje točne vrijednosti za svaku županiju. "
         "„Registrirane obrazovne ustanove” čine usporednu osnovu, a "
-        "„ustanove s povezanim projektom” broje samo sigurno uparene ustanove."
-    )
-    st.caption(
-        "Broj studijskih programa zaseban je pokazatelj obrazovne ponude "
-        "visokih učilišta; ne predstavlja Erasmus+ projekte i ne mijenja se "
-        "s projektnim filtrima."
+        "„ustanove s projektom u registru” broje ustanove koje su pronađene "
+        "u odgovarajućem registru i povezane s barem jednim projektom. "
+        "„Organizacije uz projekte” su nazivi iz izvornog popisa i mogu "
+        "uključivati udruge; zato ta dva broja nisu ista."
     )
     st.dataframe(
         format_table(county_frame, ("Odobreno (EUR)",)),
@@ -543,8 +541,11 @@ def render_regions(
                 {
                     "Županija": row["county"],
                     "Godina": row["year"],
-                    "Korisnik": row["beneficiary_name"],
-                    "Mjesto korisnika (izvor)": row["city"],
+                    "Organizacija uz projekt": row["beneficiary_name"],
+                    "Mjesto organizacije (izvor)": row["city"],
+                    "Mjesto ustanove (registar)": (
+                        institutions_by_id[row["institution_id"]]["city"]
+                    ),
                     "Vrsta ustanove": ", ".join(
                         {
                             "school": "Škola",
@@ -562,9 +563,10 @@ def render_regions(
         )
         st.subheader("Povezani projekti")
         st.caption(
-            "Svaki redak prikazuje projekt koji je sigurno povezan s registrom "
-            "ustanove u odabranoj županiji. Mjesto korisnika dolazi iz projektnog "
-            "popisa i može se razlikovati od županije ustanove."
+            "Svaki redak prikazuje projekt koji je sigurno povezan s ustanovom "
+            "u odabranoj županiji. „Mjesto organizacije (izvor)” dolazi "
+            "iz projektnog popisa, a „Mjesto ustanove (registar)” iz registra. "
+            "Mjesto provedbe aktivnosti nije navedeno u dostupnim podacima."
         )
         st.dataframe(
             format_table(details, ("Odobreno (EUR)",)),
@@ -580,31 +582,37 @@ def render_regions(
 
 
 def render_beneficiaries(projects, matches_by_record, institutions_by_id, institutions):
-    st.title("Korisnici i ustanove")
+    st.title("Organizacije i ustanove")
     render_page_context(
         "Usporedite sudjelovanje po vrstama obrazovnih ustanova, pronađite "
-        "korisnika ili usporedite ustanovu s drugima sličnog profila. Prikazi "
+        "organizaciju ili usporedite ustanovu s drugima sličnog profila. Prikazi "
         "prate odabrane godine i sektore."
+    )
+    st.caption(
+        "Obrazovni registri obuhvaćaju osnovne i srednje škole, kombinirane "
+        "škole, dječje vrtiće te visoka učilišta. Udruge i druge organizacije "
+        "iz popisa projekata nisu nužno u tim registrima."
+    )
+    st.subheader("Usporedba ustanova prema vrsti")
+    st.caption(
+        "Grafikoni i tablica ispod odnose se na jednu skupinu ustanova u svakom "
+        "retku, primjerice osnovne škole, srednje škole, dječje vrtiće ili "
+        "visoka učilišta. Postotak pokazuje koliko je ustanova iz te konkretne "
+        "skupine u registru imalo barem jedan povezani projekt."
     )
     type_summary = summarize_institution_types(
         projects, matches_by_record, institutions_by_id, institutions
     )
-    st.subheader("Sudjelovanje prema vrsti ustanove")
     registered_count = sum(row["Ustanove u registru"] for row in type_summary)
     linked_records = sum(row["Projektni zapisi"] for row in type_summary)
     with st.container(horizontal=True):
         st.metric("Ustanove u obrazovnim registrima", registered_count, border=True)
-        st.metric("Sigurno povezani projektni zapisi", linked_records, border=True)
+        st.metric("Projekti povezani s ustanovom iz registra", linked_records, border=True)
         st.metric(
-            "Projektni zapisi s vezom na obrazovni registar",
+            "Udio projektnih redaka povezanih s ustanovom iz registra",
             percent(linked_records / len(projects) * 100 if projects else None),
             border=True,
         )
-    st.caption(
-        "Broj ustanova u registrima ne mijenja se s projektnim filtrima. "
-        "Broj ustanova s projektom i postotak obuhvata mijenjaju se; postotak "
-        "je udio u korištenom registru, a ne stopa prijavljivanja ili uspjeha."
-    )
     type_frame = pd.DataFrame(type_summary)
     if not type_frame.empty:
         type_frame = type_frame[
@@ -619,6 +627,17 @@ def render_beneficiaries(projects, matches_by_record, institutions_by_id, instit
                 "Ustanove u registru",
             ]
         ]
+        type_frame = type_frame.rename(
+            columns={
+                "Ustanove s povezanim projektom": "Ustanove s projektom",
+                "Udio ustanova s povezanim projektom (%)": (
+                    "Udio ustanova s projektom (%)"
+                ),
+                "Projektni zapisi": "Projekti",
+                "Jedinstveni projektni brojevi": "Različiti projektni brojevi",
+                "Korisnici": "Organizacije uz projekte",
+            }
+        )
     if not type_frame.empty:
         left, right = st.columns(2)
         with left:
@@ -626,7 +645,7 @@ def render_beneficiaries(projects, matches_by_record, institutions_by_id, instit
                 horizontal_bar_figure(
                     type_frame,
                     "Vrsta ustanove",
-                    "Ustanove s povezanim projektom",
+                    "Ustanove s projektom",
                     "Ustanove s projektom",
                     ",.0f",
                 ),
@@ -635,15 +654,15 @@ def render_beneficiaries(projects, matches_by_record, institutions_by_id, instit
                 alt="Broj ustanova s projektom po vrsti obrazovne ustanove",
             )
             st.caption(
-                "Ovaj grafikon broji koliko je različitih ustanova svake vrste "
-                "imalo barem jedan sigurno povezani projekt."
+                "Ovaj grafikon broji koliko je ustanova iz svake skupine imalo barem "
+                    "jedan projekt koji smo mogli povezati s registrom."
             )
         with right:
             st.plotly_chart(
                 horizontal_bar_figure(
                     type_frame,
                     "Vrsta ustanove",
-                    "Udio ustanova s povezanim projektom (%)",
+                    "Udio ustanova s projektom (%)",
                     "Udio ustanova s projektom",
                     ",.2f",
                     " %",
@@ -653,12 +672,12 @@ def render_beneficiaries(projects, matches_by_record, institutions_by_id, instit
                 alt="Udio ustanova s projektom među zapisima registra po vrsti",
             )
             st.caption(
-                "Ovdje se isti broj ustanova s projektom uspoređuje s veličinom "
-                "odgovarajuće skupine u registru. Zato je udio korisniji od "
-                "samog broja kada su vrste ustanova različite veličine."
+                "Ovdje se broj ustanova s projektom uspoređuje sa svim ustanovama "
+                "iste skupine u registru. Zato se vidi obuhvat svake skupine, "
+                "ne samo njezina apsolutna veličina."
             )
         st.caption(
-            "Tablica spaja oba pogleda: broj ustanova i projektnih zapisa, "
+            "Tablica spaja oba pogleda: broj ustanova i projekata, "
             "ukupno odobrena sredstva te udio u registru. Kombinirane vrste "
             "škola prikazane su kao zasebna skupina kako se ne bi brojile dvaput."
         )
@@ -666,9 +685,9 @@ def render_beneficiaries(projects, matches_by_record, institutions_by_id, instit
             format_table(type_frame, ("Odobreno (EUR)",)),
             hide_index=True,
             column_config={
-                "Udio ustanova s povezanim projektom (%)": (
+                "Udio ustanova s projektom (%)": (
                     st.column_config.NumberColumn(
-                        "Udio ustanova s povezanim projektom (%)",
+                            "Udio ustanova s projektom (%)",
                         format="%.2f %%",
                     )
                 )
@@ -684,12 +703,159 @@ def render_beneficiaries(projects, matches_by_record, institutions_by_id, instit
     else:
         st.caption("Nema obrazovnih ustanova u registrima za odabrane filtre.")
 
+    st.subheader("Pretraživanje organizacija i profili")
+    recipients = aggregate_recipients(projects)
+    if not recipients:
+        st.caption("Nema organizacija za odabrane filtre.")
+        return
+
+    query = st.text_input(
+        "Pretražite naziv organizacije ili mjesto",
+    )
+    st.caption(
+        "Upišite dio naziva ili mjesta. Primjerice „suma”, „Split” ili "
+        "„gimnazija”. Popis ispod sadrži samo organizacije "
+        "u trenutno odabranim godinama i sektorima."
+    )
+    query_normalized = query.casefold().strip()
+    options = [
+        row
+        for row in recipients
+        if query_normalized in row["beneficiary_name"].casefold()
+        or query_normalized in row["city"].casefold()
+    ]
+    if not options:
+        st.caption("Nema organizacija koje odgovaraju pretrazi.")
+        return
+
+    labels = {
+        f"{row['beneficiary_name']} — {row['city']} ({row['project_count']} projekta)": row
+        for row in options
+    }
+    selected_label = st.selectbox(
+        "Odaberite organizaciju",
+        list(labels),
+    )
+    selected = labels[selected_label]
+    beneficiary_projects = [
+        project
+        for project in projects
+        if project["beneficiary_key"] == selected["beneficiary_key"]
+    ]
+
+    total_grants = sum(row["grant_amount_eur"] for row in beneficiary_projects)
+    years = sorted({row["year"] for row in beneficiary_projects})
+    with st.container(horizontal=True):
+        st.metric("Projekti", len(beneficiary_projects), border=True)
+        st.metric("Ukupno odobreno", euro(total_grants), border=True)
+        st.metric("Godine sudjelovanja", ", ".join(map(str, years)), border=True)
+    st.caption(
+        "Ovi pokazatelji opisuju projekte odabrane organizacije ili ustanove "
+        "u trenutačnom filtru. Isti naziv i mjesto grupiraju se zajedno."
+    )
+
+    linked_institution_ids = {
+        matches_by_record[row["record_id"]]["institution_id"]
+        for row in beneficiary_projects
+        if matches_by_record[row["record_id"]]["institution_id"]
+    }
+    if linked_institution_ids:
+        st.subheader("Ustanova pronađena u registru")
+        st.caption(
+            "Ovo je ustanova iz javnog registra koju smo prema nazivu, mjestu "
+            "ili adresi mogli sigurno povezati s odabranom organizacijom iz "
+            "projektnog popisa."
+        )
+        linked_records = [
+            {
+                "Naziv ustanove": institutions_by_id[item]["name"],
+                "Mjesto": institutions_by_id[item]["city"],
+                "Županija": institutions_by_id[item]["county"],
+                "Vrsta registra": ", ".join(institutions_by_id[item]["registry_kinds"]),
+                "ID ustanove": item,
+            }
+            for item in sorted(linked_institution_ids)
+        ]
+        st.dataframe(
+            pd.DataFrame(linked_records),
+            hide_index=True,
+            alt="Ustanova povezana s odabranom organizacijom",
+        )
+        download_excel(
+            pd.DataFrame(linked_records),
+            "erasmus_povezani_registri_korisnika.xlsx",
+            "Povezani registri",
+            "download_beneficiary_matches",
+        )
+    else:
+        st.caption(
+            "Za organizaciju nije pronađena jedna sigurna veza s trenutno "
+            "korištenim registrima."
+        )
+
+    st.subheader("Projekti odabrane organizacije")
+    st.caption(
+        "U tablici su svi projekti odabrane organizacije u trenutačnom "
+        "filtru; isti projektni broj može se pojaviti u više redaka."
+    )
+    project_rows = [
+        {
+            "Godina": row["year"],
+            "Sektor": row["sector"],
+            "Ključna aktivnost": row["key_action"],
+            "Tip aktivnosti": row["activity_type"],
+            "Projektni broj": row["project_id"],
+            "Odobreno (EUR)": row["grant_amount_eur"],
+            "Mjesto organizacije": row["city"],
+        }
+        for row in beneficiary_projects
+    ]
+    beneficiary_project_frame = pd.DataFrame(project_rows)
+    st.dataframe(
+        format_table(beneficiary_project_frame, ("Odobreno (EUR)",)),
+        hide_index=True,
+        alt="Financirani projekti odabrane organizacije",
+    )
+    download_excel(
+        beneficiary_project_frame,
+        "erasmus_projekti_korisnika.xlsx",
+        "Projekti organizacije",
+        "download_beneficiary_projects",
+    )
+
+    yearly = defaultdict(float)
+    for row in beneficiary_projects:
+        yearly[row["year"]] += row["grant_amount_eur"]
+    yearly_frame = pd.DataFrame(
+        [
+            {"Godina": year, "Odobreno (EUR)": amount}
+            for year, amount in sorted(yearly.items())
+        ]
+    )
+    if len(yearly_frame) > 1:
+        st.subheader("Financiranje kroz godine")
+        st.caption(
+            "Ovaj grafikon zbraja odobrene iznose po godini za odabranog "
+            "organizacije i pomaže vidjeti kada je sudjelovala."
+        )
+        figure = px.bar(yearly_frame, x="Godina", y="Odobreno (EUR)")
+        figure.update_xaxes(tickangle=0)
+        figure.update_layout(height=360)
+        st.plotly_chart(
+            figure,
+            width="stretch",
+            config=PLOTLY_CONFIG,
+            alt="Odobrena sredstva odabrane organizacije po godini",
+        )
+
+
     st.divider()
-    st.subheader("Pametna usporedba sličnih ustanova")
+    st.subheader("Usporedba sličnih ustanova")
     st.markdown(
-        "Odaberite ustanovu s barem jednim sigurno povezanim projektom. "
+        "Odaberite ustanovu s barem jednim projektom koji smo mogli povezati "
+        "s registrom. "
         "Pronalazimo do pet sličnih ustanova **iste vrste**, uspoređujući "
-        "broj jedinstvenih projektnih brojeva, aktivnosti, godine sudjelovanja "
+        "broj različitih projektnih brojeva, aktivnosti, godine sudjelovanja "
         "i ukupno odobrena sredstva. Usporedba koristi samo podatke koji "
         "trenutačno prolaze bočne filtre."
     )
@@ -709,6 +875,10 @@ def render_beneficiaries(projects, matches_by_record, institutions_by_id, instit
     institution_query = st.text_input(
         "Pronađite ustanovu po nazivu ili mjestu",
         key="similar_institution_query",
+    )
+    st.caption(
+        "Možete upisati samo dio naziva ili mjesta, primjerice "
+        "„gimnazija”, „Split” ili „Zagreb”."
     )
     normalized_institution_query = institution_query.casefold().strip()
     institution_options = [
@@ -750,9 +920,9 @@ def render_beneficiaries(projects, matches_by_record, institutions_by_id, instit
             peers = comparison["peers"]
             st.markdown(
                 f"**{selected_profile['name']}** ({selected_profile['city']}) "
-                f"ima **{len(selected_profile['project_ids'])}** jedinstvenih "
+                f"ima **{len(selected_profile['project_ids'])}** različitih "
                 "projektnih brojeva u odabranim podacima. Broj drugih ustanova "
-                "iste vrste s povezanim projektom za usporedbu: "
+                "iste vrste s projektom za usporedbu: "
                 f"**{comparison['comparable_institution_count']}**."
             )
             if peers:
@@ -764,14 +934,14 @@ def render_beneficiaries(projects, matches_by_record, institutions_by_id, instit
                 )
                 st.caption(
                     f"Prikazujemo do pet najsličnijih ustanova. One imaju prosječno "
-                    f"{average_peer_projects_text} jedinstvenih projektnih brojeva."
+                    f"{average_peer_projects_text} različitih projektnih brojeva."
                 )
                 peer_rows = [
                     {
                         "Ustanova": peer["name"],
                         "Mjesto": peer["city"],
                         "Sličnost profila (%)": peer["similarity_percent"],
-                        "Jedinstveni projektni brojevi": len(peer["project_ids"]),
+                        "Različiti projektni brojevi": len(peer["project_ids"]),
                         "Odobreno (EUR)": peer["grant_amount_eur"],
                         "Aktivnosti": ", ".join(sorted(peer["activities"])),
                         "Godine sudjelovanja": ", ".join(
@@ -811,166 +981,29 @@ def render_beneficiaries(projects, matches_by_record, institutions_by_id, instit
                 )
 
     st.divider()
-    st.subheader("Pretraživanje korisnika i profili")
-    recipients = aggregate_recipients(projects)
-    if not recipients:
-        st.caption("Nema korisnika za odabrane filtre.")
-        return
-
-    query = st.text_input(
-        "Pretražite naziv korisnika ili mjesto",
-    )
-    st.caption(
-        "Upišite dio naziva ili mjesta. Popis ispod sadrži samo korisnike "
-        "u trenutno odabranim godinama i sektorima."
-    )
-    query_normalized = query.casefold().strip()
-    options = [
-        row
-        for row in recipients
-        if query_normalized in row["beneficiary_name"].casefold()
-        or query_normalized in row["city"].casefold()
-    ]
-    if not options:
-        st.caption("Nema korisnika koji odgovaraju pretrazi.")
-        return
-
-    labels = {
-        f"{row['beneficiary_name']} — {row['city']} ({row['project_count']} projekta)": row
-        for row in options
-    }
-    selected_label = st.selectbox(
-        "Odaberite korisnika",
-        list(labels),
-    )
-    selected = labels[selected_label]
-    beneficiary_projects = [
-        project
-        for project in projects
-        if project["beneficiary_key"] == selected["beneficiary_key"]
-    ]
-
-    total_grants = sum(row["grant_amount_eur"] for row in beneficiary_projects)
-    years = sorted({row["year"] for row in beneficiary_projects})
-    with st.container(horizontal=True):
-        st.metric("Projekti", len(beneficiary_projects), border=True)
-        st.metric("Ukupno odobreno", euro(total_grants), border=True)
-        st.metric("Godine sudjelovanja", ", ".join(map(str, years)), border=True)
-    st.caption(
-        "Ovi pokazatelji opisuju projekte odabranog korisnika u trenutačnom "
-        "filtru. Korisnik se grupira prema nazivu i mjestu, pa može "
-        "predstavljati više pravnih osoba."
-    )
-
-    linked_institution_ids = {
-        matches_by_record[row["record_id"]]["institution_id"]
-        for row in beneficiary_projects
-        if matches_by_record[row["record_id"]]["institution_id"]
-    }
-    if linked_institution_ids:
-        st.subheader("Povezani zapisi u registru")
-        st.caption(
-            "Ovi registarski zapisi odgovaraju odabranom korisniku prema "
-            "primijenjenim pravilima povezivanja."
-        )
-        linked_records = [
-            {
-                "Naziv ustanove": institutions_by_id[item]["name"],
-                "Mjesto": institutions_by_id[item]["city"],
-                "Županija": institutions_by_id[item]["county"],
-                "Vrsta registra": ", ".join(institutions_by_id[item]["registry_kinds"]),
-                "ID ustanove": item,
-            }
-            for item in sorted(linked_institution_ids)
-        ]
-        st.dataframe(
-            pd.DataFrame(linked_records),
-            hide_index=True,
-            alt="Povezani zapisi korisnika u obrazovnim registrima",
-        )
-        download_excel(
-            pd.DataFrame(linked_records),
-            "erasmus_povezani_registri_korisnika.xlsx",
-            "Povezani registri",
-            "download_beneficiary_matches",
-        )
-    else:
-        st.caption(
-            "Korisnik nema jedinstvenu vezu s trenutno korištenim registrima."
-        )
-
-    st.subheader("Projekti korisnika")
-    st.caption(
-        "U tablici su svi projektni zapisi odabranog korisnika u trenutačnom "
-        "filtru; isti projektni broj može se pojaviti u više redaka."
-    )
-    project_rows = [
-        {
-            "Godina": row["year"],
-            "Sektor": row["sector"],
-            "Ključna aktivnost": row["key_action"],
-            "Tip aktivnosti": row["activity_type"],
-            "Projektni broj": row["project_id"],
-            "Odobreno (EUR)": row["grant_amount_eur"],
-            "Mjesto korisnika": row["city"],
-        }
-        for row in beneficiary_projects
-    ]
-    beneficiary_project_frame = pd.DataFrame(project_rows)
-    st.dataframe(
-        format_table(beneficiary_project_frame, ("Odobreno (EUR)",)),
-        hide_index=True,
-        alt="Financirani projekti odabranog korisnika",
-    )
-    download_excel(
-        beneficiary_project_frame,
-        "erasmus_projekti_korisnika.xlsx",
-        "Projekti korisnika",
-        "download_beneficiary_projects",
-    )
-
-    yearly = defaultdict(float)
-    for row in beneficiary_projects:
-        yearly[row["year"]] += row["grant_amount_eur"]
-    yearly_frame = pd.DataFrame(
-        [
-            {"Godina": year, "Odobreno (EUR)": amount}
-            for year, amount in sorted(yearly.items())
-        ]
-    )
-    if len(yearly_frame) > 1:
-        st.subheader("Financiranje kroz godine")
-        st.caption(
-            "Ovaj grafikon zbraja odobrene iznose po godini za odabranog "
-            "korisnika i pomaže vidjeti kada je sudjelovao."
-        )
-        figure = px.bar(yearly_frame, x="Godina", y="Odobreno (EUR)")
-        figure.update_xaxes(tickangle=0)
-        figure.update_layout(height=360)
-        st.plotly_chart(
-            figure,
-            width="stretch",
-            config=PLOTLY_CONFIG,
-            alt="Odobrena sredstva odabranog korisnika po godini",
-        )
 
 
 def render_concentration(projects, matches_by_record, institutions_by_id):
-    st.title("Koncentracija financiranja")
+    st.title("Financiranje")
     render_page_context(
         "Ova stranica pokazuje koliki dio ukupnih odobrenih sredstava pripada "
-        "korisnicima s najvećim iznosima i koliko se korisnika ponavlja kroz "
-        "više projekata. Udio vodećih korisnika mijenja se prema odabranom broju."
+        "organizacijama i ustanovama s najvećim iznosima te koliko ih ima više "
+        "od jednog projekta."
     )
     scope = st.radio(
-        "Obuhvat korisnika",
+        "Koga želite uključiti?",
         [
-            "Svi korisnici u projektnom popisu",
-            "Samo pouzdano povezane obrazovne ustanove",
+            "Sve organizacije i ustanove iz popisa projekata",
+            "Samo ustanove koje smo pronašli u obrazovnim registrima",
         ],
         horizontal=True,
     )
-    if scope == "Samo pouzdano povezane obrazovne ustanove":
+    st.caption(
+        "Prva opcija uključuje sve organizacije navedene u popisu projekata, "
+        "uključujući udruge. Druga uključuje samo škole, vrtiće i visoka učilišta "
+        "koje smo mogli sigurno povezati s javnim registrom."
+    )
+    if scope == "Samo ustanove koje smo pronašli u obrazovnim registrima":
         projects = [
             project
             for project in projects
@@ -978,9 +1011,11 @@ def render_concentration(projects, matches_by_record, institutions_by_id):
             in institutions_by_id
         ]
     st.caption(
-        "Udio se računa iz odobrenih iznosa u odabranom obuhvatu, godinama i "
-        "sektorima. Korisnik je grupiran prema normaliziranom nazivu i mjestu; "
-        "opcija obrazovnih ustanova uključuje samo sigurne veze na dostupne registre."
+        "Iznosi i broj projekata odnose se na odabrane godine i sektore. "
+        "Udio ukupnog financiranja vodećih organizacija pokazuje koliki dio "
+        "svih odobrenih sredstava iz odabranog popisa pripada odabranom vrhu. "
+        "Naziv i mjesto grupiraju se "
+        "zajedno."
     )
     recipients = aggregate_recipients(projects)
     if not recipients:
@@ -990,14 +1025,14 @@ def render_concentration(projects, matches_by_record, institutions_by_id):
     total_funding = sum(row["grant_amount_eur"] for row in recipients)
     repeat_recipients = sum(row["project_count"] > 1 for row in recipients)
     top_count = st.slider(
-        "Broj vodećih korisnika",
+        "Broj vodećih organizacija",
         min_value=1,
         max_value=min(20, len(recipients)),
         value=min(10, len(recipients)),
     )
     top_amount = sum(row["grant_amount_eur"] for row in recipients[:top_count])
     with st.container(horizontal=True):
-        st.metric("Korisnici", len(recipients), border=True)
+        st.metric("Organizacije", len(recipients), border=True)
         st.metric("S 2+ projekata", repeat_recipients, border=True)
         st.metric(
             "Ukupno odobreno",
@@ -1005,28 +1040,29 @@ def render_concentration(projects, matches_by_record, institutions_by_id):
             border=True,
         )
         st.metric(
-            f"Udio top {top_count}",
+            f"Udio ukupnog financiranja vodećih {top_count} organizacija",
             percent(top_amount / total_funding * 100 if total_funding else None),
             border=True,
         )
     st.caption(
         f"Odabrani broj {top_count} određuje i udio financiranja i popis vodećih "
-        "korisnika u grafikonu i tablici. Korisnik s 2+ projekata ima najmanje "
-        "dva projektna zapisa."
+        "organizacija u grafikonu i tablici. Organizacija s 2+ projekata ima najmanje "
+        "dva retka u popisu."
     )
     top_frame = pd.DataFrame(
         [
             {
-                "Korisnik": f"{row['beneficiary_name']} — {row['city']}",
+                "Organizacija": f"{row['beneficiary_name']} — {row['city']}",
                 "Odobreno (EUR)": row["grant_amount_eur"],
             }
             for row in recipients[:top_count]
         ]
     )
+    st.subheader(f"Vodećih {top_count} organizacija prema odobrenim sredstvima")
     st.plotly_chart(
         horizontal_bar_figure(
             top_frame,
-            "Korisnik",
+            "Organizacija",
             "Odobreno (EUR)",
             "Odobreno",
             ",.2f",
@@ -1036,10 +1072,10 @@ def render_concentration(projects, matches_by_record, institutions_by_id):
         ),
         width="stretch",
         config=PLOTLY_CONFIG,
-        alt=f"Vodećih {top_count} korisnika prema odobrenim sredstvima",
+        alt=f"Vodećih {top_count} organizacija prema odobrenim sredstvima",
     )
     st.caption(
-        "Dulji stupac znači veći zbroj odobrenih sredstava za korisnika u "
+        "Dulji stupac prikazuje veći zbroj odobrenih sredstava za organizaciju u "
         "odabranim godinama i sektorima. Naziv uključuje mjesto kako bi se "
         "razlikovali korisnici sličnih imena."
     )
@@ -1047,8 +1083,8 @@ def render_concentration(projects, matches_by_record, institutions_by_id):
     table = pd.DataFrame(
         [
             {
-                "Korisnik": row["beneficiary_name"],
-                "Mjesto korisnika": row["city"],
+                "Organizacija": row["beneficiary_name"],
+                "Mjesto organizacije": row["city"],
                 "Broj projekata": row["project_count"],
                 "Odobreno (EUR)": row["grant_amount_eur"],
                 "Udio (%)": (
@@ -1067,7 +1103,7 @@ def render_concentration(projects, matches_by_record, institutions_by_id):
         column_config={
             "Udio (%)": st.column_config.NumberColumn("Udio (%)", format="%.2f %%")
         },
-        alt="Udio vodećih korisnika u financiranju",
+        alt="Udio vodećih organizacija u financiranju",
     )
     download_excel(
         table,
@@ -1076,8 +1112,8 @@ def render_concentration(projects, matches_by_record, institutions_by_id):
         "download_funding_concentration",
     )
     st.caption(
-        "Tablica uz iznos prikazuje broj projektnih zapisa i postotni udio "
-        "svakog korisnika u ukupnom odabranom financiranju."
+        "Tablica uz iznos prikazuje broj projekata i postotni udio svake "
+        "organizacije u ukupnom odabranom financiranju."
     )
 
 
@@ -1093,10 +1129,10 @@ def render_projects(projects, nested=False):
         "prikazane retke."
     )
     query = st.text_input(
-        "Pretražite korisnika, mjesto ili projektni broj",
+        "Pretražite organizaciju, mjesto ili projektni broj",
     )
     st.caption(
-        "Pretraga nalazi upisani tekst u nazivu korisnika, mjestu ili "
+        "Pretraga nalazi upisani tekst u nazivu organizacije, mjestu ili "
         "projektnom broju, bez obzira na velika i mala slova."
     )
     normalized_query = query.casefold().strip()
@@ -1134,7 +1170,7 @@ def render_data_quality(data, filtered_projects):
     st.subheader("Opseg podataka")
     st.caption(
         "Projektni redak i projektni broj nisu isto: isti broj može se pojaviti "
-        "u više redaka, primjerice uz različite korisnike. Broj registarskih "
+        "u više redaka, primjerice uz različite organizacije. Broj registarskih "
         "ustanova odnosi se na konsolidirane zapise nakon uklanjanja duplikata."
     )
     st.write(
@@ -1150,15 +1186,18 @@ def render_data_quality(data, filtered_projects):
         "dječjih vrtića."
     )
     st.write(
-        f"U popisu nedostaje datum ažuriranja za "
-        f"**{quality['missing_source_update_date_count']}** projekata. "
-        f"Poznati datumi: {', '.join(quality['project_source_update_dates'])}."
+        f"Za **{quality['missing_source_update_date_count']}** redaka u izvornom "
+        "popisu nije naveden datum zadnjeg ažuriranja. Za ostale su navedeni "
+        "datumi, primjerice: "
+        f"{', '.join(quality['project_source_update_dates'])}."
     )
 
     st.subheader("Povezivanje s registrima")
     st.caption(
-        "Tablica sažima koliko je projektnih zapisa sigurno povezano s dostupnim "
-        "obrazovnim registrima."
+        "Tablica pokazuje koliko je redaka iz popisa bilo moguće povezati s "
+        "nekom ustanovom iz trenutačno dostupnih registara. Udruge i druge "
+        "organizacije ne moraju imati odgovarajući javni registar u korištenim "
+        "izvorima."
     )
     matched_count = sum(
         bool(item["institution_id"])
@@ -1166,10 +1205,10 @@ def render_data_quality(data, filtered_projects):
     )
     match_frame = pd.DataFrame(
         [
-            {"Status povezivanja": "Povezano s registrom", "Projektnih zapisa": matched_count},
+            {"Status povezivanja": "Povezano s ustanovom", "Projekata": matched_count},
             {
-                "Status povezivanja": "Nije povezano s registrom",
-                "Projektnih zapisa": (
+                "Status povezivanja": "Nije povezano s ustanovom",
+                "Projekata": (
                     len(data["project_institution_matches"]) - matched_count
                 ),
             },
@@ -1178,7 +1217,7 @@ def render_data_quality(data, filtered_projects):
     st.dataframe(
         match_frame,
         hide_index=True,
-        alt="Broj povezanih i nepovezanih projektnih zapisa",
+        alt="Broj projekata povezanih i nepovezanih s ustanovom",
     )
     download_excel(
         match_frame,
@@ -1189,7 +1228,8 @@ def render_data_quality(data, filtered_projects):
     st.caption(
         "Veze se temelje na jedinstvenim podudaranjima naziva, mjesta i adrese; "
         "tri talijanska/dvojezična zapisa škola u Rovinju ostaju nepovezana. "
-        "Mjesto označava korisnika projekta."
+        "Mjesto u projektnom popisu je mjesto navedeno uz organizaciju ili "
+        "ustanovu, a ne nužno mjesto provedbe aktivnosti."
     )
     st.write(
         f"Školskih zapisa bez županije: "
@@ -1200,22 +1240,11 @@ def render_data_quality(data, filtered_projects):
     higher_education_coverage = quality[
         "higher_education_registry_county_coverage"
     ]
-    program_match_counts = quality["study_program_match_status_counts"]
     st.write(
         f"Županiju je moguće jednoznačno dodijeliti za "
         f"**{higher_education_coverage['with_county']} od "
         f"{higher_education_coverage['total']}** visokih učilišta. "
-        f"Od **{quality['study_program_records']}** zapisa studijskih programa, "
-        f"**{program_match_counts.get('matched_exact_name_and_city', 0)}** "
-        "jedinstveno je povezano s izvođačem i mjestom; "
-        f"**{quality['study_program_records_with_unique_institution_and_county']}** "
-        "takvih zapisa ima i županiju. "
-        f"Preostalih {quality['study_program_records'] - program_match_counts.get('matched_exact_name_and_city', 0)} "
-        "nije sigurno povezano s registarskim visokim učilištem."
-    )
-    st.caption(
-        "Studijski programi prikazuju se kao kontekst obrazovne ponude. Njihov "
-        "broj nije broj Erasmus+ projekata, financiranje ni mjera sudjelovanja."
+        "To omogućuje uključivanje visokih učilišta u regionalnu usporedbu."
     )
     st.caption(
         f"U školskim registrima pronađeno je "
@@ -1256,7 +1285,7 @@ def render_data_quality(data, filtered_projects):
 
     st.subheader("Usporedba izvora")
     st.caption(
-        "Uspoređujemo broj i financijski zbroj u popisu pojedinačnih projekata "
+        "Uspoređujemo broj i financijski zbroj u popisu projekata "
         "s objavljenim agregatima za iste godine. Razlike mogu nastati zbog "
         "različitog datuma ažuriranja ili načina zbrajanja; podaci se ne "
         "prepravljaju kako bi se umjetno poklopili."
@@ -1288,8 +1317,11 @@ def render_data_quality(data, filtered_projects):
         "download_source_reconciliation",
     )
     st.caption(
-        "Izvorne tablice imaju različite datume ažuriranja. Prikazane razlike su "
-        "upozorenja za provjeru, ne automatski razlog za odbacivanje podataka."
+        "Za 2025. razlika od jednog projekta nije posljedica ponovljenog "
+        "projektnog broja: ponovljeni broj postoji u projektnom popisu 2024. "
+        "i tamo označava dvije organizacije uz isti projekt. Razlika za 2025. može "
+        "proizaći iz različitog datuma ažuriranja ili načina zbrajanja izvora. "
+        "Izvorne tablice nisu umjetno usklađivane."
     )
 
     st.subheader("Izvori i ponovljivost")
@@ -1345,7 +1377,7 @@ def render_data_quality(data, filtered_projects):
                 "Licencija": "Otvorena dozvola (OD)",
                 "Metapodaci izmijenjeni": "15. 4. 2026.",
                 "Uloga u analizi": (
-                    "Povezivanje korisnika Erasmus+ projekata s dječjim vrtićima "
+                    "Povezivanje organizacija iz Erasmus+ projekata s dječjim vrtićima "
                     "i drugim pravnim osobama koje provode predškolske programe."
                 ),
                 "Kataloški zapis": (
@@ -1362,21 +1394,6 @@ def render_data_quality(data, filtered_projects):
                 "Kataloški zapis": (
                     "https://data.gov.hr/ckan/hr/dataset/"
                     "ustanove-iz-sustava-visokog-obrazovanja"
-                ),
-            },
-            {
-                "Skup podataka": "Studijski programi visokih učilišta",
-                "Lokalne datoteke": "data (3).csv",
-                "Izdavač": "Ministarstvo znanosti, obrazovanja i mladih",
-                "Licencija": "Otvorena dozvola (OD)",
-                "Metapodaci izmijenjeni": "15. 4. 2026.",
-                "Uloga u analizi": (
-                    "Povezani s visokim učilištima po izvođaču i mjestu; "
-                    "broje se kao kontekst ponude studija po županiji."
-                ),
-                "Kataloški zapis": (
-                    "https://data.gov.hr/ckan/dataset/"
-                    "studijski-programi-visokih-ucilista"
                 ),
             },
         ]
@@ -1398,31 +1415,31 @@ def render_data_quality(data, filtered_projects):
         "Lokalne podatkovne datoteke preuzete su 6. 11. 2026. CKAN navodi "
         "Otvorenu dozvolu RH; provjerite uvjete atribucije prije daljnje "
         "distribucije. Aplikacija koristi lokalne snimke i ne dohvaća podatke "
-        "uživo. Studijski programi su kontekstualno povezani s visokim učilištima "
-        "po točnom izvođaču i mjestu, a županija se izvodi iz jednoznačnog mjesta."
+        "uživo."
     )
 
     duplicates = quality["duplicate_project_ids"]
-    st.subheader("Ponovljeni projektni brojevi")
+    st.subheader("Projekt s više organizacija")
     st.caption(
-        "Ovdje su izdvojeni brojevi koji se pojavljuju uz više korisnika. "
-        "Zadržani su svi izvorni redci kako se podaci ne bi izgubili bez "
-        "potvrde izdavača."
+        "Ovdje je prikazan projektni broj koji se u izvornom popisu pojavljuje "
+        "uz dvije različite organizacije. To nije greška ni duplikat za brisanje: "
+        "isti projekt može uključivati više organizacija, pa se oba retka zadržavaju."
     )
     if duplicates:
         duplicate_frame = pd.DataFrame(
             [
                 {
                     "Projektni broj": item["project_id"],
-                    "Korisnici u izvornim redcima": ", ".join(item["beneficiaries"]),
+                    "Organizacije u izvornim redcima": ", ".join(item["beneficiaries"]),
                     "ID-jevi redaka": ", ".join(item["record_ids"]),
                 }
                 for item in duplicates
             ]
         )
         st.warning(
-            "Ponovljeni brojevi nisu uklonjeni jer se zapisi razlikuju po korisniku. "
-            "Provjerite izvor prije zaključivanja o konačnom broju projekata."
+            "Projektni broj je isti, ali se korisnici razlikuju. Zato se projekt "
+            "u popisu prikazuje u dva retka, a analiza jasno razlikuje broj redaka "
+            "od broja različitih projektnih brojeva."
         )
         st.dataframe(
             duplicate_frame,
@@ -1431,25 +1448,26 @@ def render_data_quality(data, filtered_projects):
         )
         download_excel(
             duplicate_frame,
-            "erasmus_ponovljeni_projektni_brojevi.xlsx",
-            "Ponovljeni brojevi",
+            "erasmus_projekt_s_vise_organizacija.xlsx",
+            "Projekt s više organizacija",
             "download_duplicate_projects",
         )
     else:
         st.success("Nema ponovljenih projektnih brojeva.")
 
+    render_projects(filtered_projects, nested=True)
+
     st.subheader("Preuzimanje podataka za daljnju obradu")
     st.caption(
-        "Odaberite obrađeni analitički skup za preuzimanje u Excelu. "
+        "Na kraju stranice možete preuzeti obrađene skupove podataka u Excelu. "
         "Ugniježđene vrijednosti prikazane su kao JSON tekst u ćelijama."
     )
     dataset_options = {
         "Projekti": "projects",
-        "Korisnici": "beneficiaries",
+        "Organizacije": "beneficiaries",
         "Ustanove": "institutions",
         "Povezivanje projekata i ustanova": "project_institution_matches",
         "Regionalni sažetak": "regional_summary",
-        "Studijski programi i status veze": "study_programs",
         "Financije po godini i sektoru": "funding_results",
         "Prijave i ugovaranja": "application_results",
         "Sažeti pokazatelji": "dashboard_summary",
@@ -1465,7 +1483,6 @@ def render_data_quality(data, filtered_projects):
         "Podaci",
         "download_prepared_dataset",
     )
-    render_projects(filtered_projects, nested=True)
 
 
 missing_files = [filename for filename in DATA_FILES if not (DATA_DIR / filename).is_file()]
@@ -1503,8 +1520,8 @@ page = st.segmented_control(
     [
         "Sažetak",
         "Regije",
-        "Korisnici",
-        "Koncentracija",
+        "Organizacije i ustanove",
+        "Financiranje",
         "Podaci i metodologija",
     ],
     default="Sažetak",
@@ -1581,14 +1598,14 @@ elif page == "Regije":
         data["study_program_summary"],
         county_geojson,
     )
-elif page == "Korisnici":
+elif page == "Organizacije i ustanove":
     render_beneficiaries(
         filtered_projects,
         matches_by_record,
         institutions_by_id,
         data["institutions"],
     )
-elif page == "Koncentracija":
+elif page == "Financiranje":
     render_concentration(
         filtered_projects,
         matches_by_record,
